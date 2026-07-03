@@ -109,6 +109,33 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _call_fallback_llm(system_prompt: str, user_prompt: str) -> str:
+    """Try Groq as a free fallback when OpenAI quota is exhausted.
+
+    Returns the response text, or an empty string on any failure.
+    """
+    if not config.GROQ_API_KEY:
+        return ""
+    try:
+        from openai import OpenAI as _OpenAI
+        groq_client = _OpenAI(
+            api_key=config.GROQ_API_KEY,
+            base_url="https://api.groq.com/openai/v1",
+        )
+        resp = groq_client.chat.completions.create(
+            model=config.GROQ_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=config.MAX_ANALYSIS_TOKENS,
+        )
+        return (resp.choices[0].message.content or "").strip()
+    except Exception as exc:
+        print(f"[analyzer] Groq fallback failed, using deterministic analysis: {exc}")
+        return ""
+
+
 def should_analyze(item: NewsItem) -> bool:
     blob = f"{item.title} {item.summary} {item.category}".lower()
     return any(h in blob for h in COSTLY_HINTS) or any(h in blob for h in CULTURE_HINTS)
@@ -173,8 +200,12 @@ def build_analysis(item: NewsItem) -> str:
         )
         text = getattr(resp, "output_text", "") or ""
     except APIError as exc:
-        print(f"[analyzer] OpenAI API error ({exc.status_code}), falling back to deterministic analysis: {exc}")
-        text = ""
+        status = getattr(exc, "status_code", "unknown")
+        print(f"[analyzer] OpenAI API error ({status}), trying Groq fallback: {exc}")
+        text = _call_fallback_llm(system_prompt, prompt)
+    except Exception as exc:
+        print(f"[analyzer] OpenAI unexpected error, trying Groq fallback: {exc}")
+        text = _call_fallback_llm(system_prompt, prompt)
     final = _trim_analysis(text) or _deterministic_analysis(item)
     cache[key] = final
     _save_cache(cache)
