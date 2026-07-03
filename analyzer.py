@@ -109,21 +109,41 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _call_fallback_llm(system_prompt: str, user_prompt: str) -> str:
-    """Try Groq as a free fallback when OpenAI quota is exhausted.
-
-    Returns the response text, or an empty string on any failure.
-    """
-    if not config.GROQ_API_KEY:
+def _call_openai(system_prompt: str, user_prompt: str) -> str:
+    """Call the OpenAI Responses API. Returns text or empty string on any failure."""
+    if not config.OPENAI_API_KEY:
         return ""
     try:
         from openai import OpenAI as _OpenAI
-        groq_client = _OpenAI(
-            api_key=config.GROQ_API_KEY,
-            base_url="https://api.groq.com/openai/v1",
+        client = _OpenAI(api_key=config.OPENAI_API_KEY)
+        resp = client.responses.create(
+            model=config.OPENAI_MODEL,
+            input=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_output_tokens=config.MAX_ANALYSIS_TOKENS,
         )
-        resp = groq_client.chat.completions.create(
-            model=config.GROQ_MODEL,
+        return getattr(resp, "output_text", "") or ""
+    except Exception as exc:
+        status = getattr(exc, "status_code", "unknown")
+        print(f"[analyzer] OpenAI error ({status}), trying next provider: {exc}")
+        return ""
+
+
+def _call_openai_compat(api_key: str, base_url: str, model: str,
+                        system_prompt: str, user_prompt: str, provider: str) -> str:
+    """Call any OpenAI-compatible chat-completions endpoint (Groq, Gemini, etc.).
+
+    Returns the response text, or an empty string on any failure.
+    """
+    if not api_key:
+        return ""
+    try:
+        from openai import OpenAI as _OpenAI
+        client = _OpenAI(api_key=api_key, base_url=base_url)
+        resp = client.chat.completions.create(
+            model=model,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
@@ -132,7 +152,7 @@ def _call_fallback_llm(system_prompt: str, user_prompt: str) -> str:
         )
         return (resp.choices[0].message.content or "").strip()
     except Exception as exc:
-        print(f"[analyzer] Groq fallback failed, using deterministic analysis: {exc}")
+        print(f"[analyzer] {provider} error, trying next provider: {exc}")
         return ""
 
 
@@ -148,20 +168,12 @@ def build_analysis(item: NewsItem) -> str:
     if cached:
         return cached
 
-    if not config.ENABLE_LLM_ANALYSIS or not config.OPENAI_API_KEY:
-        text = _deterministic_analysis(item)
-        cache[key] = text
-        _save_cache(cache)
-        return text
-    try:
-        from openai import OpenAI, APIError
-    except Exception:
+    if not config.ENABLE_LLM_ANALYSIS:
         text = _deterministic_analysis(item)
         cache[key] = text
         _save_cache(cache)
         return text
 
-    client = OpenAI(api_key=config.OPENAI_API_KEY)
     selected_lenses = _select_lenses(item, count=5)
     lens_line = ", ".join(selected_lenses)
     style_context = load_style_context()
@@ -189,23 +201,24 @@ def build_analysis(item: NewsItem) -> str:
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
     )
-    try:
-        resp = client.responses.create(
-            model=config.OPENAI_MODEL,
-            input=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt},
-            ],
-            max_output_tokens=config.MAX_ANALYSIS_TOKENS,
+
+    # Provider cascade: OpenAI → Groq → Gemini → deterministic template
+    text = (
+        _call_openai(system_prompt, prompt)
+        or _call_openai_compat(
+            config.GROQ_API_KEY,
+            "https://api.groq.com/openai/v1",
+            config.GROQ_MODEL,
+            system_prompt, prompt, "Groq",
         )
-        text = getattr(resp, "output_text", "") or ""
-    except APIError as exc:
-        status = getattr(exc, "status_code", "unknown")
-        print(f"[analyzer] OpenAI API error ({status}), trying Groq fallback: {exc}")
-        text = _call_fallback_llm(system_prompt, prompt)
-    except Exception as exc:
-        print(f"[analyzer] OpenAI unexpected error, trying Groq fallback: {exc}")
-        text = _call_fallback_llm(system_prompt, prompt)
+        or _call_openai_compat(
+            config.GEMINI_API_KEY,
+            "https://generativelanguage.googleapis.com/v1beta/openai/",
+            config.GEMINI_MODEL,
+            system_prompt, prompt, "Gemini",
+        )
+    )
+
     final = _trim_analysis(text) or _deterministic_analysis(item)
     cache[key] = final
     _save_cache(cache)
