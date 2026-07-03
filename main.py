@@ -66,7 +66,12 @@ def _post_to_destinations(item: NewsItem, analysis: str | None = None) -> dict:
     if analysis:
         analysis_text = build_analysis_text(item, analysis)
         for chat_id in config.TELEGRAM_ANALYSIS_CHANNEL_IDS or []:
-            message_id = telegram_post.send_post(analysis_text, item.image_url, chat_id=chat_id)
+            message_id = telegram_post.send_post(
+                analysis_text,
+                item.image_url,
+                chat_id=chat_id,
+                bot_token=config.TELEGRAM_ANALYSIS_BOT_TOKEN,
+            )
             results["telegram_analysis"].append((chat_id, message_id))
 
     if _facebook_enabled() and analysis:

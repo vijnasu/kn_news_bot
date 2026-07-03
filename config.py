@@ -16,6 +16,7 @@ def _env_int(name: str, default: int) -> int:
 
 
 TELEGRAM_BOT_TOKEN = _env("TELEGRAM_BOT_TOKEN")
+TELEGRAM_ANALYSIS_BOT_TOKEN = _env("TELEGRAM_ANALYSIS_BOT_TOKEN", TELEGRAM_BOT_TOKEN)
 TELEGRAM_CHANNEL_IDS = [
     x.strip()
     for x in _env("TELEGRAM_CHANNEL_IDS", _env("TELEGRAM_CHANNEL_ID")).split(",")
