@@ -12,6 +12,13 @@ import config
 from models import NewsItem
 from style_corpus import load_style_context
 
+try:
+    from openai import OpenAI as _OpenAI
+    _OPENAI_AVAILABLE = True
+except ImportError:
+    _OpenAI = None  # type: ignore[assignment,misc]
+    _OPENAI_AVAILABLE = False
+
 CACHE_PATH = Path("analysis_cache.json")
 LENSES = [
     "Dharma Shastra",
@@ -111,10 +118,9 @@ def _save_cache(cache: dict) -> None:
 
 def _call_openai(system_prompt: str, user_prompt: str) -> str:
     """Call the OpenAI Responses API. Returns text or empty string on any failure."""
-    if not config.OPENAI_API_KEY:
+    if not config.OPENAI_API_KEY or not _OPENAI_AVAILABLE:
         return ""
     try:
-        from openai import OpenAI as _OpenAI
         client = _OpenAI(api_key=config.OPENAI_API_KEY)
         resp = client.responses.create(
             model=config.OPENAI_MODEL,
@@ -137,10 +143,9 @@ def _call_openai_compat(api_key: str, base_url: str, model: str,
 
     Returns the response text, or an empty string on any failure.
     """
-    if not api_key:
+    if not api_key or not _OPENAI_AVAILABLE:
         return ""
     try:
-        from openai import OpenAI as _OpenAI
         client = _OpenAI(api_key=api_key, base_url=base_url)
         resp = client.chat.completions.create(
             model=model,
