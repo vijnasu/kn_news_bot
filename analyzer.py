@@ -155,7 +155,7 @@ def _call_openai_compat(api_key: str, base_url: str, model: str,
             ],
             max_tokens=config.MAX_ANALYSIS_TOKENS,
         )
-        return (resp.choices[0].message.content or "").strip()
+        return (resp.choices[0].message.content or "").strip() if resp.choices else ""
     except Exception as exc:
         print(f"[analyzer] {provider} error, trying next provider: {exc}")
         return ""
