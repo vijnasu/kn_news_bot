@@ -83,6 +83,17 @@ def _post_to_destinations(item: NewsItem, analysis: str | None = None) -> dict:
 
 
 def run(dry_run: bool = False):
+    if (
+        not dry_run
+        and not config.TELEGRAM_CHANNEL_IDS
+        and not config.TELEGRAM_ANALYSIS_CHANNEL_IDS
+        and not _facebook_enabled()
+    ):
+        raise RuntimeError(
+            "No post destinations configured. Set TELEGRAM_CHANNEL_ID/TELEGRAM_CHANNEL_IDS "
+            "for primary Telegram, and/or TELEGRAM_ANALYSIS_CHANNEL_IDS for analysis channel."
+        )
+
     effective_max_analyses = max(0, config.MAX_AI_ANALYSES_PER_RUN)
     if not dry_run and effective_max_analyses > 0 and not _telegram_analysis_enabled() and not _facebook_enabled():
         print(
@@ -127,6 +138,9 @@ def run(dry_run: bool = False):
                     item.analysis_text = analysis
                     store.save_analysis(item.id, analysis)
                 result = _post_to_destinations(item, analysis)
+                sent_count = len(result["telegram"]) + len(result["telegram_analysis"]) + (1 if result["facebook"] else 0)
+                if sent_count == 0:
+                    raise RuntimeError("No destinations received this item (check Telegram/Facebook channel config)")
                 telegram_results = result["telegram"] or result["telegram_analysis"]
                 if telegram_results:
                     store.mark_posted(item.id, telegram_results[0][1], datetime.now(tz=IST).isoformat())
