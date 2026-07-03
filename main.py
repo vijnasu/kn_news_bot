@@ -123,10 +123,21 @@ def run(dry_run: bool = False):
         new_items.append(item)
 
     post_candidates = _top_items_for_posting(new_items)
+    if len(post_candidates) < max(0, config.TOP_POSTS_PER_RUN):
+        backlog_limit = max(0, config.TOP_POSTS_PER_RUN) * 5
+        backlog_items = store.recent_unposted(limit=backlog_limit)
+        selected_ids = {item.id for item in post_candidates}
+        refill = [item for item in backlog_items if item.id not in selected_ids]
+        combined_pool = post_candidates + refill
+        post_candidates = _top_items_for_posting(combined_pool)
+
     analysis_pool = post_candidates if (_telegram_analysis_enabled() or _facebook_enabled()) else [item for item in post_candidates if should_analyze(item)]
     analysis_candidates = analysis_pool[:effective_max_analyses]
     analysis_ids = {item.id for item in analysis_candidates}
-    print(f"[main] selected {len(post_candidates)} post candidates, {len(analysis_candidates)} with analysis")
+    print(
+        f"[main] selected {len(post_candidates)} post candidates, {len(analysis_candidates)} with analysis "
+        f"(new={len(new_items)})"
+    )
 
     posted_count = 0
     post_errors = []

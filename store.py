@@ -86,6 +86,20 @@ def save_analysis(item_id: str, analysis_text: str):
         )
 
 
+def recent_unposted(limit: int = 20) -> list[NewsItem]:
+    with _conn() as conn:
+        conn.row_factory = sqlite3.Row
+        rows = conn.execute(
+            """SELECT *
+               FROM news_items
+               WHERE posted_at IS NULL
+               ORDER BY published_at DESC
+               LIMIT ?""",
+            (max(0, int(limit)),),
+        ).fetchall()
+    return [NewsItem(**dict(row)) for row in rows]
+
+
 def export_jsonl(path: str = None):
     """Dump the full table to JSON Lines for analytics tools (pandas.read_json(path, lines=True))."""
     path = path or config.JSONL_EXPORT_PATH
