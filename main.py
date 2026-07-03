@@ -83,10 +83,28 @@ def _post_to_destinations(item: NewsItem, analysis: str | None = None) -> dict:
 
 
 def run(dry_run: bool = False):
+    if (
+        not dry_run
+        and config.MAX_AI_ANALYSES_PER_RUN > 0
+        and not config.TELEGRAM_ANALYSIS_CHANNEL_IDS
+        and not _facebook_enabled()
+    ):
+        raise RuntimeError(
+            "Analysis posting is enabled but no destination is configured. "
+            "Set TELEGRAM_ANALYSIS_CHANNEL_IDS (or TELEGRAM_LLM_CHANNEL_IDS), "
+            "or set KN_NEWS_MAX_ANALYSES=0 to disable analysis posts."
+        )
+
     store.init_db()
     raw_items = fetch.fetch_all() + scrape.fetch_all_scraped()
     total_sources = len(config.SOURCES) + len(config.SCRAPE_SOURCES)
     print(f"[main] fetched {len(raw_items)} raw entries across {total_sources} sources")
+    print(
+        "[main] routing: "
+        f"telegram_channels={len(config.TELEGRAM_CHANNEL_IDS)}, "
+        f"analysis_channels={len(config.TELEGRAM_ANALYSIS_CHANNEL_IDS)}, "
+        f"max_analyses={config.MAX_AI_ANALYSES_PER_RUN}"
+    )
 
     new_items = []
     for raw in raw_items:
@@ -103,6 +121,7 @@ def run(dry_run: bool = False):
     print(f"[main] selected {len(post_candidates)} post candidates, {len(analysis_candidates)} with analysis")
 
     posted_count = 0
+    post_errors = []
     if not dry_run:
         for idx, item in enumerate(post_candidates):
             try:
@@ -118,9 +137,13 @@ def run(dry_run: bool = False):
                 time.sleep(config.POST_DELAY_SECONDS)
             except Exception as exc:
                 print(f"[main] failed to post '{item.title[:40]}...': {exc}")
+                post_errors.append((item.id, str(exc)))
 
     rows = store.export_jsonl()
     print(f"[main] {len(new_items)} new items stored, {posted_count} posted, {rows} total rows exported")
+    if post_errors:
+        failed_ids = ", ".join(item_id for item_id, _ in post_errors[:5])
+        raise RuntimeError(f"Posting failed for {len(post_errors)} item(s): {failed_ids}")
 
 
 if __name__ == "__main__":
