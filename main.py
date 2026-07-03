@@ -13,6 +13,7 @@ Schedule it (e.g. cron) to run every 10-15 minutes for a "fast news" feel:
 
 import argparse
 import time
+from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 
 import config
@@ -25,6 +26,34 @@ from formatter import build_telegram_text
 IST = timezone(timedelta(hours=5, minutes=30))
 
 
+def _parse_iso(ts: str) -> datetime:
+    if not ts:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    try:
+        return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+    except ValueError:
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def _top_items_for_posting(items: list[NewsItem]) -> list[NewsItem]:
+    if not items:
+        return []
+
+    ranked = sorted(items, key=lambda i: _parse_iso(i.published_at), reverse=True)
+    max_total = max(0, config.TOP_POSTS_PER_RUN)
+    max_per_source = max(1, config.MAX_POSTS_PER_SOURCE_PER_RUN)
+
+    picked, source_counts = [], defaultdict(int)
+    for item in ranked:
+        if len(picked) >= max_total:
+            break
+        if source_counts[item.source] >= max_per_source:
+            continue
+        picked.append(item)
+        source_counts[item.source] += 1
+    return picked
+
+
 def run(dry_run: bool = False):
     store.init_db()
     raw_items = fetch.fetch_all() + scrape.fetch_all_scraped()
@@ -32,6 +61,7 @@ def run(dry_run: bool = False):
     print(f"[main] fetched {len(raw_items)} raw entries across {total_sources} sources")
 
     new_count, posted_count = 0, 0
+    new_items = []
     for raw in raw_items:
         if store.exists(raw["id"]):
             continue  # already seen, skip (this is how we stay "fast" without duplicates)
@@ -39,8 +69,16 @@ def run(dry_run: bool = False):
         item = NewsItem(**raw)
         store.insert(item)
         new_count += 1
+        new_items.append(item)
 
-        if not dry_run:
+    post_candidates = _top_items_for_posting(new_items)
+    print(
+        f"[main] selected {len(post_candidates)} top item(s) to post "
+        f"(limit={config.TOP_POSTS_PER_RUN}, per_source={config.MAX_POSTS_PER_SOURCE_PER_RUN})"
+    )
+
+    if not dry_run:
+        for item in post_candidates:
             try:
                 text = build_telegram_text(item)
                 message_id = __import__("telegram_post").send_post(text, item.image_url)

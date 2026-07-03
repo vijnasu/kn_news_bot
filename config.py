@@ -20,6 +20,8 @@ JSONL_EXPORT_PATH = os.environ.get("KN_NEWS_JSONL", "news_export.jsonl")
 MAX_ITEMS_PER_RUN = 15           # cap per source per run, avoids flooding the channel
 POST_DELAY_SECONDS = 4           # gap between posts, avoids Telegram rate limits
 SUMMARY_MAX_CHARS = 320          # soft cap - actual cut happens on a sentence/word boundary
+TOP_POSTS_PER_RUN = int(os.environ.get("KN_NEWS_TOP_POSTS", "4"))
+MAX_POSTS_PER_SOURCE_PER_RUN = int(os.environ.get("KN_NEWS_TOP_PER_SOURCE", "1"))
 
 # --- RSS sources ---
 # name        : display name shown as the post's credited source
