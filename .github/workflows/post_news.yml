@@ -25,6 +25,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_CHANNEL_IDS: ${{ secrets.TELEGRAM_CHANNEL_IDS }}
+          TELEGRAM_ANALYSIS_BOT_TOKEN: ${{ secrets.TELEGRAM_ANALYSIS_BOT_TOKEN }}
+          TELEGRAM_ANALYSIS_CHANNEL_IDS: ${{ secrets.TELEGRAM_ANALYSIS_CHANNEL_IDS }}
+          TELEGRAM_LLM_CHANNEL_IDS: ${{ secrets.TELEGRAM_LLM_CHANNEL_IDS }}
+          KN_NEWS_ENABLE_LLM: ${{ secrets.KN_NEWS_ENABLE_LLM }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python main.py
 
       # Persist dedup state (news.db) and the analytics export back to the repo.
