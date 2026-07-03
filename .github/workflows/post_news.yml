@@ -25,6 +25,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_CHANNEL_IDS: ${{ secrets.TELEGRAM_CHANNEL_IDS }}
+          TELEGRAM_ANALYSIS_BOT_TOKEN: ${{ secrets.TELEGRAM_ANALYSIS_BOT_TOKEN }}
+          TELEGRAM_ANALYSIS_CHANNEL_IDS: ${{ secrets.TELEGRAM_ANALYSIS_CHANNEL_IDS }}
+          TELEGRAM_LLM_CHANNEL_IDS: ${{ secrets.TELEGRAM_LLM_CHANNEL_IDS }}
+          KN_NEWS_ENABLE_LLM: ${{ secrets.KN_NEWS_ENABLE_LLM }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python main.py
 
       # Persist dedup state (news.db) and the analytics export back to the repo.
@@ -35,8 +41,7 @@ jobs:
           BRANCH="${GITHUB_REF_NAME}"
           git config user.name "kn-news-bot"
           git config user.email "kn-news-bot@users.noreply.github.com"
-          git fetch origin "${BRANCH}"
-          git rebase --autostash "origin/${BRANCH}"
+          git pull --rebase --autostash origin "${BRANCH}"
           git add news.db news_export.jsonl
           git diff --quiet --cached || git commit -m "chore: update news state [skip ci]"
           git push origin "HEAD:${BRANCH}"
