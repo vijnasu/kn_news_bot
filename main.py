@@ -83,17 +83,14 @@ def _post_to_destinations(item: NewsItem, analysis: str | None = None) -> dict:
 
 
 def run(dry_run: bool = False):
-    if (
-        not dry_run
-        and config.MAX_AI_ANALYSES_PER_RUN > 0
-        and not config.TELEGRAM_ANALYSIS_CHANNEL_IDS
-        and not _facebook_enabled()
-    ):
-        raise RuntimeError(
-            "Analysis posting is enabled but no destination is configured. "
-            "Set TELEGRAM_ANALYSIS_CHANNEL_IDS (or TELEGRAM_LLM_CHANNEL_IDS), "
-            "or set KN_NEWS_MAX_ANALYSES=0 to disable analysis posts."
+    effective_max_analyses = max(0, config.MAX_AI_ANALYSES_PER_RUN)
+    if not dry_run and effective_max_analyses > 0 and not _telegram_analysis_enabled() and not _facebook_enabled():
+        print(
+            "[main] analysis disabled for this run: no destination configured. "
+            "Set TELEGRAM_ANALYSIS_CHANNEL_IDS (or TELEGRAM_LLM_CHANNEL_IDS) "
+            "to enable analysis-channel posts."
         )
+        effective_max_analyses = 0
 
     store.init_db()
     raw_items = fetch.fetch_all() + scrape.fetch_all_scraped()
@@ -103,7 +100,7 @@ def run(dry_run: bool = False):
         "[main] routing: "
         f"telegram_channels={len(config.TELEGRAM_CHANNEL_IDS)}, "
         f"analysis_channels={len(config.TELEGRAM_ANALYSIS_CHANNEL_IDS)}, "
-        f"max_analyses={config.MAX_AI_ANALYSES_PER_RUN}"
+        f"max_analyses={effective_max_analyses}"
     )
 
     new_items = []
@@ -116,7 +113,7 @@ def run(dry_run: bool = False):
 
     post_candidates = _top_items_for_posting(new_items)
     analysis_pool = post_candidates if (_telegram_analysis_enabled() or _facebook_enabled()) else [item for item in post_candidates if should_analyze(item)]
-    analysis_candidates = analysis_pool[: max(0, config.MAX_AI_ANALYSES_PER_RUN)]
+    analysis_candidates = analysis_pool[:effective_max_analyses]
     analysis_ids = {item.id for item in analysis_candidates}
     print(f"[main] selected {len(post_candidates)} post candidates, {len(analysis_candidates)} with analysis")
 

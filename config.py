@@ -15,18 +15,18 @@ def _env_int(name: str, default: int) -> int:
         return default
 
 
+def _env_csv(name: str) -> list[str]:
+    return [x.strip() for x in _env(name).split(",") if x.strip()]
+
+
 TELEGRAM_BOT_TOKEN = _env("TELEGRAM_BOT_TOKEN")
 TELEGRAM_ANALYSIS_BOT_TOKEN = _env("TELEGRAM_ANALYSIS_BOT_TOKEN", TELEGRAM_BOT_TOKEN)
-TELEGRAM_CHANNEL_IDS = [
-    x.strip()
-    for x in _env("TELEGRAM_CHANNEL_IDS", _env("TELEGRAM_CHANNEL_ID")).split(",")
-    if x.strip()
-]
-TELEGRAM_ANALYSIS_CHANNEL_IDS = [
-    x.strip()
-    for x in _env("TELEGRAM_ANALYSIS_CHANNEL_IDS", _env("TELEGRAM_LLM_CHANNEL_IDS")).split(",")
-    if x.strip()
-]
+TELEGRAM_CHANNEL_IDS = list(
+    dict.fromkeys(_env_csv("TELEGRAM_CHANNEL_IDS") + _env_csv("TELEGRAM_CHANNEL_ID"))
+)
+TELEGRAM_ANALYSIS_CHANNEL_IDS = list(
+    dict.fromkeys(_env_csv("TELEGRAM_ANALYSIS_CHANNEL_IDS") + _env_csv("TELEGRAM_LLM_CHANNEL_IDS"))
+)
 
 FACEBOOK_GRAPH_VERSION = _env("FACEBOOK_GRAPH_VERSION", "v20.0")
 FACEBOOK_TARGET = _env("FACEBOOK_TARGET", "disabled").lower()
