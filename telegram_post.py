@@ -1,6 +1,4 @@
-"""Thin wrapper around the raw Telegram Bot API (no extra SDK dependency).
-Docs: https://core.telegram.org/bots/api#sendmessage
-"""
+"""Minimal Telegram Bot API wrapper."""
 
 import requests
 
@@ -11,36 +9,18 @@ API_BASE = "https://api.telegram.org/bot{token}/{method}"
 
 def _url(method: str) -> str:
     if not config.TELEGRAM_BOT_TOKEN:
-        raise RuntimeError("TELEGRAM_BOT_TOKEN is not set (see .env.example)")
+        raise RuntimeError("TELEGRAM_BOT_TOKEN is not set")
     return API_BASE.format(token=config.TELEGRAM_BOT_TOKEN, method=method)
 
 
-def send_post(text: str, image_url: str = None) -> int:
-    """Sends the post to the configured channel and returns the Telegram message_id."""
-    if not config.TELEGRAM_CHANNEL_ID:
-        raise RuntimeError("TELEGRAM_CHANNEL_ID is not set (see .env.example)")
-
+def send_post(text: str, image_url: str = None, chat_id: str = None) -> int:
+    if not config.TELEGRAM_CHANNEL_IDS and not chat_id:
+        raise RuntimeError("TELEGRAM_CHANNEL_IDS is not set")
+    target = chat_id or config.TELEGRAM_CHANNEL_IDS[0]
     if image_url:
-        resp = requests.post(
-            _url("sendPhoto"),
-            data={
-                "chat_id": config.TELEGRAM_CHANNEL_ID,
-                "caption": text[:1024],  # Telegram caption limit
-                "photo": image_url,
-            },
-            timeout=20,
-        )
+        resp = requests.post(_url("sendPhoto"), data={"chat_id": target, "caption": text[:1024], "photo": image_url}, timeout=20)
     else:
-        resp = requests.post(
-            _url("sendMessage"),
-            data={
-                "chat_id": config.TELEGRAM_CHANNEL_ID,
-                "text": text[:4096],  # Telegram message limit
-                "disable_web_page_preview": False,
-            },
-            timeout=20,
-        )
-
+        resp = requests.post(_url("sendMessage"), data={"chat_id": target, "text": text[:4096], "disable_web_page_preview": False}, timeout=20)
     data = resp.json()
     if not data.get("ok"):
         raise RuntimeError(f"Telegram API error: {data}")

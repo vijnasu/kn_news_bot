@@ -21,6 +21,7 @@ class NewsItem:
     posted_at: Optional[str] = None       # ISO 8601, when sent to Telegram
     telegram_message_id: Optional[int] = None
     tags: Optional[str] = None            # comma-separated hashtags actually used
+    analysis_text: Optional[str] = None   # cached short analysis, if generated
 
     def to_dict(self) -> dict:
         return asdict(self)

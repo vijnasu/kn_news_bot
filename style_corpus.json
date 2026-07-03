@@ -1,0 +1,22 @@
+{
+  "brand": "Vedavidhya Consultants",
+  "sources": [
+    "https://www.vedavidhya.com/",
+    "https://www.vedavidhya.com/blog",
+    "https://www.facebook.com/vedavidhya.astrology.tantra"
+  ],
+  "style_notes": [
+    "Ancient diagnostic systems applied to modern problems.",
+    "Structured Jyotisha, Prashna, Tantra, Vastu, and Ayurveda framing.",
+    "Root-cause analysis before remedies or conclusions.",
+    "Calm, disciplined, advisory tone for Kannada readers.",
+    "Avoid sensationalism; explain cause, timing, consequence, and dharmic responsibility.",
+    "Treat current affairs as social symptoms that should be read through cause, timing, duty, and consequence."
+  ],
+  "samples": [
+    {
+      "url": "https://www.vedavidhya.com/",
+      "text": "Vedavidhya Consultants presents Jyotisha, Prashna, Tantra, Vastu, and Ayurveda as structured diagnostic systems. The writing style is disciplined and root-cause oriented: recurring problems are not treated as surface events, but as patterns that require correct diagnosis before any remedy or recommendation."
+    }
+  ]
+}

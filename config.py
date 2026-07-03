@@ -1,32 +1,84 @@
-"""
-Configuration for the Kannada Fast News Telegram bot.
-
-Fill in TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID via environment variables
-(or a .env file loaded by main.py) - never commit real secrets to source control.
-"""
+"""Configuration for the Kannada Fast News bot."""
 
 import os
 
-# --- Telegram ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-# Channel username (e.g. "@my_kannada_news") or numeric chat id (e.g. -1001234567890)
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 
-# --- Storage ---
-DB_PATH = os.environ.get("KN_NEWS_DB", "news.db")
-JSONL_EXPORT_PATH = os.environ.get("KN_NEWS_JSONL", "news_export.jsonl")
+def _env(name: str, default: str = "") -> str:
+    value = os.environ.get(name)
+    return default if value is None or value == "" else value
 
-# --- Behaviour ---
-MAX_ITEMS_PER_RUN = 15           # cap per source per run, avoids flooding the channel
-POST_DELAY_SECONDS = 4           # gap between posts, avoids Telegram rate limits
-SUMMARY_MAX_CHARS = 320          # soft cap - actual cut happens on a sentence/word boundary
-TOP_POSTS_PER_RUN = int(os.environ.get("KN_NEWS_TOP_POSTS", "4"))
-MAX_POSTS_PER_SOURCE_PER_RUN = int(os.environ.get("KN_NEWS_TOP_PER_SOURCE", "1"))
 
-# --- RSS sources ---
-# name        : display name shown as the post's credited source
-# url         : RSS/XML feed URL
-# category    : default category tag if the feed doesn't already imply one
+def _env_int(name: str, default: int) -> int:
+    try:
+        return int(_env(name, str(default)))
+    except ValueError:
+        return default
+
+
+TELEGRAM_BOT_TOKEN = _env("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHANNEL_IDS = [
+    x.strip()
+    for x in _env("TELEGRAM_CHANNEL_IDS", _env("TELEGRAM_CHANNEL_ID")).split(",")
+    if x.strip()
+]
+TELEGRAM_ANALYSIS_CHANNEL_IDS = [
+    x.strip()
+    for x in _env("TELEGRAM_ANALYSIS_CHANNEL_IDS", _env("TELEGRAM_LLM_CHANNEL_IDS")).split(",")
+    if x.strip()
+]
+
+FACEBOOK_GRAPH_VERSION = _env("FACEBOOK_GRAPH_VERSION", "v20.0")
+FACEBOOK_TARGET = _env("FACEBOOK_TARGET", "disabled").lower()
+FACEBOOK_PAGE_ID = _env("FACEBOOK_PAGE_ID", "vedavidhya.astrology.tantra")
+FACEBOOK_PAGE_ACCESS_TOKEN = _env(
+    "FACEBOOK_PAGE_ACCESS_TOKEN",
+    _env("FACEBOOK_ACCESS_TOKEN"),
+)
+FACEBOOK_ACCESS_TOKEN = _env("FACEBOOK_ACCESS_TOKEN")
+FACEBOOK_GROUP_ID = _env("FACEBOOK_GROUP_ID")
+
+DB_PATH = _env("KN_NEWS_DB", "news.db")
+JSONL_EXPORT_PATH = _env("KN_NEWS_JSONL", "news_export.jsonl")
+
+MAX_ITEMS_PER_RUN = 15
+POST_DELAY_SECONDS = 4
+SUMMARY_MAX_CHARS = 320
+TOP_POSTS_PER_RUN = _env_int("KN_NEWS_TOP_POSTS", 4)
+MAX_POSTS_PER_SOURCE_PER_RUN = _env_int("KN_NEWS_TOP_PER_SOURCE", 1)
+MAX_AI_ANALYSES_PER_RUN = _env_int("KN_NEWS_MAX_ANALYSES", 2)
+MAX_ANALYSIS_TOKENS = _env_int("KN_NEWS_MAX_ANALYSIS_TOKENS", 140)
+
+ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "0") == "1"
+OPENAI_API_KEY = _env("OPENAI_API_KEY")
+OPENAI_MODEL = _env("OPENAI_MODEL", "gpt-4o-mini")
+STYLE_BRAND_NAME = _env("KN_NEWS_STYLE_BRAND", "Vedavidhya Consultants")
+STYLE_SOURCE_URL = _env("KN_NEWS_STYLE_SOURCE_URL", "https://www.vedavidhya.com/")
+STYLE_BLOG_URL = _env("KN_NEWS_STYLE_BLOG_URL", "https://www.vedavidhya.com/blog")
+STYLE_FACEBOOK_URL = _env("KN_NEWS_STYLE_FACEBOOK_URL", "https://www.facebook.com/vedavidhya.astrology.tantra")
+STYLE_CORPUS_PATH = _env("KN_NEWS_STYLE_CORPUS", "style_corpus.json")
+STYLE_CORPUS_URLS = [
+    x.strip()
+    for x in _env(
+        "KN_NEWS_STYLE_CORPUS_URLS",
+        f"{STYLE_SOURCE_URL},{STYLE_BLOG_URL}",
+    ).split(",")
+    if x.strip()
+]
+STYLE_TONE = _env(
+    "KN_NEWS_STYLE_TONE",
+    "disciplined, rooted, analytical, calm, authoritative, Kannada-first, Sanatana/Hindu framework",
+)
+STYLE_TOPICS = [
+    "Jyotisha",
+    "Prashna",
+    "Tantra",
+    "Vastu",
+    "Ayurveda",
+    "Artha Shastra",
+    "Nyaya Shastra",
+    "Ganita",
+]
+
 SOURCES = [
     {"name": "Prajavani", "url": "https://www.prajavani.net/feed", "category": "ಸಾಮಾನ್ಯ"},
     {"name": "TV9 Kannada", "url": "https://tv9kannada.com/feed", "category": "ಸಾಮಾನ್ಯ"},
@@ -35,15 +87,8 @@ SOURCES = [
     {"name": "Kannada Oneindia - ಮನರಂಜನೆ", "url": "https://kannada.oneindia.com/rss/feeds/kannada-entertainment-fb.xml", "category": "ಮನರಂಜನೆ"},
     {"name": "Public TV", "url": "https://publictv.in/feed", "category": "ಸಾಮಾನ್ಯ"},
     {"name": "Asianet Suvarna News", "url": "https://kannada.asianetnews.com/rss", "category": "ಸಾಮಾನ್ಯ"},
-    # Add more once you've verified the feed URL resolves to valid RSS/XML, e.g.:
-    # {"name": "Kannada Prabha", "url": "https://www.kannadaprabha.com/rssfeed/", "category": "ಸಾಮಾನ್ಯ"},
-    # {"name": "Vijaya Karnataka", "url": "https://vijaykarnataka.com/rss.cms", "category": "ಸಾಮಾನ್ಯ"},
 ]
 
-# --- Scraped (non-RSS) sources ---
-# Daijiworld's Kannada section (daijiworld.com/kannada/...) does not expose an
-# RSS feed - only the main English site does (daijiworld.com/rssfeed.xml).
-# These category pages are scraped directly instead; see scrape.py.
 SCRAPE_SOURCES = [
     {"name": "Daijiworld - ಕರಾವಳಿ", "url": "https://daijiworld.com/kannada/newsCategory?newsCategory=karvalli", "category": "ಕರಾವಳಿ"},
     {"name": "Daijiworld - ರಾಜ್ಯ/ರಾಷ್ಟ್ರ", "url": "https://daijiworld.com/kannada/newsCategory?newsCategory=national", "category": "ರಾಜ್ಯ"},
@@ -52,7 +97,6 @@ SCRAPE_SOURCES = [
     {"name": "Daijiworld - ಮನರಂಜನೆ", "url": "https://daijiworld.com/kannada/newsCategory?newsCategory=entertainment", "category": "ಮನರಂಜನೆ"},
 ]
 
-# Emoji shown at the top of each post, keyed by category
 CATEGORY_EMOJI = {
     "ಸಾಮಾನ್ಯ": "🔴",
     "ರಾಜ್ಯ": "🟠",

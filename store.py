@@ -22,7 +22,8 @@ CREATE TABLE IF NOT EXISTS news_items (
     image_url TEXT,
     posted_at TEXT,
     telegram_message_id INTEGER,
-    tags TEXT
+    tags TEXT,
+    analysis_text TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_news_source ON news_items(source);
 CREATE INDEX IF NOT EXISTS idx_news_category ON news_items(category);
@@ -43,6 +44,9 @@ def _conn():
 def init_db():
     with _conn() as conn:
         conn.executescript(SCHEMA)
+        columns = {row[1] for row in conn.execute("PRAGMA table_info(news_items)").fetchall()}
+        if "analysis_text" not in columns:
+            conn.execute("ALTER TABLE news_items ADD COLUMN analysis_text TEXT")
 
 
 def exists(item_id: str) -> bool:
@@ -58,10 +62,10 @@ def insert(item: NewsItem):
             """INSERT OR IGNORE INTO news_items
                (id, title, summary, link, source, category, language,
                 published_at, fetched_at, image_url, posted_at,
-                telegram_message_id, tags)
+               telegram_message_id, tags, analysis_text)
                VALUES (:id, :title, :summary, :link, :source, :category, :language,
                        :published_at, :fetched_at, :image_url, :posted_at,
-                       :telegram_message_id, :tags)""",
+                       :telegram_message_id, :tags, :analysis_text)""",
             d,
         )
 
@@ -71,6 +75,14 @@ def mark_posted(item_id: str, message_id: int, posted_at: str):
         conn.execute(
             "UPDATE news_items SET posted_at = ?, telegram_message_id = ? WHERE id = ?",
             (posted_at, message_id, item_id),
+        )
+
+
+def save_analysis(item_id: str, analysis_text: str):
+    with _conn() as conn:
+        conn.execute(
+            "UPDATE news_items SET analysis_text = ? WHERE id = ?",
+            (analysis_text, item_id),
         )
 
 
