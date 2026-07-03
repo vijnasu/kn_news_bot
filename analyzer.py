@@ -12,6 +12,13 @@ import config
 from models import NewsItem
 from style_corpus import load_style_context
 
+try:
+    import openai
+    from openai import OpenAI as _OpenAI
+    _OPENAI_AVAILABLE = True
+except Exception:
+    _OPENAI_AVAILABLE = False
+
 CACHE_PATH = Path("analysis_cache.json")
 LENSES = [
     "Dharma Shastra",
@@ -114,28 +121,8 @@ def should_analyze(item: NewsItem) -> bool:
     return any(h in blob for h in COSTLY_HINTS) or any(h in blob for h in CULTURE_HINTS)
 
 
-def build_analysis(item: NewsItem) -> str:
-    cache = _load_cache()
-    key = _cache_key(item)
-    cached = cache.get(key)
-    if cached:
-        return cached
-
-    if not config.ENABLE_LLM_ANALYSIS or not config.OPENAI_API_KEY:
-        text = _deterministic_analysis(item)
-        cache[key] = text
-        _save_cache(cache)
-        return text
-    try:
-        import openai
-        from openai import OpenAI
-    except Exception:
-        text = _deterministic_analysis(item)
-        cache[key] = text
-        _save_cache(cache)
-        return text
-
-    client = OpenAI(api_key=config.OPENAI_API_KEY)
+def _build_prompts(item: NewsItem) -> tuple[str, str]:
+    """Return (system_prompt, user_prompt) for all LLM providers."""
     selected_lenses = _select_lenses(item, count=5)
     lens_line = ", ".join(selected_lenses)
     style_context = load_style_context()
@@ -146,8 +133,7 @@ def build_analysis(item: NewsItem) -> str:
         "while staying factual, non-inciting, and respectful. "
         "Never fabricate facts; when uncertain, state limits."
     )
-
-    prompt = (
+    user_prompt = (
         f"Brand voice: {config.STYLE_BRAND_NAME}.\n"
         f"Tone: {config.STYLE_TONE}.\n"
         "Task: Write Kannada analysis with blended intelligence using relevant shastric lenses.\n"
@@ -163,20 +149,101 @@ def build_analysis(item: NewsItem) -> str:
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
     )
+    return system_prompt, user_prompt
+
+
+def _call_openai_responses(item: NewsItem) -> str | None:
+    """Try OpenAI responses API. Returns text or None on failure."""
+    if not config.OPENAI_API_KEY or not _OPENAI_AVAILABLE:
+        return None
+
+    system_prompt, user_prompt = _build_prompts(item)
     try:
+        client = _OpenAI(api_key=config.OPENAI_API_KEY)
         resp = client.responses.create(
             model=config.OPENAI_MODEL,
             input=[
                 {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": user_prompt},
             ],
             max_output_tokens=config.MAX_ANALYSIS_TOKENS,
         )
-        text = getattr(resp, "output_text", "") or ""
-        final = _trim_analysis(text) or _deterministic_analysis(item)
+        return _trim_analysis(getattr(resp, "output_text", "") or "") or None
     except openai.APIError as exc:
-        print(f"[analyzer] OpenAI call failed ({exc}); using deterministic fallback")
+        print(f"[analyzer] OpenAI failed ({exc}); trying Gemini")
+        return None
+
+
+def _call_gemini(item: NewsItem) -> str | None:
+    """Try Gemini via OpenAI-compatible endpoint. Returns text or None on failure."""
+    if not config.GEMINI_API_KEY or not _OPENAI_AVAILABLE:
+        return None
+
+    system_prompt, user_prompt = _build_prompts(item)
+    try:
+        client = _OpenAI(
+            api_key=config.GEMINI_API_KEY,
+            base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+        )
+        resp = client.chat.completions.create(
+            model=config.GEMINI_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=config.MAX_ANALYSIS_TOKENS,
+        )
+        text = resp.choices[0].message.content if resp.choices else ""
+        return _trim_analysis(text or "") or None
+    except openai.APIError as exc:
+        print(f"[analyzer] Gemini failed ({exc}); trying Groq")
+        return None
+
+
+def _call_groq(item: NewsItem) -> str | None:
+    """Try Groq via OpenAI-compatible endpoint. Returns text or None on failure."""
+    if not config.GROQ_API_KEY or not _OPENAI_AVAILABLE:
+        return None
+
+    system_prompt, user_prompt = _build_prompts(item)
+    try:
+        client = _OpenAI(
+            api_key=config.GROQ_API_KEY,
+            base_url="https://api.groq.com/openai/v1",
+        )
+        resp = client.chat.completions.create(
+            model=config.GROQ_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=config.MAX_ANALYSIS_TOKENS,
+        )
+        text = resp.choices[0].message.content if resp.choices else ""
+        return _trim_analysis(text or "") or None
+    except openai.APIError as exc:
+        print(f"[analyzer] Groq failed ({exc}); using deterministic fallback")
+        return None
+
+
+def build_analysis(item: NewsItem) -> str:
+    cache = _load_cache()
+    key = _cache_key(item)
+    cached = cache.get(key)
+    if cached:
+        return cached
+
+    final: str | None = None
+    if config.ENABLE_LLM_ANALYSIS:
+        final = _call_openai_responses(item)
+        if final is None:
+            final = _call_gemini(item)
+        if final is None:
+            final = _call_groq(item)
+
+    if not final:
         final = _deterministic_analysis(item)
+
     cache[key] = final
     _save_cache(cache)
     return final
