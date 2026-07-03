@@ -127,6 +127,7 @@ def build_analysis(item: NewsItem) -> str:
         _save_cache(cache)
         return text
     try:
+        import openai
         from openai import OpenAI
     except Exception:
         text = _deterministic_analysis(item)
@@ -162,16 +163,20 @@ def build_analysis(item: NewsItem) -> str:
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
     )
-    resp = client.responses.create(
-        model=config.OPENAI_MODEL,
-        input=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-        ],
-        max_output_tokens=config.MAX_ANALYSIS_TOKENS,
-    )
-    text = getattr(resp, "output_text", "") or ""
-    final = _trim_analysis(text) or _deterministic_analysis(item)
+    try:
+        resp = client.responses.create(
+            model=config.OPENAI_MODEL,
+            input=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt},
+            ],
+            max_output_tokens=config.MAX_ANALYSIS_TOKENS,
+        )
+        text = getattr(resp, "output_text", "") or ""
+        final = _trim_analysis(text) or _deterministic_analysis(item)
+    except openai.APIError as exc:
+        print(f"[analyzer] OpenAI call failed ({exc}); using deterministic fallback")
+        final = _deterministic_analysis(item)
     cache[key] = final
     _save_cache(cache)
     return final
