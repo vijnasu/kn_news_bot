@@ -30,6 +30,7 @@ jobs:
           TELEGRAM_ANALYSIS_CHANNEL_IDS: ${{ secrets.TELEGRAM_ANALYSIS_CHANNEL_IDS }}
           TELEGRAM_LLM_CHANNEL_IDS: ${{ secrets.TELEGRAM_LLM_CHANNEL_IDS }}
           KN_NEWS_ENABLE_LLM: ${{ secrets.KN_NEWS_ENABLE_LLM }}
+          KN_NEWS_MAX_ANALYSES: ${{ secrets.KN_NEWS_MAX_ANALYSES }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python main.py
 
