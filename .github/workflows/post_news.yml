@@ -1,0 +1,39 @@
+name: Post Kannada News
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay this slightly under load)
+  workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write            # needed so the workflow can commit news.db / news_export.jsonl back
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python main.py
+
+      # Persist dedup state (news.db) and the analytics export back to the repo.
+      # This also counts as repo activity, which keeps GitHub from auto-disabling
+      # the schedule after 60 days of inactivity.
+      - name: Commit updated state
+        run: |
+          git config user.name "kn-news-bot"
+          git config user.email "kn-news-bot@users.noreply.github.com"
+          git add news.db news_export.jsonl
+          git diff --quiet --cached || git commit -m "chore: update news state [skip ci]"
+          git push
