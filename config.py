@@ -49,7 +49,7 @@ MAX_POSTS_PER_SOURCE_PER_RUN = _env_int("KN_NEWS_TOP_PER_SOURCE", 1)
 MAX_AI_ANALYSES_PER_RUN = _env_int("KN_NEWS_MAX_ANALYSES", 2)
 MAX_ANALYSIS_TOKENS = _env_int("KN_NEWS_MAX_ANALYSIS_TOKENS", 140)
 
-ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "0") == "1"
+ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "1") == "1"
 OPENAI_API_KEY = _env("OPENAI_API_KEY")
 OPENAI_MODEL = _env("OPENAI_MODEL", "gpt-4o-mini")
 STYLE_BRAND_NAME = _env("KN_NEWS_STYLE_BRAND", "Vedavidhya Consultants")
@@ -70,11 +70,23 @@ STYLE_TONE = _env(
     "disciplined, rooted, analytical, calm, authoritative, Kannada-first, Sanatana/Hindu framework",
 )
 STYLE_TOPICS = [
+    "Dharma Shastra",
+    "Ramayana",
+    "Mahabharata",
+    "Vedas",
+    "Vedanta",
+    "Bhagavad Gita",
+    "Mimamsa",
+    "Vyakarana",
     "Jyotisha",
     "Prashna",
     "Tantra",
     "Vastu",
     "Ayurveda",
+    "Vedic Science",
+    "Tarka",
+    "Panchatantra",
+    "Rajya Shastra",
     "Artha Shastra",
     "Nyaya Shastra",
     "Ganita",
