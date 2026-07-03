@@ -30,6 +30,7 @@ def run(dry_run: bool = False):
     print(f"[main] fetched {len(raw_items)} raw entries across {len(config.SOURCES)} sources")
 
     new_count, posted_count = 0, 0
+    post_errors = []
     for raw in raw_items:
         if store.exists(raw["id"]):
             continue  # already seen, skip (this is how we stay "fast" without duplicates)
@@ -47,10 +48,17 @@ def run(dry_run: bool = False):
                 time.sleep(config.POST_DELAY_SECONDS)
             except Exception as exc:
                 print(f"[main] failed to post '{item.title[:40]}...': {exc}")
+                post_errors.append((item.id, exc))
 
     rows = store.export_jsonl()
     print(f"[main] {new_count} new items stored, {posted_count} posted, "
           f"{rows} total rows exported to {config.JSONL_EXPORT_PATH}")
+
+    if post_errors:
+        failed_item_ids = ", ".join(item_id for item_id, _ in post_errors[:5])
+        raise RuntimeError(
+            f"Telegram posting failed for {len(post_errors)} item(s): {failed_item_ids}"
+        )
 
 
 if __name__ == "__main__":
