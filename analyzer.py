@@ -127,7 +127,7 @@ def build_analysis(item: NewsItem) -> str:
         _save_cache(cache)
         return text
     try:
-        from openai import OpenAI
+        from openai import OpenAI, APIError
     except Exception:
         text = _deterministic_analysis(item)
         cache[key] = text
@@ -162,15 +162,19 @@ def build_analysis(item: NewsItem) -> str:
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
     )
-    resp = client.responses.create(
-        model=config.OPENAI_MODEL,
-        input=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-        ],
-        max_output_tokens=config.MAX_ANALYSIS_TOKENS,
-    )
-    text = getattr(resp, "output_text", "") or ""
+    try:
+        resp = client.responses.create(
+            model=config.OPENAI_MODEL,
+            input=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt},
+            ],
+            max_output_tokens=config.MAX_ANALYSIS_TOKENS,
+        )
+        text = getattr(resp, "output_text", "") or ""
+    except APIError as exc:
+        print(f"[analyzer] OpenAI API error ({exc.status_code}), falling back to deterministic analysis: {exc}")
+        text = ""
     final = _trim_analysis(text) or _deterministic_analysis(item)
     cache[key] = final
     _save_cache(cache)
