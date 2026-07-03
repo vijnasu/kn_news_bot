@@ -12,9 +12,9 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -34,7 +34,6 @@ jobs:
         run: |
           git config user.name "kn-news-bot"
           git config user.email "kn-news-bot@users.noreply.github.com"
-          git pull --rebase --autostash origin main
           git add news.db news_export.jsonl
           git diff --quiet --cached || git commit -m "chore: update news state [skip ci]"
           git push
