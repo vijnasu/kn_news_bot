@@ -56,6 +56,11 @@ GEMINI_API_KEY = _env("GEMINI_API_KEY")
 GEMINI_MODEL = _env("GEMINI_MODEL", "gemini-2.0-flash-lite")
 GROQ_API_KEY = _env("GROQ_API_KEY")
 GROQ_MODEL = _env("GROQ_MODEL", "llama-3.1-8b-instant")
+LLM_PROVIDER_ORDER = [
+    x.strip().lower()
+    for x in _env("KN_NEWS_LLM_PROVIDER_ORDER", "groq,openai,gemini").split(",")
+    if x.strip()
+]
 STYLE_BRAND_NAME = _env("KN_NEWS_STYLE_BRAND", "Vedavidhya Consultants")
 STYLE_SOURCE_URL = _env("KN_NEWS_STYLE_SOURCE_URL", "https://www.vedavidhya.com/")
 STYLE_BLOG_URL = _env("KN_NEWS_STYLE_BLOG_URL", "https://www.vedavidhya.com/blog")
