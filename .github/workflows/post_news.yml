@@ -36,7 +36,7 @@ jobs:
           git config user.name "kn-news-bot"
           git config user.email "kn-news-bot@users.noreply.github.com"
           git fetch origin "${BRANCH}"
-          git rebase "origin/${BRANCH}"
+          git rebase --autostash "origin/${BRANCH}"
           git add news.db news_export.jsonl
           git diff --quiet --cached || git commit -m "chore: update news state [skip ci]"
           git push origin "HEAD:${BRANCH}"
