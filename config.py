@@ -114,7 +114,8 @@ STYLE_CORPUS_URLS = [
 ]
 STYLE_TONE = _env(
     "KN_NEWS_STYLE_TONE",
-    "disciplined, rooted, analytical, calm, authoritative, Kannada-first, Sanatana/Hindu framework",
+    "punchy, decisive, rooted, authoritative, Kannada-first, Sanatana/Hindu framework — "
+    "short confident sentences, plain diction, no bureaucratic or legalistic hedging",
 )
 STYLE_TOPICS = [
     "Dharma Shastra",

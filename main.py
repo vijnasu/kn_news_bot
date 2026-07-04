@@ -107,10 +107,31 @@ def _print_analysis_preview(item: NewsItem, analysis: str) -> None:
     print("[preview] ----------------------------------------")
 
 
+KARNATAKA_HINTS = (
+    "karnataka", "bengaluru", "bangalore", "mysuru", "mysore", "mangaluru",
+    "mangalore", "hubli", "hubballi", "dharwad", "belagavi", "belgaum",
+    "kalaburagi", "gulbarga", "shivamogga", "shimoga", "tumakuru", "tumkur",
+    "udupi", "davangere", "ballari", "bellary", "hassan", "chikkamagaluru",
+    "kodagu", "coorg", "vijayapura", "bijapur", "raichur", "bagalkot",
+    "haveri", "yadgir", "kolar", "chitradurga", "gadag", "ramanagara",
+)
+
+
+def _is_karnataka_item(i: NewsItem) -> bool:
+    blob = f"{i.title} {i.summary} {i.category}".lower()
+    source = (i.source or "").lower()
+    return "karnataka" in source or "bengaluru" in source or any(h in blob for h in KARNATAKA_HINTS)
+
+
 def _select_english_item(items: list[NewsItem]) -> NewsItem | None:
     """Pick the single most relevant English story for this run's analysis.
     Reuses the same keyword lists the old Kannada should_analyze() used -
-    they're already English strings, so they work unmodified here."""
+    they're already English strings, so they work unmodified here.
+
+    Karnataka-relevant stories are preferred outright: they're ranked ahead
+    of every non-Karnataka story regardless of keyword score, so the analysis
+    channel favors local news whenever an unseen Karnataka story exists this
+    run, falling back to national/international only when none is available."""
 
     def blob(i: NewsItem) -> str:
         return f"{i.title} {i.summary} {i.category} {i.source}".lower()
@@ -134,7 +155,10 @@ def _select_english_item(items: list[NewsItem]) -> NewsItem | None:
         candidates = items
     if not candidates:
         return None
-    candidates.sort(key=lambda i: (score(i), _parse_iso(i.published_at)), reverse=True)
+    candidates.sort(
+        key=lambda i: (_is_karnataka_item(i), score(i), _parse_iso(i.published_at)),
+        reverse=True,
+    )
     return candidates[0]
 
 

@@ -10,10 +10,10 @@ import textwrap
 
 import config
 from models import NewsItem
-from style_corpus import load_style_context
+from style_corpus import load_style_context, load_voice_anchors
 
 CACHE_PATH = Path("analysis_cache.json")
-ANALYSIS_PROMPT_VERSION = "2026-07-04-v12"
+ANALYSIS_PROMPT_VERSION = "2026-07-04-v13"
 _DISABLED_PROVIDERS: set[str] = set()
 
 LENSES = [
@@ -39,7 +39,14 @@ LENSES = [
 COSTLY_HINTS = ("election", "policy", "tax", "budget", "court", "government", "modi", "bengaluru", "karnataka")
 CULTURE_HINTS = ("temple", "dharma", "ved", "yoga", "astrology", "graha", "panchanga", "tantra", "sanatana")
 CURRENT_AFFAIRS_CATEGORIES = {"ರಾಜ್ಯ", "ಬೆಂಗಳೂರು", "ಕರಾವಳಿ", "ಅಂತಾರಾಷ್ಟ್ರೀಯ", "ಅಪರಾಧ", "ಹಣಕಾಸು", "ರಾಜಕೀಯ"}
-EXCLUDE_HINTS = ("ಧಾರಾವಾಹಿ", "ಚಿತ್ರ", "ಸಿನಿಮಾ", "ಮನರಂಜನೆ", "ಕ್ರೀಡೆ", "sports", "serial", "movie", "film")
+EXCLUDE_HINTS = (
+    "ಧಾರಾವಾಹಿ", "ಚಿತ್ರ", "ಸಿನಿಮಾ", "ಮನರಂಜನೆ", "ಕ್ರೀಡೆ", "sports", "serial", "movie", "film",
+    # Rolling "live blog" articles: the feed's <description> is whatever
+    # snippet was current when the RSS was generated, which routinely has
+    # nothing to do with the page's overall headline - analyzing these
+    # produces a title/body that talk about two different stories.
+    "live:", "live updates", "as it happened",
+)
 SOURCE_EXCLUDE_HINTS = ("ಮನರಂಜನೆ", "entertainment", "sports", "sport", "cinema", "movie", "film")
 URL_EXCLUDE_HINTS = ("/entertainment/", "/sports/", "/sport/", "/movies/", "/movie/", "/film/", "/television/")
 POLICY_HINTS = (
@@ -109,14 +116,44 @@ def _deterministic_analysis(item: NewsItem) -> str:
     ).strip()
 
 
+def _clean_paragraph(text: str) -> str:
+    """Collapse only intra-paragraph whitespace (no line breaks left to
+    collapse here), tidy spacing around punctuation, and make sure sentence
+    enders are followed by exactly one space."""
+    text = re.sub(r"[ \t]+", " ", text).strip()
+    # No space before punctuation (ASCII or Kannada danda), single space after.
+    text = re.sub(r"\s+([,.;:!?।])", r"\1", text)
+    text = re.sub(r"([,.;:!?।])(?=\S)", r"\1 ", text)
+    return text
+
+
 def _trim_analysis(text: str) -> str:
-    cleaned = re.sub(r"\s+", " ", (text or "").strip())
-    if not cleaned:
-        return cleaned
+    """Normalize an LLM response into clean paragraphs. Paragraph breaks
+    (blank lines) are preserved - collapsing ALL whitespace to single spaces
+    (the old behaviour) silently merged every paragraph into one unbroken
+    wall of text with no visible structure once posted."""
+    raw = (text or "").strip()
+    if not raw:
+        return raw
+
+    paragraphs = [p for p in re.split(r"\n\s*\n", raw) if p.strip()]
+    if not paragraphs:
+        paragraphs = [raw]
+    cleaned = "\n\n".join(_clean_paragraph(p) for p in paragraphs)
+
     max_chars = max(280, config.MAX_ANALYSIS_TOKENS * 5)
     if len(cleaned) <= max_chars:
         return cleaned
+
     cut = cleaned[:max_chars]
+    # Prefer cutting at a paragraph boundary, then a sentence boundary,
+    # then finally just a word boundary - never mid-word.
+    para_idx = cut.rfind("\n\n")
+    if para_idx > int(max_chars * 0.4):
+        return cut[:para_idx].rstrip()
+    sentence_idx = max(cut.rfind(ender) for ender in (". ", "। ", "! ", "? "))
+    if sentence_idx > int(max_chars * 0.4):
+        return cut[: sentence_idx + 1].rstrip()
     space_idx = cut.rfind(" ")
     if space_idx > int(max_chars * 0.7):
         cut = cut[:space_idx]
@@ -273,7 +310,7 @@ def _build_prompt(item: NewsItem, style_context: str, context_items: list[NewsIt
         "this one story — not a report, not a digest, not a list of other news.\n"
         f"Internal lens for interpretation: {lens_line}. Do not mention lens/framework names in the final text.\n"
         "Output rules:\n"
-        "1) Output exactly 2 short Kannada paragraphs (roughly 40-70 words each), no headings, no labels, no bold text, no bullet points, no lists.\n"
+        "1) Output exactly 2 short Kannada paragraphs (roughly 40-70 words each), separated by one blank line, no headings, no labels, no bold text, no bullet points, no lists.\n"
         "2) Paragraph 1 must state one concrete fact from the current item and what it changes or reveals now.\n"
         "3) Paragraph 2 must give interpretation/implication of THIS item and end with one short forecast or watch-point sentence.\n"
         + (
@@ -509,7 +546,32 @@ def build_analysis(item: NewsItem, context_items: list[NewsItem] | None = None) 
 # Net effect: one Gemini call and one Groq call per run, instead of up to
 # MAX_AI_ANALYSES_PER_RUN Gemini calls on expensive Kannada text.
 
-ENGLISH_ANALYSIS_PROMPT_VERSION = "2026-07-04-en-v1"
+ENGLISH_ANALYSIS_PROMPT_VERSION = "2026-07-04-en-v5"
+
+# Phrases that keep showing up as the model's default "safe" filler when it's
+# told to sound decisive but isn't given a concrete alternative. These read as
+# NGO-report/press-release boilerplate, not analysis, and were the exact
+# complaint about the v3 prompt (flat facts + a generic "action is needed"
+# closer). Any of these surviving into the English draft means the model
+# reverted to the generic register instead of committing to a specific read.
+_GENERIC_FILLER_PATTERNS = (
+    r"(?i)systemic (weakness|vulnerability|failure)",
+    r"(?i)(swift|prompt|urgent),?\s*transparent action",
+    r"(?i)restor(e|ing) (public )?trust",
+    r"(?i)accountability (is|remains) (needed|essential|crucial)",
+    r"(?i)watch (for|out for) (accountability|new (measures|steps))",
+    r"(?i)keep an eye on",
+    r"(?i)raises questions (about|regarding)",
+    r"(?i)cannot be (overlooked|ignored)",
+    r"(?i)it is (important|essential|crucial) (to note|that)",
+    r"(?i)(needs?|ought) to (be addressed|improve)",
+    r"(?i)sends? a (strong )?signal",
+    r"(?i)underscores? the (need|importance)",
+)
+
+
+def _has_generic_filler(text: str) -> bool:
+    return any(re.search(pattern, text or "") for pattern in _GENERIC_FILLER_PATTERNS)
 
 
 def _english_cache_key(item: NewsItem) -> str:
@@ -517,25 +579,69 @@ def _english_cache_key(item: NewsItem) -> str:
     return "en:" + hashlib.sha256(basis).hexdigest()[:24]
 
 
+_FEWSHOT_EXAMPLE = (
+    "EXAMPLE — a flat, REJECTED version and why it fails, then the FIXED version:\n\n"
+    "REJECTED (flat, generic — never write like this):\n"
+    "\"Temple X now faces allegations of donation theft. After a similar problem in "
+    "Location Y, this is a challenge to trust in temple administration. An investigation "
+    "has been ordered.\n\nSuch repeated incidents show systemic weakness. Swift, "
+    "transparent action is needed to restore trust. Watch for accountability and new "
+    "safety measures.\"\n"
+    "Why it fails: paragraph 1 is a bare restatement of the headline with no hook; "
+    "paragraph 2 closes on a content-free civic-duty slogan ('accountability is needed') "
+    "that could be pasted under literally any scandal story and says nothing concrete.\n\n"
+    "FIXED (specific hook, committed read, concrete forecast):\n"
+    "\"Donation money at Temple X allegedly went missing the same way it did at Location Y "
+    "two years ago — same method, same excuse, different shrine. An 'investigation' is "
+    "the standard reflex; the Location Y one never named a single person.\n\nRepeat "
+    "failures like this are not bad luck, they are a system built to absorb the loss "
+    "quietly rather than fix the leak. Expect this one to end the same way: a transfer "
+    "order for a junior official within weeks, and the actual money never traced.\"\n"
+    "Notice: it commits to a specific, checkable prediction instead of a vague call to "
+    "action, and it treats the pattern (cause → repetition → institutional response) as "
+    "the real story instead of restating the headline.\n"
+)
+
+
 def _build_english_prompt(item: NewsItem) -> tuple[str, str]:
+    selected_lenses = _select_lenses(item, count=3)
+    lens_line = ", ".join(selected_lenses)
+    style_context = load_style_context()
     system_prompt = (
-        "You are a disciplined current-affairs analyst writing in English. "
-        "Write an interpretive analysis, not a summary or a report. "
-        "Do not imitate any living person's voice or catchphrases. "
+        "You are a sharp current-affairs analyst writing in English for a Sanatana "
+        "Dharma-rooted advisory brand (Jyotisha, Tantra, Dharma Shastra, Vastu, Ayurveda). "
+        f"Overall tone: {config.STYLE_TONE}. "
+        "Write in a punchy, decisive voice: short sentences, active voice, one idea per "
+        "sentence, vivid concrete word choice over abstract nouns. No hedging chains, no "
+        "stacked subordinate clauses, no legalistic or bureaucratic phrasing "
+        "('which... thereby... underscoring...'). "
+        "Above all: NEVER default to generic press-release/NGO-report closers. Banned "
+        "phrases (in any wording, English or translated): 'systemic weakness', 'swift/"
+        "transparent action needed', 'restore trust', 'accountability is needed', 'watch "
+        "for accountability or new measures', 'keep an eye on', 'raises questions', "
+        "'sends a signal', 'underscores the need'. If your draft contains any of these, "
+        "rewrite it before answering. "
+        "Root the interpretation in the given dharmic lens below — read the story through "
+        "cause, timing, duty, and consequence — without ever naming the lens or using "
+        "jargon labels in the output. "
+        f"{style_context}\n"
+        "Do not imitate any living person's voice, brand, or catchphrases. "
         "Stay factual, non-inciting, and respectful. "
-        "Never fabricate facts; when uncertain, state the limits. "
+        "Never fabricate facts; when uncertain, say so plainly instead of hedging with soft language. "
         "Keep the output safe for public distribution and avoid defamation, sensationalism, or instructions for wrongdoing."
     )
     user_prompt = (
-        "Task: Write a short analysis of ONLY the story below.\n"
+        f"{_FEWSHOT_EXAMPLE}\n"
+        f"Interpretive lens for this story (apply naturally; never name it in the output): {lens_line}.\n"
+        "Task: Write a short, decisive analysis of ONLY the story below, in the FIXED style above, not the REJECTED style.\n"
         "Output rules:\n"
-        "1) Output exactly 2 short paragraphs (roughly 40-70 words each), no headings, no labels, no bullet points.\n"
-        "2) Paragraph 1: one concrete fact from the story and what it changes or reveals now.\n"
-        "3) Paragraph 2: interpretation/implication of this story, ending with one short forecast or watch-point sentence.\n"
-        "4) Do not add facts beyond the title and summary given below.\n"
+        "1) Output exactly 2 short paragraphs (roughly 40-70 words each), separated by one blank line, no headings, no labels, no bullet points.\n"
+        "2) Paragraph 1 MUST open with a sharp, specific hook in its first sentence — a concrete comparison, an ironic detail, or the sharpest fact stated bluntly. Do not open with a neutral 'X happened at Y' restatement of the headline.\n"
+        "3) Paragraph 2: give the cause-consequence-duty reading through the lens above, ending with ONE concrete, checkable forecast (name a specific likely next step, outcome, or repeat pattern — not a vague call for 'action', 'vigilance', or 'improvement'). Commit to a read — avoid 'may', 'could potentially', or stacked qualifiers.\n"
+        "4) Do not add facts beyond the title and summary given below — the specificity comes from framing and interpretation, not invented details.\n"
         "5) Do NOT paraphrase/copy the summary line-by-line; provide interpretation.\n"
         "6) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
-        "7) Do not mention any source-brand, author name, or template label.\n"
+        "7) Do not mention any source-brand, author name, template label, or the lens name itself.\n"
         "8) Stop after the forecast sentence; do not add a third paragraph.\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
     )
@@ -551,17 +657,37 @@ def _try_gemini_english(item: NewsItem) -> str | None:
 
         client = genai.Client(api_key=config.GEMINI_API_KEY)
         system_prompt, user_prompt = _build_english_prompt(item)
-        resp = client.models.generate_content(
-            model=config.GEMINI_MODEL,
-            contents=user_prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                max_output_tokens=300,
-                temperature=0.4,
-                thinking_config=types.ThinkingConfig(thinking_budget=0),
-            ),
-        )
-        text = getattr(resp, "text", "") or ""
+
+        text = ""
+        for attempt in range(2):
+            prompt = user_prompt
+            if attempt == 1:
+                # First draft still had banned generic filler - name the exact
+                # violation and force a rewrite instead of silently accepting it.
+                prompt = (
+                    user_prompt
+                    + "\n\nYour previous draft used banned generic filler phrasing "
+                    "(things like 'systemic weakness', 'transparent action needed', "
+                    "'watch for accountability'). Rewrite from scratch: sharper hook "
+                    "in paragraph 1, and a specific, concrete, checkable forecast in "
+                    "paragraph 2 - no generic civic-duty closers."
+                )
+            resp = client.models.generate_content(
+                model=config.GEMINI_MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_prompt,
+                    max_output_tokens=300,
+                    temperature=0.6,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                ),
+            )
+            text = getattr(resp, "text", "") or ""
+            if text and not _has_generic_filler(text):
+                break
+            if text:
+                print(f"[analyzer] gemini english draft (attempt {attempt + 1}) had generic filler; retrying" if attempt == 0 else "[analyzer] gemini english draft still had generic filler after retry")
+
         return _trim_analysis(text) or None
     except Exception as exc:
         if _is_quota_error(exc):
@@ -584,13 +710,45 @@ def _parse_translation(raw: str) -> tuple[str, str] | None:
     return title, body
 
 
+def _voice_anchor_block() -> str:
+    anchors = load_voice_anchors(count=6)
+    if not anchors:
+        return ""
+    numbered = "\n\n".join(f"{i}. {a}" for i, a in enumerate(anchors, start=1))
+    return (
+        "\n\nVOICE REFERENCE - real excerpts of this brand's own past Kannada writing. "
+        "Mirror their RHETORICAL DEVICES ONLY (rhetorical question as a pivot, the "
+        "mainstream-assumption-then-'ಆದರೆ'-rebuttal structure, em-dash pauses, a precise "
+        "number or detail used as evidence, a confident one-line close). Do NOT copy their "
+        "topics, claims, or specific facts - those excerpts are about unrelated subjects; "
+        "this translation must stay strictly about the news item given below:\n"
+        f"{numbered}\n"
+    )
+
+
 def _translation_prompt(title: str, body: str) -> str:
     return (
-        "Translate the following English news title and analysis into natural, "
-        "fluent, formal Kannada. Preserve the meaning and tone exactly; do not "
-        "add, remove, or editorialize beyond the source text. Respond in exactly "
-        "this format and nothing else:\n"
-        "TITLE: <kannada title>\nBODY: <kannada body>\n\n"
+        "Translate the following English news title and analysis into natural, fluent "
+        "Kannada with a punchy, decisive register: short confident sentences, plain "
+        "everyday diction. Do NOT use formal/legalistic/bureaucratic Kannada register — "
+        "avoid long chained clauses stacked before a single verb, and avoid overusing "
+        "verbs like ಬಹಿರಂಗಪಡಿಸುತ್ತದೆ, ಸೂಚಿಸುತ್ತದೆ, ಒತ್ತಿಹೇಳುತ್ತದೆ/ಒತ್ತಿಹೇಳುತ್ತವೆ, ಪ್ರಶ್ನಿಸುತ್ತದೆ as "
+        "sentence-ending hedges. Also do NOT substitute in generic press-release Kannada "
+        "idioms even if they feel like a natural translation — avoid ವ್ಯವಸ್ಥಿತ ದೌರ್ಬಲ್ಯ "
+        "(systemic weakness), ತ್ವರಿತ/ಪಾರದರ್ಶಕ ಕ್ರಮ ಅಗತ್ಯ (swift/transparent action needed), "
+        "ನಂಬಿಕೆ ಮರುಸ್ಥಾಪಿಸಲು (restore trust), ಹೊಣೆಗಾರಿಕೆ ... ಗಮನಿಸಿ (watch for accountability). "
+        "If the English source already made a specific, concrete claim, keep it specific and "
+        "concrete in Kannada — do not flatten it into one of those generic phrases. "
+        "Prefer short, direct sentences that state the claim and stop. "
+        "Preserve the meaning and the confident tone exactly; do not add, remove, soften, "
+        "or hedge claims that were stated plainly in English, and do not editorialize beyond "
+        "the source text."
+        f"{_voice_anchor_block()}\n"
+        "The body has two paragraphs separated by a blank line - keep that "
+        "same two-paragraph structure with a blank line between them in your Kannada "
+        "translation; do not merge them into one paragraph. Respond in exactly this format "
+        "and nothing else:\n"
+        "TITLE: <kannada title>\nBODY: <kannada paragraph 1>\n\n<kannada paragraph 2>\n\n"
         f"TITLE: {title}\nBODY: {body}"
     )
 
@@ -665,6 +823,9 @@ def build_english_analysis(item: NewsItem) -> tuple[str, str] | None:
         return None
     if _too_close_to_source(item, english_text):
         print("[analyzer] english analysis too close to source text; skipping")
+        return None
+    if _has_generic_filler(english_text):
+        print("[analyzer] english analysis still generic after retry; skipping rather than posting flat text")
         return None
 
     translated = _translate_to_kannada(item.title, english_text)
