@@ -98,7 +98,7 @@ ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "1") == "1"
 # Default 9.0 hours => ~2.6 posts/day, matching the "2-3 posts/day" starting
 # cadence; raise/lower via KN_NEWS_CLASSICAL_MIN_GAP_HOURS once quality is
 # validated and volume should increase.
-CLASSICAL_CONTENT_MIN_GAP_HOURS = _env_float("KN_NEWS_CLASSICAL_MIN_GAP_HOURS", 9.0)
+CLASSICAL_CONTENT_MIN_GAP_HOURS = _env_float("KN_NEWS_CLASSICAL_MIN_GAP_HOURS", 3.0)
 ALLOW_LIVE_LLM = _env("KN_NEWS_ALLOW_LIVE_LLM", "0") == "1"
 OPENROUTER_API_KEY = _env("OPENROUTER_API_KEY")
 OPENROUTER_MODEL = _env("OPENROUTER_MODEL", "meta-llama/llama-3.1-8b-instruct:free")
