@@ -9,6 +9,7 @@ import config
 import store
 import fetch
 import scrape
+import feed
 from analyzer import (
     build_english_analysis,
     COSTLY_HINTS,
@@ -284,6 +285,18 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
 
     rows = store.export_jsonl()
     print(f"[main] {len(new_items)} new items stored, {posted_count} posted, {rows} total rows exported")
+
+    # Regenerate the public analysis RSS feed every run (cheap: one DB read +
+    # one file write, no network calls) so it always reflects the latest N
+    # analysis posts. ViralDashboard polls this feed URL and handles the
+    # Facebook leg, since the direct Graph API path is currently blocked.
+    try:
+        analysis_items = store.recent_analysis_items(limit=30)
+        feed_path = feed.write_feed(analysis_items)
+        print(f"[main] wrote {len(analysis_items)} item(s) to {feed_path}")
+    except Exception as exc:
+        print(f"[main] feed generation failed: {exc}")
+
     if post_errors:
         failed_ids = ", ".join(item_id for item_id, _ in post_errors[:5])
         raise RuntimeError(f"Posting failed for {len(post_errors)} item(s): {failed_ids}")

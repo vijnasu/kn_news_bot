@@ -100,6 +100,26 @@ def recent_unposted(limit: int = 20) -> list[NewsItem]:
     return [NewsItem(**dict(row)) for row in rows]
 
 
+def recent_analysis_items(limit: int = 30) -> list[NewsItem]:
+    """Items that actually went through the LLM analysis pipeline (i.e. have
+    a saved analysis_text), most recent first. This is the feed source for
+    the public RSS export - see feed.py - which exists so a third-party
+    scheduler (ViralDashboard) can pick up analysis posts and publish them to
+    destinations we can't reach directly (e.g. Facebook, when the direct
+    Graph API path is blocked)."""
+    with _conn() as conn:
+        conn.row_factory = sqlite3.Row
+        rows = conn.execute(
+            """SELECT *
+               FROM news_items
+               WHERE analysis_text IS NOT NULL AND analysis_text != ''
+               ORDER BY COALESCE(posted_at, published_at) DESC
+               LIMIT ?""",
+            (max(0, int(limit)),),
+        ).fetchall()
+    return [NewsItem(**dict(row)) for row in rows]
+
+
 def recent_items(limit: int = 10, posted_only: bool = False) -> list[NewsItem]:
     with _conn() as conn:
         conn.row_factory = sqlite3.Row
