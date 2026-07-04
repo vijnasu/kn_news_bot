@@ -1,25 +1,29 @@
-"""Generate original, evergreen Kannada content mapped to classical Indian
-knowledge systems, rotating through specific topics, genres, and safe literary
-style modes.
+"""Generate Kannada content mapped to classical Indian knowledge systems,
+anchored to real news, rotating through genres and safe literary style modes.
 
-Why this exists: the old pipeline (see analyzer.py's English-source analysis
-section) picked a daily-news story and ran it through a "dharmic lens" — useful
-for a fast-news channel, but the brand's own Facebook page
-(vedavidhya.astrology.tantra) needs content that is actually ABOUT Vedic
-Astrology, Tantra, Vedic Science, Ayurveda, Ganita, Tarka, Nyaya, Vedanta,
-Mimamsa, Vyakarana, Smriti, Dharmashastra, Arthashastra, Agama, Itihasa,
-Panchatantra, and classical arts/literature — not current-affairs commentary
-wearing a Sanatan costume.
+Why this exists: analyzer.py's old English-source analysis pipeline picked a
+daily-news story and ran it through a flat "dharmic lens" two-paragraph
+analysis. This module keeps the news-anchoring (one real, unique, unseen
+story per run - see main.py's _run_classical_content) but interprets it
+through the actual named classical Indian systems - Jyotisha, Tantra, Vedic
+Science, Ayurveda, Ganita, Tarka, Nyaya, Vedanta, Mimamsa, Vyakarana, Smriti,
+Dharmashastra, Arthashastra, Agama, Itihasa, Panchatantra, classical
+arts/literature - using a rotating mix of content genres (critique, debate,
+elaboration, story, correlation, guidance, lifestyle, ...) and literary style
+modes, instead of one fixed generic template.
 
-This module is decoupled from the news cycle entirely: it picks a
-(classical system, specific angle, content genre, writing style) combination,
-generates a short English draft with Gemini, and reuses analyzer.py's existing
-translation pipeline (Groq-first, Gemini fallback) to produce the final Kannada
-post — same cost model as before, just a different source of what gets written
-about.
+Live path: generate_post_from_news() picks a compatible (system, genre,
+style) for the given news item, drafts a short English piece with Gemini,
+then reuses analyzer.py's existing translation pipeline (Groq-first, Gemini
+fallback) to produce the final Kannada post.
+
+generate_post() (topic-bank/evergreen mode, decoupled from news entirely) is
+kept in this module as infrastructure but is NOT called from the live
+pipeline - every live post is anchored to a real news story per the actual
+requirement.
 
 Cadence and repeat-avoidance are handled by the caller (main.py) via
-content_state.py, which is passed in here as `recent_history` so the topic,
+content_state.py, which is passed in here as `recent_history` so the system,
 genre, and style rotation does not repeat the same angle back-to-back across
 runs.
 """
@@ -775,13 +779,11 @@ def _build_classical_prompt(
     return system_prompt, user_prompt
 
 
-def _try_gemini_classical(
-    system_name: str,
-    subtopic: str,
-    genre_key: str,
-    style_key: str | None = None,
-) -> tuple[str, str] | None:
-    """Draft a Kannada-ready post with Gemini. Returns (title, body) or None."""
+def _draft_with_gemini(system_prompt: str, user_prompt: str, context_label: str) -> tuple[str, str] | None:
+    """Shared Gemini call + retry + validation for a classical-content draft
+    (evergreen topic-bank mode or news-anchored mode - both build a
+    system/user prompt and want the same retry-on-generic/malformed
+    behavior, so that logic lives here once)."""
     if "gemini" in _DISABLED_PROVIDERS or not config.GEMINI_API_KEY:
         return None
 
@@ -790,7 +792,6 @@ def _try_gemini_classical(
         from google.genai import types
 
         client = genai.Client(api_key=config.GEMINI_API_KEY)
-        system_prompt, user_prompt = _build_classical_prompt(system_name, subtopic, genre_key, style_key)
 
         for attempt in range(2):
             prompt = user_prompt
@@ -798,9 +799,9 @@ def _try_gemini_classical(
                 prompt = (
                     user_prompt
                     + "\n\nYour previous draft was too generic, too vague, too imitative, used banned filler, "
-                    "or did not follow the TITLE:/BODY: format exactly. Rewrite from scratch. Use the selected writing mode "
-                    "only as broad inspiration. Do not copy any named author. Use a sharper opening, one concrete shastric idea, "
-                    "and a memorable closing line."
+                    "drifted off the given subject, or did not follow the TITLE:/BODY: format exactly. Rewrite "
+                    "from scratch, staying strictly on the given subject. Use a sharper opening, one concrete "
+                    "idea, and a memorable closing line."
                 )
 
             resp = client.models.generate_content(
@@ -820,9 +821,9 @@ def _try_gemini_classical(
                 return parsed
 
             print(
-                f"[classical_content] gemini draft (attempt {attempt + 1}) rejected; retrying"
+                f"[classical_content] gemini draft ({context_label}, attempt {attempt + 1}) rejected; retrying"
                 if attempt == 0
-                else "[classical_content] gemini draft still rejected after retry"
+                else f"[classical_content] gemini draft ({context_label}) still rejected after retry"
             )
 
         return None
@@ -834,6 +835,196 @@ def _try_gemini_classical(
         else:
             print(f"[classical_content] Gemini failed ({type(exc).__name__}: {exc})")
         return None
+
+
+def _try_gemini_classical(
+    system_name: str,
+    subtopic: str,
+    genre_key: str,
+    style_key: str | None = None,
+) -> tuple[str, str] | None:
+    """Draft an evergreen (non-news) topic-bank post. Returns (title, body) or None."""
+    system_prompt, user_prompt = _build_classical_prompt(system_name, subtopic, genre_key, style_key)
+    return _draft_with_gemini(system_prompt, user_prompt, context_label=f"{system_name}/{genre_key}")
+
+
+# -----------------------------------------------------------------------------
+# News-anchored mode (the live posting path - see main.py's _run_classical_content)
+# -----------------------------------------------------------------------------
+# Every scheduled post picks ONE real, unique, unseen news story and interprets
+# it through a classical Indian knowledge-system lens using the same
+# genre/style/safety infrastructure as the evergreen topic-bank mode above.
+# The evergreen mode (generate_post) is kept in this module but is not called
+# from the live pipeline - news anchoring is what was actually requested.
+
+SYSTEM_NEWS_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "Arthashastra & Rajaneeti": ("election", "government", "policy", "minister", "budget", "tax", "party", "politic", "scheme", "corruption", "scam", "economy", "trade"),
+    "Nyaya Shastra": ("court", "judge", "verdict", "case", "investigation", "law", "legal", "police", "arrest", "crime"),
+    "Ayurveda": ("health", "hospital", "disease", "medicine", "doctor", "outbreak", "epidemic", "wellness"),
+    "Jyotisha (Vedic Astrology)": ("eclipse", "planet", "astrology", "muhurta", "auspicious", "horoscope"),
+    "Agama & Temple Tradition": ("temple", "festival", "ritual", "pilgrim", "deity", "shrine"),
+    "Vastu, Shilpa & Temple Architecture": ("flood", "rain", "building collapse", "construction", "infrastructure", "disaster", "landslide", "earthquake"),
+    "Smriti & Dharmashastra": ("women", "family", "marriage", "inheritance", "custom", "tradition", "divorce"),
+    "Niti Shastra & Panchatantra": ("business", "startup", "rivalry", "leadership", "strategy", "layoff", "ceo"),
+    "Tarka & Logic": ("debate", "controversy", "misinformation", "fake news", "claim"),
+    "Vyakarana & Sanskrit": ("education", "language", "school", "university", "exam", "student"),
+}
+DEFAULT_NEWS_SYSTEM = "Niti Shastra & Panchatantra"  # broadly applicable social/political-commentary lens
+
+
+def _select_system_for_news(item_title: str, item_summary: str, recent_systems: list[str]) -> str:
+    blob = f"{item_title} {item_summary}".lower()
+    scored = [
+        (sum(1 for kw in keywords if kw in blob), system)
+        for system, keywords in SYSTEM_NEWS_KEYWORDS.items()
+    ]
+    scored = [(score, system) for score, system in scored if score > 0]
+    scored.sort(reverse=True)
+    candidates = [system for _, system in scored] or [DEFAULT_NEWS_SYSTEM]
+    fresh = [s for s in candidates if s not in recent_systems]
+    return (fresh or candidates)[0]
+
+
+def _select_genre_style_for_news(system_name: str, recent_history: list[dict]) -> tuple[str, str]:
+    recent_genres = [r.get("genre") for r in recent_history[-2:]]
+    recent_styles = [r.get("style") for r in recent_history[-3:]]
+
+    genres = [g for g in GENRES if g not in recent_genres] or list(GENRES)
+    genre_key = random.choice(genres)
+
+    compatible_styles = [s for s in STYLE_COMPATIBILITY.get(system_name, list(STYLE_BANK)) if s in STYLE_BANK]
+    style_pool = compatible_styles or list(STYLE_BANK)
+    styles = [s for s in style_pool if s not in recent_styles] or style_pool
+    style_key = random.choice(styles)
+
+    return genre_key, style_key
+
+
+def _build_news_prompt(
+    item_title: str,
+    item_summary: str,
+    item_source: str,
+    system_name: str,
+    genre_key: str,
+    style_key: str,
+) -> tuple[str, str]:
+    """Same brand voice/genre/style/safety infrastructure as
+    _build_classical_prompt, but anchored to one specific real news story
+    instead of a topic-bank angle. Produces an ENGLISH draft for the same
+    reason _build_classical_prompt does (see its docstring) - it is piped
+    through analyzer._translate_to_kannada() afterward."""
+    genre = GENRES[genre_key]
+    style = STYLE_BANK[style_key]
+    style_context = load_style_context()
+
+    system_prompt = (
+        "You are an English-drafting current-affairs interpreter for Vedavidhya, a Sanatana Dharma-rooted "
+        "knowledge brand whose posts are published in Kannada (your English draft will be translated to Kannada "
+        "in a later step - write plainly so translation is straightforward, not idiomatic English that resists translation). "
+        "The audience includes spiritually curious householders, Jyotisha/Tantra/Ayurveda learners, temple-going families, "
+        "Kannada readers who enjoy serious but readable classical knowledge, and people tired of shallow social-media spirituality. "
+        "Write with depth, dignity, and clarity - like a learned traditional teacher reading today's news through a classical lens. "
+        "Important style rule: do not imitate any living writer, copyrighted authorial voice, signature phrasing, or recognizable mannerism of a named author. "
+        f"Selected writing mode: {style['label']}. "
+        f"Style guidance: {style['instructions']} "
+        f"Overall tone: {config.STYLE_TONE}. "
+        "Write in strong English with short, memorable sentences. Use concrete images over abstract preaching. "
+        "Avoid generic spiritual filler, fake Sanskrit, fake citations, miracle claims, and empty nationalism. "
+        f"{CLASSICAL_SAFETY_RULES}"
+        "Additional rule specific to news interpretation: do not add facts beyond the title/summary given below; "
+        "if unsure of a detail, speak in general terms rather than inventing specifics; never fabricate quotes, "
+        "numbers, or outcomes not present in the given news text.\n"
+        f"{style_context}\n"
+        "Keep the output safe for public distribution."
+    )
+
+    user_prompt = (
+        f"{genre['instructions']}\n\n"
+        f"Classical system/lens to interpret this news through: {system_name}\n"
+        f"Writing mode: {style['label']}\n\n"
+        "Real news story to interpret (the ONLY subject of this post - do not write about anything else):\n"
+        f"Title: {item_title}\nSummary: {item_summary}\nSource: {item_source}\n\n"
+        "Output rules:\n"
+        "1) Output exactly 4 short ENGLISH paragraphs, each roughly 35-65 words. This will be translated to Kannada afterward - do not write in Kannada.\n"
+        "2) Paragraph 1: a hook that references the specific real story above, not a generic opening.\n"
+        "3) Paragraph 2: interpret this specific story through the classical system/lens given above.\n"
+        "4) Paragraph 3: practical modern-life connection or implication.\n"
+        "5) Paragraph 4: memorable closing insight or watch-point.\n"
+        "6) No headings, no bullets, no numbering inside the body.\n"
+        "7) Do not mention the genre name, system label, style label, or lens name in the body.\n"
+        "8) Do not add facts beyond the title/summary given above.\n"
+        "9) Stay strictly on this specific news story - do not drift into an unrelated topic or event.\n"
+        "10) Stop after the fourth paragraph.\n\n"
+        "Respond in exactly this format and nothing else:\n"
+        "TITLE: <short punchy English title, max 12 words>\n"
+        "BODY: <paragraph 1>\n\n<paragraph 2>\n\n<paragraph 3>\n\n<paragraph 4>"
+    )
+
+    return system_prompt, user_prompt
+
+
+def _try_gemini_news(
+    item_title: str,
+    item_summary: str,
+    item_source: str,
+    system_name: str,
+    genre_key: str,
+    style_key: str,
+) -> tuple[str, str] | None:
+    system_prompt, user_prompt = _build_news_prompt(item_title, item_summary, item_source, system_name, genre_key, style_key)
+    return _draft_with_gemini(system_prompt, user_prompt, context_label=f"news:{system_name}/{genre_key}")
+
+
+def generate_post_from_news(
+    item_title: str,
+    item_summary: str,
+    item_source: str,
+    recent_history: list[dict] | None = None,
+) -> dict | None:
+    """Generate one classical-content post that interprets a specific real,
+    unique news story through a classical Indian knowledge-system lens. This
+    is the live posting path (see main.py's _run_classical_content) - the
+    caller is responsible for picking one unseen/unique news item per run.
+    Returns None if any stage fails or produces unacceptable output.
+    """
+    if not config.GEMINI_API_KEY:
+        print("[classical_content] no Gemini API key configured; skipping")
+        return None
+
+    recent_history = recent_history or []
+    recent_systems = [r.get("system") for r in recent_history[-3:]]
+    system_name = _select_system_for_news(item_title, item_summary, recent_systems)
+    genre_key, style_key = _select_genre_style_for_news(system_name, recent_history)
+
+    english = _try_gemini_news(item_title, item_summary, item_source, system_name, genre_key, style_key)
+    if not english:
+        print(f"[classical_content] no acceptable english draft for news item (system={system_name} genre={genre_key})")
+        return None
+
+    english_title, english_body = english
+    if len(_normalized_words(english_body)) < 45:
+        print("[classical_content] english draft too short; skipping")
+        return None
+
+    translated = _translate_to_kannada(english_title, english_body)
+    if not translated:
+        print("[classical_content] translation to kannada failed; skipping")
+        return None
+
+    kannada_title, kannada_body = translated
+
+    return {
+        "title": kannada_title,
+        "body": kannada_body,
+        "system": system_name,
+        "subtopic": item_title,
+        "genre": genre_key,
+        "genre_label": GENRES[genre_key]["label"],
+        "style": style_key,
+        "style_label": STYLE_BANK[style_key]["label"],
+        "emoji": CLASSICAL_SYSTEM_EMOJI.get(system_name, "🕉️"),
+        "hashtags": CLASSICAL_HASHTAGS.get(system_name, ["Vedavidhya", "SanatanaDharma"]),
+    }
 
 
 def generate_post(recent_history: list[dict] | None = None) -> dict | None:

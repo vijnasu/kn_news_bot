@@ -168,12 +168,12 @@ SOURCES = [
     {"name": "Asianet Suvarna News", "url": "https://kannada.asianetnews.com/rss", "category": "ಸಾಮಾನ್ಯ"},
 ]
 
-# English-language feeds. NOTE: no longer read by the analysis pipeline -
-# that pipeline (main.py's _run_classical_content) now generates original
-# classical-content posts instead of reacting to daily news (see
-# DEPLOYMENT.md), so these are currently unused dead config, kept only in
-# case a future news-reaction feature wants them back. The plain Kannada
-# headline posts (SOURCES above) are unrelated and never call an LLM.
+# English-language feeds used as the news source for the classical-content
+# pipeline (main.py's _run_classical_content -> classical_content.py's
+# generate_post_from_news): each run picks one real, unique, unseen story
+# from these and interprets it through a classical Indian knowledge-system
+# lens. The plain Kannada headline posts (SOURCES above) are unrelated and
+# never call an LLM.
 ENGLISH_SOURCES = [
     {"name": "The Hindu - Karnataka", "url": "https://www.thehindu.com/news/national/karnataka/feeder/default.rss", "category": "ರಾಜ್ಯ"},
     {"name": "The Hindu - National", "url": "https://www.thehindu.com/news/national/feeder/default.rss", "category": "ರಾಜ್ಯ"},

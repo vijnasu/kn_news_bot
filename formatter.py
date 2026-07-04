@@ -6,6 +6,12 @@ from models import NewsItem
 
 FACEBOOK_TAGS = ["Vedavidhya", "Kannada", "SanatanaDharma", "CurrentAffairs"]
 
+# Fixed ad line appended to every classical-content post (never LLM-generated,
+# so it can never be dropped, mistranslated, or paraphrased away).
+CLASSICAL_CTA_LINE = (
+    "🔮 ಜ್ಯೋತಿಷ್ಯ, ಆಯುರ್ವೇದ, ತಂತ್ರ ಮತ್ತು ವೈದಿಕ ಸಮಾಲೋಚನೆ ಹಾಗೂ ನಿಗೂಢ ವಿದ್ಯೆಗಳ ಕೋರ್ಸ್‌ಗಳಿಗಾಗಿ ಭೇಟಿ ನೀಡಿ: www.vedavidhya.com"
+)
+
 
 def _esc(text: str) -> str:
     """Escape the 3 characters Telegram's HTML parse_mode treats as markup
@@ -42,6 +48,9 @@ def build_analysis_text(item: NewsItem, analysis: str) -> str:
 
 
 def build_facebook_text(item: NewsItem, analysis: str) -> str:
+    # Blank-line separators are real "" list entries and joined
+    # unconditionally - filtering with `if line` (the previous version)
+    # silently drops those "" entries and runs every section together.
     tags = " ".join(f"#{tag}" for tag in FACEBOOK_TAGS)
     lines = [
         item.title.strip(),
@@ -53,7 +62,7 @@ def build_facebook_text(item: NewsItem, analysis: str) -> str:
         "",
         tags,
     ]
-    return "\n".join(line for line in lines if line)
+    return "\n".join(lines)
 
 
 # --- Classical-content rendering -------------------------------------------
@@ -68,12 +77,12 @@ def build_classical_analysis_text(item: NewsItem, body: str, genre_label: str) -
     emoji = CLASSICAL_SYSTEM_EMOJI.get(item.category, "🕉️")
     title_line = f"{emoji} <b>{_esc(item.title)}</b>"
     tag_line = f"{genre_label} | {_esc(item.category)}"
-    lines = [title_line, "", _esc(body.strip()), "", tag_line]
+    lines = [title_line, "", _esc(body.strip()), "", tag_line, "", _esc(CLASSICAL_CTA_LINE)]
     return "\n".join(lines)
 
 
 def build_classical_facebook_text(item: NewsItem, body: str, genre_label: str) -> str:
     hashtags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
     tags_line = " ".join(f"#{tag}" for tag in hashtags)
-    lines = [item.title.strip(), "", body.strip(), "", tags_line]
-    return "\n".join(line for line in lines if line)
+    lines = [item.title.strip(), "", body.strip(), "", CLASSICAL_CTA_LINE, "", tags_line]
+    return "\n".join(lines)

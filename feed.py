@@ -34,6 +34,7 @@ from xml.sax.saxutils import escape as _xml_escape
 
 import config
 from classical_content import CLASSICAL_HASHTAGS
+from formatter import CLASSICAL_CTA_LINE
 from models import NewsItem
 
 FEED_PATH = Path("docs/analysis_feed.xml")
@@ -86,7 +87,7 @@ def _entry_from_item(item: NewsItem) -> FeedEntry:
     # - so hashtags come from the per-system map instead of a fixed list.
     tags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
     tags_line = " ".join(f"#{t}" for t in tags)
-    description = f"{(item.analysis_text or '').strip()}\n\n{tags_line}"
+    description = f"{(item.analysis_text or '').strip()}\n\n{CLASSICAL_CTA_LINE}\n\n{tags_line}"
     return FeedEntry(
         guid=item.id,
         title=item.title,

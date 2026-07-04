@@ -4,7 +4,6 @@ Dharmashastra, Arthashastra, Nyayashastra, Itihasa, Panchatantra, classical
 arts/literature) - see classical_content.py and DEPLOYMENT.md."""
 
 import argparse
-import hashlib
 import time
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -16,6 +15,13 @@ import scrape
 import feed
 import classical_content
 import content_state
+from analyzer import (
+    COSTLY_HINTS,
+    POLICY_HINTS,
+    EXCLUDE_HINTS,
+    SOURCE_EXCLUDE_HINTS,
+    URL_EXCLUDE_HINTS,
+)
 from formatter import build_telegram_text, build_classical_analysis_text, build_classical_facebook_text
 from models import NewsItem
 
@@ -106,23 +112,55 @@ def _print_analysis_preview(item: NewsItem, analysis: str) -> None:
     print("[preview] ----------------------------------------")
 
 
+def _select_news_item(items: list[NewsItem]) -> NewsItem | None:
+    """Pick the single most relevant/unique news story to interpret this run.
+    Reuses the same English-language keyword hints analyzer.py's old
+    news-analysis pipeline used - they're already English strings, so they
+    work unmodified here."""
+
+    def blob(i: NewsItem) -> str:
+        return f"{i.title} {i.summary} {i.category} {i.source}".lower()
+
+    def score(i: NewsItem) -> int:
+        b = blob(i)
+        return sum(1 for h in POLICY_HINTS if h in b) + sum(1 for h in COSTLY_HINTS if h in b)
+
+    candidates = []
+    for i in items:
+        b = blob(i)
+        url_b = (i.link or "").lower()
+        if (
+            any(h in b for h in EXCLUDE_HINTS)
+            or any(h in b for h in SOURCE_EXCLUDE_HINTS)
+            or any(h in url_b for h in URL_EXCLUDE_HINTS)
+        ):
+            continue
+        candidates.append(i)
+    if not candidates:
+        candidates = items
+    if not candidates:
+        return None
+    candidates.sort(key=lambda i: (score(i), _parse_iso(i.published_at)), reverse=True)
+    return candidates[0]
+
+
 def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
-    """Generate and post one original classical-content piece (Vedic
-    Astrology, Tantra, Vedic Science, Dharmashastra, Arthashastra,
-    Nyayashastra, Itihasa, Panchatantra, classical arts/literature) in a
-    rotating genre (critique/debate/elaboration/story/correlation/guidance/
-    lifestyle). Replaces the old news-reaction analysis pipeline entirely -
-    see DEPLOYMENT.md and classical_content.py for the rationale: news-
-    reaction posts on the Vedavidhya page were judged to have "no value";
-    this produces evergreen, system-specific content instead, decoupled from
-    the daily news cycle.
+    """Pick one real, unique, unseen news story and generate/post an original
+    classical-content piece (Vedic Astrology, Tantra, Vedic Science,
+    Dharmashastra, Arthashastra, Nyayashastra, Itihasa, Panchatantra,
+    classical arts/literature) interpreting it, in a rotating genre
+    (critique/debate/elaboration/story/correlation/guidance/lifestyle) and
+    literary style - see classical_content.py's generate_post_from_news for
+    the system/genre/style selection and prompt-building.
 
     Cadence is gated externally, not by cron frequency: content_state.json
     (committed to the repo, same mechanism as the RSS feed - see feed.py)
-    tracks the last post time and recent topic/genre history, so even though
-    this function runs on every ~15-minute cron tick, it only actually
+    tracks the last post time and recent system/genre/style history, so even
+    though this function runs on every ~15-minute cron tick, it only actually
     generates+posts roughly every config.CLASSICAL_CONTENT_MIN_GAP_HOURS
-    hours (default ~2-3 times/day)."""
+    hours (default ~2-3 times/day). Dedup of which news story has already
+    been used is handled by store.exists() on the news item's own id, the
+    same mechanism the plain-headline pipeline above uses."""
     if not config.ENGLISH_ANALYSIS_ENABLED:
         return
     if not dry_run and not preview_analysis and not (_telegram_analysis_enabled() or _facebook_enabled()):
@@ -133,19 +171,25 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
         print("[main] classical content: within min-gap window, skipping this run")
         return
 
-    result = classical_content.generate_post(state.get("recent", []))
+    raw_english = fetch.fetch_english()
+    unseen = [NewsItem(**raw) for raw in raw_english if not store.exists(raw["id"])]
+    print(f"[main] fetched {len(raw_english)} english entries across {len(config.ENGLISH_SOURCES)} sources, {len(unseen)} unseen")
+    chosen = _select_news_item(unseen)
+    if not chosen:
+        print("[main] no unseen news story available for classical content this run")
+        return
+
+    result = classical_content.generate_post_from_news(chosen.title, chosen.summary, chosen.source, state.get("recent", []))
     if not result:
-        print("[main] no acceptable classical content produced this run; skipping")
+        print(f"[main] no acceptable classical content produced for '{chosen.title[:40]}...'; skipping")
         return
 
     now_ist = datetime.now(tz=IST).isoformat()
     fake_item = NewsItem(
-        id=hashlib.sha256(
-            f"{result['system']}|{result['subtopic']}|{result['genre']}|{now_ist}".encode("utf-8")
-        ).hexdigest(),
+        id=chosen.id,
         title=result["title"],
-        summary="",
-        link=config.STYLE_FACEBOOK_URL,
+        summary=chosen.summary,
+        link=chosen.link,
         source=result["system"],
         category=result["system"],
         language="kn",
@@ -178,7 +222,7 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
     )
     print(
         f"[main] posted classical content: system={result['system']} genre={result['genre']} "
-        f"title='{result['title'][:40]}...'"
+        f"news='{chosen.title[:40]}...'"
     )
 
 
