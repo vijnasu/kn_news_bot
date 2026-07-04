@@ -6,26 +6,38 @@ from models import NewsItem
 FACEBOOK_TAGS = ["Vedavidhya", "Kannada", "SanatanaDharma", "CurrentAffairs"]
 
 
+def _esc(text: str) -> str:
+    """Escape the 3 characters Telegram's HTML parse_mode treats as markup
+    (&, <, >) in dynamic content. Must be applied to every piece of RSS/LLM
+    text before it goes into an HTML-mode message, or Telegram's API will
+    either mis-render it or reject the whole message with a 400 'can't
+    parse entities' error. Never apply this to the literal <b>/</b> tags we
+    add ourselves - only to the dynamic strings interpolated around them."""
+    return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def build_telegram_text(item: NewsItem) -> str:
     emoji = config.CATEGORY_EMOJI.get(item.category, config.CATEGORY_EMOJI["default"])
-    lines = [f"{emoji} {item.title}", ""]
+    lines = [f"{emoji} {_esc(item.title)}", ""]
     if item.summary:
-        lines.append(item.summary)
+        lines.append(_esc(item.summary))
         lines.append("")
-    lines.append(f"ಮೂಲ: {item.source} | {item.link}")
+    lines.append(f"ಮೂಲ: {_esc(item.source)} | {_esc(item.link)}")
     return "\n".join(lines)
 
 
 def build_analysis_text(item: NewsItem, analysis: str) -> str:
     emoji = config.CATEGORY_EMOJI.get(item.category, config.CATEGORY_EMOJI["default"])
-    lines = [
-        f"{emoji} {item.title}",
-        "",
-        analysis.strip(),
-        "",
-        f"ಮೂಲ: {item.source} | {item.link}",
-    ]
-    return "\n".join(line for line in lines if line)
+    # Real Telegram bold (HTML parse_mode <b>...</b>), not literal ** markdown
+    # characters, which Telegram's default plain-text mode just prints as-is.
+    # Blank-line separators between title / body / source link are kept as
+    # real empty list entries and joined unconditionally below - the previous
+    # version filtered with `if line`, which silently drops "" entries and
+    # was why title/body/link ran together with no line break.
+    title_line = f"{emoji} <b>{_esc(item.title)}</b>"
+    ref_line = f"ಮೂಲ: {_esc(item.source)} | {_esc(item.link)}"
+    lines = [title_line, "", _esc(analysis.strip()), "", ref_line]
+    return "\n".join(lines)
 
 
 def build_facebook_text(item: NewsItem, analysis: str) -> str:
