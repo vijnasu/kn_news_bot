@@ -727,6 +727,11 @@ def _voice_anchor_block() -> str:
 
 
 def _translation_prompt(title: str, body: str) -> str:
+    # Paragraph count is derived from the actual body instead of hardcoded at
+    # 2, so this same prompt/parser can serve any caller that produces a
+    # different paragraph count (e.g. classical_content.py's 3-paragraph
+    # posts) without duplicating this whole function.
+    para_count = len([p for p in re.split(r"\n\s*\n", (body or "").strip()) if p.strip()]) or 1
     return (
         "Translate the following English news title and analysis into natural, fluent "
         "Kannada with a punchy, decisive register: short confident sentences, plain "
@@ -744,11 +749,11 @@ def _translation_prompt(title: str, body: str) -> str:
         "or hedge claims that were stated plainly in English, and do not editorialize beyond "
         "the source text."
         f"{_voice_anchor_block()}\n"
-        "The body has two paragraphs separated by a blank line - keep that "
-        "same two-paragraph structure with a blank line between them in your Kannada "
-        "translation; do not merge them into one paragraph. Respond in exactly this format "
+        f"The body has {para_count} paragraph(s) separated by blank lines - keep that exact "
+        f"same {para_count}-paragraph structure with a blank line between each in your Kannada "
+        "translation; do not merge or split paragraphs. Respond in exactly this format "
         "and nothing else:\n"
-        "TITLE: <kannada title>\nBODY: <kannada paragraph 1>\n\n<kannada paragraph 2>\n\n"
+        "TITLE: <kannada title>\nBODY: <kannada paragraph 1>\n\n<kannada paragraph 2>...\n\n"
         f"TITLE: {title}\nBODY: {body}"
     )
 

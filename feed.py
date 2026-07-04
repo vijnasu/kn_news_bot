@@ -1,14 +1,14 @@
-"""Build a public RSS feed of analysis posts.
+"""Build a public RSS feed of classical-content posts.
 
 Why this exists: the bot can post straight to Telegram (works fine) but the
 direct Facebook Graph API path (facebook_post.py) is blocked by a Meta-side
 issue (token/permission/app-review - not something fixable from this code).
-ViralDashboard already has the Facebook Page connected on its own, reviewed
-integration, and can auto-publish from any RSS feed URL. So instead of
-posting to Facebook directly, this module renders analysis items as an RSS
-2.0 feed; a GitHub Actions step publishes it to GitHub Pages, and
-ViralDashboard's "RSS Feeds Connect" + Automation polls that URL and posts to
-the Page on our behalf.
+A free RSS-to-social tool (dlvr.it, IFTTT, etc.) already has the Facebook
+Page connected on its own, reviewed integration, and can auto-publish from
+any RSS feed URL. So instead of posting to Facebook directly, this module
+renders classical-content posts as an RSS 2.0 feed; a GitHub Actions step
+publishes it to GitHub Pages, and the RSS-to-social tool polls that URL and
+posts to the Page on our behalf.
 
 Telegram keeps using the direct path (main.py / telegram_post.py) - this feed
 is purely the Facebook leg.
@@ -18,9 +18,9 @@ Important: news.db does NOT persist across scheduled GitHub Actions runs
 items() only ever reflects the current run's own DB. The committed feed XML
 file, on the other hand, DOES persist (it's checked into git). So this
 module reads back whatever is already in the committed feed, merges in
-whatever new analysis item(s) this run produced, dedupes by guid, and keeps
-a rolling window - otherwise every run would blow away the feed history with
-just the 0-1 items its own ephemeral DB happened to contain.
+whatever new item(s) this run produced, dedupes by guid, and keeps a rolling
+window - otherwise every run would blow away the feed history with just the
+0-1 items its own ephemeral DB happened to contain.
 """
 
 from __future__ import annotations
@@ -33,14 +33,17 @@ import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape as _xml_escape
 
 import config
+from classical_content import CLASSICAL_HASHTAGS
 from models import NewsItem
 
 FEED_PATH = Path("docs/analysis_feed.xml")
 MAX_ITEMS = 30
-FEED_TITLE = "Vedavidhya Consultants - Current Affairs Analysis"
+FEED_TITLE = "Vedavidhya Consultants - Classical Wisdom & Culture"
 FEED_LINK = config.STYLE_FACEBOOK_URL or "https://www.vedavidhya.com/"
-FEED_DESCRIPTION = "Kannada current-affairs analysis, Sanatana-rooted, from Vedavidhya Consultants."
-FACEBOOK_TAGS = ["Vedavidhya", "Kannada", "SanatanaDharma", "CurrentAffairs"]
+FEED_DESCRIPTION = (
+    "Kannada content on Vedic Astrology, Tantra, Vedic Science, Dharmashastra, Arthashastra, "
+    "Nyayashastra, Itihasa, Panchatantra, and Indian classical arts, from Vedavidhya Consultants."
+)
 
 
 @dataclass
@@ -78,8 +81,12 @@ def _cdata(text: str) -> str:
 
 def _entry_from_item(item: NewsItem) -> FeedEntry:
     pub_dt = _parse_dt(item.posted_at or item.published_at)
-    tags_line = " ".join(f"#{t}" for t in FACEBOOK_TAGS)
-    description = f"{(item.analysis_text or '').strip()}\n\nಮೂಲ: {item.source}\n\n{tags_line}"
+    # item.category holds the classical system name (e.g. "Jyotisha (Vedic
+    # Astrology)") for these posts - see main.py's classical-content pipeline
+    # - so hashtags come from the per-system map instead of a fixed list.
+    tags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
+    tags_line = " ".join(f"#{t}" for t in tags)
+    description = f"{(item.analysis_text or '').strip()}\n\n{tags_line}"
     return FeedEntry(
         guid=item.id,
         title=item.title,
@@ -116,6 +123,14 @@ def _read_existing_entries(path: Path) -> list[FeedEntry]:
 def _entry_xml(entry: FeedEntry) -> str:
     link = _xml_escape(entry.link)
     guid = _xml_escape(entry.guid)
+    # Duplicate the body into <content:encoded> alongside <description>.
+    # Several RSS-to-social tools (WordPress-feed heritage) prefer
+    # content:encoded as "the full post text" and only fall back to
+    # description for a short excerpt/link-preview - if a tool picks that
+    # branch, description-only would explain a bare-link post with no title/
+    # body/hashtags actually visible, which is exactly the symptom reported.
+    # Shipping both covers either behavior without needing to know which one
+    # a given aggregator uses internally.
     return (
         "    <item>\n"
         f"      <title>{_cdata(entry.title)}</title>\n"
@@ -123,6 +138,7 @@ def _entry_xml(entry: FeedEntry) -> str:
         f'      <guid isPermaLink="false">{guid}</guid>\n'
         f"      <pubDate>{entry.pub_date}</pubDate>\n"
         f"      <description>{_cdata(entry.description)}</description>\n"
+        f"      <content:encoded>{_cdata(entry.description)}</content:encoded>\n"
         "    </item>"
     )
 
@@ -132,7 +148,7 @@ def build_rss_feed(entries: list[FeedEntry]) -> str:
     items_xml = "\n".join(_entry_xml(e) for e in entries)
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0">\n'
+        '<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n'
         "  <channel>\n"
         f"    <title>{_xml_escape(FEED_TITLE)}</title>\n"
         f"    <link>{_xml_escape(FEED_LINK)}</link>\n"

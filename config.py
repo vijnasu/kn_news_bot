@@ -45,6 +45,13 @@ def _env_int(name: str, default: int) -> int:
         return default
 
 
+def _env_float(name: str, default: float) -> float:
+    try:
+        return float(_env(name, str(default)))
+    except ValueError:
+        return default
+
+
 def _env_csv(name: str) -> list[str]:
     return [x.strip() for x in _env(name).split(",") if x.strip()]
 
@@ -79,8 +86,19 @@ MAX_POSTS_PER_SOURCE_PER_RUN = _env_int("KN_NEWS_TOP_PER_SOURCE", 1)
 MAX_AI_ANALYSES_PER_RUN = _env_int("KN_NEWS_MAX_ANALYSES", TOP_POSTS_PER_RUN)
 MAX_ANALYSIS_TOKENS = _env_int("KN_NEWS_MAX_ANALYSIS_TOKENS", 500)
 
+# Master on/off switch for the classical-content pipeline (classical_content.py
+# + main.py's _run_classical_content). Name kept as KN_NEWS_ENGLISH_ANALYSIS
+# for backward compatibility with existing GitHub Actions vars/secrets - it
+# originally gated the old news-reaction analysis pipeline, which this
+# replaced entirely (see DEPLOYMENT.md).
 ENGLISH_ANALYSIS_ENABLED = _env("KN_NEWS_ENGLISH_ANALYSIS", "1") == "1"
 ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "1") == "1"
+# Minimum hours between classical-content posts, enforced via content_state.py
+# (persisted across runs since news.db does not survive scheduled runs).
+# Default 9.0 hours => ~2.6 posts/day, matching the "2-3 posts/day" starting
+# cadence; raise/lower via KN_NEWS_CLASSICAL_MIN_GAP_HOURS once quality is
+# validated and volume should increase.
+CLASSICAL_CONTENT_MIN_GAP_HOURS = _env_float("KN_NEWS_CLASSICAL_MIN_GAP_HOURS", 9.0)
 ALLOW_LIVE_LLM = _env("KN_NEWS_ALLOW_LIVE_LLM", "0") == "1"
 OPENROUTER_API_KEY = _env("OPENROUTER_API_KEY")
 OPENROUTER_MODEL = _env("OPENROUTER_MODEL", "meta-llama/llama-3.1-8b-instruct:free")
@@ -150,12 +168,12 @@ SOURCES = [
     {"name": "Asianet Suvarna News", "url": "https://kannada.asianetnews.com/rss", "category": "ಸಾಮಾನ್ಯ"},
 ]
 
-# English-language feeds used ONLY as the source for the once-per-run
-# Gemini analysis (see analyzer.build_english_analysis). English text tokenizes
-# far more densely than Kannada script for the same information, and we only
-# ever pick a single relevant story per run, so this is the main cost lever
-# for the analysis pipeline. The plain Kannada headline posts above are
-# untouched by this and never call an LLM.
+# English-language feeds. NOTE: no longer read by the analysis pipeline -
+# that pipeline (main.py's _run_classical_content) now generates original
+# classical-content posts instead of reacting to daily news (see
+# DEPLOYMENT.md), so these are currently unused dead config, kept only in
+# case a future news-reaction feature wants them back. The plain Kannada
+# headline posts (SOURCES above) are unrelated and never call an LLM.
 ENGLISH_SOURCES = [
     {"name": "The Hindu - Karnataka", "url": "https://www.thehindu.com/news/national/karnataka/feeder/default.rss", "category": "ರಾಜ್ಯ"},
     {"name": "The Hindu - National", "url": "https://www.thehindu.com/news/national/feeder/default.rss", "category": "ರಾಜ್ಯ"},

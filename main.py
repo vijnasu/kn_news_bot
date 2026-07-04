@@ -1,6 +1,10 @@
-"""Fetch, rank, analyze, and post news to Telegram."""
+"""Fetch and post plain Kannada headlines, and generate/post original
+classical-content pieces (Vedic Astrology, Tantra, Vedic Science,
+Dharmashastra, Arthashastra, Nyayashastra, Itihasa, Panchatantra, classical
+arts/literature) - see classical_content.py and DEPLOYMENT.md."""
 
 import argparse
+import hashlib
 import time
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -10,15 +14,9 @@ import store
 import fetch
 import scrape
 import feed
-from analyzer import (
-    build_english_analysis,
-    COSTLY_HINTS,
-    POLICY_HINTS,
-    EXCLUDE_HINTS,
-    SOURCE_EXCLUDE_HINTS,
-    URL_EXCLUDE_HINTS,
-)
-from formatter import build_telegram_text, build_analysis_text, build_facebook_text
+import classical_content
+import content_state
+from formatter import build_telegram_text, build_classical_analysis_text, build_classical_facebook_text
 from models import NewsItem
 
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -73,14 +71,14 @@ def _post_to_destinations(item: NewsItem) -> dict:
     return results
 
 
-def _post_english_analysis(item: NewsItem, analysis: str) -> dict:
-    """Post the once-per-run English-sourced (then Kannada-translated)
-    analysis to the analysis destinations only - it never goes to the main
-    headline channel, which stays pure Kannada-RSS content."""
+def _post_classical_content(item: NewsItem, body: str, genre_label: str) -> dict:
+    """Post one classical-content piece to the analysis destinations only -
+    it never goes to the main headline channel, which stays pure Kannada-RSS
+    content."""
     results = {"telegram_analysis": [], "facebook": None}
     import telegram_post
 
-    analysis_text = build_analysis_text(item, analysis)
+    analysis_text = build_classical_analysis_text(item, body, genre_label)
     for chat_id in config.TELEGRAM_ANALYSIS_CHANNEL_IDS or []:
         message_id = telegram_post.send_post(
             analysis_text,
@@ -93,7 +91,7 @@ def _post_english_analysis(item: NewsItem, analysis: str) -> dict:
     if _facebook_enabled():
         import facebook_post
 
-        fb_text = build_facebook_text(item, analysis)
+        fb_text = build_classical_facebook_text(item, body, genre_label)
         results["facebook"] = facebook_post.send_post(fb_text, link=item.link)
     return results
 
@@ -108,113 +106,80 @@ def _print_analysis_preview(item: NewsItem, analysis: str) -> None:
     print("[preview] ----------------------------------------")
 
 
-KARNATAKA_HINTS = (
-    "karnataka", "bengaluru", "bangalore", "mysuru", "mysore", "mangaluru",
-    "mangalore", "hubli", "hubballi", "dharwad", "belagavi", "belgaum",
-    "kalaburagi", "gulbarga", "shivamogga", "shimoga", "tumakuru", "tumkur",
-    "udupi", "davangere", "ballari", "bellary", "hassan", "chikkamagaluru",
-    "kodagu", "coorg", "vijayapura", "bijapur", "raichur", "bagalkot",
-    "haveri", "yadgir", "kolar", "chitradurga", "gadag", "ramanagara",
-)
+def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
+    """Generate and post one original classical-content piece (Vedic
+    Astrology, Tantra, Vedic Science, Dharmashastra, Arthashastra,
+    Nyayashastra, Itihasa, Panchatantra, classical arts/literature) in a
+    rotating genre (critique/debate/elaboration/story/correlation/guidance/
+    lifestyle). Replaces the old news-reaction analysis pipeline entirely -
+    see DEPLOYMENT.md and classical_content.py for the rationale: news-
+    reaction posts on the Vedavidhya page were judged to have "no value";
+    this produces evergreen, system-specific content instead, decoupled from
+    the daily news cycle.
 
-
-def _is_karnataka_item(i: NewsItem) -> bool:
-    blob = f"{i.title} {i.summary} {i.category}".lower()
-    source = (i.source or "").lower()
-    return "karnataka" in source or "bengaluru" in source or any(h in blob for h in KARNATAKA_HINTS)
-
-
-def _select_english_item(items: list[NewsItem]) -> NewsItem | None:
-    """Pick the single most relevant English story for this run's analysis.
-    Reuses the same keyword lists the old Kannada should_analyze() used -
-    they're already English strings, so they work unmodified here.
-
-    Karnataka-relevant stories are preferred outright: they're ranked ahead
-    of every non-Karnataka story regardless of keyword score, so the analysis
-    channel favors local news whenever an unseen Karnataka story exists this
-    run, falling back to national/international only when none is available."""
-
-    def blob(i: NewsItem) -> str:
-        return f"{i.title} {i.summary} {i.category} {i.source}".lower()
-
-    def score(i: NewsItem) -> int:
-        b = blob(i)
-        return sum(1 for h in POLICY_HINTS if h in b) + sum(1 for h in COSTLY_HINTS if h in b)
-
-    candidates = []
-    for i in items:
-        b = blob(i)
-        url_b = (i.link or "").lower()
-        if (
-            any(h in b for h in EXCLUDE_HINTS)
-            or any(h in b for h in SOURCE_EXCLUDE_HINTS)
-            or any(h in url_b for h in URL_EXCLUDE_HINTS)
-        ):
-            continue
-        candidates.append(i)
-    if not candidates:
-        candidates = items
-    if not candidates:
-        return None
-    candidates.sort(
-        key=lambda i: (_is_karnataka_item(i), score(i), _parse_iso(i.published_at)),
-        reverse=True,
-    )
-    return candidates[0]
-
-
-def _run_english_analysis(dry_run: bool, preview_analysis: bool) -> None:
-    """Fetch English wire feeds, pick one relevant story, analyze it with
-    Gemini in English, translate the result to Kannada with Groq, and post
-    it once. Replaces the old per-Kannada-item Gemini pipeline as the sole
-    cost driver in this project - see analyzer.py for the rationale."""
+    Cadence is gated externally, not by cron frequency: content_state.json
+    (committed to the repo, same mechanism as the RSS feed - see feed.py)
+    tracks the last post time and recent topic/genre history, so even though
+    this function runs on every ~15-minute cron tick, it only actually
+    generates+posts roughly every config.CLASSICAL_CONTENT_MIN_GAP_HOURS
+    hours (default ~2-3 times/day)."""
     if not config.ENGLISH_ANALYSIS_ENABLED:
         return
     if not dry_run and not preview_analysis and not (_telegram_analysis_enabled() or _facebook_enabled()):
         return
 
-    raw_english = fetch.fetch_english()
-    unseen = [NewsItem(**raw) for raw in raw_english if not store.exists(raw["id"])]
-    print(f"[main] fetched {len(raw_english)} english entries across {len(config.ENGLISH_SOURCES)} sources, {len(unseen)} unseen")
-    chosen = _select_english_item(unseen)
-    if not chosen:
-        print("[main] no unseen english story available for analysis this run")
+    state = content_state.read_state()
+    if not dry_run and not content_state.should_post_now(config.CLASSICAL_CONTENT_MIN_GAP_HOURS, state=state):
+        print("[main] classical content: within min-gap window, skipping this run")
         return
 
-    result = build_english_analysis(chosen)
+    result = classical_content.generate_post(state.get("recent", []))
     if not result:
-        print(f"[main] no acceptable analysis produced for '{chosen.title[:40]}...'; skipping")
+        print("[main] no acceptable classical content produced this run; skipping")
         return
-    kannada_title, kannada_body = result
 
-    translated_item = NewsItem(
-        id=chosen.id,
-        title=kannada_title,
-        summary=chosen.summary,
-        link=chosen.link,
-        source=chosen.source,
-        category=chosen.category,
+    now_ist = datetime.now(tz=IST).isoformat()
+    fake_item = NewsItem(
+        id=hashlib.sha256(
+            f"{result['system']}|{result['subtopic']}|{result['genre']}|{now_ist}".encode("utf-8")
+        ).hexdigest(),
+        title=result["title"],
+        summary="",
+        link=config.STYLE_FACEBOOK_URL,
+        source=result["system"],
+        category=result["system"],
         language="kn",
-        published_at=chosen.published_at,
-        fetched_at=chosen.fetched_at,
-        image_url=chosen.image_url,
+        published_at=now_ist,
+        fetched_at=now_ist,
     )
+    genre_label = classical_content.GENRES[result["genre"]]["label"]
 
     if preview_analysis:
-        _print_analysis_preview(translated_item, kannada_body)
+        _print_analysis_preview(fake_item, result["body"])
 
     if dry_run:
         return
 
-    result = _post_english_analysis(translated_item, kannada_body)
-    sent_count = len(result["telegram_analysis"]) + (1 if result["facebook"] else 0)
+    posted = _post_classical_content(fake_item, result["body"], genre_label)
+    sent_count = len(posted["telegram_analysis"]) + (1 if posted["facebook"] else 0)
     if sent_count == 0:
-        print("[main] english analysis produced but no destination accepted it")
+        print("[main] classical content produced but no destination accepted it")
         return
-    store.insert(translated_item)
-    store.save_analysis(translated_item.id, kannada_body)
-    store.mark_posted(translated_item.id, None, datetime.now(tz=IST).isoformat())
-    print(f"[main] posted english-sourced analysis: '{kannada_title[:40]}...'")
+    store.insert(fake_item)
+    store.save_analysis(fake_item.id, result["body"])
+    store.mark_posted(fake_item.id, None, datetime.now(tz=IST).isoformat())
+    content_state.record_post(
+        result["system"],
+        result["subtopic"],
+        result["genre"],
+        datetime.now(tz=timezone.utc).isoformat(),
+        state=state,
+        style=result["style"],
+    )
+    print(
+        f"[main] posted classical content: system={result['system']} genre={result['genre']} "
+        f"title='{result['title'][:40]}...'"
+    )
 
 
 def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: int = 3):
@@ -261,13 +226,13 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
     posted_count = 0
     post_errors = []
 
-    # Analysis is now a single, separate English-sourced pipeline (see
-    # _run_english_analysis) instead of per-item Kannada Gemini calls, so it
-    # is decoupled from the plain-headline posting loop below.
+    # Classical content is a separate pipeline (see _run_classical_content),
+    # decoupled from the plain-headline posting loop below and from the news
+    # cycle entirely - it generates original content, not news reactions.
     try:
-        _run_english_analysis(dry_run, preview_analysis)
+        _run_classical_content(dry_run, preview_analysis)
     except Exception as exc:
-        print(f"[main] english analysis pipeline failed: {exc}")
+        print(f"[main] classical content pipeline failed: {exc}")
 
     if not dry_run:
         for idx, item in enumerate(post_candidates):
@@ -286,10 +251,11 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
     rows = store.export_jsonl()
     print(f"[main] {len(new_items)} new items stored, {posted_count} posted, {rows} total rows exported")
 
-    # Regenerate the public analysis RSS feed every run (cheap: one DB read +
-    # one file write, no network calls) so it always reflects the latest N
-    # analysis posts. ViralDashboard polls this feed URL and handles the
-    # Facebook leg, since the direct Graph API path is currently blocked.
+    # Regenerate the public classical-content RSS feed every run (cheap: one
+    # DB read + one file write, no network calls) so it always reflects the
+    # latest N posts. A free RSS-to-social tool (dlvr.it/IFTTT/etc.) polls
+    # this feed URL and handles the Facebook leg, since the direct Graph API
+    # path is currently blocked - see DEPLOYMENT.md.
     try:
         analysis_items = store.recent_analysis_items(limit=30)
         feed_path = feed.write_feed(analysis_items)

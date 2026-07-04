@@ -48,14 +48,14 @@ jobs:
       # If you need persistence across scheduled runs, point KN_NEWS_DB and
       # KN_NEWS_JSONL to external storage instead of committing the files back.
 
-      - name: Publish analysis feed to GitHub Pages
+      - name: Publish classical-content feed + rotation state to GitHub Pages
         run: |
-          if [ -n "$(git status --porcelain docs/analysis_feed.xml)" ]; then
+          if [ -n "$(git status --porcelain docs/analysis_feed.xml docs/content_state.json)" ]; then
             git config user.name "kn-news-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add docs/analysis_feed.xml
-            git commit -m "chore: update analysis feed [skip ci]"
+            git add docs/analysis_feed.xml docs/content_state.json
+            git commit -m "chore: update classical-content feed + rotation state [skip ci]"
             git push
           else
-            echo "analysis feed unchanged, nothing to commit"
+            echo "feed/state unchanged, nothing to commit"
           fi

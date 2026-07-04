@@ -1,6 +1,7 @@
 """Render a NewsItem into channel-specific post text."""
 
 import config
+from classical_content import CLASSICAL_HASHTAGS, CLASSICAL_SYSTEM_EMOJI
 from models import NewsItem
 
 FACEBOOK_TAGS = ["Vedavidhya", "Kannada", "SanatanaDharma", "CurrentAffairs"]
@@ -52,4 +53,27 @@ def build_facebook_text(item: NewsItem, analysis: str) -> str:
         "",
         tags,
     ]
+    return "\n".join(line for line in lines if line)
+
+
+# --- Classical-content rendering -------------------------------------------
+#
+# The classical-content pipeline (classical_content.py) doesn't have a news
+# "source" to cite, so these render a system tag + genre label instead of
+# the ಮೂಲ/link footer used above, and pull hashtags from the per-system map
+# instead of the fixed news-analysis FACEBOOK_TAGS list.
+
+
+def build_classical_analysis_text(item: NewsItem, body: str, genre_label: str) -> str:
+    emoji = CLASSICAL_SYSTEM_EMOJI.get(item.category, "🕉️")
+    title_line = f"{emoji} <b>{_esc(item.title)}</b>"
+    tag_line = f"{genre_label} | {_esc(item.category)}"
+    lines = [title_line, "", _esc(body.strip()), "", tag_line]
+    return "\n".join(lines)
+
+
+def build_classical_facebook_text(item: NewsItem, body: str, genre_label: str) -> str:
+    hashtags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
+    tags_line = " ".join(f"#{tag}" for tag in hashtags)
+    lines = [item.title.strip(), "", body.strip(), "", tags_line]
     return "\n".join(line for line in lines if line)
