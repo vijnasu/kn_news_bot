@@ -62,7 +62,7 @@ GROQ_API_KEY = _env("GROQ_API_KEY")
 GROQ_MODEL = _env("GROQ_MODEL", "llama-3.1-8b-instant")
 LLM_PROVIDER_ORDER = [
     x.strip().lower()
-    for x in _env("KN_NEWS_LLM_PROVIDER_ORDER", "gemini,groq,openai").split(",")
+    for x in _env("KN_NEWS_LLM_PROVIDER_ORDER", "gemini").split(",")
     if x.strip()
 ]
 STYLE_BRAND_NAME = _env("KN_NEWS_STYLE_BRAND", "Vedavidhya Consultants")
