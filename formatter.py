@@ -33,11 +33,12 @@ def _hashtags(item: NewsItem) -> str:
 def build_telegram_text(item: NewsItem) -> str:
     emoji = config.CATEGORY_EMOJI.get(item.category, config.CATEGORY_EMOJI["default"])
     lines = [f"{emoji} {item.title}", ""]
-    if item.summary:
+    if item.analysis_text:
+        lines.append(item.analysis_text.strip())
+    elif item.summary:
         lines.append(item.summary)
         lines.append("")
     lines.append(f"ಮೂಲ: {item.source} | {item.link}")
-    lines.append(_hashtags(item))
     return "\n".join(lines)
 
 

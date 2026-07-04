@@ -13,7 +13,7 @@ from models import NewsItem
 from style_corpus import load_style_context
 
 CACHE_PATH = Path("analysis_cache.json")
-ANALYSIS_PROMPT_VERSION = "2026-07-04-v2"
+ANALYSIS_PROMPT_VERSION = "2026-07-04-v3"
 _DISABLED_PROVIDERS: set[str] = set()
 LENSES = [
     "Dharma Shastra",
@@ -166,11 +166,12 @@ def _build_prompt(item: NewsItem, style_context: str) -> tuple[str, str]:
         f"Available lens universe: {', '.join(config.STYLE_TOPICS)}.\n"
         "Output rules:\n"
         "1) 2-3 short Kannada paragraphs, concise and readable.\n"
-        "2) Connect event -> cause -> likely consequence -> dharmic/public-duty implication.\n"
-        "3) Use at least 3 of the selected lenses naturally; do not dump names as a list.\n"
-        "4) Avoid slogans, personal attacks, sectarian hostility, or fear language.\n"
-        "5) Do not add facts beyond provided news text.\n"
-        "6) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
+        "2) Start with a fresh thesis that interprets the event, not a summary.\n"
+        "3) Connect event -> cause -> likely consequence -> dharmic/public-duty implication.\n"
+        "4) Use at least 3 of the selected lenses naturally; do not dump names as a list.\n"
+        "5) Avoid slogans, personal attacks, sectarian hostility, or fear language.\n"
+        "6) Do not add facts beyond provided news text.\n"
+        "7) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
         f"Length budget: <= {config.MAX_ANALYSIS_TOKENS} tokens.\n\n"
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
@@ -178,9 +179,51 @@ def _build_prompt(item: NewsItem, style_context: str) -> tuple[str, str]:
     return system_prompt, user_prompt
 
 
+def _openrouter_headers() -> dict[str, str]:
+    headers = {
+        "HTTP-Referer": config.OPENROUTER_REFERER,
+        "X-OpenRouter-Title": config.OPENROUTER_TITLE,
+    }
+    return {key: value for key, value in headers.items() if value}
+
+
 def _try_openai(item: NewsItem, style_context: str) -> str | None:
     """Attempt analysis via OpenAI responses API; return None on any failure."""
     if "openai" in _DISABLED_PROVIDERS:
+        return None
+
+
+def _try_openrouter(item: NewsItem, style_context: str) -> str | None:
+    """Attempt analysis via OpenRouter (free model compatible with OpenAI SDK)."""
+    if "openrouter" in _DISABLED_PROVIDERS:
+        return None
+    if not config.OPENROUTER_API_KEY:
+        return None
+    try:
+        from openai import OpenAI
+
+        client = OpenAI(
+            api_key=config.OPENROUTER_API_KEY,
+            base_url="https://openrouter.ai/api/v1",
+        )
+        system_prompt, user_prompt = _build_prompt(item, style_context)
+        resp = client.chat.completions.create(
+            model=config.OPENROUTER_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=config.MAX_ANALYSIS_TOKENS,
+            extra_headers=_openrouter_headers(),
+        )
+        text = (resp.choices[0].message.content or "") if resp.choices else ""
+        return _trim_analysis(text) or None
+    except Exception as exc:
+        if _is_quota_error(exc):
+            _DISABLED_PROVIDERS.add("openrouter")
+            print("[analyzer] OpenRouter quota exhausted; disabled for this run")
+        else:
+            print(f"[analyzer] OpenRouter failed ({type(exc).__name__}: {exc}); trying next tier")
         return None
     if not config.OPENAI_API_KEY:
         return None
@@ -272,6 +315,8 @@ def _try_groq(item: NewsItem, style_context: str) -> str | None:
 
 
 def _try_provider(name: str, item: NewsItem, style_context: str) -> str | None:
+    if name == "openrouter":
+        return _try_openrouter(item, style_context)
     if name == "openai":
         return _try_openai(item, style_context)
     if name == "gemini":
@@ -296,6 +341,8 @@ def build_analysis(item: NewsItem) -> str:
 
     style_context = load_style_context()
     provider_order = config.LLM_PROVIDER_ORDER or ["groq", "openai", "gemini"]
+    if "openrouter" not in provider_order:
+        provider_order = ["openrouter", *provider_order]
     text = None
     for provider in provider_order:
         text = _try_provider(provider, item, style_context)

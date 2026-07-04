@@ -46,10 +46,14 @@ POST_DELAY_SECONDS = 4
 SUMMARY_MAX_CHARS = 320
 TOP_POSTS_PER_RUN = _env_int("KN_NEWS_TOP_POSTS", 4)
 MAX_POSTS_PER_SOURCE_PER_RUN = _env_int("KN_NEWS_TOP_PER_SOURCE", 1)
-MAX_AI_ANALYSES_PER_RUN = _env_int("KN_NEWS_MAX_ANALYSES", 2)
+MAX_AI_ANALYSES_PER_RUN = _env_int("KN_NEWS_MAX_ANALYSES", TOP_POSTS_PER_RUN)
 MAX_ANALYSIS_TOKENS = _env_int("KN_NEWS_MAX_ANALYSIS_TOKENS", 140)
 
 ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "1") == "1"
+OPENROUTER_API_KEY = _env("OPENROUTER_API_KEY")
+OPENROUTER_MODEL = _env("OPENROUTER_MODEL", "meta-llama/llama-3.1-8b-instruct:free")
+OPENROUTER_REFERER = _env("OPENROUTER_REFERER", "https://github.com/vijnasu/kn_news_bot")
+OPENROUTER_TITLE = _env("OPENROUTER_TITLE", "kn_news_bot")
 OPENAI_API_KEY = _env("OPENAI_API_KEY")
 OPENAI_MODEL = _env("OPENAI_MODEL", "gpt-4o-mini")
 GEMINI_API_KEY = _env("GEMINI_API_KEY")
@@ -58,7 +62,7 @@ GROQ_API_KEY = _env("GROQ_API_KEY")
 GROQ_MODEL = _env("GROQ_MODEL", "llama-3.1-8b-instant")
 LLM_PROVIDER_ORDER = [
     x.strip().lower()
-    for x in _env("KN_NEWS_LLM_PROVIDER_ORDER", "groq,openai,gemini").split(",")
+    for x in _env("KN_NEWS_LLM_PROVIDER_ORDER", "openrouter,groq,openai,gemini").split(",")
     if x.strip()
 ]
 STYLE_BRAND_NAME = _env("KN_NEWS_STYLE_BRAND", "Vedavidhya Consultants")

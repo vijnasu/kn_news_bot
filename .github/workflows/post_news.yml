@@ -30,6 +30,9 @@ jobs:
           TELEGRAM_ANALYSIS_CHANNEL_IDS: ${{ secrets.TELEGRAM_ANALYSIS_CHANNEL_IDS }}
           TELEGRAM_LLM_CHANNEL_IDS: ${{ secrets.TELEGRAM_LLM_CHANNEL_IDS }}
           KN_NEWS_ENABLE_LLM: ${{ secrets.KN_NEWS_ENABLE_LLM }}
+          KN_NEWS_LLM_PROVIDER_ORDER: ${{ secrets.KN_NEWS_LLM_PROVIDER_ORDER }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
