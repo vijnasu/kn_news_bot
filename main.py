@@ -190,7 +190,12 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
         title=result["title"],
         summary=chosen.summary,
         link=chosen.link,
-        source=result["system"],
+        # source = the real news outlet (e.g. "The Hindu - Karnataka"), so the
+        # published post can cite where the story came from; category = the
+        # classical system name, used by formatter.py/feed.py for emoji and
+        # hashtag lookups. Previously both were set to the system name, which
+        # left no way to render the actual source reference line.
+        source=chosen.source,
         category=result["system"],
         language="kn",
         published_at=now_ist,

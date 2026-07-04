@@ -77,12 +77,22 @@ def build_classical_analysis_text(item: NewsItem, body: str, genre_label: str) -
     emoji = CLASSICAL_SYSTEM_EMOJI.get(item.category, "🕉️")
     title_line = f"{emoji} <b>{_esc(item.title)}</b>"
     tag_line = f"{genre_label} | {_esc(item.category)}"
-    lines = [title_line, "", _esc(body.strip()), "", tag_line, "", _esc(CLASSICAL_CTA_LINE)]
+    lines = [title_line, "", _esc(body.strip()), "", tag_line]
+    # The live pipeline anchors every post to one real news story (see
+    # main.py's _run_classical_content) and sets item.source/item.link to
+    # that story's outlet/URL - cite it so the post has a real reference,
+    # not just the static course-promo CTA line below.
+    if item.link:
+        lines.append(f"ಮೂಲ: {_esc(item.source)} | {_esc(item.link)}")
+    lines += ["", _esc(CLASSICAL_CTA_LINE)]
     return "\n".join(lines)
 
 
 def build_classical_facebook_text(item: NewsItem, body: str, genre_label: str) -> str:
     hashtags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
     tags_line = " ".join(f"#{tag}" for tag in hashtags)
-    lines = [item.title.strip(), "", body.strip(), "", CLASSICAL_CTA_LINE, "", tags_line]
+    lines = [item.title.strip(), "", body.strip()]
+    if item.link:
+        lines += ["", f"ಮೂಲ: {item.source} | {item.link}"]
+    lines += ["", CLASSICAL_CTA_LINE, "", tags_line]
     return "\n".join(lines)

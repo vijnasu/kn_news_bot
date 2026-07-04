@@ -31,6 +31,7 @@ runs.
 from __future__ import annotations
 
 import random
+import re
 
 import config
 from analyzer import (
@@ -636,6 +637,10 @@ CLASSICAL_HASHTAGS: dict[str, list[str]] = {
 
 CLASSICAL_SAFETY_RULES = (
     "Absolute rules:\n"
+    "- Never use markdown formatting of any kind - no **bold**, no *italic*/*emphasis*, no _underline_, no "
+    "backticks, no # headings, no bullet lists. Telegram and Facebook do not render markdown here; asterisks "
+    "and underscores would show up as literal punctuation in the published post. Write plain sentences only, "
+    "with no special characters used for emphasis.\n"
     "- Never invent verse numbers, chapter numbers, exact Sanskrit quotations, guru-parampara claims, or textual references.\n"
     "- Never invent fake research studies, fake archaeology, fake NASA claims, fake quantum claims, or fake scientific validation.\n"
     "- Do not claim that Ayurveda replaces emergency medicine, surgery, insulin, psychiatric care, or professional diagnosis.\n"
@@ -660,6 +665,26 @@ POST_ARCHETYPE = {
     "closing": "End with a sharp, memorable Kannada line.",
     "avoid": "No generic devotion quotes, no fake Sanskrit, no empty nationalism, no miracle claims.",
 }
+
+
+def _strip_markdown_emphasis(text: str) -> str:
+    """Remove markdown emphasis/heading markers that sometimes survive the
+    English draft + translation pipeline despite the prompt rule against
+    them. Telegram's HTML parse_mode and Facebook's plain-text posts do not
+    interpret markdown (**bold**, *italic*, _underline_, # heading) - they
+    render the literal asterisk/underscore/hash characters, which is exactly
+    what showed up in a published post (e.g. "*ಹೇತು*", "*ಸಾಧ್ಯ*"). Prompting
+    against this helps but LLM output doesn't reliably comply, especially
+    across a translation hop, so this runs unconditionally as the actual
+    safety net before anything gets posted."""
+    if not text:
+        return text
+    cleaned = re.sub(r"\*\*(.+?)\*\*", r"\1", text)  # **bold** -> bold
+    cleaned = re.sub(r"(?<!\w)\*(\S(?:[^*\n]*\S)?)\*(?!\w)", r"\1", cleaned)  # *emphasis* -> emphasis
+    cleaned = cleaned.replace("*", "")  # any stray leftover asterisks
+    cleaned = re.sub(r"(?<!\w)_(\S(?:[^_\n]*\S)?)_(?!\w)", r"\1", cleaned)  # _emphasis_ -> emphasis
+    cleaned = re.sub(r"^\s{0,3}#{1,6}\s*", "", cleaned, flags=re.MULTILINE)  # markdown headings
+    return cleaned
 
 
 # -----------------------------------------------------------------------------
@@ -770,7 +795,9 @@ def _build_classical_prompt(
         "8) Do not imitate any named writer directly.\n"
         "9) Do not add facts you are not confident are accurate; when unsure, speak in general terms rather than invented specifics.\n"
         "10) Stay strictly on the classical system and angle given above - do not drift into an unrelated current-events story.\n"
-        "11) Stop after the fourth paragraph.\n\n"
+        "11) Stop after the fourth paragraph.\n"
+        "12) No asterisks, underscores, backticks, or any markdown symbols anywhere in the title or body - plain "
+        "text only, since the destination does not render markdown.\n\n"
         "Respond in exactly this format and nothing else:\n"
         "TITLE: <short punchy English title, max 12 words>\n"
         "BODY: <paragraph 1>\n\n<paragraph 2>\n\n<paragraph 3>\n\n<paragraph 4>"
@@ -954,7 +981,9 @@ def _build_news_prompt(
         "7) Do not mention the genre name, system label, style label, or lens name in the body.\n"
         "8) Do not add facts beyond the title/summary given above.\n"
         "9) Stay strictly on this specific news story - do not drift into an unrelated topic or event.\n"
-        "10) Stop after the fourth paragraph.\n\n"
+        "10) Stop after the fourth paragraph.\n"
+        "11) No asterisks, underscores, backticks, or any markdown symbols anywhere in the title or body - plain "
+        "text only, since the destination does not render markdown.\n\n"
         "Respond in exactly this format and nothing else:\n"
         "TITLE: <short punchy English title, max 12 words>\n"
         "BODY: <paragraph 1>\n\n<paragraph 2>\n\n<paragraph 3>\n\n<paragraph 4>"
@@ -1012,6 +1041,8 @@ def generate_post_from_news(
         return None
 
     kannada_title, kannada_body = translated
+    kannada_title = _strip_markdown_emphasis(kannada_title)
+    kannada_body = _strip_markdown_emphasis(kannada_body)
 
     return {
         "title": kannada_title,
@@ -1060,6 +1091,8 @@ def generate_post(recent_history: list[dict] | None = None) -> dict | None:
         return None
 
     kannada_title, kannada_body = translated
+    kannada_title = _strip_markdown_emphasis(kannada_title)
+    kannada_body = _strip_markdown_emphasis(kannada_body)
 
     return {
         "title": kannada_title,
