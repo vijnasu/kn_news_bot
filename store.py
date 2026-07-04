@@ -100,6 +100,29 @@ def recent_unposted(limit: int = 20) -> list[NewsItem]:
     return [NewsItem(**dict(row)) for row in rows]
 
 
+def recent_items(limit: int = 10, posted_only: bool = False) -> list[NewsItem]:
+    with _conn() as conn:
+        conn.row_factory = sqlite3.Row
+        if posted_only:
+            rows = conn.execute(
+                """SELECT *
+                   FROM news_items
+                   WHERE posted_at IS NOT NULL
+                   ORDER BY published_at DESC
+                   LIMIT ?""",
+                (max(0, int(limit)),),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                """SELECT *
+                   FROM news_items
+                   ORDER BY published_at DESC
+                   LIMIT ?""",
+                (max(0, int(limit)),),
+            ).fetchall()
+    return [NewsItem(**dict(row)) for row in rows]
+
+
 def export_jsonl(path: str = None):
     """Dump the full table to JSON Lines for analytics tools (pandas.read_json(path, lines=True))."""
     path = path or config.JSONL_EXPORT_PATH

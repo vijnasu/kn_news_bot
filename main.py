@@ -134,6 +134,7 @@ def run(dry_run: bool = False):
     analysis_pool = post_candidates if (_telegram_analysis_enabled() or _facebook_enabled()) else [item for item in post_candidates if should_analyze(item)]
     analysis_candidates = analysis_pool[:effective_max_analyses]
     analysis_ids = {item.id for item in analysis_candidates}
+    recent_context = store.recent_items(limit=max(8, len(post_candidates) * 2), posted_only=False)
     print(
         f"[main] selected {len(post_candidates)} post candidates, {len(analysis_candidates)} with analysis "
         f"(new={len(new_items)})"
@@ -144,7 +145,8 @@ def run(dry_run: bool = False):
     if not dry_run:
         for idx, item in enumerate(post_candidates):
             try:
-                analysis = build_analysis(item) if item.id in analysis_ids else None
+                context_pool = [ctx for ctx in recent_context if ctx.id != item.id]
+                analysis = build_analysis(item, context_pool) if item.id in analysis_ids else None
                 if analysis:
                     item.analysis_text = analysis
                     store.save_analysis(item.id, analysis)
