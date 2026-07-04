@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-04T15:52:21.040656+00:00",
+  "last_posted_at": "2026-07-04T19:33:16.276868+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -14,6 +14,13 @@
       "genre": "story",
       "style": "modern_explainer",
       "posted_at": "2026-07-04T15:52:21.040656+00:00"
+    },
+    {
+      "system": "Arthashastra & Rajaneeti",
+      "subtopic": "Maharashtra TET scam: Three more persons arrested",
+      "genre": "deep_explainer",
+      "style": "grand_puranic",
+      "posted_at": "2026-07-04T19:33:16.276868+00:00"
     }
   ]
 }
