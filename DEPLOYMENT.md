@@ -30,3 +30,5 @@ If `TELEGRAM_ANALYSIS_BOT_TOKEN` is unset, the bot falls back to `TELEGRAM_BOT_T
 
 Normal scheduled runs publish at most `KN_NEWS_MAX_ANALYSES` LLM-written article posts to the analysis channel.
 The style corpus is cached in `style_corpus.json`; set `KN_NEWS_REFRESH_STYLE=1` only when you want GitHub Actions to refresh it from the configured Vedavidhya URLs.
+The generated `news.db` and `news_export.jsonl` files are runtime artifacts and should stay out of git.
+If you need state across GitHub Actions runs, store the SQLite DB in external persistent storage and point `KN_NEWS_DB` / `KN_NEWS_JSONL` there.

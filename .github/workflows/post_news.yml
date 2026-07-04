@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}       # lets you trigger a run manually from the Actions tab
 
 permissions:
-  contents: write            # needed so the workflow can commit news.db / news_export.jsonl back
+  contents: read
 
 jobs:
   run-bot:
@@ -38,15 +38,6 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python main.py
 
-      # Persist dedup state (news.db) and the analytics export back to the repo.
-      # This also counts as repo activity, which keeps GitHub from auto-disabling
-      # the schedule after 60 days of inactivity.
-      - name: Commit updated state
-        run: |
-          BRANCH="${GITHUB_REF_NAME}"
-          git config user.name "kn-news-bot"
-          git config user.email "kn-news-bot@users.noreply.github.com"
-          git pull --rebase --autostash origin "${BRANCH}"
-          git add news.db news_export.jsonl
-          git diff --quiet --cached || git commit -m "chore: update news state [skip ci]"
-          git push origin "HEAD:${BRANCH}"
+      # Runtime state and exports are intentionally kept out of git.
+      # If you need persistence across scheduled runs, point KN_NEWS_DB and
+      # KN_NEWS_JSONL to external storage instead of committing the files back.

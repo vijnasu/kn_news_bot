@@ -1,3 +1,5 @@
 .env
+news.db
+news_export.jsonl
 *.pyc
 *.venv .venv
