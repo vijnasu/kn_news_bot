@@ -110,7 +110,7 @@ def _raw_body(entry) -> str:
     return ""
 
 
-def fetch_source(source: dict) -> list:
+def fetch_source(source: dict, language: str = "kn") -> list:
     """Returns a list of raw dicts (not yet a NewsItem) for one source."""
     parsed = feedparser.parse(source["url"])
     items = []
@@ -131,7 +131,7 @@ def fetch_source(source: dict) -> list:
                 "link": link,
                 "source": source["name"],
                 "category": source.get("category", "ಸಾಮಾನ್ಯ"),
-                "language": "kn",
+                "language": language,
                 "published_at": _parse_date(entry),
                 "fetched_at": datetime.now(tz=IST).isoformat(),
                 "image_url": _extract_image(entry),
@@ -146,5 +146,16 @@ def fetch_all() -> list:
         try:
             all_items.extend(fetch_source(source))
         except Exception as exc:  # keep going even if one feed is down
+            print(f"[fetch] {source['name']} failed: {exc}")
+    return all_items
+
+
+def fetch_english() -> list:
+    """Fetch English-language feeds used only as analysis input (see config.ENGLISH_SOURCES)."""
+    all_items = []
+    for source in config.ENGLISH_SOURCES:
+        try:
+            all_items.extend(fetch_source(source, language="en"))
+        except Exception as exc:
             print(f"[fetch] {source['name']} failed: {exc}")
     return all_items

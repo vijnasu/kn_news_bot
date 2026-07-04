@@ -13,7 +13,7 @@ from models import NewsItem
 from style_corpus import load_style_context
 
 CACHE_PATH = Path("analysis_cache.json")
-ANALYSIS_PROMPT_VERSION = "2026-07-04-v5"
+ANALYSIS_PROMPT_VERSION = "2026-07-04-v12"
 _DISABLED_PROVIDERS: set[str] = set()
 
 LENSES = [
@@ -38,6 +38,35 @@ LENSES = [
 ]
 COSTLY_HINTS = ("election", "policy", "tax", "budget", "court", "government", "modi", "bengaluru", "karnataka")
 CULTURE_HINTS = ("temple", "dharma", "ved", "yoga", "astrology", "graha", "panchanga", "tantra", "sanatana")
+CURRENT_AFFAIRS_CATEGORIES = {"ರಾಜ್ಯ", "ಬೆಂಗಳೂರು", "ಕರಾವಳಿ", "ಅಂತಾರಾಷ್ಟ್ರೀಯ", "ಅಪರಾಧ", "ಹಣಕಾಸು", "ರಾಜಕೀಯ"}
+EXCLUDE_HINTS = ("ಧಾರಾವಾಹಿ", "ಚಿತ್ರ", "ಸಿನಿಮಾ", "ಮನರಂಜನೆ", "ಕ್ರೀಡೆ", "sports", "serial", "movie", "film")
+SOURCE_EXCLUDE_HINTS = ("ಮನರಂಜನೆ", "entertainment", "sports", "sport", "cinema", "movie", "film")
+URL_EXCLUDE_HINTS = ("/entertainment/", "/sports/", "/sport/", "/movies/", "/movie/", "/film/", "/television/")
+POLICY_HINTS = (
+    "police",
+    "court",
+    "government",
+    "minister",
+    "budget",
+    "tax",
+    "case",
+    "investigation",
+    "inquiry",
+    "ed ",
+    "nhrc",
+    "alert",
+    "order",
+    "scheme",
+    "scam",
+    "donation",
+    "rescue",
+    "accident",
+    "flood",
+    "rain",
+    "strike",
+    "license",
+    "corruption",
+)
 
 
 def _select_lenses(item: NewsItem, count: int = 5) -> list[str]:
@@ -73,9 +102,9 @@ def _deterministic_analysis(item: NewsItem) -> str:
     lens = ", ".join(_select_lenses(item, count=4))
     return textwrap.dedent(
         f"""
-        ಈ ಬೆಳವಣಿಗೆ ತಕ್ಷಣದ ಸುದ್ದಿಗಿಂತ ದೊಡ್ಡ ಪ್ರವೃತ್ತಿಯ ಒಂದು ಸೂಚನೆ.
-        {lens} ಪರಿಪ್ರೇಕ್ಷ್ಯದಲ್ಲಿ ನೋಡಿದರೆ, ಇಲ್ಲಿ ಮುಖ್ಯ ಪ್ರಶ್ನೆ ಏನು ನಡೆದಿತು ಎಂಬುದಕ್ಕಿಂತ ಏಕೆ ನಡೆಯಿತು ಮತ್ತು ಮುಂದೇನು ಆಗಬಹುದು ಎಂಬುದು.
-        ಕಾರಣ, ಪರಿಣಾಮ, ಹಾಗೂ ಸಾರ್ವಜನಿಕ ಹೊಣೆಗಾರಿಕೆ ಒಂದೇ ಚೌಕಟ್ಟಿನಲ್ಲಿ ಓದಿದಾಗ ಮಾತ್ರ ವಿಷಯದ ನಿಜವಾದ ತೂಕ ಕಾಣುತ್ತದೆ.
+        ಈ ಸುದ್ದಿಯ ಮುಖ್ಯ ಅರ್ಥ: ಇದು {item.category or 'ಸಾರ್ವಜನಿಕ'} ಕ್ಷೇತ್ರದಲ್ಲಿ ತಕ್ಷಣದ ಬೆಳವಣಿಗೆ ಮಾತ್ರವಲ್ಲ, ಮುಂದಿನ ನಿರ್ಧಾರಗಳು ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ರೂಪಿಸುವ ಘಟನೆ.
+        {item.source} ವರದಿಯ ಪ್ರಕಾರ ಬಂದಿರುವ ಈ ವಿಷಯವನ್ನು {lens} ಚೌಕಟ್ಟಿನಲ್ಲಿ ನೋಡಿದಾಗ, ಕಾರಣ, ಪರಿಣಾಮ, ಮತ್ತು ಸಾರ್ವಜನಿಕ ಹೊಣೆಗಾರಿಕೆಯ ಸಂಬಂಧ ಸ್ಪಷ್ಟವಾಗುತ್ತದೆ.
+        ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಯಾವ ಪಾಲುದಾರರು ಲಾಭಪಡೆಯುತ್ತಾರೆ, ಯಾರ ಮೇಲೆ ಹೊಣೆ ಬರುತ್ತದೆ, ಮತ್ತು ಯಾವ ರೀತಿಯ ಪ್ರತಿಕ್ರಿಯೆ ಸಾಧ್ಯ ಎಂಬುದೇ ಗಮನಿಸಬೇಕಾದ ಪ್ರಶ್ನೆ.
         """
     ).strip()
 
@@ -133,12 +162,23 @@ def _is_quota_error(exc: Exception) -> bool:
 
 
 def should_analyze(item: NewsItem) -> bool:
-    blob = f"{item.title} {item.summary} {item.category}".lower()
-    return any(h in blob for h in COSTLY_HINTS) or any(h in blob for h in CULTURE_HINTS)
+    blob = f"{item.title} {item.summary} {item.category} {item.source}".lower()
+    url_blob = (item.link or "").lower()
+    if any(h in blob for h in EXCLUDE_HINTS) or any(h in blob for h in SOURCE_EXCLUDE_HINTS) or any(h in url_blob for h in URL_EXCLUDE_HINTS):
+        if not any(h in blob for h in POLICY_HINTS):
+            return False
+        return False
+    if item.category in CURRENT_AFFAIRS_CATEGORIES:
+        return True
+    return any(h in blob for h in POLICY_HINTS) or any(h in blob for h in COSTLY_HINTS) or any(h in blob for h in CULTURE_HINTS)
 
 
 def _normalized_words(text: str) -> set[str]:
-    cleaned = re.sub(r"[^\w\s]", " ", (text or "").lower(), flags=re.UNICODE)
+    # \w alone does not include Kannada vowel-sign/virama combining marks
+    # (Unicode category Mn), so a plain [^\w\s] strip shreds every
+    # conjunct/matra-bearing Kannada word into single-letter fragments and
+    # massively undercounts words. Explicitly keep the whole Kannada block.
+    cleaned = re.sub(r"[^\w\sಀ-೿]", " ", (text or "").lower(), flags=re.UNICODE)
     return {w for w in cleaned.split() if len(w) > 2}
 
 
@@ -176,7 +216,11 @@ def _recent_context_items(item: NewsItem, recent_items: list[NewsItem] | None) -
         ranked.append((score, candidate))
 
     ranked.sort(key=lambda entry: (entry[0], entry[1].published_at), reverse=True)
-    return [candidate for _, candidate in ranked[:5]]
+    # Only keep items with real topical overlap (shared category/source plus
+    # actual shared words). Feeding in unrelated stories makes the model
+    # invent fake connections between them instead of writing about the item.
+    relevant = [(score, candidate) for score, candidate in ranked if score >= 4]
+    return [candidate for _, candidate in relevant[:3]]
 
 
 def _context_block(context_items: list[NewsItem]) -> str:
@@ -207,7 +251,7 @@ def _looks_like_boilerplate(text: str) -> bool:
     if not text:
         return True
     matches = sum(1 for pattern in _BOILERPLATE_PATTERNS if re.search(pattern, text))
-    return matches >= 1 or len(_normalized_words(text)) < 35
+    return matches >= 1 or len(_normalized_words(text)) < 20
 
 
 def _build_prompt(item: NewsItem, style_context: str, context_items: list[NewsItem]) -> tuple[str, str]:
@@ -222,27 +266,34 @@ def _build_prompt(item: NewsItem, style_context: str, context_items: list[NewsIt
         "Never fabricate facts; when uncertain, state limits. "
         "Keep the output safe for public distribution and avoid defamation, sensationalism, or instructions for wrongdoing."
     )
+    has_context = bool(context_items)
     user_prompt = (
         f"Tone: {config.STYLE_TONE}.\n"
-        "Task: Write Kannada analysis that synthesizes this story with the supplied recent timeline context.\n"
-        "Use this structure: 1) mood read, 2) motive map, 3) pattern-fit across timelines, 4) forecast or watch-point.\n"
-        f"Primary lens blend for this item: {lens_line}.\n"
-        f"Available lens universe: {', '.join(config.STYLE_TOPICS)}.\n"
+        "Task: Write a Kannada analysis of ONLY the current item below. It must be entirely about "
+        "this one story — not a report, not a digest, not a list of other news.\n"
+        f"Internal lens for interpretation: {lens_line}. Do not mention lens/framework names in the final text.\n"
         "Output rules:\n"
-        "1) Output exactly 2 short Kannada paragraphs, no headings, no labels, no bold text, no bullet points.\n"
-        "2) Paragraph 1 must explain what the event means now, with one concrete reason from the current item.\n"
-        "3) Paragraph 2 must connect this item with the recent timeline context only if there is a real evidentiary thread; otherwise say the link is tentative.\n"
-        "4) Use at least 3 of the selected lenses naturally inside the prose; do not list lens names.\n"
-        "5) End with one short forecast or watch-point sentence, still inside paragraph 2.\n"
-        "6) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
-        "7) Do not add facts beyond provided news text and the context block.\n"
-        "8) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
-        "9) Do not mention any source-brand, author name, or template label.\n"
-        "10) If you cannot write a strong synthesis, give a shorter factual interpretation rather than generic commentary.\n"
+        "1) Output exactly 2 short Kannada paragraphs (roughly 40-70 words each), no headings, no labels, no bold text, no bullet points, no lists.\n"
+        "2) Paragraph 1 must state one concrete fact from the current item and what it changes or reveals now.\n"
+        "3) Paragraph 2 must give interpretation/implication of THIS item and end with one short forecast or watch-point sentence.\n"
+        + (
+            "4) The 'recent timeline context' below is background only, to help you judge whether this item fits a pattern. "
+            "Only mention it if it shares the same real people, place, or exact issue as the current item. "
+            "Never list, summarize, or describe the context items' own content — that turns the analysis into a digest, which is forbidden. "
+            "If nothing in the context is genuinely and specifically connected, ignore the context completely and write only about the current item.\n"
+            if has_context
+            else "4) No timeline context was supplied; write only about the current item.\n"
+        )
+        + "5) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
+        "6) Do not add facts beyond the current item's title and summary.\n"
+        "7) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
+        "8) Do not mention any source-brand, author name, or template label.\n"
+        "9) Do not use generic filler like 'big trend', 'thesis', 'mood read', or 'motive map'.\n"
+        "10) Stop after the forecast sentence. Do not add a third paragraph or trail off.\n"
         f"Length budget: <= {config.MAX_ANALYSIS_TOKENS} tokens.\n\n"
         f"Style grounding:\n{style_context}\n\n"
-        f"Current item:\nTitle: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n\n"
-        f"Recent timeline context:\n{_context_block(context_items)}\n"
+        f"Current item (the ONLY subject of your analysis):\nTitle: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n\n"
+        f"Recent timeline context (background only, see rule 4):\n{_context_block(context_items)}\n"
     )
     return system_prompt, user_prompt
 
@@ -323,22 +374,25 @@ def _try_gemini(item: NewsItem, style_context: str, context_items: list[NewsItem
     if not config.GEMINI_API_KEY:
         return None
     try:
-        from openai import OpenAI
+        from google import genai
+        from google.genai import types
 
-        client = OpenAI(
-            api_key=config.GEMINI_API_KEY,
-            base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-        )
+        client = genai.Client(api_key=config.GEMINI_API_KEY)
         system_prompt, user_prompt = _build_prompt(item, style_context, context_items)
-        resp = client.chat.completions.create(
+        resp = client.models.generate_content(
             model=config.GEMINI_MODEL,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            max_tokens=config.MAX_ANALYSIS_TOKENS,
+            contents=user_prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                max_output_tokens=config.MAX_ANALYSIS_TOKENS,
+                temperature=0.4,
+                # Gemini 2.5 models spend max_output_tokens on hidden "thinking"
+                # tokens by default, which was starving the actual answer and
+                # truncating it mid-sentence. Disable thinking for this task.
+                thinking_config=types.ThinkingConfig(thinking_budget=0),
+            ),
         )
-        text = (resp.choices[0].message.content or "") if resp.choices else ""
+        text = getattr(resp, "text", "") or ""
         return _trim_analysis(text) or None
     except Exception as exc:
         if _is_quota_error(exc):
@@ -393,14 +447,23 @@ def _try_provider(name: str, item: NewsItem, style_context: str, context_items: 
     return None
 
 
-def build_analysis(item: NewsItem, context_items: list[NewsItem] | None = None) -> str:
+def build_analysis(item: NewsItem, context_items: list[NewsItem] | None = None) -> str | None:
+    """Return an LLM-quality Kannada analysis, or None if none could be produced.
+
+    We deliberately do not publish the generic templated fallback anymore —
+    it reads as obvious boilerplate and is not fit for public posting. When
+    live LLM analysis is unavailable or every provider's output is rejected,
+    callers should simply skip the analysis post for this item.
+    """
     cache = _load_cache()
     key = _cache_key(item, context_items)
     cached = cache.get(key)
     if cached:
         return cached
 
-    if not config.ENABLE_LLM_ANALYSIS:
+    if not config.ENABLE_LLM_ANALYSIS or not config.ALLOW_LIVE_LLM:
+        # Non-live mode (tests/dry-run/no API keys): keep the cheap
+        # deterministic text so local previews still produce something.
         text = _deterministic_analysis(item)
         cache[key] = text
         _save_cache(cache)
@@ -414,18 +477,202 @@ def build_analysis(item: NewsItem, context_items: list[NewsItem] | None = None) 
         text = _try_provider(provider, item, style_context, timeline_context)
         if text:
             if _looks_like_boilerplate(text):
-                print(f"[analyzer] {provider} output looked generic; using fallback")
+                print(f"[analyzer] {provider} output looked generic; trying next provider")
+                text = None
+                continue
+            if _too_close_to_source(item, text):
+                print(f"[analyzer] {provider} output too close to source text; trying next provider")
                 text = None
                 continue
             print(f"[analyzer] analysis generated by {provider}")
             break
+
     if not text:
-        text = _deterministic_analysis(item)
-        print("[analyzer] all LLM providers unavailable; used deterministic fallback")
-    elif _too_close_to_source(item, text):
-        print("[analyzer] LLM output too close to source text; using interpretive fallback")
-        text = _deterministic_analysis(item)
+        print("[analyzer] no acceptable LLM analysis produced; skipping analysis post for this item")
+        return None
 
     cache[key] = text
     _save_cache(cache)
     return text
+
+
+# --- English-source analysis pipeline -------------------------------------
+#
+# The Kannada pipeline above sends Kannada-script text to Gemini and gets
+# Kannada-script text back. Indic scripts are notably token-inefficient in
+# current LLM tokenizers (each akshara commonly costs several tokens), so the
+# same idea costs several times more than the English equivalent - on both
+# the input and the output side. This pipeline instead: picks a single
+# relevant story from English wire feeds, asks Gemini to analyze it in
+# English (cheap), then translates the short result to Kannada with Groq's
+# free tier (a pure translation task, not worth spending Gemini credits on).
+# Net effect: one Gemini call and one Groq call per run, instead of up to
+# MAX_AI_ANALYSES_PER_RUN Gemini calls on expensive Kannada text.
+
+ENGLISH_ANALYSIS_PROMPT_VERSION = "2026-07-04-en-v1"
+
+
+def _english_cache_key(item: NewsItem) -> str:
+    basis = f"{ENGLISH_ANALYSIS_PROMPT_VERSION}\n{config.GEMINI_MODEL}|{config.GROQ_MODEL}\n{item.link}\n{item.title}".encode("utf-8")
+    return "en:" + hashlib.sha256(basis).hexdigest()[:24]
+
+
+def _build_english_prompt(item: NewsItem) -> tuple[str, str]:
+    system_prompt = (
+        "You are a disciplined current-affairs analyst writing in English. "
+        "Write an interpretive analysis, not a summary or a report. "
+        "Do not imitate any living person's voice or catchphrases. "
+        "Stay factual, non-inciting, and respectful. "
+        "Never fabricate facts; when uncertain, state the limits. "
+        "Keep the output safe for public distribution and avoid defamation, sensationalism, or instructions for wrongdoing."
+    )
+    user_prompt = (
+        "Task: Write a short analysis of ONLY the story below.\n"
+        "Output rules:\n"
+        "1) Output exactly 2 short paragraphs (roughly 40-70 words each), no headings, no labels, no bullet points.\n"
+        "2) Paragraph 1: one concrete fact from the story and what it changes or reveals now.\n"
+        "3) Paragraph 2: interpretation/implication of this story, ending with one short forecast or watch-point sentence.\n"
+        "4) Do not add facts beyond the title and summary given below.\n"
+        "5) Do NOT paraphrase/copy the summary line-by-line; provide interpretation.\n"
+        "6) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
+        "7) Do not mention any source-brand, author name, or template label.\n"
+        "8) Stop after the forecast sentence; do not add a third paragraph.\n\n"
+        f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
+    )
+    return system_prompt, user_prompt
+
+
+def _try_gemini_english(item: NewsItem) -> str | None:
+    if "gemini" in _DISABLED_PROVIDERS or not config.GEMINI_API_KEY:
+        return None
+    try:
+        from google import genai
+        from google.genai import types
+
+        client = genai.Client(api_key=config.GEMINI_API_KEY)
+        system_prompt, user_prompt = _build_english_prompt(item)
+        resp = client.models.generate_content(
+            model=config.GEMINI_MODEL,
+            contents=user_prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system_prompt,
+                max_output_tokens=300,
+                temperature=0.4,
+                thinking_config=types.ThinkingConfig(thinking_budget=0),
+            ),
+        )
+        text = getattr(resp, "text", "") or ""
+        return _trim_analysis(text) or None
+    except Exception as exc:
+        if _is_quota_error(exc):
+            _DISABLED_PROVIDERS.add("gemini")
+            print("[analyzer] Gemini quota exhausted; disabled for this run")
+        else:
+            print(f"[analyzer] Gemini (english analysis) failed ({type(exc).__name__}: {exc})")
+        return None
+
+
+def _parse_translation(raw: str) -> tuple[str, str] | None:
+    m_title = re.search(r"TITLE:\s*(.+)", raw)
+    m_body = re.search(r"BODY:\s*(.+)", raw, re.DOTALL)
+    if not m_title or not m_body:
+        return None
+    title = m_title.group(1).strip()
+    body = _trim_analysis(m_body.group(1).strip())
+    if not title or not body:
+        return None
+    return title, body
+
+
+def _translation_prompt(title: str, body: str) -> str:
+    return (
+        "Translate the following English news title and analysis into natural, "
+        "fluent, formal Kannada. Preserve the meaning and tone exactly; do not "
+        "add, remove, or editorialize beyond the source text. Respond in exactly "
+        "this format and nothing else:\n"
+        "TITLE: <kannada title>\nBODY: <kannada body>\n\n"
+        f"TITLE: {title}\nBODY: {body}"
+    )
+
+
+def _translate_to_kannada(title: str, body: str) -> tuple[str, str] | None:
+    """Translate an English title+analysis to Kannada. Tries Groq first
+    (free tier, pure translation task) and only falls back to Gemini if Groq
+    is unavailable, since the whole point of this path is to keep Kannada
+    token volume off the paid/quota-limited provider."""
+    prompt = _translation_prompt(title, body)
+
+    if config.GROQ_API_KEY and "groq" not in _DISABLED_PROVIDERS:
+        try:
+            from openai import OpenAI
+
+            client = OpenAI(api_key=config.GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
+            resp = client.chat.completions.create(
+                model=config.GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=700,
+                temperature=0.2,
+            )
+            raw = (resp.choices[0].message.content or "") if resp.choices else ""
+            parsed = _parse_translation(raw)
+            if parsed:
+                return parsed
+            print("[analyzer] Groq translation output malformed; trying Gemini fallback")
+        except Exception as exc:
+            if _is_quota_error(exc):
+                _DISABLED_PROVIDERS.add("groq")
+            print(f"[analyzer] Groq translation failed ({type(exc).__name__}: {exc}); trying Gemini fallback")
+
+    if config.GEMINI_API_KEY and "gemini" not in _DISABLED_PROVIDERS:
+        try:
+            from google import genai
+            from google.genai import types
+
+            client = genai.Client(api_key=config.GEMINI_API_KEY)
+            resp = client.models.generate_content(
+                model=config.GEMINI_MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=700,
+                    temperature=0.2,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                ),
+            )
+            raw = getattr(resp, "text", "") or ""
+            return _parse_translation(raw)
+        except Exception as exc:
+            print(f"[analyzer] Gemini translation fallback failed ({type(exc).__name__}: {exc})")
+
+    return None
+
+
+def build_english_analysis(item: NewsItem) -> tuple[str, str] | None:
+    """Return (kannada_title, kannada_analysis_body) for a single English
+    item, or None if no acceptable result could be produced. Caches by the
+    item's link so a re-selected story doesn't re-spend LLM calls."""
+    if not config.ENABLE_LLM_ANALYSIS or not config.ALLOW_LIVE_LLM:
+        return None
+
+    cache = _load_cache()
+    key = _english_cache_key(item)
+    cached = cache.get(key)
+    if cached and isinstance(cached, dict) and cached.get("title") and cached.get("body"):
+        return cached["title"], cached["body"]
+
+    english_text = _try_gemini_english(item)
+    if not english_text or len(_normalized_words(english_text)) < 15:
+        print("[analyzer] english analysis too short/empty; skipping")
+        return None
+    if _too_close_to_source(item, english_text):
+        print("[analyzer] english analysis too close to source text; skipping")
+        return None
+
+    translated = _translate_to_kannada(item.title, english_text)
+    if not translated:
+        print("[analyzer] translation to kannada failed; skipping")
+        return None
+
+    kannada_title, kannada_body = translated
+    cache[key] = {"title": kannada_title, "body": kannada_body}
+    _save_cache(cache)
+    return kannada_title, kannada_body
