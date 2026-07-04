@@ -13,7 +13,7 @@ from models import NewsItem
 from style_corpus import load_style_context
 
 CACHE_PATH = Path("analysis_cache.json")
-ANALYSIS_PROMPT_VERSION = "2026-07-04-v4"
+ANALYSIS_PROMPT_VERSION = "2026-07-04-v5"
 _DISABLED_PROVIDERS: set[str] = set()
 
 LENSES = [
@@ -73,9 +73,9 @@ def _deterministic_analysis(item: NewsItem) -> str:
     lens = ", ".join(_select_lenses(item, count=4))
     return textwrap.dedent(
         f"""
-        ಈ ಸುದ್ದಿಯನ್ನು ಒಂಟಿ ಘಟನೆ ಎಂದು ಅಲ್ಲ, ದೊಡ್ಡ ಧಾರೆಯ ಒಂದು ಸೂಚನೆ ಎಂದು ಓದಬೇಕು.
-        {config.STYLE_BRAND_NAME} ದೃಷ್ಟಿಯಲ್ಲಿ {lens} ಪರಿಪ್ರೇಕ್ಷ್ಯವನ್ನು ಒಟ್ಟಿಗೆ ಬಳಸಿದಾಗ, ಕಾರಣ, ಪರಿಣಾಮ, ಮತ್ತು ಸಾರ್ವಜನಿಕ ಹೊಣೆಗಾರಿಕೆಯ ನಡುವಿನ ರೇಖೆಗಳು ಸ್ಪಷ್ಟವಾಗುತ್ತವೆ.
-        ದೃಢವಾದ ನಿರ್ಣಯಕ್ಕೆ ತರ್ಕ, ಸಂದರ್ಭ, ಮತ್ತು ಧಾರ್ಮಿಕ-ನೈತಿಕ ವಿವೇಚನೆಯನ್ನು ಜೊತೆಯಲ್ಲಿ ಪರಿಗಣಿಸಬೇಕು.
+        ಈ ಬೆಳವಣಿಗೆ ತಕ್ಷಣದ ಸುದ್ದಿಗಿಂತ ದೊಡ್ಡ ಪ್ರವೃತ್ತಿಯ ಒಂದು ಸೂಚನೆ.
+        {lens} ಪರಿಪ್ರೇಕ್ಷ್ಯದಲ್ಲಿ ನೋಡಿದರೆ, ಇಲ್ಲಿ ಮುಖ್ಯ ಪ್ರಶ್ನೆ ಏನು ನಡೆದಿತು ಎಂಬುದಕ್ಕಿಂತ ಏಕೆ ನಡೆಯಿತು ಮತ್ತು ಮುಂದೇನು ಆಗಬಹುದು ಎಂಬುದು.
+        ಕಾರಣ, ಪರಿಣಾಮ, ಹಾಗೂ ಸಾರ್ವಜನಿಕ ಹೊಣೆಗಾರಿಕೆ ಒಂದೇ ಚೌಕಟ್ಟಿನಲ್ಲಿ ಓದಿದಾಗ ಮಾತ್ರ ವಿಷಯದ ನಿಜವಾದ ತೂಕ ಕಾಣುತ್ತದೆ.
         """
     ).strip()
 
@@ -190,6 +190,26 @@ def _context_block(context_items: list[NewsItem]) -> str:
     return "\n".join(lines)
 
 
+_BOILERPLATE_PATTERNS = (
+    r"(?i)\bmood read\b",
+    r"(?i)\bmotive map\b",
+    r"(?i)\bpattern-fit\b",
+    r"(?i)\bforecast\b",
+    r"(?i)\bshort analysis\b",
+    r"(?i)\bsummary\b",
+    r"(?i)\bVedavidhya\b",
+    r"(?i)\bGaurav\b",
+    r"(?i)\bDGPIndia\b",
+)
+
+
+def _looks_like_boilerplate(text: str) -> bool:
+    if not text:
+        return True
+    matches = sum(1 for pattern in _BOILERPLATE_PATTERNS if re.search(pattern, text))
+    return matches >= 1 or len(_normalized_words(text)) < 35
+
+
 def _build_prompt(item: NewsItem, style_context: str, context_items: list[NewsItem]) -> tuple[str, str]:
     """Return (system_prompt, user_prompt) for LLM analysis."""
     selected_lenses = _select_lenses(item, count=5)
@@ -203,22 +223,22 @@ def _build_prompt(item: NewsItem, style_context: str, context_items: list[NewsIt
         "Keep the output safe for public distribution and avoid defamation, sensationalism, or instructions for wrongdoing."
     )
     user_prompt = (
-        f"Brand voice: {config.STYLE_BRAND_NAME}.\n"
         f"Tone: {config.STYLE_TONE}.\n"
         "Task: Write Kannada analysis that synthesizes this story with the supplied recent timeline context.\n"
         "Use this structure: 1) mood read, 2) motive map, 3) pattern-fit across timelines, 4) forecast or watch-point.\n"
         f"Primary lens blend for this item: {lens_line}.\n"
         f"Available lens universe: {', '.join(config.STYLE_TOPICS)}.\n"
         "Output rules:\n"
-        "1) 2-3 short Kannada paragraphs, concise and readable.\n"
-        "2) Start with a fresh thesis that interprets the event, not a summary.\n"
-        "3) Connect this item with the supplied context where there is a real evidentiary thread.\n"
-        "4) Use at least 3 of the selected lenses naturally; do not dump names as a list.\n"
-        "5) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
-        "6) Do not add facts beyond provided news text and the context block.\n"
-        "7) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
-        "8) If there is not enough evidence to connect stories, explicitly say the connection is tentative.\n"
-        "9) Keep the language assertive but do not claim unverified insider access or unnamed sources.\n"
+        "1) Output exactly 2 short Kannada paragraphs, no headings, no labels, no bold text, no bullet points.\n"
+        "2) Paragraph 1 must explain what the event means now, with one concrete reason from the current item.\n"
+        "3) Paragraph 2 must connect this item with the recent timeline context only if there is a real evidentiary thread; otherwise say the link is tentative.\n"
+        "4) Use at least 3 of the selected lenses naturally inside the prose; do not list lens names.\n"
+        "5) End with one short forecast or watch-point sentence, still inside paragraph 2.\n"
+        "6) Avoid slogans, personal attacks, sectarian hostility, legal accusations, or fear language.\n"
+        "7) Do not add facts beyond provided news text and the context block.\n"
+        "8) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
+        "9) Do not mention any source-brand, author name, or template label.\n"
+        "10) If you cannot write a strong synthesis, give a shorter factual interpretation rather than generic commentary.\n"
         f"Length budget: <= {config.MAX_ANALYSIS_TOKENS} tokens.\n\n"
         f"Style grounding:\n{style_context}\n\n"
         f"Current item:\nTitle: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n\n"
@@ -393,6 +413,10 @@ def build_analysis(item: NewsItem, context_items: list[NewsItem] | None = None) 
     for provider in provider_order:
         text = _try_provider(provider, item, style_context, timeline_context)
         if text:
+            if _looks_like_boilerplate(text):
+                print(f"[analyzer] {provider} output looked generic; using fallback")
+                text = None
+                continue
             print(f"[analyzer] analysis generated by {provider}")
             break
     if not text:

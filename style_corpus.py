@@ -13,14 +13,14 @@ from bs4 import BeautifulSoup
 import config
 
 DEFAULT_PROFILE = {
-    "brand": config.STYLE_BRAND_NAME,
+    "brand": "",
     "sources": [config.STYLE_SOURCE_URL, config.STYLE_BLOG_URL, config.STYLE_FACEBOOK_URL],
     "style_notes": [
-        "Ancient diagnostic systems applied to modern problems.",
-        "Structured Jyotisha, Prashna, Tantra, Vastu, and Ayurveda framing.",
-        "Root-cause analysis before remedies or conclusions.",
-        "Calm, disciplined, advisory tone for Kannada readers.",
-        "Avoid sensationalism; explain cause, timing, consequence, and dharmic responsibility.",
+        "Evidence-first interpretation with clear cause, consequence, and watch-point.",
+        "Civilizational framing should stay factual and restrained.",
+        "Use short Kannada prose, not label-heavy templates.",
+        "Avoid sensationalism, legal certainty, and unverifiable insider claims.",
+        "When using cultural lenses, apply them naturally inside the analysis.",
     ],
     "samples": [],
 }
@@ -52,12 +52,7 @@ def load_corpus() -> dict:
 def load_style_context(max_chars: int = 1400) -> str:
     corpus = load_corpus()
     notes = "\n".join(f"- {note}" for note in corpus.get("style_notes", []))
-    samples = []
-    for sample in corpus.get("samples", [])[:3]:
-        text = sample.get("text", "").strip()
-        if text:
-            samples.append(f"Source: {sample.get('url', 'local')}\n{text[:500]}")
-    context = f"Brand style notes:\n{notes}\n\nRepresentative writing:\n" + "\n\n".join(samples)
+    context = f"Analysis rules:\n{notes}"
     return context[:max_chars]
 
 
