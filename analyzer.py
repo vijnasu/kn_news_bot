@@ -13,6 +13,7 @@ from models import NewsItem
 from style_corpus import load_style_context
 
 CACHE_PATH = Path("analysis_cache.json")
+ANALYSIS_PROMPT_VERSION = "2026-07-04-v2"
 _DISABLED_PROVIDERS: set[str] = set()
 LENSES = [
     "Dharma Shastra",
@@ -93,7 +94,12 @@ def _trim_analysis(text: str) -> str:
 
 
 def _cache_key(item: NewsItem) -> str:
-    basis = f"{item.title}\n{item.summary}\n{item.source}".encode("utf-8")
+    basis = (
+        f"{ANALYSIS_PROMPT_VERSION}\n"
+        f"{config.OPENAI_MODEL}|{config.GEMINI_MODEL}|{config.GROQ_MODEL}\n"
+        f"{','.join(config.STYLE_TOPICS)}\n"
+        f"{item.title}\n{item.summary}\n{item.source}"
+    ).encode("utf-8")
     return hashlib.sha256(basis).hexdigest()[:24]
 
 
@@ -125,6 +131,23 @@ def should_analyze(item: NewsItem) -> bool:
     return any(h in blob for h in COSTLY_HINTS) or any(h in blob for h in CULTURE_HINTS)
 
 
+def _normalized_words(text: str) -> set[str]:
+    cleaned = re.sub(r"[^\w\s]", " ", (text or "").lower(), flags=re.UNICODE)
+    return {w for w in cleaned.split() if len(w) > 2}
+
+
+def _too_close_to_source(item: NewsItem, analysis_text: str) -> bool:
+    src = f"{item.title} {item.summary}".strip()
+    if not src or not analysis_text:
+        return False
+    src_words = _normalized_words(src)
+    out_words = _normalized_words(analysis_text)
+    if not src_words or not out_words:
+        return False
+    overlap = len(src_words & out_words) / max(1, len(src_words))
+    return overlap >= 0.72
+
+
 def _build_prompt(item: NewsItem, style_context: str) -> tuple[str, str]:
     """Return (system_prompt, user_prompt) for LLM analysis."""
     selected_lenses = _select_lenses(item, count=5)
@@ -147,6 +170,7 @@ def _build_prompt(item: NewsItem, style_context: str) -> tuple[str, str]:
         "3) Use at least 3 of the selected lenses naturally; do not dump names as a list.\n"
         "4) Avoid slogans, personal attacks, sectarian hostility, or fear language.\n"
         "5) Do not add facts beyond provided news text.\n"
+        "6) Do NOT paraphrase/copy the summary line-by-line; provide interpretation and implication.\n"
         f"Length budget: <= {config.MAX_ANALYSIS_TOKENS} tokens.\n\n"
         f"Style grounding:\n{style_context}\n\n"
         f"Title: {item.title}\nSummary: {item.summary}\nSource: {item.source}\n"
@@ -281,6 +305,9 @@ def build_analysis(item: NewsItem) -> str:
     if not text:
         text = _deterministic_analysis(item)
         print("[analyzer] all LLM providers unavailable; used deterministic fallback")
+    elif _too_close_to_source(item, text):
+        print("[analyzer] LLM output too close to source text; using interpretive fallback")
+        text = _deterministic_analysis(item)
 
     cache[key] = text
     _save_cache(cache)
