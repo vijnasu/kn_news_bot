@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T16:12:41.465298+00:00",
+  "last_posted_at": "2026-07-05T17:38:46.798783+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -98,6 +98,13 @@
       "genre": "guidance",
       "style": "sharp_social_critique",
       "posted_at": "2026-07-05T16:12:41.465298+00:00"
+    },
+    {
+      "system": "Tarka & Logic",
+      "subtopic": "We are prepared for 2-D Bills — Delimitation and Dismissal: Jairam Ramesh",
+      "genre": "debate",
+      "style": "modern_explainer",
+      "posted_at": "2026-07-05T17:38:46.798783+00:00"
     }
   ]
 }
