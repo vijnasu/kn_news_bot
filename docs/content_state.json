@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T17:38:46.798783+00:00",
+  "last_posted_at": "2026-07-05T18:39:03.749961+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -105,6 +105,13 @@
       "genre": "debate",
       "style": "modern_explainer",
       "posted_at": "2026-07-05T17:38:46.798783+00:00"
+    },
+    {
+      "system": "Niti Shastra & Panchatantra",
+      "subtopic": "Four labourers killed in road accident",
+      "genre": "shastra_vs_modern",
+      "style": "vachana_like",
+      "posted_at": "2026-07-05T18:39:03.749961+00:00"
     }
   ]
 }
