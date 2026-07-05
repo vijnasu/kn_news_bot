@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T20:50:52.318212+00:00",
+  "last_posted_at": "2026-07-05T22:23:27.847883+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -126,6 +126,13 @@
       "genre": "critique",
       "style": "sharp_social_critique",
       "posted_at": "2026-07-05T20:50:52.318212+00:00"
+    },
+    {
+      "system": "Nyaya Shastra",
+      "subtopic": "Head constable stabbed near Mehkri Circle; police launch search for assailant",
+      "genre": "myth_busting",
+      "style": "modern_explainer",
+      "posted_at": "2026-07-05T22:23:27.847883+00:00"
     }
   ]
 }
