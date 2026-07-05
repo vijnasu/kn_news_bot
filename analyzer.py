@@ -75,6 +75,100 @@ POLICY_HINTS = (
     "corruption",
 )
 
+# --- Geographic scope filter (Karnataka + national only) -------------------
+#
+# Both posting pipelines (main.py's plain-headline loop and its news-analyzer
+# pipeline) should skip stories that are specifically about another Indian
+# state's regional affairs - the brand's editorial scope is Karnataka news
+# and genuinely national-scope news, not, say, a Tamil Nadu civic issue or a
+# Bihar state-assembly story that happened to appear in a national wire feed.
+# A story that only ever mentions the central government/Parliament/Supreme
+# Court/national economy without naming a specific non-Karnataka state won't
+# match anything here and passes through untouched - this is a targeted
+# EXCLUSION, not a whitelist, so it doesn't need to positively recognize
+# every kind of "national" story.
+#
+# Karnataka hints win over an other-state match: a story that names both
+# Karnataka and another state (e.g. an inter-state water/border dispute) is
+# still Karnataka-relevant and should not be excluded.
+KARNATAKA_HINTS = (
+    "karnataka", "bengaluru", "bangalore", "mysuru", "mysore", "mangaluru",
+    "mangalore", "hubli", "hubballi", "dharwad", "belagavi", "belgaum",
+    "kalaburagi", "gulbarga", "shivamogga", "shimoga", "tumakuru", "tumkur",
+    "udupi", "davangere", "ballari", "bellary", "hassan", "chikkamagaluru",
+    "kodagu", "coorg", "vijayapura", "bijapur", "raichur", "bagalkot",
+    "haveri", "yadgir", "kolar", "chitradurga", "gadag", "ramanagara",
+)
+KARNATAKA_HINTS_KN = (
+    "ಕರ್ನಾಟಕ", "ಬೆಂಗಳೂರು", "ಮೈಸೂರು", "ಮಂಗಳೂರು", "ಹುಬ್ಬಳ್ಳಿ", "ಧಾರವಾಡ",
+    "ಬೆಳಗಾವಿ", "ಕಲಬುರಗಿ", "ಶಿವಮೊಗ್ಗ", "ತುಮಕೂರು", "ಉಡುಪಿ", "ದಾವಣಗೆರೆ",
+    "ಬಳ್ಳಾರಿ", "ಹಾಸನ", "ಚಿಕ್ಕಮಗಳೂರು", "ಕೊಡಗು", "ವಿಜಯಪುರ", "ರಾಯಚೂರು",
+    "ಬಾಗಲಕೋಟೆ", "ಹಾವೇರಿ", "ಯಾದಗಿರಿ", "ಕೋಲಾರ", "ಚಿತ್ರದುರ್ಗ", "ಗದಗ", "ರಾಮನಗರ",
+)
+OTHER_STATE_HINTS = (
+    "andhra pradesh", "telangana", "tamil nadu", "kerala", "maharashtra",
+    "gujarat", "rajasthan", "madhya pradesh", "uttar pradesh", "bihar",
+    "west bengal", "odisha", "orissa", "punjab", "haryana", "assam",
+    "jharkhand", "chhattisgarh", "himachal pradesh", "uttarakhand", "goa",
+    "tripura", "manipur", "meghalaya", "mizoram", "nagaland", "sikkim",
+    "arunachal pradesh", "jammu and kashmir", "jammu & kashmir", "ladakh",
+    "puducherry", "chandigarh",
+    # major cities/capitals of other states - catches stories that name the
+    # city without naming the state
+    "hyderabad", "chennai", "coimbatore", "madurai", "kochi", "ernakulam",
+    "thiruvananthapuram", "kozhikode", "mumbai", "pune", "nagpur", "nashik",
+    "ahmedabad", "surat", "vadodara", "rajkot", "jaipur", "jodhpur", "udaipur",
+    "bhopal", "indore", "gwalior", "lucknow", "kanpur", "varanasi", "agra",
+    "noida", "ghaziabad", "patna", "gaya", "kolkata", "howrah", "siliguri",
+    "bhubaneswar", "cuttack", "amritsar", "ludhiana",
+    "gurugram", "gurgaon", "faridabad", "guwahati", "ranchi", "jamshedpur",
+    "raipur", "bilaspur", "shimla", "dehradun", "panaji", "agartala",
+    "imphal", "shillong", "aizawl", "kohima", "gangtok", "itanagar",
+    "srinagar", "jammu", "leh", "vijayawada", "visakhapatnam", "warangal",
+)
+OTHER_STATE_HINTS_KN = (
+    "ಆಂಧ್ರಪ್ರದೇಶ", "ತೆಲಂಗಾಣ", "ತಮಿಳುನಾಡು", "ಕೇರಳ", "ಮಹಾರಾಷ್ಟ್ರ", "ಗುಜರಾತ್",
+    "ರಾಜಸ್ಥಾನ", "ಮಧ್ಯಪ್ರದೇಶ", "ಉತ್ತರಪ್ರದೇಶ", "ಬಿಹಾರ", "ಪಶ್ಚಿಮ ಬಂಗಾಳ", "ಒಡಿಶಾ",
+    "ಪಂಜಾಬ್", "ಹರಿಯಾಣ", "ಅಸ್ಸಾಂ", "ಜಾರ್ಖಂಡ್", "ಛತ್ತೀಸ್‌ಗಢ", "ಹಿಮಾಚಲ ಪ್ರದೇಶ",
+    "ಉತ್ತರಾಖಂಡ", "ಗೋವಾ", "ತ್ರಿಪುರ", "ಮಣಿಪುರ", "ಮೇಘಾಲಯ", "ಮಿಜೋರಾಂ", "ನಾಗಾಲ್ಯಾಂಡ್",
+    "ಸಿಕ್ಕಿಂ", "ಅರುಣಾಚಲ ಪ್ರದೇಶ", "ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ", "ಲಡಾಖ್", "ಪುದುಚೇರಿ", "ಚಂಡೀಗಢ",
+    "ಹೈದರಾಬಾದ್", "ಚೆನ್ನೈ", "ಕೊಚ್ಚಿ", "ತಿರುವನಂತಪುರಂ", "ಮುಂಬೈ", "ಪುಣೆ",
+    "ಅಹಮದಾಬಾದ್", "ಜೈಪುರ", "ಭೋಪಾಲ್", "ಇಂದೋರ್", "ಲಕ್ನೋ", "ಕಾನ್ಪುರ", "ಪಾಟ್ನಾ",
+    "ಕೋಲ್ಕತ್ತಾ", "ಭುವನೇಶ್ವರ", "ಅಮೃತಸರ", "ಗುರುಗ್ರಾಮ", "ಗುವಾಹಟಿ", "ರಾಂಚಿ",
+    "ರಾಯಪುರ", "ಶಿಮ್ಲಾ", "ಡೆಹ್ರಾಡೂನ್", "ಪಣಜಿ", "ಶ್ರೀನಗರ", "ವಿಜಯವಾಡ", "ವಿಶಾಖಪಟ್ಟಣಂ",
+)
+# URL path segments The Hindu uses for its per-state national coverage
+# (thehindu.com/news/national/<state-slug>/...) - a stronger signal than
+# keyword matching alone since it is the outlet's own categorization.
+OTHER_STATE_URL_HINTS = (
+    "/national/andhra-pradesh/", "/national/telangana/", "/national/tamil-nadu/",
+    "/national/kerala/", "/national/maharashtra/", "/national/gujarat/",
+    "/national/rajasthan/", "/national/madhya-pradesh/", "/national/uttar-pradesh/",
+    "/national/bihar/", "/national/west-bengal/", "/national/odisha/",
+    "/national/punjab/", "/national/haryana/", "/national/assam/",
+    "/national/jharkhand/", "/national/chhattisgarh/", "/national/himachal-pradesh/",
+    "/national/uttarakhand/", "/national/goa/", "/national/tripura/",
+    "/national/manipur/", "/national/meghalaya/", "/national/mizoram/",
+    "/national/nagaland/", "/national/sikkim/", "/national/arunachal-pradesh/",
+    "/national/jammu-and-kashmir/", "/national/other-states/",
+)
+
+
+def is_other_state_item(item: NewsItem) -> bool:
+    """True if this item is specifically about another Indian state's
+    regional affairs, rather than Karnataka or genuinely national-scope
+    news. Works on both Kannada-script items (channel 1's sources) and
+    English items (the news-analyzer pipeline's ENGLISH_SOURCES) - str.lower()
+    is a no-op on Kannada script, so a single lowercased blob can be checked
+    against both hint sets without any language-specific branching."""
+    blob = f"{item.title} {item.summary} {item.category} {item.source}".lower()
+    url_blob = (item.link or "").lower()
+    if any(h in blob for h in KARNATAKA_HINTS) or any(h in blob for h in KARNATAKA_HINTS_KN):
+        return False
+    if any(h in url_blob for h in OTHER_STATE_URL_HINTS):
+        return True
+    return any(h in blob for h in OTHER_STATE_HINTS) or any(h in blob for h in OTHER_STATE_HINTS_KN)
+
 
 def _select_lenses(item: NewsItem, count: int = 5) -> list[str]:
     all_lenses = config.STYLE_TOPICS or LENSES

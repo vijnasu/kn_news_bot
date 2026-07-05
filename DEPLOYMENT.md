@@ -85,6 +85,37 @@ on the news-analyzer (classical-content) pipeline alike:
 `state/posted_ids.json` needs the same one-time `contents: write` permission the other committed
 state files already use (already set in the workflow) - no extra secret/variable is required.
 
+## Editorial scope: Karnataka + national only (both channels)
+
+Both the plain-headline channel and the news-analyzer (classical-content) pipeline exclude stories
+that are specifically about another Indian state's regional affairs - e.g. a Daijiworld "national"
+item that's actually a Tamil Nadu civic story, or a Bihar political item with no Karnataka angle.
+Genuinely national stories (center-government policy, national economy, cross-country events) and
+anything Karnataka-related still pass through - this filter only removes other-state-specific
+regional news.
+
+`analyzer.py`'s `is_other_state_item(item)` implements this: it checks title/summary/category/source
+and the URL against parallel English and Kannada-script hint lists (`KARNATAKA_HINTS`/`_KN`,
+`OTHER_STATE_HINTS`/`_KN`, `OTHER_STATE_URL_HINTS`). A story is excluded only if it mentions another
+state/city by name (or lives under an other-state URL path) **and** has no Karnataka mention at all -
+so a story that touches both Karnataka and another state (e.g. an inter-state water dispute) still
+passes, since the Karnataka mention wins. Matching is case-insensitive and works unmodified on
+Kannada script (`str.lower()` is a no-op on Kannada, so the same blob-matching logic checks both
+hint lists without any language branching).
+
+This is a **hard exclusion**, unlike the softer content-type excludes (entertainment/sports/live-blog)
+used elsewhere in `main.py`: those fall back to the unfiltered pool if nothing passes, but the
+geographic filter never relaxes - an other-state item is never posted even if it's the only candidate
+left in a given run. Wired in at:
+- `main.py`'s `_select_news_item()` (channel 2 / news-analyzer): computes `in_scope` from
+  `is_other_state_item` first, then applies the content-type excludes only within that in-scope set.
+- `main.py`'s `run()` (channel 1 / plain headlines): the `new_items` loop still calls
+  `store.insert(item)` for an other-state item (so it isn't re-fetched every run) but skips adding it
+  to the posting candidates.
+
+No config/secret changes are needed to adjust this - edit the hint lists directly in `analyzer.py` if
+a city/state needs to be added.
+
 ## Telegram Setup
 
 Add the bot as an admin in each Telegram channel and give it permission to post messages.

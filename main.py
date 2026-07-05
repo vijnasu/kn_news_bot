@@ -23,6 +23,7 @@ from analyzer import (
     EXCLUDE_HINTS,
     SOURCE_EXCLUDE_HINTS,
     URL_EXCLUDE_HINTS,
+    is_other_state_item,
 )
 from formatter import build_telegram_text, build_classical_analysis_text, build_classical_facebook_text
 from models import NewsItem
@@ -132,8 +133,16 @@ def _select_news_item(items: list[NewsItem]) -> NewsItem | None:
         b = blob(i)
         return sum(1 for h in POLICY_HINTS if h in b) + sum(1 for h in COSTLY_HINTS if h in b)
 
+    # Geographic scope (Karnataka + genuinely national news only) is a hard
+    # boundary - never relaxed, even if nothing else is left to pick from
+    # this run. The content-type excludes below (entertainment/sports/
+    # live-blog) still fall back to the broader pool rather than return
+    # nothing, since those are "prefer not to" rather than an editorial
+    # hard boundary - but only within the already geo-filtered set.
+    in_scope = [i for i in items if not is_other_state_item(i)]
+
     candidates = []
-    for i in items:
+    for i in in_scope:
         b = blob(i)
         url_b = (i.link or "").lower()
         if (
@@ -144,7 +153,7 @@ def _select_news_item(items: list[NewsItem]) -> NewsItem | None:
             continue
         candidates.append(i)
     if not candidates:
-        candidates = items
+        candidates = in_scope
     if not candidates:
         return None
     candidates.sort(key=lambda i: (score(i), _parse_iso(i.published_at)), reverse=True)
@@ -286,6 +295,13 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
             continue
         item = NewsItem(**raw)
         store.insert(item)
+        if is_other_state_item(item):
+            # Editorial scope is Karnataka + genuinely national news, not
+            # another state's regional affairs (e.g. a Daijiworld "national"
+            # item that's actually about Tamil Nadu or Bihar). Still stored
+            # above so store.exists() keeps it from being reconsidered every
+            # run, but it never becomes a posting candidate.
+            continue
         new_items.append(item)
 
     post_candidates = _top_items_for_posting(new_items)
