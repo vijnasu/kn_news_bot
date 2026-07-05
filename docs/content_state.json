@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T09:42:06.113038+00:00",
+  "last_posted_at": "2026-07-05T11:19:34.129458+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -63,6 +63,13 @@
       "genre": "story",
       "style": "shastra_pravachana",
       "posted_at": "2026-07-05T09:42:06.113038+00:00"
+    },
+    {
+      "system": "Arthashastra & Rajaneeti",
+      "subtopic": "DMK will always remain protective fortress for minorities, Muslims: Udhayanidhi Stalin reaffirms party's commitment",
+      "genre": "elaboration",
+      "style": "folk_lyrical",
+      "posted_at": "2026-07-05T11:19:34.129458+00:00"
     }
   ]
 }
