@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T12:39:40.509477+00:00",
+  "last_posted_at": "2026-07-05T13:55:42.563988+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -77,6 +77,13 @@
       "genre": "correlation",
       "style": "modern_explainer",
       "posted_at": "2026-07-05T12:39:40.509477+00:00"
+    },
+    {
+      "system": "Arthashastra & Rajaneeti",
+      "subtopic": "Upper Bhadra Project will be completed by 2028: Karnataka Water Resources Minister Ramalinga Reddy",
+      "genre": "story",
+      "style": "philosophical_novelistic",
+      "posted_at": "2026-07-05T13:55:42.563988+00:00"
     }
   ]
 }
