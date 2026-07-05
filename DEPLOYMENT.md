@@ -48,6 +48,36 @@ topic/genre rotation survive across runs, since `news.db` itself does not (see b
 with post quality, lower `KN_NEWS_CLASSICAL_MIN_GAP_HOURS` to increase volume - no other code change is
 needed.
 
+## Duplicate-post prevention (both channels)
+
+Two separate problems used to cause repeated/duplicate posts, on the plain-headline channel and
+on the news-analyzer (classical-content) pipeline alike:
+
+1. **Cross-run memory gap.** `news.db` is gitignored and every scheduled GitHub Actions run starts
+   from a fresh checkout, so it is empty at the start of every run. `store.exists()` can only tell
+   you whether an item was seen *earlier in the same run* - it has no way to know an item was
+   already posted 15 minutes ago in the previous run. In practice this meant the same top
+   headline(s) from each RSS source kept getting re-fetched, found "unseen" (the fresh db had never
+   heard of them), and reposted every ~15 minutes until the source's feed rotated past them.
+   Fixed by `posted_store.py`: a small `{item_id: posted_at}` registry persisted to
+   `state/posted_ids.json`, which the workflow commits back to the repo (same pattern as
+   `docs/analysis_feed.xml` / `docs/content_state.json`). Both `main.py`'s plain-headline loop and
+   `_run_classical_content()` check this registry (in addition to `store.exists()`) before treating
+   an item as new, and both append to it after a successful post. Entries older than 10 days are
+   pruned automatically so the file stays small.
+2. **Same story, multiple outlets.** Even with per-run dedup working, id-based dedup only catches
+   the exact same URL twice - it does nothing when Prajavani, TV9 Kannada, Kannada Oneindia, Public
+   TV, and Asianet all publish their own article on the same real event within the same window, each
+   with a different link/id. `dedupe.py`'s `dedupe_near_duplicates()` clusters items whose
+   title+summary share enough vocabulary (containment-style word overlap, tuned to avoid
+   false-positives on short titles) to be the same underlying story, and keeps only one
+   representative per cluster. This runs inside `_top_items_for_posting()` for the plain-headline
+   channel and directly on the English candidate pool in `_run_classical_content()` for the
+   news-analyzer pipeline, so both destinations benefit from the same fix.
+
+`state/posted_ids.json` needs the same one-time `contents: write` permission the other committed
+state files already use (already set in the workflow) - no extra secret/variable is required.
+
 ## Telegram Setup
 
 Add the bot as an admin in each Telegram channel and give it permission to post messages.

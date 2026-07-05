@@ -15,6 +15,8 @@ import scrape
 import feed
 import classical_content
 import content_state
+import posted_store
+from dedupe import dedupe_near_duplicates
 from analyzer import (
     COSTLY_HINTS,
     POLICY_HINTS,
@@ -39,6 +41,11 @@ def _parse_iso(ts: str) -> datetime:
 
 def _top_items_for_posting(items: list[NewsItem]) -> list[NewsItem]:
     ranked = sorted(items, key=lambda i: _parse_iso(i.published_at), reverse=True)
+    # Collapse the same real-world story reported by multiple sources (each
+    # with a different link/id) down to one representative before applying
+    # the per-source cap below - otherwise "unique by URL" still lets 3-4
+    # outlets' versions of the identical story all get posted separately.
+    ranked = dedupe_near_duplicates(ranked)
     picked, source_counts = [], defaultdict(int)
     for item in ranked:
         if len(picked) >= max(0, config.TOP_POSTS_PER_RUN):
@@ -159,8 +166,12 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
     though this function runs on every ~15-minute cron tick, it only actually
     generates+posts roughly every config.CLASSICAL_CONTENT_MIN_GAP_HOURS
     hours (default ~2-3 times/day). Dedup of which news story has already
-    been used is handled by store.exists() on the news item's own id, the
-    same mechanism the plain-headline pipeline above uses."""
+    been used works the same way as the plain-headline pipeline above:
+    store.exists() only catches items already seen THIS run (news.db doesn't
+    persist across scheduled runs), so posted_store.json is the real
+    cross-run memory, and dedupe_near_duplicates() collapses the same story
+    covered by both English sources (The Hindu / TOI) into one candidate
+    before scoring."""
     if not config.ENGLISH_ANALYSIS_ENABLED:
         return
     if not dry_run and not preview_analysis and not (_telegram_analysis_enabled() or _facebook_enabled()):
@@ -171,9 +182,16 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
         print("[main] classical content: within min-gap window, skipping this run")
         return
 
+    posted_registry = posted_store.load_posted_ids()
     raw_english = fetch.fetch_english()
-    unseen = [NewsItem(**raw) for raw in raw_english if not store.exists(raw["id"])]
-    print(f"[main] fetched {len(raw_english)} english entries across {len(config.ENGLISH_SOURCES)} sources, {len(unseen)} unseen")
+    unseen = [
+        NewsItem(**raw)
+        for raw in raw_english
+        if not store.exists(raw["id"]) and raw["id"] not in posted_registry
+    ]
+    unseen = sorted(unseen, key=lambda i: _parse_iso(i.published_at), reverse=True)
+    unseen = dedupe_near_duplicates(unseen)
+    print(f"[main] fetched {len(raw_english)} english entries across {len(config.ENGLISH_SOURCES)} sources, {len(unseen)} unseen after dedup")
     chosen = _select_news_item(unseen)
     if not chosen:
         print("[main] no unseen news story available for classical content this run")
@@ -217,6 +235,7 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
     store.insert(fake_item)
     store.save_analysis(fake_item.id, result["body"])
     store.mark_posted(fake_item.id, None, datetime.now(tz=IST).isoformat())
+    posted_store.mark_posted([chosen.id], datetime.now(tz=timezone.utc).isoformat())
     content_state.record_post(
         result["system"],
         result["subtopic"],
@@ -253,9 +272,17 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
         f"analysis_channels={len(config.TELEGRAM_ANALYSIS_CHANNEL_IDS)}"
     )
 
+    # news.db does not persist across scheduled GitHub Actions runs (fresh
+    # checkout every run), so store.exists() alone cannot tell whether an
+    # item was already posted in a PREVIOUS run - only within this one. This
+    # was why the same top headline(s) kept getting reposted every ~15
+    # minutes. posted_store.json is committed back to the repo (see
+    # .github/workflows/post_news.yml), so it actually remembers across runs.
+    posted_registry = posted_store.load_posted_ids()
+
     new_items = []
     for raw in raw_items:
-        if store.exists(raw["id"]):
+        if store.exists(raw["id"]) or raw["id"] in posted_registry:
             continue
         item = NewsItem(**raw)
         store.insert(item)
@@ -264,7 +291,9 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
     post_candidates = _top_items_for_posting(new_items)
     if len(post_candidates) < max(0, config.TOP_POSTS_PER_RUN):
         backlog_limit = max(0, config.TOP_POSTS_PER_RUN) * 5
-        backlog_items = store.recent_unposted(limit=backlog_limit)
+        backlog_items = [
+            i for i in store.recent_unposted(limit=backlog_limit) if i.id not in posted_registry
+        ]
         selected_ids = {item.id for item in post_candidates}
         refill = [item for item in backlog_items if item.id not in selected_ids]
         combined_pool = post_candidates + refill
@@ -283,6 +312,7 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
     except Exception as exc:
         print(f"[main] classical content pipeline failed: {exc}")
 
+    newly_posted_ids = []
     if not dry_run:
         for idx, item in enumerate(post_candidates):
             try:
@@ -291,11 +321,15 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
                 if sent_count == 0:
                     raise RuntimeError("No destinations received this item (check Telegram channel config)")
                 store.mark_posted(item.id, result["telegram"][0][1], datetime.now(tz=IST).isoformat())
+                newly_posted_ids.append(item.id)
                 posted_count += 1
                 time.sleep(config.POST_DELAY_SECONDS)
             except Exception as exc:
                 print(f"[main] failed to post '{item.title[:40]}...': {exc}")
                 post_errors.append((item.id, str(exc)))
+
+    if newly_posted_ids:
+        posted_store.mark_posted(newly_posted_ids, datetime.now(tz=timezone.utc).isoformat())
 
     rows = store.export_jsonl()
     print(f"[main] {len(new_items)} new items stored, {posted_count} posted, {rows} total rows exported")
