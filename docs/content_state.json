@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T18:39:03.749961+00:00",
+  "last_posted_at": "2026-07-05T19:46:09.884187+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -112,6 +112,13 @@
       "genre": "shastra_vs_modern",
       "style": "vachana_like",
       "posted_at": "2026-07-05T18:39:03.749961+00:00"
+    },
+    {
+      "system": "Nyaya Shastra",
+      "subtopic": "Tamil Nadu Government Faces November Deadline for Right to Services Act",
+      "genre": "elaboration",
+      "style": "shastra_pravachana",
+      "posted_at": "2026-07-05T19:46:09.884187+00:00"
     }
   ]
 }
