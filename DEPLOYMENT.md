@@ -17,7 +17,7 @@ Use these GitHub repository settings for the Vedavidhya Telegram article channel
 
 - `KN_NEWS_ENABLE_LLM`: `1`
 - `KN_NEWS_ENGLISH_ANALYSIS`: `1` (master on/off switch for the classical-content pipeline - name kept for backward compatibility, see below)
-- `KN_NEWS_CLASSICAL_MIN_GAP_HOURS`: `9` (default; ~2.6 posts/day - lower this once content quality is validated and you want more volume)
+- `KN_NEWS_CLASSICAL_MIN_GAP_HOURS`: `1` (default; hourly ceiling, ~up to 24 posts/day - raise this back up if quality or source-availability suffers at high volume)
 - `KN_NEWS_MAX_ANALYSIS_TOKENS`: `180`
 - `OPENAI_MODEL`: `gpt-4o-mini`
 - `FACEBOOK_TARGET`: `disabled`
@@ -41,12 +41,19 @@ or tradition even in a critique/debate post, and any health/legal/psychological 
 include a plain disclaimer that it is not a substitute for professional care.
 
 Even though the workflow's cron fires every 15 minutes, this pipeline only actually posts roughly every
-`KN_NEWS_CLASSICAL_MIN_GAP_HOURS` hours (default 9, i.e. ~2-3 posts/day to start). `content_state.py`
-tracks the last-post time and recent topic/genre history in `docs/content_state.json`, which the workflow
-commits back to the repo alongside `docs/analysis_feed.xml` - this is what makes the cadence gate and the
-topic/genre rotation survive across runs, since `news.db` itself does not (see below). Once you're happy
-with post quality, lower `KN_NEWS_CLASSICAL_MIN_GAP_HOURS` to increase volume - no other code change is
-needed.
+`KN_NEWS_CLASSICAL_MIN_GAP_HOURS` hours (default 1, i.e. up to ~24 posts/day - started at 9/~2-3 posts/day
+while validating quality, then scaled up). `content_state.py` tracks the last-post time and recent
+topic/genre history in `docs/content_state.json`, which the workflow commits back to the repo alongside
+`docs/analysis_feed.xml` - this is what makes the cadence gate and the topic/genre rotation survive across
+runs, since `news.db` itself does not (see below). Adjust `KN_NEWS_CLASSICAL_MIN_GAP_HOURS` up or down any
+time - no other code change is needed.
+
+At hourly cadence, actual posts/day will likely land somewhat below the 24 ceiling: `ENGLISH_SOURCES` is
+only 3 feeds (The Hindu - Karnataka, The Hindu - National, TOI - Bengaluru), and both the near-duplicate
+filter and the cross-run posted-ids registry (see "Duplicate-post prevention" below) deliberately skip a
+run rather than post a repeat when nothing genuinely new is available. If runs start skipping often
+(watch for "no unseen news story available" in the logs), either lower the cadence back down or add more
+English-language source feeds to `config.ENGLISH_SOURCES`.
 
 ## Duplicate-post prevention (both channels)
 
@@ -113,8 +120,12 @@ changed. This feed is provider-agnostic: point any RSS-to-social tool at it. One
    their own Meta-approved app, so connecting your Page is just a standard "Login with Facebook"
    click, no App Review needed on your side:
    - **dlvr.it** (recommended): free Basic plan = 2 profiles, 3 feeds, up to 5 posts/day (3/day
-     per profile) - comfortably covers our volume of roughly 1-4 analysis posts/day. Add the
-     feed under Feeds (RSS/Atom), route it to your connected Facebook Page.
+     per profile). **This was sized for the original ~1-4 posts/day and does NOT cover an
+     hourly/~24-posts-day cadence** - at that volume, dlvr.it's free tier will only carry ~5 of
+     each day's posts through to Facebook and the rest won't reach the Page even though Telegram
+     gets all of them (Telegram posts directly, with no such cap). Either keep the Facebook side
+     throttled to dlvr.it's free-tier cap, or move to a paid dlvr.it/ViralDashboard plan (or
+     another tool without a hard daily cap) if you want Facebook volume to match Telegram.
    - **IFTTT**: free plan allows 2 active Applets, which is exactly what's needed here (one
      Applet: "new item in this RSS feed -> post to this Facebook Page"). Polling can be slower
      than dlvr.it on the free tier, which is fine for this use case.

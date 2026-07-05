@@ -95,10 +95,14 @@ ENGLISH_ANALYSIS_ENABLED = _env("KN_NEWS_ENGLISH_ANALYSIS", "1") == "1"
 ENABLE_LLM_ANALYSIS = _env("KN_NEWS_ENABLE_LLM", "1") == "1"
 # Minimum hours between classical-content posts, enforced via content_state.py
 # (persisted across runs since news.db does not survive scheduled runs).
-# Default 9.0 hours => ~2.6 posts/day, matching the "2-3 posts/day" starting
-# cadence; raise/lower via KN_NEWS_CLASSICAL_MIN_GAP_HOURS once quality is
-# validated and volume should increase.
-CLASSICAL_CONTENT_MIN_GAP_HOURS = _env_float("KN_NEWS_CLASSICAL_MIN_GAP_HOURS", 3.0)
+# Started at 9.0 hours (~2.6 posts/day) while validating quality; raised to
+# 1.0 hour (~24 posts/day ceiling) once quality was confirmed and volume was
+# scaled up. Actual throughput will run somewhat below the theoretical
+# ceiling: ENGLISH_SOURCES is only 3 feeds, and dedupe_near_duplicates() +
+# posted_store's cross-run memory both intentionally skip a run rather than
+# post something repetitive when there's no genuinely fresh, unique story
+# available yet - raise/lower via KN_NEWS_CLASSICAL_MIN_GAP_HOURS as needed.
+CLASSICAL_CONTENT_MIN_GAP_HOURS = _env_float("KN_NEWS_CLASSICAL_MIN_GAP_HOURS", 1.0)
 ALLOW_LIVE_LLM = _env("KN_NEWS_ALLOW_LIVE_LLM", "0") == "1"
 OPENROUTER_API_KEY = _env("OPENROUTER_API_KEY")
 OPENROUTER_MODEL = _env("OPENROUTER_MODEL", "meta-llama/llama-3.1-8b-instruct:free")
