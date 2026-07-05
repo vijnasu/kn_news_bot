@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T22:23:27.847883+00:00",
+  "last_posted_at": "2026-07-05T23:25:47.033856+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -133,6 +133,13 @@
       "genre": "myth_busting",
       "style": "modern_explainer",
       "posted_at": "2026-07-05T22:23:27.847883+00:00"
+    },
+    {
+      "system": "Niti Shastra & Panchatantra",
+      "subtopic": "Sugar factory closed down in Sankeshwar for violating pollution norms",
+      "genre": "elaboration",
+      "style": "philosophical_novelistic",
+      "posted_at": "2026-07-05T23:25:47.033856+00:00"
     }
   ]
 }
