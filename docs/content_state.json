@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T06:20:20.103307+00:00",
+  "last_posted_at": "2026-07-05T07:39:12.764087+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -42,6 +42,13 @@
       "genre": "guidance",
       "style": "modern_explainer",
       "posted_at": "2026-07-05T06:20:20.103307+00:00"
+    },
+    {
+      "system": "Nyaya Shastra",
+      "subtopic": "Kurnool district police intensify enforcement to curb road accidents",
+      "genre": "controversy_balanced",
+      "style": "modern_explainer",
+      "posted_at": "2026-07-05T07:39:12.764087+00:00"
     }
   ]
 }
