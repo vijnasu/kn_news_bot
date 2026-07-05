@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T15:10:49.283046+00:00",
+  "last_posted_at": "2026-07-05T16:12:41.465298+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -91,6 +91,13 @@
       "genre": "paid_group_teaser",
       "style": "shastra_pravachana",
       "posted_at": "2026-07-05T15:10:49.283046+00:00"
+    },
+    {
+      "system": "Smriti & Dharmashastra",
+      "subtopic": "Complaint by actor Ansiba Hassan: Court directs registration of FIR against Lakshmipriya, SI",
+      "genre": "guidance",
+      "style": "sharp_social_critique",
+      "posted_at": "2026-07-05T16:12:41.465298+00:00"
     }
   ]
 }
