@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T08:41:55.299762+00:00",
+  "last_posted_at": "2026-07-05T09:42:06.113038+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -56,6 +56,13 @@
       "genre": "critique",
       "style": "sharp_social_critique",
       "posted_at": "2026-07-05T08:41:55.299762+00:00"
+    },
+    {
+      "system": "Nyaya Shastra",
+      "subtopic": "I&B Ministry steps up pressure on Telegram, seeks proactive action against piracy",
+      "genre": "story",
+      "style": "shastra_pravachana",
+      "posted_at": "2026-07-05T09:42:06.113038+00:00"
     }
   ]
 }
