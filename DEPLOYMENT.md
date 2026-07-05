@@ -116,6 +116,22 @@ left in a given run. Wired in at:
 No config/secret changes are needed to adjust this - edit the hint lists directly in `analyzer.py` if
 a city/state needs to be added.
 
+## Quiet hours: no posting 11:00 PM - 5:59 AM IST
+
+`main.py`'s `run()` checks `_in_quiet_hours()` right at the start (after the destination
+config check, before any fetch/LLM/posting work) and skips the entire run - no Telegram
+posts on either channel, no Facebook - between 23:00 and 05:59 IST. Posting resumes
+automatically at 06:00 IST on the next scheduled run; no state needs to reset since
+`news.db` doesn't persist across runs anyway.
+
+This is a hard stop applied once at the top of `run()`, which covers both the
+plain-headline loop and `_run_classical_content()` (channel 2 + Facebook) in one place,
+since both are called from within `run()`. `--dry-run` bypasses the check, so the
+pipeline can still be exercised/debugged manually at any hour without risk of a live post.
+
+To change the window, edit the two literals (`23`, `6`) in `_in_quiet_hours()` in
+`main.py` - no config/secret needed since this isn't expected to change often.
+
 ## Telegram Setup
 
 Add the bot as an admin in each Telegram channel and give it permission to post messages.

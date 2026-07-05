@@ -58,6 +58,17 @@ def _top_items_for_posting(items: list[NewsItem]) -> list[NewsItem]:
     return picked
 
 
+def _in_quiet_hours(now: datetime | None = None) -> bool:
+    """Quiet hours: 11:00 PM IST through 5:59 AM IST - no posting to either
+    Telegram channel or Facebook during this window; posting resumes at
+    6:00 AM IST. Checked once at the top of run(), which covers both the
+    plain-headline loop and _run_classical_content (channel 2 + Facebook),
+    since both live inside run()."""
+    now = now or datetime.now(tz=IST)
+    hour = now.hour
+    return hour >= 23 or hour < 6
+
+
 def _facebook_enabled() -> bool:
     return (
         config.FACEBOOK_TARGET == "page"
@@ -270,6 +281,16 @@ def run(dry_run: bool = False, preview_analysis: bool = False, preview_limit: in
             "No post destinations configured. Set TELEGRAM_CHANNEL_ID/TELEGRAM_CHANNEL_IDS "
             "for primary Telegram, and/or TELEGRAM_ANALYSIS_CHANNEL_IDS for analysis channel."
         )
+
+    # Quiet hours: pause all live posting 11:00 PM - 5:59 AM IST, resuming at
+    # 6:00 AM IST. Applies to both channels and Facebook (both post from
+    # within this function) - a hard stop, not relaxed for backlog/refill.
+    # dry-run bypasses this so the pipeline can still be tested/debugged at
+    # any hour without accidentally posting live.
+    if not dry_run and _in_quiet_hours():
+        now_ist = datetime.now(tz=IST)
+        print(f"[main] quiet hours ({now_ist.strftime('%H:%M')} IST, window 23:00-05:59) - skipping this run, no posting")
+        return
 
     store.init_db()
     raw_items = fetch.fetch_all() + scrape.fetch_all_scraped()
