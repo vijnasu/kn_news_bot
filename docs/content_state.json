@@ -1,5 +1,5 @@
 {
-  "last_posted_at": "2026-07-05T13:55:42.563988+00:00",
+  "last_posted_at": "2026-07-05T15:10:49.283046+00:00",
   "recent": [
     {
       "system": "Classical Literature & Kavya",
@@ -84,6 +84,13 @@
       "genre": "story",
       "style": "philosophical_novelistic",
       "posted_at": "2026-07-05T13:55:42.563988+00:00"
+    },
+    {
+      "system": "Nyaya Shastra",
+      "subtopic": "HMT asked to hand over 430 acres and 21 guntas of land in Peenya Plantation and Jarakabande Sandal reserve to Forest Department",
+      "genre": "paid_group_teaser",
+      "style": "shastra_pravachana",
+      "posted_at": "2026-07-05T15:10:49.283046+00:00"
     }
   ]
 }
