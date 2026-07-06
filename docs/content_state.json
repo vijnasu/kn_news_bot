@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T03:47:34.710437+00:00",
+  "last_posted_at": "2026-07-06T05:30:32.994242+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Bihar to set up 100 fast track courts",
-      "genre": "elaboration",
-      "style": "sharp_social_critique",
-      "posted_at": "2026-07-04T22:35:37.352097+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "Bihar to set up 100 fast track courts",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-07-06T03:47:34.710437+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Visit to Indonesia, Australia, New Zealand will further strengthen India's Act East Policy: PM",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-07-06T05:30:32.994242+00:00"
     }
   ]
 }
