@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T08:38:04.473110+00:00",
+  "last_posted_at": "2026-07-06T10:11:15.120635+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Kurnool district police intensify enforcement to curb road accidents",
-      "genre": "controversy_balanced",
-      "style": "modern_explainer",
-      "posted_at": "2026-07-05T07:39:12.764087+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "U.S. actions as ‘world police’ can cause diplomatic strife, U.S. DoJ on why it is dropping Adani case",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-07-06T08:38:04.473110+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "SIR in Karnataka: NDA alleges BLOs filling enumeration forms in community halls, mosques, and even their own residences",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-07-06T10:11:15.120635+00:00"
     }
   ]
 }
