@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T10:11:15.120635+00:00",
+  "last_posted_at": "2026-07-06T11:45:59.413394+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "U.S. actions as ‘world police’ can cause diplomatic strife, U.S. DoJ on why it is dropping Adani case",
-      "genre": "critique",
-      "style": "sharp_social_critique",
-      "posted_at": "2026-07-05T08:41:55.299762+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "I&B Ministry steps up pressure on Telegram, seeks proactive action against piracy",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-06T10:11:15.120635+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Amit Shah announces new cooperative life insurance company on lines of Bharat Taxi",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-07-06T11:45:59.413394+00:00"
     }
   ]
 }
