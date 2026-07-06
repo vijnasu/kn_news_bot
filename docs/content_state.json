@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T14:38:52.399071+00:00",
+  "last_posted_at": "2026-07-06T15:58:17.892992+00:00",
   "recent": [
-    {
-      "system": "Vyakarana & Sanskrit",
-      "subtopic": "Jantar Mantar turns hunger strike junction",
-      "genre": "correlation",
-      "style": "modern_explainer",
-      "posted_at": "2026-07-05T12:39:40.509477+00:00"
-    },
     {
       "system": "Arthashastra & Rajaneeti",
       "subtopic": "Upper Bhadra Project will be completed by 2028: Karnataka Water Resources Minister Ramalinga Reddy",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "sudden_loss",
       "posted_at": "2026-07-06T14:38:52.399071+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka: H.D. Kumaraswamy accuses Congress government of plotting to derail HMT revival package",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-07-06T15:58:17.892992+00:00"
     }
   ]
 }
