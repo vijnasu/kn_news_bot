@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T05:30:32.994242+00:00",
+  "last_posted_at": "2026-07-06T06:57:45.372525+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Bihar to set up 100 fast track courts",
-      "genre": "story",
-      "style": "shastra_pravachana",
-      "posted_at": "2026-07-05T01:57:15.847347+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "Man cleared in Pocso case after DNA test proves innocence",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-07-06T05:30:32.994242+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karur stampede case: Supreme Court agrees to hear DMK’s plea to bar TVK leaders from ‘influencing’ material witnesses, making ‘threatening’ statements",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-06T06:57:45.372525+00:00"
     }
   ]
 }
