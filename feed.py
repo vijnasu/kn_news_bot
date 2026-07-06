@@ -33,8 +33,6 @@ import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape as _xml_escape
 
 import config
-from classical_content import CLASSICAL_HASHTAGS
-from formatter import CLASSICAL_CTA_LINE
 from models import NewsItem
 
 FEED_PATH = Path("docs/analysis_feed.xml")
@@ -82,12 +80,14 @@ def _cdata(text: str) -> str:
 
 def _entry_from_item(item: NewsItem) -> FeedEntry:
     pub_dt = _parse_dt(item.posted_at or item.published_at)
-    # item.category holds the classical system name (e.g. "Jyotisha (Vedic
-    # Astrology)") for these posts - see main.py's classical-content pipeline
-    # - so hashtags come from the per-system map instead of a fixed list.
-    tags = ["Vedavidhya", "SanatanaDharma"] + CLASSICAL_HASHTAGS.get(item.category, [])
-    tags_line = " ".join(f"#{t}" for t in tags)
-    description = f"{(item.analysis_text or '').strip()}\n\n{CLASSICAL_CTA_LINE}\n\n{tags_line}"
+    # analysis_text is now the FULLY composed post body (news interpretation
+    # + fixed soft CTA + source citation + hashtags + fixed strong booking
+    # CTA, everything after the title) - see main.py's _run_classical_content,
+    # which stores it via formatter.build_consultation_facebook_body(). This
+    # guarantees the Facebook feed matches what Telegram actually posted,
+    # instead of this module independently reconstructing a CTA/hashtag line
+    # from item.category (the old classical-systems approach).
+    description = (item.analysis_text or "").strip()
     return FeedEntry(
         guid=item.id,
         title=item.title,

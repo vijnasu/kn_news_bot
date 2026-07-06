@@ -23,37 +23,75 @@ Use these GitHub repository settings for the Vedavidhya Telegram article channel
 - `FACEBOOK_TARGET`: `disabled`
 - `KN_NEWS_REFRESH_STYLE`: `0`
 
-## Classical-Content Pipeline (Vedavidhya analysis channel + Facebook)
+## Consultation-Content Pipeline (Vedavidhya analysis channel + Facebook)
 
-The analysis channel/Facebook page no longer reacts to daily news. `classical_content.py` generates
-original Kannada content mapped to specific classical Indian systems - Jyotisha (Vedic Astrology),
-Tantra/Sadhana/Shakti, Vedic Science, Dharmashastra, Arthashastra, Nyayashastra, Itihasa (Ramayana &
-Mahabharata), Panchatantra, and Indian classical arts/literature - in a rotating mix of content genres:
-critique, debate, elaboration, story, correlation, guidance, and lifestyle. This replaced the old
-"analyze today's news through a dharmic lens" pipeline, which produced generic current-affairs
-commentary rather than content actually about these systems.
+The analysis channel/Facebook page's live content generator is `consultation_content.py`, which implements
+an astrology/Tantra consultation-lead-generation strategy: every post reads a real, unique news story
+through an astrological/karmic lens and connects it to the kind of recurring personal problems (marriage
+delay, business blockage, court cases, financial loss, health fear, family disturbance, career
+instability, etc.) that make a reader want to book a consultation. This replaced the earlier
+classical-systems-rotation strategy (`classical_content.py`, now dormant infrastructure - kept in the repo
+but no longer called from `main.py`), which covered ~20 classical Indian knowledge systems in a general
+educational rotation rather than a consultation-focused angle.
 
-Each run picks one (system, specific angle, genre) combination that hasn't been used recently, drafts it
-in English with Gemini, and translates it to Kannada with the same Groq-first pipeline used before (see
-`analyzer.py`'s translation functions, reused by `classical_content.py`). A shared set of safety rules
-applies to every genre: never fabricate verse numbers/citations/studies, never disparage a rival school
-or tradition even in a critique/debate post, and any health/legal/psychological guidance post must
-include a plain disclaimer that it is not a substitute for professional care.
+**News selection is a hard gate, not a soft preference.** `consultation_content.score_relevance()` checks
+each candidate story's title/summary/category against 16 theme categories (business, politics, marriage,
+health, finance, land, court, career, fear, sudden loss, scandal, accident, public unrest, weather
+extremes, strange events, crisis). `main.py`'s `_select_news_item()` only considers a story a candidate if
+it matches at least one of these themes - an "ordinary" story (routine announcements, generic local
+updates) is never forced through just because nothing else is available that run. If nothing in the
+unseen pool clears this gate, the run posts nothing and logs "no consultation-relevant story in this run's
+pool" - this is expected behavior, not a bug, and will happen more often than the old pipeline's
+near-100%-post-every-gap-window behavior.
+
+**Post structure** (built by `consultation_content.generate_consultation_post()` + `formatter.py`'s
+`build_consultation_*` functions):
+1. Kannada headline - emotional, mysterious, consultation-oriented, never fear-mongering.
+2. News summary (3-5 sentences), simple and non-biased.
+3. Astrology/Tantra angle - rotated across 8 concepts (Graha drishti, Kala-dosha, collective karma,
+   Rahu-Ketu, Shani influence, Mars/accident symbolism, Chandra/collective fear, Deva Prashna/Prashna
+   Jyotisha), avoiding whichever angle was used in the last 3 posts (tracked via `content_state.json`,
+   same persistence mechanism as before, with the `system`/`genre` fields repurposed to store the
+   angle/personal-theme keys instead of classical-system/genre names).
+4. Personal-life connection - rotated across 11 pain points (marriage delay, business blockage, repeated
+   failures, court cases, financial loss, sudden health fear, family disturbance, negative energy,
+   unexplained obstacles, political/business enemies, career instability).
+5. Fixed soft CTA line (`consultation_content.SOFT_CTA_LINE`) - never LLM-generated, so the exact wording
+   can never drift.
+6. Format constraints enforced via prompt + hard-coded composition: Kannada only, 300-600 words, light
+   emojis, serious/mystical/mature tone, no direct disaster predictions, no guaranteed-remedy claims, no
+   attacks on religion/caste/party/community, "Vedavidhya" mentioned naturally once near the end of the
+   body, 8-12 mixed Kannada/English hashtags (`consultation_content.select_hashtags()` - a curated pool +
+   theme-matched tags, not LLM-generated, so hashtag quality/count is always consistent), and a final
+   stronger booking CTA line (`consultation_content.STRONG_CTA_LINE`) as the literal last line of every
+   post, after the hashtags.
+
+The English draft is generated by Gemini, then translated to Kannada via the same Groq-first pipeline
+used elsewhere (`analyzer._translate_to_kannada`) - but with a larger length budget than that function's
+default (`max_chars=4500`, `max_output_tokens=2400`) since Kannada script is token-heavy and the default
+budget was sized for the older, shorter 4-paragraph posts; without this override, 300-600 word posts would
+have been silently truncated mid-sentence.
+
+Two extra fields are generated alongside the post but are not published - they're printed to the run log
+(and visible via `--preview-analysis`) for the brand's own reference: `image_prompt` (a suggested textless
+mystical/astrology visual for manually pairing an image with the post) and the matched news themes (an
+implicit "why this topic was selected" record).
 
 Even though the workflow's cron fires every 15 minutes, this pipeline only actually posts roughly every
-`KN_NEWS_CLASSICAL_MIN_GAP_HOURS` hours (default 1, i.e. up to ~24 posts/day - started at 9/~2-3 posts/day
-while validating quality, then scaled up). `content_state.py` tracks the last-post time and recent
-topic/genre history in `docs/content_state.json`, which the workflow commits back to the repo alongside
-`docs/analysis_feed.xml` - this is what makes the cadence gate and the topic/genre rotation survive across
-runs, since `news.db` itself does not (see below). Adjust `KN_NEWS_CLASSICAL_MIN_GAP_HOURS` up or down any
-time - no other code change is needed.
+`KN_NEWS_CLASSICAL_MIN_GAP_HOURS` hours (default 1, i.e. up to ~24 posts/day ceiling). `content_state.py`
+tracks the last-post time and recent angle/theme history in `docs/content_state.json`, which the workflow
+commits back to the repo alongside `docs/analysis_feed.xml` - this is what makes the cadence gate and the
+angle/theme rotation survive across runs, since `news.db` itself does not (see below). Adjust
+`KN_NEWS_CLASSICAL_MIN_GAP_HOURS` up or down any time - no other code change is needed.
 
-At hourly cadence, actual posts/day will likely land somewhat below the 24 ceiling: `ENGLISH_SOURCES` is
-only 3 feeds (The Hindu - Karnataka, The Hindu - National, TOI - Bengaluru), and both the near-duplicate
-filter and the cross-run posted-ids registry (see "Duplicate-post prevention" below) deliberately skip a
-run rather than post a repeat when nothing genuinely new is available. If runs start skipping often
-(watch for "no unseen news story available" in the logs), either lower the cadence back down or add more
-English-language source feeds to `config.ENGLISH_SOURCES`.
+At hourly cadence, actual posts/day will likely land somewhat below the 24 ceiling, more so now than under
+the old pipeline: `ENGLISH_SOURCES` is only 3 feeds (The Hindu - Karnataka, The Hindu - National, TOI -
+Bengaluru), and on top of the near-duplicate filter and the cross-run posted-ids registry (see
+"Duplicate-post prevention" below), the consultation-relevance hard gate above will now also skip a run
+whenever none of the day's unseen stories has a genuine spiritual/karmic/astrological angle. If runs start
+skipping often (watch for "no consultation-relevant story" / "no unseen news story available" in the
+logs), either lower the cadence back down or add more English-language source feeds to
+`config.ENGLISH_SOURCES` to widen the pool of candidate stories.
 
 ## Duplicate-post prevention (both channels)
 

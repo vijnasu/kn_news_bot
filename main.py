@@ -13,19 +13,22 @@ import store
 import fetch
 import scrape
 import feed
-import classical_content
+import consultation_content
 import content_state
 import posted_store
 from dedupe import dedupe_near_duplicates
 from analyzer import (
-    COSTLY_HINTS,
-    POLICY_HINTS,
     EXCLUDE_HINTS,
     SOURCE_EXCLUDE_HINTS,
     URL_EXCLUDE_HINTS,
     is_other_state_item,
 )
-from formatter import build_telegram_text, build_classical_analysis_text, build_classical_facebook_text
+from formatter import (
+    build_telegram_text,
+    build_consultation_analysis_text,
+    build_consultation_facebook_body,
+    build_consultation_facebook_text,
+)
 from models import NewsItem
 
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -96,14 +99,15 @@ def _post_to_destinations(item: NewsItem) -> dict:
     return results
 
 
-def _post_classical_content(item: NewsItem, body: str, genre_label: str) -> dict:
-    """Post one classical-content piece to the analysis destinations only -
+def _post_classical_content(item: NewsItem, body: str, hashtags: list[str]) -> dict:
+    """Post one consultation-content piece to the analysis destinations only -
     it never goes to the main headline channel, which stays pure Kannada-RSS
-    content."""
+    content. (Direct Facebook posting here is a fallback path only - the live
+    Facebook route is the RSS feed, see feed.py/DEPLOYMENT.md.)"""
     results = {"telegram_analysis": [], "facebook": None}
     import telegram_post
 
-    analysis_text = build_classical_analysis_text(item, body, genre_label)
+    analysis_text = build_consultation_analysis_text(item, body, hashtags)
     for chat_id in config.TELEGRAM_ANALYSIS_CHANNEL_IDS or []:
         message_id = telegram_post.send_post(
             analysis_text,
@@ -116,7 +120,7 @@ def _post_classical_content(item: NewsItem, body: str, genre_label: str) -> dict
     if _facebook_enabled():
         import facebook_post
 
-        fb_text = build_classical_facebook_text(item, body, genre_label)
+        fb_text = build_consultation_facebook_text(item, body, hashtags)
         results["facebook"] = facebook_post.send_post(fb_text, link=item.link)
     return results
 
@@ -132,17 +136,20 @@ def _print_analysis_preview(item: NewsItem, analysis: str) -> None:
 
 
 def _select_news_item(items: list[NewsItem]) -> NewsItem | None:
-    """Pick the single most relevant/unique news story to interpret this run.
-    Reuses the same English-language keyword hints analyzer.py's old
-    news-analysis pipeline used - they're already English strings, so they
-    work unmodified here."""
+    """Pick the single most consultation-relevant, unique news story to
+    interpret this run for the astrology/Tantra consultation-lead-generation
+    pipeline (see consultation_content.py).
+
+    Consultation relevance is a HARD gate, not just a scoring boost: per the
+    brand's explicit strategy, an "ordinary" story with no clear spiritual/
+    karmic/astrological/occult angle should never be forced through just
+    because nothing else is available - if nothing in the pool matches any
+    consultation-relevant theme, this returns None and the run is skipped
+    entirely (see _run_classical_content), rather than posting a mismatched
+    interpretation."""
 
     def blob(i: NewsItem) -> str:
         return f"{i.title} {i.summary} {i.category} {i.source}".lower()
-
-    def score(i: NewsItem) -> int:
-        b = blob(i)
-        return sum(1 for h in POLICY_HINTS if h in b) + sum(1 for h in COSTLY_HINTS if h in b)
 
     # Geographic scope (Karnataka + genuinely national news only) is a hard
     # boundary - never relaxed, even if nothing else is left to pick from
@@ -167,31 +174,46 @@ def _select_news_item(items: list[NewsItem]) -> NewsItem | None:
         candidates = in_scope
     if not candidates:
         return None
-    candidates.sort(key=lambda i: (score(i), _parse_iso(i.published_at)), reverse=True)
-    return candidates[0]
+
+    scored = []
+    for i in candidates:
+        score, matched = consultation_content.score_relevance(i.title, i.summary, i.category)
+        if score > 0:
+            scored.append((score, matched, i))
+    if not scored:
+        print("[main] no consultation-relevant story in this run's pool (no spiritual/karmic/astrological angle found); skipping")
+        return None
+
+    scored.sort(key=lambda t: (t[0], _parse_iso(t[2].published_at)), reverse=True)
+    best_score, best_matched, best_item = scored[0]
+    print(f"[main] consultation-relevant story selected (themes: {', '.join(best_matched)}, score={best_score}): {best_item.title[:50]}...")
+    return best_item
 
 
 def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
-    """Pick one real, unique, unseen news story and generate/post an original
-    classical-content piece (Vedic Astrology, Tantra, Vedic Science,
-    Dharmashastra, Arthashastra, Nyayashastra, Itihasa, Panchatantra,
-    classical arts/literature) interpreting it, in a rotating genre
-    (critique/debate/elaboration/story/correlation/guidance/lifestyle) and
-    literary style - see classical_content.py's generate_post_from_news for
-    the system/genre/style selection and prompt-building.
+    """Pick one real, unique, unseen, consultation-relevant news story and
+    generate/post an astrology/Tantra consultation-lead-generation piece -
+    see consultation_content.py's generate_consultation_post for the news-
+    relevance gate, angle/theme selection, and prompt-building. (The older
+    classical-systems-rotation pipeline, classical_content.py, is kept as
+    dormant infrastructure but is no longer called from here.)
 
     Cadence is gated externally, not by cron frequency: content_state.json
     (committed to the repo, same mechanism as the RSS feed - see feed.py)
-    tracks the last post time and recent system/genre/style history, so even
-    though this function runs on every ~15-minute cron tick, it only actually
+    tracks the last post time and recent angle/theme history, so even though
+    this function runs on every ~15-minute cron tick, it only actually
     generates+posts roughly every config.CLASSICAL_CONTENT_MIN_GAP_HOURS
-    hours (default ~2-3 times/day). Dedup of which news story has already
-    been used works the same way as the plain-headline pipeline above:
-    store.exists() only catches items already seen THIS run (news.db doesn't
-    persist across scheduled runs), so posted_store.json is the real
-    cross-run memory, and dedupe_near_duplicates() collapses the same story
-    covered by both English sources (The Hindu / TOI) into one candidate
-    before scoring."""
+    hours. Dedup of which news story has already been used works the same
+    way as the plain-headline pipeline above: store.exists() only catches
+    items already seen THIS run (news.db doesn't persist across scheduled
+    runs), so posted_store.json is the real cross-run memory, and
+    dedupe_near_duplicates() collapses the same story covered by both
+    English sources (The Hindu / TOI) into one candidate before scoring.
+
+    _select_news_item applies a HARD consultation-relevance gate on top of
+    all of this - if nothing in the unseen pool has a genuine spiritual/
+    karmic/astrological angle, it returns None and this run posts nothing,
+    rather than forcing an ill-fitting interpretation onto an ordinary story."""
     if not config.ENGLISH_ANALYSIS_ENABLED:
         return
     if not dry_run and not preview_analysis and not (_telegram_analysis_enabled() or _facebook_enabled()):
@@ -214,12 +236,12 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
     print(f"[main] fetched {len(raw_english)} english entries across {len(config.ENGLISH_SOURCES)} sources, {len(unseen)} unseen after dedup")
     chosen = _select_news_item(unseen)
     if not chosen:
-        print("[main] no unseen news story available for classical content this run")
+        print("[main] no consultation-relevant unseen news story available this run")
         return
 
-    result = classical_content.generate_post_from_news(chosen.title, chosen.summary, chosen.source, state.get("recent", []))
+    result = consultation_content.generate_consultation_post(chosen.title, chosen.summary, chosen.source, state.get("recent", []))
     if not result:
-        print(f"[main] no acceptable classical content produced for '{chosen.title[:40]}...'; skipping")
+        print(f"[main] no acceptable consultation content produced for '{chosen.title[:40]}...'; skipping")
         return
 
     now_ist = datetime.now(tz=IST).isoformat()
@@ -230,43 +252,50 @@ def _run_classical_content(dry_run: bool, preview_analysis: bool) -> None:
         link=chosen.link,
         # source = the real news outlet (e.g. "The Hindu - Karnataka"), so the
         # published post can cite where the story came from; category = the
-        # classical system name, used by formatter.py/feed.py for emoji and
-        # hashtag lookups. Previously both were set to the system name, which
-        # left no way to render the actual source reference line.
+        # astrology angle key used (informational only now - formatter.py's
+        # consultation render functions take hashtags directly from `result`,
+        # not via a category->hashtag lookup).
         source=chosen.source,
-        category=result["system"],
+        category=result["angle_key"],
         language="kn",
         published_at=now_ist,
         fetched_at=now_ist,
     )
-    genre_label = classical_content.GENRES[result["genre"]]["label"]
 
     if preview_analysis:
         _print_analysis_preview(fake_item, result["body"])
+        print(f"[preview] angle: {result['angle_label']} | theme: {result['theme_label']}")
+        print(f"[preview] why suitable (matched news themes): {result['matched_news_themes']}")
+        print(f"[preview] suggested image prompt: {result['image_prompt']}")
+        print(f"[preview] hashtags: {result['hashtags']}")
 
     if dry_run:
         return
 
-    posted = _post_classical_content(fake_item, result["body"], genre_label)
+    posted = _post_classical_content(fake_item, result["body"], result["hashtags"])
     sent_count = len(posted["telegram_analysis"]) + (1 if posted["facebook"] else 0)
     if sent_count == 0:
-        print("[main] classical content produced but no destination accepted it")
+        print("[main] consultation content produced but no destination accepted it")
         return
     store.insert(fake_item)
-    store.save_analysis(fake_item.id, result["body"])
+    # Store the fully-composed Facebook body (everything after the title) so
+    # feed.py's RSS description can use it verbatim - keeps Telegram and the
+    # Facebook feed showing the identical CTA/source/hashtag structure
+    # instead of two independently-reconstructed versions drifting apart.
+    store.save_analysis(fake_item.id, build_consultation_facebook_body(fake_item, result["body"], result["hashtags"]))
     store.mark_posted(fake_item.id, None, datetime.now(tz=IST).isoformat())
     posted_store.mark_posted([chosen.id], datetime.now(tz=timezone.utc).isoformat())
     content_state.record_post(
-        result["system"],
+        result["angle_key"],
         result["subtopic"],
-        result["genre"],
+        result["theme_key"],
         datetime.now(tz=timezone.utc).isoformat(),
         state=state,
-        style=result["style"],
+        style=(result["matched_news_themes"][0] if result["matched_news_themes"] else None),
     )
     print(
-        f"[main] posted classical content: system={result['system']} genre={result['genre']} "
-        f"news='{chosen.title[:40]}...'"
+        f"[main] posted consultation content: angle={result['angle_key']} theme={result['theme_key']} "
+        f"words={result['kannada_word_count']} news='{chosen.title[:40]}...'"
     )
 
 

@@ -221,11 +221,16 @@ def _clean_paragraph(text: str) -> str:
     return text
 
 
-def _trim_analysis(text: str) -> str:
+def _trim_analysis(text: str, max_chars: int | None = None) -> str:
     """Normalize an LLM response into clean paragraphs. Paragraph breaks
     (blank lines) are preserved - collapsing ALL whitespace to single spaces
     (the old behaviour) silently merged every paragraph into one unbroken
-    wall of text with no visible structure once posted."""
+    wall of text with no visible structure once posted.
+
+    max_chars overrides the default config.MAX_ANALYSIS_TOKENS-derived cap -
+    needed by callers producing longer-form content (e.g. consultation_content.py's
+    300-600 word posts) that would otherwise get silently truncated to the
+    short 2-paragraph analysis pipeline's budget."""
     raw = (text or "").strip()
     if not raw:
         return raw
@@ -235,7 +240,7 @@ def _trim_analysis(text: str) -> str:
         paragraphs = [raw]
     cleaned = "\n\n".join(_clean_paragraph(p) for p in paragraphs)
 
-    max_chars = max(280, config.MAX_ANALYSIS_TOKENS * 5)
+    max_chars = max_chars if max_chars is not None else max(280, config.MAX_ANALYSIS_TOKENS * 5)
     if len(cleaned) <= max_chars:
         return cleaned
 
@@ -792,13 +797,13 @@ def _try_gemini_english(item: NewsItem) -> str | None:
         return None
 
 
-def _parse_translation(raw: str) -> tuple[str, str] | None:
+def _parse_translation(raw: str, max_chars: int | None = None) -> tuple[str, str] | None:
     m_title = re.search(r"TITLE:\s*(.+)", raw)
     m_body = re.search(r"BODY:\s*(.+)", raw, re.DOTALL)
     if not m_title or not m_body:
         return None
     title = m_title.group(1).strip()
-    body = _trim_analysis(m_body.group(1).strip())
+    body = _trim_analysis(m_body.group(1).strip(), max_chars=max_chars)
     if not title or not body:
         return None
     return title, body
@@ -856,11 +861,22 @@ def _translation_prompt(title: str, body: str) -> str:
     )
 
 
-def _translate_to_kannada(title: str, body: str) -> tuple[str, str] | None:
+def _translate_to_kannada(
+    title: str,
+    body: str,
+    max_chars: int | None = None,
+    max_output_tokens: int = 700,
+) -> tuple[str, str] | None:
     """Translate an English title+analysis to Kannada. Tries Groq first
     (free tier, pure translation task) and only falls back to Gemini if Groq
     is unavailable, since the whole point of this path is to keep Kannada
-    token volume off the paid/quota-limited provider."""
+    token volume off the paid/quota-limited provider.
+
+    max_chars/max_output_tokens let a longer-form caller (e.g.
+    consultation_content.py's 300-600 word posts) request a bigger length
+    budget than the default 700-token/~2500-char ceiling sized for
+    classical_content.py's shorter 4-paragraph posts - Kannada script is
+    token-heavy, so 700 tokens is not enough room for 300-600 Kannada words."""
     prompt = _translation_prompt(title, body)
 
     if config.GROQ_API_KEY and "groq" not in _DISABLED_PROVIDERS:
@@ -871,11 +887,11 @@ def _translate_to_kannada(title: str, body: str) -> tuple[str, str] | None:
             resp = client.chat.completions.create(
                 model=config.GROQ_MODEL,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=700,
+                max_tokens=max_output_tokens,
                 temperature=0.2,
             )
             raw = (resp.choices[0].message.content or "") if resp.choices else ""
-            parsed = _parse_translation(raw)
+            parsed = _parse_translation(raw, max_chars=max_chars)
             if parsed:
                 return parsed
             print("[analyzer] Groq translation output malformed; trying Gemini fallback")
@@ -894,13 +910,13 @@ def _translate_to_kannada(title: str, body: str) -> tuple[str, str] | None:
                 model=config.GEMINI_MODEL,
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    max_output_tokens=700,
+                    max_output_tokens=max_output_tokens,
                     temperature=0.2,
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
                 ),
             )
             raw = getattr(resp, "text", "") or ""
-            return _parse_translation(raw)
+            return _parse_translation(raw, max_chars=max_chars)
         except Exception as exc:
             print(f"[analyzer] Gemini translation fallback failed ({type(exc).__name__}: {exc})")
 
