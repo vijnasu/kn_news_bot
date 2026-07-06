@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T06:57:45.372525+00:00",
+  "last_posted_at": "2026-07-06T08:38:04.473110+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Man cleared in Pocso case after DNA test proves innocence",
-      "genre": "guidance",
-      "style": "modern_explainer",
-      "posted_at": "2026-07-05T06:20:20.103307+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "Kurnool district police intensify enforcement to curb road accidents",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-06T06:57:45.372525+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "AMMA crisis: Women actors accuse Shwetha Menon of communal polarisation, political and corporate nexus",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-07-06T08:38:04.473110+00:00"
     }
   ]
 }
