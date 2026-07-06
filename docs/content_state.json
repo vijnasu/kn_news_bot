@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T00:45:35.237161+00:00",
+  "last_posted_at": "2026-07-06T02:20:36.881532+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "TVK MLA poaching case: Police issue lookout notice against former DMK minister Senthibalaji, brother",
-      "genre": "story",
-      "style": "modern_explainer",
-      "posted_at": "2026-07-04T15:52:21.040656+00:00"
-    },
     {
       "system": "Arthashastra & Rajaneeti",
       "subtopic": "Maharashtra TET scam: Three more persons arrested",
@@ -140,6 +133,13 @@
       "genre": "deep_explainer",
       "style": "premium_paid_group",
       "posted_at": "2026-07-06T00:45:35.237161+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "The missing link in India’s maternal health story",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-07-06T02:20:36.881532+00:00"
     }
   ]
 }
