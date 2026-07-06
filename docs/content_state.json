@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-05T23:25:47.033856+00:00",
+  "last_posted_at": "2026-07-06T00:45:35.237161+00:00",
   "recent": [
-    {
-      "system": "Classical Literature & Kavya",
-      "subtopic": "How classical poetry trains taste, patience, and subtlety",
-      "genre": "critique",
-      "style": "premium_paid_group",
-      "posted_at": "2026-07-04T12:41:18.665188+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "TVK MLA poaching case: Police issue lookout notice against former DMK minister Senthibalaji, brother",
@@ -140,6 +133,13 @@
       "genre": "elaboration",
       "style": "philosophical_novelistic",
       "posted_at": "2026-07-05T23:25:47.033856+00:00"
+    },
+    {
+      "system": "Arthashastra & Rajaneeti",
+      "subtopic": "Remain patient, Karnataka Chief Minister D.K. Shivakumar tells ministerial aspirants",
+      "genre": "deep_explainer",
+      "style": "premium_paid_group",
+      "posted_at": "2026-07-06T00:45:35.237161+00:00"
     }
   ]
 }
