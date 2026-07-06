@@ -279,27 +279,27 @@ def _build_prompt(
         f"Title: {item_title}\nSummary: {item_summary}\nSource: {item_source}\n\n"
         f"Primary astrological/Tantra angle to use: {angle_desc}\n"
         f"Primary personal-life connection to draw: {theme_desc}\n\n"
-        "Write EXACTLY 5 short ENGLISH paragraphs (this will be translated to Kannada afterward - do not write "
-        "in Kannada), following this structure:\n"
-        "1) NEWS SUMMARY (3-5 plain sentences): explain the event simply and neutrally. Do not editorialize or "
-        "take a political side; just state what happened.\n"
-        "2) ASTROLOGY/TANTRA ANGLE (primary): interpret this specific story through the primary angle given "
-        "above - name the concept naturally (e.g. 'Rahu-Ketu', 'Shani', 'Graha drishti', 'Kala-dosha') and "
-        "explain what such an event may indicate.\n"
-        "3) ASTROLOGY/TANTRA ANGLE (secondary, for depth): bring in ONE more angle from this list that fits - "
-        "graha drishti, kala-dosha, collective karma, Rahu-Ketu, Shani, Mars/accident symbolism, Chandra/manas/"
-        "collective fear, or Deva Prashna/Prashna Jyotisha - without repeating the primary angle verbatim.\n"
-        "4) PERSONAL-LIFE CONNECTION: connect this pattern to real personal problems people face, centered on "
-        f"'{theme_desc}', plus one or two more from: marriage delay, business blockage, repeated failures, "
+        "Write EXACTLY 4 short, TIGHT ENGLISH paragraphs (this will be translated to Kannada afterward - do not "
+        "write in Kannada). This is a condensed/short-form post - be economical, cut every non-essential "
+        "sentence, and favor one sharp idea per paragraph over multiple examples. Structure:\n"
+        "1) NEWS SUMMARY (2-3 plain sentences only): explain the event simply and neutrally. Do not editorialize "
+        "or take a political side; just state what happened, briefly.\n"
+        "2) ASTROLOGY/TANTRA ANGLE: interpret this specific story through the primary angle given above - name "
+        "the concept naturally (e.g. 'Rahu-Ketu', 'Shani', 'Graha drishti', 'Kala-dosha') and explain what such "
+        "an event may indicate. You may briefly weave in ONE second angle only if it fits in a single sentence - "
+        "do not give it its own paragraph.\n"
+        "3) PERSONAL-LIFE CONNECTION: connect this pattern to real personal problems people face, centered on "
+        f"'{theme_desc}', plus at most one more from: marriage delay, business blockage, repeated failures, "
         "court cases, financial loss, sudden health fear, family disturbance, negative energy, unexplained "
         "obstacles, political/business enemies, career instability.\n"
-        "5) CLOSING REFLECTION: end with one memorable, reflective closing line that invites the reader to "
+        "4) CLOSING REFLECTION: end with one memorable, reflective closing line that invites the reader to "
         "look inward at their own recurring problems. Mention 'Vedavidhya' naturally once, near the end of this "
         "paragraph, as the source of this perspective (not as a hard sales pitch - a soft mention only; the "
         "actual booking call-to-action will be added separately after your text, so do not write your own CTA "
         "or invite bookings yourself).\n\n"
         "Output rules:\n"
-        "1) Each paragraph should be roughly 60-110 words, for a combined total in the 350-550 word range.\n"
+        "1) Each paragraph should be roughly 35-55 words, for a combined total in the 150-260 word range - about "
+        "HALF the length of a typical post here, so be concise and cut anything non-essential.\n"
         "2) No headings, no bullets, no numbering, no paragraph labels inside the body.\n"
         "3) Do not mention the angle names or theme names as literal labels (e.g. don't write 'Angle: Shani') - "
         "weave them naturally into the prose.\n"
@@ -308,11 +308,11 @@ def _build_prompt(
         "5) Do not write your own call-to-action, booking invitation, website mention, or hashtags - those are "
         "added separately after your text.\n"
         "6) No asterisks, underscores, backticks, or markdown symbols anywhere - plain text only.\n"
-        "7) Stop after the fifth paragraph.\n\n"
+        "7) Stop after the fourth paragraph.\n\n"
         "Respond in exactly this format and nothing else:\n"
         "TITLE: <emotional, mysterious, consultation-oriented English headline, max 14 words, NOT fear-mongering>\n"
-        "ANGLE_USED: <one short phrase naming the primary + secondary angle you actually used>\n"
-        "BODY: <paragraph 1>\n\n<paragraph 2>\n\n<paragraph 3>\n\n<paragraph 4>\n\n<paragraph 5>\n"
+        "ANGLE_USED: <one short phrase naming the angle(s) you actually used>\n"
+        "BODY: <paragraph 1>\n\n<paragraph 2>\n\n<paragraph 3>\n\n<paragraph 4>\n"
         "IMAGE_PROMPT: <one-line English description of a textless, mystical/astrology-themed FB/Telegram "
         "visual suited to this story - e.g. cosmic/planetary imagery, temple silhouette, night sky - no text "
         "or logos in the image>"
@@ -366,7 +366,7 @@ def _draft_with_gemini(system_prompt: str, user_prompt: str, context_label: str)
                     + "\n\nYour previous draft was too generic, too short, too fear-mongering, made a direct "
                     "disaster prediction, guaranteed a remedy outcome, drifted off the given subject, or did "
                     "not follow the TITLE:/ANGLE_USED:/BODY:/IMAGE_PROMPT: format exactly. Rewrite from "
-                    "scratch, staying strictly on the given news story, with the full 5-paragraph structure."
+                    "scratch, staying strictly on the given news story, with the full 4-paragraph structure."
                 )
 
             resp = client.models.generate_content(
@@ -426,22 +426,23 @@ def generate_consultation_post(
         print(f"[consultation_content] no acceptable english draft (angle={angle_key} theme={theme_key})")
         return None
 
-    if len(_normalized_words(draft["body"])) < 130:
-        print("[consultation_content] english draft too short for the 300-600 word target; skipping")
+    if len(_normalized_words(draft["body"])) < 65:
+        print("[consultation_content] english draft too short for the 150-300 word target; skipping")
         return None
 
-    # Generous length budget: Kannada script is token-heavy, and 300-600
-    # target words is well beyond the 700-token/~2500-char default sized for
-    # classical_content.py's shorter posts.
-    translated = _translate_to_kannada(draft["title"], draft["body"], max_chars=4500, max_output_tokens=2400)
+    # Length budget halved alongside the post-length target (see
+    # _build_prompt's 150-260 word English target): still generous relative
+    # to that target since Kannada script is token-heavy, but no longer
+    # needs the larger budget the original 300-600 word posts required.
+    translated = _translate_to_kannada(draft["title"], draft["body"], max_chars=2400, max_output_tokens=1300)
     if not translated:
         print("[consultation_content] translation to kannada failed; skipping")
         return None
 
     kannada_title, kannada_body = translated
     kannada_word_count = len(_normalized_words(kannada_body))
-    if kannada_word_count < 150:
-        print(f"[consultation_content] kannada body too short ({kannada_word_count} words, target 300-600); posting anyway but flagging")
+    if kannada_word_count < 75:
+        print(f"[consultation_content] kannada body too short ({kannada_word_count} words, target 150-300); posting anyway but flagging")
 
     hashtags = select_hashtags(item_title, matched_themes)
 
