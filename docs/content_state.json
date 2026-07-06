@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T15:58:17.892992+00:00",
+  "last_posted_at": "2026-07-06T17:08:38.294216+00:00",
   "recent": [
-    {
-      "system": "Arthashastra & Rajaneeti",
-      "subtopic": "Upper Bhadra Project will be completed by 2028: Karnataka Water Resources Minister Ramalinga Reddy",
-      "genre": "story",
-      "style": "philosophical_novelistic",
-      "posted_at": "2026-07-05T13:55:42.563988+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "HMT asked to hand over 430 acres and 21 guntas of land in Peenya Plantation and Jarakabande Sandal reserve to Forest Department",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-06T15:58:17.892992+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Woman injured in bike accident last week dies of injuries in Chennai hospital",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-07-06T17:08:38.294216+00:00"
     }
   ]
 }
