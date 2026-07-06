@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-06T11:45:59.413394+00:00",
+  "last_posted_at": "2026-07-06T13:19:36.604084+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "I&B Ministry steps up pressure on Telegram, seeks proactive action against piracy",
-      "genre": "story",
-      "style": "shastra_pravachana",
-      "posted_at": "2026-07-05T09:42:06.113038+00:00"
-    },
     {
       "system": "Arthashastra & Rajaneeti",
       "subtopic": "DMK will always remain protective fortress for minorities, Muslims: Udhayanidhi Stalin reaffirms party's commitment",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-07-06T11:45:59.413394+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Congress attacks VHP over letter on Ram Temple donation allegations",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-07-06T13:19:36.604084+00:00"
     }
   ]
 }
