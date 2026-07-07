@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T09:29:20.986999+00:00",
+  "last_posted_at": "2026-07-07T10:38:26.530363+00:00",
   "recent": [
-    {
-      "system": "Niti Shastra & Panchatantra",
-      "subtopic": "Sugar factory closed down in Sankeshwar for violating pollution norms",
-      "genre": "elaboration",
-      "style": "philosophical_novelistic",
-      "posted_at": "2026-07-05T23:25:47.033856+00:00"
-    },
     {
       "system": "Arthashastra & Rajaneeti",
       "subtopic": "Remain patient, Karnataka Chief Minister D.K. Shivakumar tells ministerial aspirants",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "finance",
       "posted_at": "2026-07-07T09:29:20.986999+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Tungabhadra dam gets new crest gates, but weak monsoon threatens paddy crop, survival of rice mills in Karnataka",
+      "genre": "family_disturbance",
+      "style": "finance",
+      "posted_at": "2026-07-07T10:38:26.530363+00:00"
     }
   ]
 }
