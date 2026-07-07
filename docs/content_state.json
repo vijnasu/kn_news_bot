@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T00:46:47.943664+00:00",
+  "last_posted_at": "2026-07-07T02:41:11.561048+00:00",
   "recent": [
-    {
-      "system": "Smriti & Dharmashastra",
-      "subtopic": "Complaint by actor Ansiba Hassan: Court directs registration of FIR against Lakshmipriya, SI",
-      "genre": "guidance",
-      "style": "sharp_social_critique",
-      "posted_at": "2026-07-05T16:12:41.465298+00:00"
-    },
     {
       "system": "Tarka & Logic",
       "subtopic": "We are prepared for 2-D Bills — Delimitation and Dismissal: Jairam Ramesh",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-07-07T00:46:47.943664+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Indian Air Force chopper makes emergency landing in Chengalpet’s Keerapakkam",
+      "genre": "unexplained_obstacles",
+      "style": "land",
+      "posted_at": "2026-07-07T02:41:11.561048+00:00"
     }
   ]
 }
