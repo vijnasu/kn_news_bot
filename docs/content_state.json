@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T05:39:58.372977+00:00",
+  "last_posted_at": "2026-07-07T06:58:54.387523+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Tamil Nadu Government Faces November Deadline for Right to Services Act",
-      "genre": "elaboration",
-      "style": "shastra_pravachana",
-      "posted_at": "2026-07-05T19:46:09.884187+00:00"
-    },
     {
       "system": "Arthashastra & Rajaneeti",
       "subtopic": "NMC rejects proposals for new government medical colleges in Ramanagara, Kanakapura and Bagalkote",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-07T05:39:58.372977+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Mahindra bets on ‘Growth Gems’ for next phase of growth beyond autos",
+      "genre": "marriage_delay",
+      "style": "scandal",
+      "posted_at": "2026-07-07T06:58:54.387523+00:00"
     }
   ]
 }
