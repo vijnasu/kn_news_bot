@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T06:58:54.387523+00:00",
+  "last_posted_at": "2026-07-07T08:12:16.845426+00:00",
   "recent": [
-    {
-      "system": "Arthashastra & Rajaneeti",
-      "subtopic": "NMC rejects proposals for new government medical colleges in Ramanagara, Kanakapura and Bagalkote",
-      "genre": "critique",
-      "style": "sharp_social_critique",
-      "posted_at": "2026-07-05T20:50:52.318212+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "Head constable stabbed near Mehkri Circle; police launch search for assailant",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "scandal",
       "posted_at": "2026-07-07T06:58:54.387523+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "AMMA row: Ansiba Hassan to implead in the case that stayed the functioning of ad-hoc committee",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-07-07T08:12:16.845426+00:00"
     }
   ]
 }
