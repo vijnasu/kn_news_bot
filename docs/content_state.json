@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T04:09:37.661488+00:00",
+  "last_posted_at": "2026-07-07T05:39:58.372977+00:00",
   "recent": [
-    {
-      "system": "Niti Shastra & Panchatantra",
-      "subtopic": "Four labourers killed in road accident",
-      "genre": "shastra_vs_modern",
-      "style": "vachana_like",
-      "posted_at": "2026-07-05T18:39:03.749961+00:00"
-    },
     {
       "system": "Nyaya Shastra",
       "subtopic": "Tamil Nadu Government Faces November Deadline for Right to Services Act",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-07-07T04:09:37.661488+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Cloud seeding begins in Karnataka as six MLAs fund exercise in Haveri district",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-07T05:39:58.372977+00:00"
     }
   ]
 }
