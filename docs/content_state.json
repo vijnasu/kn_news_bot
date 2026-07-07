@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T08:12:16.845426+00:00",
+  "last_posted_at": "2026-07-07T09:29:20.986999+00:00",
   "recent": [
-    {
-      "system": "Nyaya Shastra",
-      "subtopic": "Head constable stabbed near Mehkri Circle; police launch search for assailant",
-      "genre": "myth_busting",
-      "style": "modern_explainer",
-      "posted_at": "2026-07-05T22:23:27.847883+00:00"
-    },
     {
       "system": "Niti Shastra & Panchatantra",
       "subtopic": "Sugar factory closed down in Sankeshwar for violating pollution norms",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-07-07T08:12:16.845426+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Hitachi signs Rs 1,000 crore MoU with Tamil Nadu for expansion",
+      "genre": "political_business_enemies",
+      "style": "finance",
+      "posted_at": "2026-07-07T09:29:20.986999+00:00"
     }
   ]
 }
