@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T10:38:26.530363+00:00",
+  "last_posted_at": "2026-07-07T11:41:41.848343+00:00",
   "recent": [
-    {
-      "system": "Arthashastra & Rajaneeti",
-      "subtopic": "Remain patient, Karnataka Chief Minister D.K. Shivakumar tells ministerial aspirants",
-      "genre": "deep_explainer",
-      "style": "premium_paid_group",
-      "posted_at": "2026-07-06T00:45:35.237161+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "The missing link in India’s maternal health story",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "finance",
       "posted_at": "2026-07-07T10:38:26.530363+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Will assess rain deficiency, drought across Karnataka: Chief Minister D. K. Shivakumar",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-07T11:41:41.848343+00:00"
     }
   ]
 }
