@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T13:29:51.699833+00:00",
+  "last_posted_at": "2026-07-07T15:30:50.646688+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Ninth arrest in ₹35 crore bribery case",
-      "genre": "unexplained_obstacles",
-      "style": "court",
-      "posted_at": "2026-07-06T03:47:34.710437+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Visit to Indonesia, Australia, New Zealand will further strengthen India's Act East Policy: PM",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-07-07T13:29:51.699833+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Bengaluru: Lokayukta raids seven locations in two government land allotment cases",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-07-07T15:30:50.646688+00:00"
     }
   ]
 }
