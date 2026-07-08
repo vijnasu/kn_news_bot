@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T13:36:49.556797+00:00",
+  "last_posted_at": "2026-07-08T15:33:42.782676+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "WhatsApp gets more time to reply to username notice, assures no India rollout till talks end",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-07-07T04:09:37.661488+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Cloud seeding begins in Karnataka as six MLAs fund exercise in Haveri district",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-07-08T13:36:49.556797+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Two killed in Bagalkot accident",
+      "genre": "unexplained_obstacles",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-08T15:33:42.782676+00:00"
     }
   ]
 }
