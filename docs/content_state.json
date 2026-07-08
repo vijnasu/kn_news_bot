@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-07T16:38:28.295244+00:00",
+  "last_posted_at": "2026-07-08T00:37:48.986917+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karur stampede case: Supreme Court agrees to hear DMK’s plea to bar TVK leaders from ‘influencing’ material witnesses, making ‘threatening’ statements",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-06T06:57:45.372525+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "AMMA crisis: Women actors accuse Shwetha Menon of communal polarisation, political and corporate nexus",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-07-07T16:38:28.295244+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka Minister Khandre accuses Union government of selling HMT land for real estate businesses",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-07-08T00:37:48.986917+00:00"
     }
   ]
 }
