@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T08:39:17.979811+00:00",
+  "last_posted_at": "2026-07-08T10:31:47.832130+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Woman injured in bike accident last week dies of injuries in Chennai hospital",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-07-06T17:08:38.294216+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Modi begins three-nation trip, starts with Indonesia to boost strategic ties",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-07-08T08:39:17.979811+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Prepare for possible drought, drinking water crisis, Minister tells officials",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-08T10:31:47.832130+00:00"
     }
   ]
 }
