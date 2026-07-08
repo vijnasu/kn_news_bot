@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T15:33:42.782676+00:00",
+  "last_posted_at": "2026-07-08T17:01:17.117921+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Cloud seeding begins in Karnataka as six MLAs fund exercise in Haveri district",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-07T05:39:58.372977+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Mahindra bets on ‘Growth Gems’ for next phase of growth beyond autos",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "sudden_loss",
       "posted_at": "2026-07-08T15:33:42.782676+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Chatbots, QR Codes and an e‑ICU: Tamil Nadu explores digital fixes for a crowded govt hospitals",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-07-08T17:01:17.117921+00:00"
     }
   ]
 }
