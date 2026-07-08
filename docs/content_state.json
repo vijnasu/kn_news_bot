@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T04:36:52.796775+00:00",
+  "last_posted_at": "2026-07-08T05:42:07.509449+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Congress attacks VHP over letter on Ram Temple donation allegations",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-07-06T13:19:36.604084+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Four students injured after school gate collapses in Bagalkot",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-07-08T04:36:52.796775+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Tamil Nadu govt asks state election commissioner to resign",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-07-08T05:42:07.509449+00:00"
     }
   ]
 }
