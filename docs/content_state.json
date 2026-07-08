@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T03:24:21.406803+00:00",
+  "last_posted_at": "2026-07-08T04:36:52.796775+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Amit Shah announces new cooperative life insurance company on lines of Bharat Taxi",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-07-06T11:45:59.413394+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Congress attacks VHP over letter on Ram Temple donation allegations",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "land",
       "posted_at": "2026-07-08T03:24:21.406803+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Baruipur rape-murder case: One key accused killed in police encounter",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-07-08T04:36:52.796775+00:00"
     }
   ]
 }
