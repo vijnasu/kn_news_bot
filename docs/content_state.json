@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T05:42:07.509449+00:00",
+  "last_posted_at": "2026-07-08T07:38:03.608954+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Four students injured after school gate collapses in Bagalkot",
-      "genre": "unexplained_obstacles",
-      "style": "sudden_loss",
-      "posted_at": "2026-07-06T14:38:52.399071+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka: H.D. Kumaraswamy accuses Congress government of plotting to derail HMT revival package",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-07-08T05:42:07.509449+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "HC admits election petitions against Vijay and Adhav",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-07-08T07:38:03.608954+00:00"
     }
   ]
 }
