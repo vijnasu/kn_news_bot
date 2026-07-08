@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-08T02:02:34.820545+00:00",
+  "last_posted_at": "2026-07-08T03:24:21.406803+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "SIR in Karnataka: NDA alleges BLOs filling enumeration forms in community halls, mosques, and even their own residences",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-06T10:11:15.120635+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Amit Shah announces new cooperative life insurance company on lines of Bharat Taxi",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-08T02:02:34.820545+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Illegal Lotus Farming Threatens Thamirabarani Wetlands and Livelihoods",
+      "genre": "career_instability",
+      "style": "land",
+      "posted_at": "2026-07-08T03:24:21.406803+00:00"
     }
   ]
 }
