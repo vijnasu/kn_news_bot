@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T16:02:26.565282+00:00",
+  "last_posted_at": "2026-07-09T17:05:20.961020+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Baruipur rape-murder case: One key accused killed in police encounter",
-      "genre": "financial_loss",
-      "style": "court",
-      "posted_at": "2026-07-08T04:36:52.796775+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Tamil Nadu govt asks state election commissioner to resign",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-07-09T16:02:26.565282+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Watch: India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific | Above the Fold | 09.07.2026",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-09T17:05:20.961020+00:00"
     }
   ]
 }
