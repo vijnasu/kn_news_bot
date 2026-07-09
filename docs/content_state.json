@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T09:33:04.173186+00:00",
+  "last_posted_at": "2026-07-09T10:47:49.657084+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "2 women held in Chennai for ganja smuggling at court",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-07-07T16:38:28.295244+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka Minister Khandre accuses Union government of selling HMT land for real estate businesses",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "land",
       "posted_at": "2026-07-09T09:33:04.173186+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Income Tax Department opposes same-sex couple’s plea for tax exemption on gifts",
+      "genre": "court_cases",
+      "style": "marriage",
+      "posted_at": "2026-07-09T10:47:49.657084+00:00"
     }
   ]
 }
