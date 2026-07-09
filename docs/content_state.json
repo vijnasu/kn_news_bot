@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T14:46:05.139654+00:00",
+  "last_posted_at": "2026-07-09T16:02:26.565282+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Illegal Lotus Farming Threatens Thamirabarani Wetlands and Livelihoods",
-      "genre": "career_instability",
-      "style": "land",
-      "posted_at": "2026-07-08T03:24:21.406803+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Baruipur rape-murder case: One key accused killed in police encounter",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-07-09T14:46:05.139654+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Efforts are on to address drought-like conditions, says Parameshwara",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-07-09T16:02:26.565282+00:00"
     }
   ]
 }
