@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T02:45:42.008682+00:00",
+  "last_posted_at": "2026-07-09T04:11:44.709582+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Hitachi signs Rs 1,000 crore MoU with Tamil Nadu for expansion",
-      "genre": "political_business_enemies",
-      "style": "finance",
-      "posted_at": "2026-07-07T09:29:20.986999+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Tungabhadra dam gets new crest gates, but weak monsoon threatens paddy crop, survival of rice mills in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-07-09T02:45:42.008682+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Nod for guidelines ensuring dignified natural death for terminally-ill patients in A.P.",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-07-09T04:11:44.709582+00:00"
     }
   ]
 }
