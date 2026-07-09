@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T01:00:31.108344+00:00",
+  "last_posted_at": "2026-07-09T02:45:42.008682+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "AMMA row: Ansiba Hassan to implead in the case that stayed the functioning of ad-hoc committee",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-07-07T08:12:16.845426+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Hitachi signs Rs 1,000 crore MoU with Tamil Nadu for expansion",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-09T01:00:31.108344+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka High Court notice on plea against SEC’s action of conducting parallel SIR in Mahadevapura assembly constituency",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-07-09T02:45:42.008682+00:00"
     }
   ]
 }
