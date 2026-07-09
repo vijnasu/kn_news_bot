@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T05:41:33.479547+00:00",
+  "last_posted_at": "2026-07-09T06:59:16.277379+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Will assess rain deficiency, drought across Karnataka: Chief Minister D. K. Shivakumar",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-07T11:41:41.848343+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "2020 Delhi riots: Sharjeel Imam, Umar Khalid move fresh bail pleas in ‘larger conspiracy’ case",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "sudden_loss",
       "posted_at": "2026-07-09T05:41:33.479547+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka CEO denies ‘mass SIR’ charge, says roll revision is proceeding as per ECI norms",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-07-09T06:59:16.277379+00:00"
     }
   ]
 }
