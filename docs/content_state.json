@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T08:15:08.802796+00:00",
+  "last_posted_at": "2026-07-09T09:33:04.173186+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Bengaluru: Lokayukta raids seven locations in two government land allotment cases",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-07-07T15:30:50.646688+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "2 women held in Chennai for ganja smuggling at court",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-07-09T08:15:08.802796+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Landslip in Madikeri: Public entry to Raja’s seat banned",
+      "genre": "unexplained_obstacles",
+      "style": "land",
+      "posted_at": "2026-07-09T09:33:04.173186+00:00"
     }
   ]
 }
