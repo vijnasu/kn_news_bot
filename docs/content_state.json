@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T06:59:16.277379+00:00",
+  "last_posted_at": "2026-07-09T08:15:08.802796+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "2020 Delhi riots: Sharjeel Imam, Umar Khalid move fresh bail pleas in ‘larger conspiracy’ case",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-07-07T13:29:51.699833+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Bengaluru: Lokayukta raids seven locations in two government land allotment cases",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-07-09T06:59:16.277379+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Delhi’s Rohini building collapse: Death toll climbs to three, FIR registered",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-07-09T08:15:08.802796+00:00"
     }
   ]
 }
