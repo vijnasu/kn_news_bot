@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T04:11:44.709582+00:00",
+  "last_posted_at": "2026-07-09T05:41:33.479547+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Tungabhadra dam gets new crest gates, but weak monsoon threatens paddy crop, survival of rice mills in Karnataka",
-      "genre": "family_disturbance",
-      "style": "finance",
-      "posted_at": "2026-07-07T10:38:26.530363+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Will assess rain deficiency, drought across Karnataka: Chief Minister D. K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-07-09T04:11:44.709582+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Class 6 student collapses and dies at residential school in Bengaluru, family alleges harsh punishment",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-09T05:41:33.479547+00:00"
     }
   ]
 }
