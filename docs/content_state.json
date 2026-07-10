@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T05:41:16.342617+00:00",
+  "last_posted_at": "2026-07-10T06:58:51.820598+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "NEET paper leak: Delhi court extends judicial custody of two accused till July 11",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-07-08T12:03:44.289517+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Rs 35 crore 'horse trading' case: Madras high court grants conditional anticipatory bail to Senthil Balaji, brother",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "career",
       "posted_at": "2026-07-10T05:41:16.342617+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "What led to deaths after C-section surgeries in Kota hospitals | Explained",
+      "genre": "court_cases",
+      "style": "health",
+      "posted_at": "2026-07-10T06:58:51.820598+00:00"
     }
   ]
 }
