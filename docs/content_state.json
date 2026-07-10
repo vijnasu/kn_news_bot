@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T02:45:37.274208+00:00",
+  "last_posted_at": "2026-07-10T04:11:55.818058+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Greater Bengaluru Development Minister Krishna Byre Gowda orders crackdown on vehicles parked on footpaths",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-07-08T08:39:17.979811+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Prepare for possible drought, drinking water crisis, Minister tells officials",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-07-10T02:45:37.274208+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "CM Vijay to break ground for Adidas shoe factory in Karur",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-07-10T04:11:55.818058+00:00"
     }
   ]
 }
