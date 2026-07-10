@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T00:59:18.582259+00:00",
+  "last_posted_at": "2026-07-10T02:45:37.274208+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "HC admits election petitions against Vijay and Adhav",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-08T07:38:03.608954+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Greater Bengaluru Development Minister Krishna Byre Gowda orders crackdown on vehicles parked on footpaths",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-07-10T00:59:18.582259+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "PM Modi meets Australia's Opposition leader, discusses bilateral ties",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-07-10T02:45:37.274208+00:00"
     }
   ]
 }
