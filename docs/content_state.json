@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T10:36:15.475515+00:00",
+  "last_posted_at": "2026-07-10T11:42:20.516625+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Lokayukta police raids 53 locations in disproportionate assets cases against 10 government officials",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-09T01:00:31.108344+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka High Court notice on plea against SEC’s action of conducting parallel SIR in Mahadevapura assembly constituency",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "health",
       "posted_at": "2026-07-10T10:36:15.475515+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "PM Modi arrives in New Zealand on final leg of three-nation tour",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-07-10T11:42:20.516625+00:00"
     }
   ]
 }
