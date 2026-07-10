@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-09T17:05:20.961020+00:00",
+  "last_posted_at": "2026-07-10T00:59:18.582259+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Tamil Nadu govt asks state election commissioner to resign",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-07-08T05:42:07.509449+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "HC admits election petitions against Vijay and Adhav",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-09T17:05:20.961020+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Australia to return idols stolen from TN temples to India",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-07-10T00:59:18.582259+00:00"
     }
   ]
 }
