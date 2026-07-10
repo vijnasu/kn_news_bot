@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T06:58:51.820598+00:00",
+  "last_posted_at": "2026-07-10T08:12:53.193889+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Rs 35 crore 'horse trading' case: Madras high court grants conditional anticipatory bail to Senthil Balaji, brother",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-07-08T13:36:49.556797+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Two killed in Bagalkot accident",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "health",
       "posted_at": "2026-07-10T06:58:51.820598+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Koli community demands mandatory registration, auditing of RSS",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-07-10T08:12:53.193889+00:00"
     }
   ]
 }
