@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T04:11:55.818058+00:00",
+  "last_posted_at": "2026-07-10T05:41:16.342617+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Prepare for possible drought, drinking water crisis, Minister tells officials",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-08T10:31:47.832130+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "NEET paper leak: Delhi court extends judicial custody of two accused till July 11",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-07-10T04:11:55.818058+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Differences crop up in TVK’s nascent front",
+      "genre": "business_blockage",
+      "style": "career",
+      "posted_at": "2026-07-10T05:41:16.342617+00:00"
     }
   ]
 }
