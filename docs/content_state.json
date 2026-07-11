@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T15:35:14.699655+00:00",
+  "last_posted_at": "2026-07-11T17:08:13.648287+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Differences crop up in TVK’s nascent front",
-      "genre": "business_blockage",
-      "style": "career",
-      "posted_at": "2026-07-10T05:41:16.342617+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "What led to deaths after C-section surgeries in Kota hospitals | Explained",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-07-11T15:35:14.699655+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Kumarapalayam farmers struggle as crops wither without water",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-07-11T17:08:13.648287+00:00"
     }
   ]
 }
