@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T09:12:40.599231+00:00",
+  "last_posted_at": "2026-07-11T10:28:50.719176+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Efforts are on to address drought-like conditions, says Parameshwara",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-07-09T16:02:26.565282+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Watch: India and Australia Deepen Defence Ties: What It Means for the Indo-Pacific | Above the Fold | 09.07.2026",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "land",
       "posted_at": "2026-07-11T09:12:40.599231+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
+      "genre": "sudden_health_fear",
+      "style": "health",
+      "posted_at": "2026-07-11T10:28:50.719176+00:00"
     }
   ]
 }
