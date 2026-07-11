@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T11:48:36.996505+00:00",
+  "last_posted_at": "2026-07-11T12:49:51.198162+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Australia to return idols stolen from TN temples to India",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-07-10T00:59:18.582259+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "PM Modi meets Australia's Opposition leader, discusses bilateral ties",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-07-11T11:48:36.996505+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "KAS officer who reported irregularities at Bengaluru’s Kidwai Hospital transferred",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-11T12:49:51.198162+00:00"
     }
   ]
 }
