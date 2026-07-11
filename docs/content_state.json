@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-10T17:10:14.032685+00:00",
+  "last_posted_at": "2026-07-11T00:52:46.949430+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka CEO denies ‘mass SIR’ charge, says roll revision is proceeding as per ECI norms",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-07-09T06:59:16.277379+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Delhi’s Rohini building collapse: Death toll climbs to three, FIR registered",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "marriage",
       "posted_at": "2026-07-10T17:10:14.032685+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "CPI questions PM Modi’s silence over Ram Temple case",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-07-11T00:52:46.949430+00:00"
     }
   ]
 }
