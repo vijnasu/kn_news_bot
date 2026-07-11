@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T03:54:06.192213+00:00",
+  "last_posted_at": "2026-07-11T06:02:13.893873+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Income Tax Department opposes same-sex couple’s plea for tax exemption on gifts",
-      "genre": "court_cases",
-      "style": "marriage",
-      "posted_at": "2026-07-09T10:47:49.657084+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Three former AIADMK MLAs appear before TN assembly speaker, tell him they resigned voluntarily",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-07-11T03:54:06.192213+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Tractors defy monsoon concerns as Q1 sales jump 19%",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-11T06:02:13.893873+00:00"
     }
   ]
 }
