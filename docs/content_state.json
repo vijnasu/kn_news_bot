@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T07:55:16.571392+00:00",
+  "last_posted_at": "2026-07-11T09:12:40.599231+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "We will give appropriate reply to Maharashtra on border issue, says CM",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-07-09T14:46:05.139654+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Efforts are on to address drought-like conditions, says Parameshwara",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "health",
       "posted_at": "2026-07-11T07:55:16.571392+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "The unfulfilled solar promise of India and Germany",
+      "genre": "business_blockage",
+      "style": "land",
+      "posted_at": "2026-07-11T09:12:40.599231+00:00"
     }
   ]
 }
