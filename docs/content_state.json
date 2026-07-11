@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T12:49:51.198162+00:00",
+  "last_posted_at": "2026-07-11T14:14:33.587594+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "PM Modi meets Australia's Opposition leader, discusses bilateral ties",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-07-10T02:45:37.274208+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "CM Vijay to break ground for Adidas shoe factory in Karur",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-11T12:49:51.198162+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "'Boat overturned within seconds': Survivor recounts Vietnam tragedy that killed 15 Indian tourists; cites possible overloading",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-07-11T14:14:33.587594+00:00"
     }
   ]
 }
