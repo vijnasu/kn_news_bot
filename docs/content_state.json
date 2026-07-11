@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T00:52:46.949430+00:00",
+  "last_posted_at": "2026-07-11T02:40:19.375941+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Delhi’s Rohini building collapse: Death toll climbs to three, FIR registered",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-07-09T08:15:08.802796+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Landslip in Madikeri: Public entry to Raja’s seat banned",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-07-11T00:52:46.949430+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "PM Modi hails India-New Zealand FTA as ‘historic milestone’, says it will deepen bilateral ties",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-07-11T02:40:19.375941+00:00"
     }
   ]
 }
