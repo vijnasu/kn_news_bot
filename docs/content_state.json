@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T06:02:13.893873+00:00",
+  "last_posted_at": "2026-07-11T07:55:16.571392+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Three former AIADMK MLAs appear before TN assembly speaker, tell him they resigned voluntarily",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-07-09T13:43:48.314147+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "We will give appropriate reply to Maharashtra on border issue, says CM",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-11T06:02:13.893873+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Four of family found dead at house in Bengaluru’s Kottigepalya",
+      "genre": "unexplained_obstacles",
+      "style": "health",
+      "posted_at": "2026-07-11T07:55:16.571392+00:00"
     }
   ]
 }
