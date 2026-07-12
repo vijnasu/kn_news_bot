@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T14:32:44.115922+00:00",
+  "last_posted_at": "2026-07-12T15:37:42.853010+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "E20 fuel may lead to 3-5% mileage hit in ‘some’ vehicles, Govt. admits as it defends blending",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-07-11T03:54:06.192213+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Tractors defy monsoon concerns as Q1 sales jump 19%",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "land",
       "posted_at": "2026-07-12T14:32:44.115922+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Real culprits being protected in Ram Temple donation embezzlement case: Congress MP",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-07-12T15:37:42.853010+00:00"
     }
   ]
 }
