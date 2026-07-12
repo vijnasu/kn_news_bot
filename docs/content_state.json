@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T05:25:40.514187+00:00",
+  "last_posted_at": "2026-07-12T07:21:34.028447+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "PM Modi arrives in New Zealand on final leg of three-nation tour",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-07-10T11:42:20.516625+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Preserve historic platform built in 1861 at Nagapattinam railway station as a heritage structure: rail users",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "career",
       "posted_at": "2026-07-12T05:25:40.514187+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Tiruchi residents among those killed in Vietnam boat accident",
+      "genre": "court_cases",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-12T07:21:34.028447+00:00"
     }
   ]
 }
