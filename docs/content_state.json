@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T15:37:42.853010+00:00",
+  "last_posted_at": "2026-07-12T17:08:50.355397+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Tractors defy monsoon concerns as Q1 sales jump 19%",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-11T06:02:13.893873+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Four of family found dead at house in Bengaluru’s Kottigepalya",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-12T15:37:42.853010+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Boy, 3, killed after iron plate falls from crane at drainage work site",
+      "genre": "negative_energy",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-12T17:08:50.355397+00:00"
     }
   ]
 }
