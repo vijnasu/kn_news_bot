@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T13:11:03.309286+00:00",
+  "last_posted_at": "2026-07-12T14:32:44.115922+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "PM Modi hails India-New Zealand FTA as ‘historic milestone’, says it will deepen bilateral ties",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-07-11T02:40:19.375941+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "E20 fuel may lead to 3-5% mileage hit in ‘some’ vehicles, Govt. admits as it defends blending",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "land",
       "posted_at": "2026-07-12T13:11:03.309286+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "India, Canada conclude third round of talks on proposed trade pact",
+      "genre": "court_cases",
+      "style": "land",
+      "posted_at": "2026-07-12T14:32:44.115922+00:00"
     }
   ]
 }
