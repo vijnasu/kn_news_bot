@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T04:01:20.915700+00:00",
+  "last_posted_at": "2026-07-12T05:25:40.514187+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "CJP protest day 21: Wangchuk says hunger has 'stabilised', warns against any attempt to remove him",
-      "genre": "sudden_health_fear",
-      "style": "health",
-      "posted_at": "2026-07-10T10:36:15.475515+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "PM Modi arrives in New Zealand on final leg of three-nation tour",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-07-12T04:01:20.915700+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "New footwear unit to generate 13,500 jobs, expected to recruit women in a big way",
+      "genre": "repeated_failures",
+      "style": "career",
+      "posted_at": "2026-07-12T05:25:40.514187+00:00"
     }
   ]
 }
