@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-11T17:08:13.648287+00:00",
+  "last_posted_at": "2026-07-12T00:58:00.293020+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "What led to deaths after C-section surgeries in Kota hospitals | Explained",
-      "genre": "court_cases",
-      "style": "health",
-      "posted_at": "2026-07-10T06:58:51.820598+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Koli community demands mandatory registration, auditing of RSS",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-07-11T17:08:13.648287+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Mediation helps 15 couple to reunite burying differences",
+      "genre": "financial_loss",
+      "style": "land",
+      "posted_at": "2026-07-12T00:58:00.293020+00:00"
     }
   ]
 }
