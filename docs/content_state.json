@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T00:38:55.679275+00:00",
+  "last_posted_at": "2026-07-13T02:19:16.494139+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "The unfulfilled solar promise of India and Germany",
-      "genre": "business_blockage",
-      "style": "land",
-      "posted_at": "2026-07-11T09:12:40.599231+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "sudden_loss",
       "posted_at": "2026-07-13T00:38:55.679275+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Earthquake of magnitude 3.6 hits J&K’s Baramulla",
+      "genre": "unexplained_obstacles",
+      "style": "weather_extreme",
+      "posted_at": "2026-07-13T02:19:16.494139+00:00"
     }
   ]
 }
