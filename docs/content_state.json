@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T02:19:16.494139+00:00",
+  "last_posted_at": "2026-07-13T03:46:22.130055+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
-      "genre": "sudden_health_fear",
-      "style": "health",
-      "posted_at": "2026-07-11T10:28:50.719176+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka Minister Eshwar Khandre defends HMT land action, says forest land cannot be diverted",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "weather_extreme",
       "posted_at": "2026-07-13T02:19:16.494139+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Supreme Court to hear plea against sky-high airfares today",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-07-13T03:46:22.130055+00:00"
     }
   ]
 }
