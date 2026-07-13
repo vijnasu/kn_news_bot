@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T05:13:18.418667+00:00",
+  "last_posted_at": "2026-07-13T06:27:20.130555+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "KAS officer who reported irregularities at Bengaluru’s Kidwai Hospital transferred",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-11T12:49:51.198162+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "'Boat overturned within seconds': Survivor recounts Vietnam tragedy that killed 15 Indian tourists; cites possible overloading",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-07-13T05:13:18.418667+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka Governor suspends KPSC chairperson Shivashankarappa S Sahukar over 'illegal selection' of daughters in government service",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-07-13T06:27:20.130555+00:00"
     }
   ]
 }
