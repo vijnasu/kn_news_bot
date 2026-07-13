@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T15:30:03.626137+00:00",
+  "last_posted_at": "2026-07-13T17:17:09.799426+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "CJP protest day 23: Wangchuk’s health worsens as fast enters 15th day",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-12T09:12:48.345362+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "S. Janaki’s death an irreparable loss to music, says Andhra Pradesh CM",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-07-13T15:30:03.626137+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Mysuru: Kannada activist Vatal Nagaraj threatens Karnataka bandh over eviction of footpath vendors",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-07-13T17:17:09.799426+00:00"
     }
   ]
 }
