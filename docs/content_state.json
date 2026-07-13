@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T07:41:42.838285+00:00",
+  "last_posted_at": "2026-07-13T08:43:42.867880+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Vietnam boat tragedy: CM Vijay directs officials to coordinate with Indian embassy to provide aid to affected Tamils",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-07-11T15:35:14.699655+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Kumarapalayam farmers struggle as crops wither without water",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-07-13T07:41:42.838285+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Bird strike grounds British Airways flight to London from Chennai",
+      "genre": "court_cases",
+      "style": "land",
+      "posted_at": "2026-07-13T08:43:42.867880+00:00"
     }
   ]
 }
