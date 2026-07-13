@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T09:56:45.907078+00:00",
+  "last_posted_at": "2026-07-13T11:07:28.783660+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Mediation helps 15 couple to reunite burying differences",
-      "genre": "financial_loss",
-      "style": "land",
-      "posted_at": "2026-07-12T00:58:00.293020+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "KEA seeks KPSC-model powers for various government recruitments",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-07-13T09:56:45.907078+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Uddhav Thackeray appeals to Sonam Wangchuk to withdraw fast",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-07-13T11:07:28.783660+00:00"
     }
   ]
 }
