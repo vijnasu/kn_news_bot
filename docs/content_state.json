@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-12T17:08:50.355397+00:00",
+  "last_posted_at": "2026-07-13T00:38:55.679275+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Four of family found dead at house in Bengaluru’s Kottigepalya",
-      "genre": "unexplained_obstacles",
-      "style": "health",
-      "posted_at": "2026-07-11T07:55:16.571392+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "The unfulfilled solar promise of India and Germany",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "sudden_loss",
       "posted_at": "2026-07-12T17:08:50.355397+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "90-year-old woman dies after wall collapses at work site in Kolathur",
+      "genre": "repeated_failures",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-13T00:38:55.679275+00:00"
     }
   ]
 }
