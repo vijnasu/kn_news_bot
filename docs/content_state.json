@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T08:43:42.867880+00:00",
+  "last_posted_at": "2026-07-13T09:56:45.907078+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Kumarapalayam farmers struggle as crops wither without water",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-07-11T17:08:13.648287+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Mediation helps 15 couple to reunite burying differences",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "land",
       "posted_at": "2026-07-13T08:43:42.867880+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "'Fraudulent' registration of Rs 100 crore Palani mutt land: Police register FIR, begin probe",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-07-13T09:56:45.907078+00:00"
     }
   ]
 }
