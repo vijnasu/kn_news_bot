@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T14:19:19.479959+00:00",
+  "last_posted_at": "2026-07-13T15:30:03.626137+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Tiruchi residents among those killed in Vietnam boat accident",
-      "genre": "court_cases",
-      "style": "sudden_loss",
-      "posted_at": "2026-07-12T07:21:34.028447+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "CJP protest day 23: Wangchuk’s health worsens as fast enters 15th day",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-07-13T14:19:19.479959+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tahir Hussain, four others convicted in IB staff Ankit Sharma murder case",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-07-13T15:30:03.626137+00:00"
     }
   ]
 }
