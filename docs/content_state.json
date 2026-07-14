@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T00:50:05.680547+00:00",
+  "last_posted_at": "2026-07-14T02:39:45.290304+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Need to train more skilled cardiovascular technologists to meet rising cardiac care demand: C.N. Manjunath",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-07-12T11:39:18.917522+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Consent row deepens over Bidadi Township land acquisition: GBDA says 90%, farmers cry foul",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-07-14T00:50:05.680547+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "1 killed, 4 injured as boiler explodes at steel melting unit in Tamil Nadu",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-07-14T02:39:45.290304+00:00"
     }
   ]
 }
