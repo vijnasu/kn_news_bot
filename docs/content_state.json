@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T14:11:49.424068+00:00",
+  "last_posted_at": "2026-07-14T15:34:04.754478+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka Governor suspends KPSC chairperson Shivashankarappa S Sahukar over 'illegal selection' of daughters in government service",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-07-13T06:27:20.130555+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "SC issues notice in petitions in the Ram temple donations' embezzlement case | LIVE",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-07-14T14:11:49.424068+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Lok Adalat settles nearly 79 lakh cases, resolves disputes worth ₹3,017 crore",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-07-14T15:34:04.754478+00:00"
     }
   ]
 }
