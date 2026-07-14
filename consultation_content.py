@@ -21,7 +21,7 @@ Structure of every post (fixed, per the brand's exact spec):
    cases, financial loss, health fear, family disturbance, negative energy,
    unexplained obstacles, career instability, etc.
 5. Soft consultation CTA (fixed Kannada line, never LLM-generated).
-6. Format: Kannada only, 300-600 words, light emojis, serious/mystical/
+6. Format: Kannada only, 100-200 words, light emojis, serious/mystical/
    mature tone, no fear-mongering, no guaranteed remedies, no disaster
    predictions, no attacks on religion/caste/party/community, "Vedavidhya"
    mentioned naturally once near the end, 8-12 mixed Kannada/English
@@ -280,7 +280,7 @@ def _build_prompt(
         f"Primary astrological/Tantra angle to use: {angle_desc}\n"
         f"Primary personal-life connection to draw: {theme_desc}\n\n"
         "Write EXACTLY 4 short, TIGHT ENGLISH paragraphs (this will be translated to Kannada afterward - do not "
-        "write in Kannada). This is a condensed/short-form post - be economical, cut every non-essential "
+        "write in Kannada). This is a very condensed/short-form post - be economical, cut every non-essential "
         "sentence, and favor one sharp idea per paragraph over multiple examples. Structure:\n"
         "1) NEWS SUMMARY (2-3 plain sentences only): explain the event simply and neutrally. Do not editorialize "
         "or take a political side; just state what happened, briefly.\n"
@@ -298,8 +298,8 @@ def _build_prompt(
         "actual booking call-to-action will be added separately after your text, so do not write your own CTA "
         "or invite bookings yourself).\n\n"
         "Output rules:\n"
-        "1) Each paragraph should be roughly 35-55 words, for a combined total in the 150-260 word range - about "
-        "HALF the length of a typical post here, so be concise and cut anything non-essential.\n"
+        "1) Each paragraph should be roughly 25-45 words, for a combined total in the 100-180 word range - a "
+        "short, punchy post, so be concise and cut anything non-essential.\n"
         "2) No headings, no bullets, no numbering, no paragraph labels inside the body.\n"
         "3) Do not mention the angle names or theme names as literal labels (e.g. don't write 'Angle: Shani') - "
         "weave them naturally into the prose.\n"
@@ -374,7 +374,7 @@ def _draft_with_gemini(system_prompt: str, user_prompt: str, context_label: str)
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     system_instruction=system_prompt,
-                    max_output_tokens=1100,
+                    max_output_tokens=800,
                     temperature=0.72,
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
                 ),
@@ -426,23 +426,24 @@ def generate_consultation_post(
         print(f"[consultation_content] no acceptable english draft (angle={angle_key} theme={theme_key})")
         return None
 
-    if len(_normalized_words(draft["body"])) < 65:
-        print("[consultation_content] english draft too short for the 150-300 word target; skipping")
+    if len(_normalized_words(draft["body"])) < 45:
+        print("[consultation_content] english draft too short for the 100-180 word target; skipping")
         return None
 
-    # Length budget halved alongside the post-length target (see
-    # _build_prompt's 150-260 word English target): still generous relative
-    # to that target since Kannada script is token-heavy, but no longer
-    # needs the larger budget the original 300-600 word posts required.
-    translated = _translate_to_kannada(draft["title"], draft["body"], max_chars=2400, max_output_tokens=1300)
+    # Length budget cut again alongside the post-length target (see
+    # _build_prompt's 100-180 word English target - down from 150-260):
+    # still generous relative to that target since Kannada script is
+    # token-heavy, but no longer needs the bigger budget the earlier
+    # 150-300/300-600 word posts required.
+    translated = _translate_to_kannada(draft["title"], draft["body"], max_chars=2400, max_output_tokens=900)
     if not translated:
         print("[consultation_content] translation to kannada failed; skipping")
         return None
 
     kannada_title, kannada_body = translated
     kannada_word_count = len(_normalized_words(kannada_body))
-    if kannada_word_count < 75:
-        print(f"[consultation_content] kannada body too short ({kannada_word_count} words, target 150-300); posting anyway but flagging")
+    if kannada_word_count < 50:
+        print(f"[consultation_content] kannada body too short ({kannada_word_count} words, target 100-200); posting anyway but flagging")
 
     hashtags = select_hashtags(item_title, matched_themes)
 

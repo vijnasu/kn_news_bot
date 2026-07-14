@@ -229,7 +229,7 @@ def _trim_analysis(text: str, max_chars: int | None = None) -> str:
 
     max_chars overrides the default config.MAX_ANALYSIS_TOKENS-derived cap -
     needed by callers producing longer-form content (e.g. consultation_content.py's
-    300-600 word posts) that would otherwise get silently truncated to the
+    100-200 word posts) that would otherwise get silently truncated to the
     short 2-paragraph analysis pipeline's budget."""
     raw = (text or "").strip()
     if not raw:
@@ -873,10 +873,10 @@ def _translate_to_kannada(
     token volume off the paid/quota-limited provider.
 
     max_chars/max_output_tokens let a longer-form caller (e.g.
-    consultation_content.py's 300-600 word posts) request a bigger length
+    consultation_content.py's 100-200 word posts) request a bigger length
     budget than the default 700-token/~2500-char ceiling sized for
     classical_content.py's shorter 4-paragraph posts - Kannada script is
-    token-heavy, so 700 tokens is not enough room for 300-600 Kannada words."""
+    token-heavy, so 700 tokens can be tight depending on the target."""
     prompt = _translation_prompt(title, body)
 
     if config.GROQ_API_KEY and "groq" not in _DISABLED_PROVIDERS:
