@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T05:03:19.280194+00:00",
+  "last_posted_at": "2026-07-14T06:55:50.574033+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Real culprits being protected in Ram Temple donation embezzlement case: Congress MP",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-12T15:37:42.853010+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Boy, 3, killed after iron plate falls from crane at drainage work site",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-07-14T05:03:19.280194+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "CJP protest Day 25:Wanghcuk’s health worsens; fast enters 17th day",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-07-14T06:55:50.574033+00:00"
     }
   ]
 }
