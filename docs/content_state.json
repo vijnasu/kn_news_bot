@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T10:10:50.228028+00:00",
+  "last_posted_at": "2026-07-14T11:32:32.314871+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Earthquake of magnitude 3.6 hits J&K’s Baramulla",
-      "genre": "unexplained_obstacles",
-      "style": "weather_extreme",
-      "posted_at": "2026-07-13T02:19:16.494139+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court to hear plea against sky-high airfares today",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "court",
       "posted_at": "2026-07-14T10:10:50.228028+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "L&T given June 2027 deadline to complete Kalaburagi 24x7 water supply project",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-07-14T11:32:32.314871+00:00"
     }
   ]
 }
