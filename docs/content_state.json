@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T06:55:50.574033+00:00",
+  "last_posted_at": "2026-07-14T08:30:40.292712+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Boy, 3, killed after iron plate falls from crane at drainage work site",
-      "genre": "negative_energy",
-      "style": "sudden_loss",
-      "posted_at": "2026-07-12T17:08:50.355397+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "90-year-old woman dies after wall collapses at work site in Kolathur",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-07-14T06:55:50.574033+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "AAP chief Kejriwal urges Wangchuk to end hunger strike; will meet him on July 16",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-07-14T08:30:40.292712+00:00"
     }
   ]
 }
