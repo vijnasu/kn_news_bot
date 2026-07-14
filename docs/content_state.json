@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T08:30:40.292712+00:00",
+  "last_posted_at": "2026-07-14T10:10:50.228028+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "90-year-old woman dies after wall collapses at work site in Kolathur",
-      "genre": "repeated_failures",
-      "style": "sudden_loss",
-      "posted_at": "2026-07-13T00:38:55.679275+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Earthquake of magnitude 3.6 hits J&K’s Baramulla",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "health",
       "posted_at": "2026-07-14T08:30:40.292712+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "What is ‘trial in absentia’? | Explained",
+      "genre": "court_cases",
+      "style": "court",
+      "posted_at": "2026-07-14T10:10:50.228028+00:00"
     }
   ]
 }
