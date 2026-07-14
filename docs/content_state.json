@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-13T17:17:09.799426+00:00",
+  "last_posted_at": "2026-07-14T00:50:05.680547+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "S. Janaki’s death an irreparable loss to music, says Andhra Pradesh CM",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-07-12T10:35:13.042144+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Need to train more skilled cardiovascular technologists to meet rising cardiac care demand: C.N. Manjunath",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-07-13T17:17:09.799426+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Survey for Bidadi Township ends in chaos as women farmers chase officials with brooms",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-07-14T00:50:05.680547+00:00"
     }
   ]
 }
