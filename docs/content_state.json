@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T11:32:32.314871+00:00",
+  "last_posted_at": "2026-07-14T12:43:38.206539+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court to hear plea against sky-high airfares today",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-07-13T03:46:22.130055+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "‘He never went on trips, except once’: Chennai family await repatriation of Vietnam speedboat tragedy victim",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-07-14T11:32:32.314871+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
+      "genre": "political_business_enemies",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-14T12:43:38.206539+00:00"
     }
   ]
 }
