@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T12:43:38.206539+00:00",
+  "last_posted_at": "2026-07-14T14:11:49.424068+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "‘He never went on trips, except once’: Chennai family await repatriation of Vietnam speedboat tragedy victim",
-      "genre": "marriage_delay",
-      "style": "health",
-      "posted_at": "2026-07-13T05:13:18.418667+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka Governor suspends KPSC chairperson Shivashankarappa S Sahukar over 'illegal selection' of daughters in government service",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "sudden_loss",
       "posted_at": "2026-07-14T12:43:38.206539+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Palani mutt land registration issue: Suspended sub-registrar has told us that he acted on court order, TN minister says",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-07-14T14:11:49.424068+00:00"
     }
   ]
 }
