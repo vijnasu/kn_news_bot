@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T15:34:04.754478+00:00",
+  "last_posted_at": "2026-07-14T16:42:49.840232+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "SC issues notice in petitions in the Ram temple donations' embezzlement case | LIVE",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-07-13T07:41:42.838285+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Bird strike grounds British Airways flight to London from Chennai",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-07-14T15:34:04.754478+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Minor fire breaks out at Anekal Government Hospital on Bengaluru outskirts, patients safely evacuated",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-07-14T16:42:49.840232+00:00"
     }
   ]
 }
