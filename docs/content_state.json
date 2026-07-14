@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T03:48:18.503993+00:00",
+  "last_posted_at": "2026-07-14T05:03:19.280194+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "India, Canada conclude third round of talks on proposed trade pact",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-07-12T14:32:44.115922+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Real culprits being protected in Ram Temple donation embezzlement case: Congress MP",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-07-14T03:48:18.503993+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "If enumeration form not submitted, name will not figure in draft electoral rolls, says official in Karnataka",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-07-14T05:03:19.280194+00:00"
     }
   ]
 }
