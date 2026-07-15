@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T00:32:09.258513+00:00",
+  "last_posted_at": "2026-07-15T01:58:44.419413+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "'Fraudulent' registration of Rs 100 crore Palani mutt land: Police register FIR, begin probe",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-07-13T09:56:45.907078+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Uddhav Thackeray appeals to Sonam Wangchuk to withdraw fast",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-07-15T00:32:09.258513+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Tamil Nadu: Government appoints interim panel to lead RERA",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-07-15T01:58:44.419413+00:00"
     }
   ]
 }
