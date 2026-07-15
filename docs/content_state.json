@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T10:13:37.354344+00:00",
+  "last_posted_at": "2026-07-15T11:36:25.270177+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Survey for Bidadi Township ends in chaos as women farmers chase officials with brooms",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-07-14T00:50:05.680547+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "1 killed, 4 injured as boiler explodes at steel melting unit in Tamil Nadu",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "sudden_loss",
       "posted_at": "2026-07-15T10:13:37.354344+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Madan Mitra leaves Mamata Banerjee, joins rebel Trinamool camp",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-07-15T11:36:25.270177+00:00"
     }
   ]
 }
