@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T08:17:34.927721+00:00",
+  "last_posted_at": "2026-07-15T10:13:37.354344+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Mysuru: Kannada activist Vatal Nagaraj threatens Karnataka bandh over eviction of footpath vendors",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-07-13T17:17:09.799426+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Survey for Bidadi Township ends in chaos as women farmers chase officials with brooms",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-07-15T08:17:34.927721+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Concerned over civilian deaths, Mirwaiz urges Pakistan to prioritise dialogue, restraint in PoK",
+      "genre": "sudden_health_fear",
+      "style": "sudden_loss",
+      "posted_at": "2026-07-15T10:13:37.354344+00:00"
     }
   ]
 }
