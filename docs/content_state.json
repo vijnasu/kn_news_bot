@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T11:36:25.270177+00:00",
+  "last_posted_at": "2026-07-15T12:46:08.935259+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "1 killed, 4 injured as boiler explodes at steel melting unit in Tamil Nadu",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-07-14T02:39:45.290304+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Datia bypoll: Stage set for high-stakes battle as BJP, Congress candidates file nomination; Mishra gets emotional",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-07-15T11:36:25.270177+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Palani mutt land registration case transferred to CB-CID",
+      "genre": "business_blockage",
+      "style": "finance",
+      "posted_at": "2026-07-15T12:46:08.935259+00:00"
     }
   ]
 }
