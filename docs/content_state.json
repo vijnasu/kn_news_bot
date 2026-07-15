@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T12:46:08.935259+00:00",
+  "last_posted_at": "2026-07-15T14:23:32.285723+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Datia bypoll: Stage set for high-stakes battle as BJP, Congress candidates file nomination; Mishra gets emotional",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-07-14T03:48:18.503993+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "If enumeration form not submitted, name will not figure in draft electoral rolls, says official in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "finance",
       "posted_at": "2026-07-15T12:46:08.935259+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Tamil Nadu horror: Woman killed shielding daughter after jilted fiancé attacks with sickle in broad daylight",
+      "genre": "repeated_failures",
+      "style": "marriage",
+      "posted_at": "2026-07-15T14:23:32.285723+00:00"
     }
   ]
 }
