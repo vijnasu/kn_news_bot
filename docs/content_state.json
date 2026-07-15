@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T05:20:12.121801+00:00",
+  "last_posted_at": "2026-07-15T07:17:22.568575+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "'Fraudulent' registration of Rs 100crore Palani mutt land: Sub-registrar suspended",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-07-13T14:19:19.479959+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tahir Hussain, four others convicted in IB staff Ankit Sharma murder case",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-07-15T05:20:12.121801+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Air India crash: Draft final report will be ready by October, AAIB tells Supreme Court",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-07-15T07:17:22.568575+00:00"
     }
   ]
 }
