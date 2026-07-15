@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T04:18:56.420902+00:00",
+  "last_posted_at": "2026-07-15T05:20:12.121801+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Former MP Prajwal Revanna challenges conviction in rape case in Karnataka High Court",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-07-13T13:18:42.557403+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "'Fraudulent' registration of Rs 100crore Palani mutt land: Sub-registrar suspended",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "career",
       "posted_at": "2026-07-15T04:18:56.420902+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Rs 100 crore Palani temple land 'fraud': Suspended sub-registrar told us he acted on court order, says minister; what we know so far",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-07-15T05:20:12.121801+00:00"
     }
   ]
 }
