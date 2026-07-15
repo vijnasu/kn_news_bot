@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-14T16:42:49.840232+00:00",
+  "last_posted_at": "2026-07-15T00:32:09.258513+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Bird strike grounds British Airways flight to London from Chennai",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-07-13T08:43:42.867880+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "'Fraudulent' registration of Rs 100 crore Palani mutt land: Police register FIR, begin probe",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-07-14T16:42:49.840232+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Small business loan book rises to ₹49.2 lakh crore in FY26: Report",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-07-15T00:32:09.258513+00:00"
     }
   ]
 }
