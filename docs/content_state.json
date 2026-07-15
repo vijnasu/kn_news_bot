@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-15T03:12:19.830232+00:00",
+  "last_posted_at": "2026-07-15T04:18:56.420902+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Modi government silent on corruption in education; time for revolution in this sector: Rahul Gandhi",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-07-13T12:17:34.626709+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Former MP Prajwal Revanna challenges conviction in rape case in Karnataka High Court",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-07-15T03:12:19.830232+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Shots fired in Gymkhana club in Belagavi",
+      "genre": "court_cases",
+      "style": "career",
+      "posted_at": "2026-07-15T04:18:56.420902+00:00"
     }
   ]
 }
