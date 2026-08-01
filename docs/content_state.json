@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T15:08:43.505201+00:00",
+  "last_posted_at": "2026-08-01T16:34:49.426195+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Lok Adalat settles nearly 79 lakh cases, resolves disputes worth ₹3,017 crore",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-07-14T15:34:04.754478+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Minor fire breaks out at Anekal Government Hospital on Bengaluru outskirts, patients safely evacuated",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-08-01T15:08:43.505201+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "CJP founder Abhijeet Dipke advised to take rest after falling sick",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-01T16:34:49.426195+00:00"
     }
   ]
 }
