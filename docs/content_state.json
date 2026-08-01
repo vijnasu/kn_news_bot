@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-07-17T07:56:28.933514+00:00",
+  "last_posted_at": "2026-08-01T07:09:23.667755+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "CJP protest Day 25:Wanghcuk’s health worsens; fast enters 17th day",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-07-14T06:55:50.574033+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "AAP chief Kejriwal urges Wangchuk to end hunger strike; will meet him on July 16",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-07-17T07:56:28.933514+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka government failed to tackle drought, says H.D. Kumaraswamy; JD(S) to attend all-party meet on Cauvery crisis",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-01T07:09:23.667755+00:00"
     }
   ]
 }
