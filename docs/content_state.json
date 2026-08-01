@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T08:53:46.632277+00:00",
+  "last_posted_at": "2026-08-01T10:20:24.021614+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "What is ‘trial in absentia’? | Explained",
-      "genre": "court_cases",
-      "style": "court",
-      "posted_at": "2026-07-14T10:10:50.228028+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "L&T given June 2027 deadline to complete Kalaburagi 24x7 water supply project",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-01T08:53:46.632277+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Karnataka monsoon Rain triggers landslip, house collapse in Kodagu",
+      "genre": "family_disturbance",
+      "style": "land",
+      "posted_at": "2026-08-01T10:20:24.021614+00:00"
     }
   ]
 }
