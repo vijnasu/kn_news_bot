@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T07:09:23.667755+00:00",
+  "last_posted_at": "2026-08-01T08:53:46.632277+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "AAP chief Kejriwal urges Wangchuk to end hunger strike; will meet him on July 16",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-07-14T08:30:40.292712+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "What is ‘trial in absentia’? | Explained",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-01T07:09:23.667755+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Cauvery row: Karnataka CM urges protesters not to obstruct flow of water in Kabini river amid flood alert",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-01T08:53:46.632277+00:00"
     }
   ]
 }
