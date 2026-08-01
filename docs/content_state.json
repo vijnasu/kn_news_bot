@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T13:50:07.420875+00:00",
+  "last_posted_at": "2026-08-01T15:08:43.505201+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Palani mutt land registration issue: Suspended sub-registrar has told us that he acted on court order, TN minister says",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-07-14T14:11:49.424068+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Lok Adalat settles nearly 79 lakh cases, resolves disputes worth ₹3,017 crore",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-01T13:50:07.420875+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Mob violence on Bengaluru’s Doddaballapur factory premises: 12 arrested in assault case",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-08-01T15:08:43.505201+00:00"
     }
   ]
 }
