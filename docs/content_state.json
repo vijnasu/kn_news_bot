@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T11:41:09.967976+00:00",
+  "last_posted_at": "2026-08-01T13:50:07.420875+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "MEA summons Iranian deputy envoy, after Indian national killed in attack on ship",
-      "genre": "political_business_enemies",
-      "style": "sudden_loss",
-      "posted_at": "2026-07-14T12:43:38.206539+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Palani mutt land registration issue: Suspended sub-registrar has told us that he acted on court order, TN minister says",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "scandal",
       "posted_at": "2026-08-01T11:41:09.967976+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka Chief Minister D.K. Shivakumar faces political tests on multiple fronts",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-01T13:50:07.420875+00:00"
     }
   ]
 }
