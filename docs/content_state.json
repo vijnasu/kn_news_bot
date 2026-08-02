@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T05:11:49.876235+00:00",
+  "last_posted_at": "2026-08-02T06:15:34.506730+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Shots fired in Gymkhana club in Belagavi",
-      "genre": "court_cases",
-      "style": "career",
-      "posted_at": "2026-07-15T04:18:56.420902+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Rs 100 crore Palani temple land 'fraud': Suspended sub-registrar told us he acted on court order, says minister; what we know so far",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "fear",
       "posted_at": "2026-08-02T05:11:49.876235+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Three go missing, one injured, following landslip due to heavy rains at Tirthahalli",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-02T06:15:34.506730+00:00"
     }
   ]
 }
