@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-01T16:34:49.426195+00:00",
+  "last_posted_at": "2026-08-02T00:57:33.134539+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Minor fire breaks out at Anekal Government Hospital on Bengaluru outskirts, patients safely evacuated",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-07-14T16:42:49.840232+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Small business loan book rises to ₹49.2 lakh crore in FY26: Report",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-01T16:34:49.426195+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "On Kore’s 79th birthday leaders hail his contribution to north Karnataka",
+      "genre": "sudden_health_fear",
+      "style": "business",
+      "posted_at": "2026-08-02T00:57:33.134539+00:00"
     }
   ]
 }
