@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T09:55:25.286683+00:00",
+  "last_posted_at": "2026-08-02T11:11:52.217618+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Delhi High Court asks Centre, Delhi govt. to respond to plea on Wangchuk’s deteriorating health",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-07-15T08:17:34.927721+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Concerned over civilian deaths, Mirwaiz urges Pakistan to prioritise dialogue, restraint in PoK",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "fear",
       "posted_at": "2026-08-02T09:55:25.286683+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka CM urges Opposition, farmers, and Kannada organisations to withdraw proposed Aug. 13 bandh against release of Cauvery water to Tamil Nadu",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-02T11:11:52.217618+00:00"
     }
   ]
 }
