@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T04:00:13.032303+00:00",
+  "last_posted_at": "2026-08-02T05:11:49.876235+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Is someone demanding a bribe? Message 9498180936",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-07-15T03:12:19.830232+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Shots fired in Gymkhana club in Belagavi",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-02T04:00:13.032303+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Kabini Reservoir discharge at 25,000 cusecs triggers Cauvery flood alert",
+      "genre": "career_instability",
+      "style": "fear",
+      "posted_at": "2026-08-02T05:11:49.876235+00:00"
     }
   ]
 }
