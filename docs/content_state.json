@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T00:57:33.134539+00:00",
+  "last_posted_at": "2026-08-02T02:41:20.968341+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Small business loan book rises to ₹49.2 lakh crore in FY26: Report",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-07-15T00:32:09.258513+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Tamil Nadu: Government appoints interim panel to lead RERA",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "business",
       "posted_at": "2026-08-02T00:57:33.134539+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Forum stages protest seeking clearance for Kalasa-Banduri drinking water project in Hubballi",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-02T02:41:20.968341+00:00"
     }
   ]
 }
