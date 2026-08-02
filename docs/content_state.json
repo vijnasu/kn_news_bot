@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T13:50:16.101568+00:00",
+  "last_posted_at": "2026-08-02T15:08:50.800295+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Palani mutt land registration case transferred to CB-CID",
-      "genre": "business_blockage",
-      "style": "finance",
-      "posted_at": "2026-07-15T12:46:08.935259+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Tamil Nadu horror: Woman killed shielding daughter after jilted fiancé attacks with sickle in broad daylight",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-02T13:50:16.101568+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Protest breaks out during police constable recruitment exam in Karnataka’s Vijayapura district",
+      "genre": "unexplained_obstacles",
+      "style": "career",
+      "posted_at": "2026-08-02T15:08:50.800295+00:00"
     }
   ]
 }
