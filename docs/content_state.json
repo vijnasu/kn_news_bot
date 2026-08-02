@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T06:15:34.506730+00:00",
+  "last_posted_at": "2026-08-02T08:01:23.193656+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Rs 100 crore Palani temple land 'fraud': Suspended sub-registrar told us he acted on court order, says minister; what we know so far",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-07-15T05:20:12.121801+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Air India crash: Draft final report will be ready by October, AAIB tells Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-02T06:15:34.506730+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Bandh in Sowcarpet as traders protest GST inspection",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-08-02T08:01:23.193656+00:00"
     }
   ]
 }
