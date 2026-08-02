@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T15:08:50.800295+00:00",
+  "last_posted_at": "2026-08-02T16:34:56.871934+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Tamil Nadu horror: Woman killed shielding daughter after jilted fiancé attacks with sickle in broad daylight",
-      "genre": "repeated_failures",
-      "style": "marriage",
-      "posted_at": "2026-07-15T14:23:32.285723+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Sauhardya Karnataka stages protest over NEET paper leak, expresses solidarity with Sonam Wangchuk",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "career",
       "posted_at": "2026-08-02T15:08:50.800295+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Youth Congress helpline receives over 3,000 calls from student protesters",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-02T16:34:56.871934+00:00"
     }
   ]
 }
