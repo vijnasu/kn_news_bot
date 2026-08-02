@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T12:37:45.110821+00:00",
+  "last_posted_at": "2026-08-02T13:50:16.101568+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Madan Mitra leaves Mamata Banerjee, joins rebel Trinamool camp",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-07-15T11:36:25.270177+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Palani mutt land registration case transferred to CB-CID",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-02T12:37:45.110821+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Communist Party of India to cover 100 villages in Kalaburagi as part of nation-wide padayatra",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-02T13:50:16.101568+00:00"
     }
   ]
 }
