@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T00:56:52.966467+00:00",
+  "last_posted_at": "2026-08-03T02:41:56.958377+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka government failed to tackle drought, says H.D. Kumaraswamy; JD(S) to attend all-party meet on Cauvery crisis",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-01T07:09:23.667755+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Cauvery row: Karnataka CM urges protesters not to obstruct flow of water in Kabini river amid flood alert",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-03T00:56:52.966467+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "TN to withdraw cases against students booked during NEET protests",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-08-03T02:41:56.958377+00:00"
     }
   ]
 }
