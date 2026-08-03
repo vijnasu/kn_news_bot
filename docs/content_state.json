@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T07:56:30.207195+00:00",
+  "last_posted_at": "2026-08-03T09:12:47.437000+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Mob violence on Bengaluru’s Doddaballapur factory premises: 12 arrested in assault case",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-08-01T15:08:43.505201+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "CJP founder Abhijeet Dipke advised to take rest after falling sick",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-03T07:56:30.207195+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Congress names 10 new faces in Karnataka Cabinet expansion, scam accused is back",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-03T09:12:47.437000+00:00"
     }
   ]
 }
