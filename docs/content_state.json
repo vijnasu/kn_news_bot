@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T15:17:16.940391+00:00",
+  "last_posted_at": "2026-08-03T16:18:41.958161+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Kabini Reservoir discharge at 25,000 cusecs triggers Cauvery flood alert",
-      "genre": "career_instability",
-      "style": "fear",
-      "posted_at": "2026-08-02T05:11:49.876235+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Three go missing, one injured, following landslip due to heavy rains at Tirthahalli",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-03T15:17:16.940391+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Delhi police move against social media handles over misleading Jantar Mantar protest videos",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-08-03T16:18:41.958161+00:00"
     }
   ]
 }
