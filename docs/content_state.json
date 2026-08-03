@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T02:41:56.958377+00:00",
+  "last_posted_at": "2026-08-03T04:01:36.166520+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Cauvery row: Karnataka CM urges protesters not to obstruct flow of water in Kabini river amid flood alert",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-01T08:53:46.632277+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Karnataka monsoon Rain triggers landslip, house collapse in Kodagu",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-08-03T02:41:56.958377+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Ex-SBI officials among 8 convicted in bank fraud case, get 10 years RI",
+      "genre": "financial_loss",
+      "style": "finance",
+      "posted_at": "2026-08-03T04:01:36.166520+00:00"
     }
   ]
 }
