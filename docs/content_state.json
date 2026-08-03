@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T09:12:47.437000+00:00",
+  "last_posted_at": "2026-08-03T10:30:22.634385+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "CJP founder Abhijeet Dipke advised to take rest after falling sick",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-01T16:34:49.426195+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "On Kore’s 79th birthday leaders hail his contribution to north Karnataka",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-03T09:12:47.437000+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Cauvery issue: Udhayanidhi leads DMK demonstration in Thanjavur; calls TVK-led government ‘incompetent’",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-03T10:30:22.634385+00:00"
     }
   ]
 }
