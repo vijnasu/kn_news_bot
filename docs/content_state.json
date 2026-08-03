@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T10:30:22.634385+00:00",
+  "last_posted_at": "2026-08-03T11:46:07.138903+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "On Kore’s 79th birthday leaders hail his contribution to north Karnataka",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-08-02T00:57:33.134539+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Forum stages protest seeking clearance for Kalasa-Banduri drinking water project in Hubballi",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-03T10:30:22.634385+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Supreme Court Collegium’s unexplained recommendations risk bad appointments: Justice Bhuyan",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-08-03T11:46:07.138903+00:00"
     }
   ]
 }
