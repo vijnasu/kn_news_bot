@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T05:27:18.392464+00:00",
+  "last_posted_at": "2026-08-03T06:40:30.754422+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "AISA president Neha calls for focus on police accountability amid protest language row",
-      "genre": "unexplained_obstacles",
-      "style": "scandal",
-      "posted_at": "2026-08-01T11:41:09.967976+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka Chief Minister D.K. Shivakumar faces political tests on multiple fronts",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "finance",
       "posted_at": "2026-08-03T05:27:18.392464+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Brij Bhushan Sharan Singh, aide Vinod Tomar acquitted in women wrestlers sexual harassment case",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-03T06:40:30.754422+00:00"
     }
   ]
 }
