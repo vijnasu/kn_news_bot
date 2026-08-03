@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-02T16:34:56.871934+00:00",
+  "last_posted_at": "2026-08-03T00:56:52.966467+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Sauhardya Karnataka stages protest over NEET paper leak, expresses solidarity with Sonam Wangchuk",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-07-17T07:56:28.933514+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka government failed to tackle drought, says H.D. Kumaraswamy; JD(S) to attend all-party meet on Cauvery crisis",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-08-02T16:34:56.871934+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka Cabinet expansion most likely on August 3",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-03T00:56:52.966467+00:00"
     }
   ]
 }
