@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T04:01:36.166520+00:00",
+  "last_posted_at": "2026-08-03T05:27:18.392464+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka monsoon Rain triggers landslip, house collapse in Kodagu",
-      "genre": "family_disturbance",
-      "style": "land",
-      "posted_at": "2026-08-01T10:20:24.021614+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "AISA president Neha calls for focus on police accountability amid protest language row",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "finance",
       "posted_at": "2026-08-03T04:01:36.166520+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Teacher’s family duped twice in cyberfraud, loses ₹45 lakh in fake investment scam",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-08-03T05:27:18.392464+00:00"
     }
   ]
 }
