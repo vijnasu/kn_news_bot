@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-03T16:18:41.958161+00:00",
+  "last_posted_at": "2026-08-04T00:54:29.789379+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Three go missing, one injured, following landslip due to heavy rains at Tirthahalli",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-02T06:15:34.506730+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Bandh in Sowcarpet as traders protest GST inspection",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-08-03T16:18:41.958161+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Opposition MPs protest over Ram Temple donation theft",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-04T00:54:29.789379+00:00"
     }
   ]
 }
