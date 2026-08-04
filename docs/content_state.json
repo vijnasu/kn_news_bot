@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T05:06:18.241861+00:00",
+  "last_posted_at": "2026-08-04T06:10:39.696251+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Decision on declaring drought by August end, Chief Minister D.K. Shivakumar",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-02T12:37:45.110821+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Communist Party of India to cover 100 villages in Kalaburagi as part of nation-wide padayatra",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-04T05:06:18.241861+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Udhayanidhi Stalin detained from Chennai home over 'vulgar' remarks case",
+      "genre": "sudden_health_fear",
+      "style": "court",
+      "posted_at": "2026-08-04T06:10:39.696251+00:00"
     }
   ]
 }
