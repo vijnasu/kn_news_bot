@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T07:10:57.216003+00:00",
+  "last_posted_at": "2026-08-04T09:14:54.511131+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Protest breaks out during police constable recruitment exam in Karnataka’s Vijayapura district",
-      "genre": "unexplained_obstacles",
-      "style": "career",
-      "posted_at": "2026-08-02T15:08:50.800295+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Youth Congress helpline receives over 3,000 calls from student protesters",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-08-04T07:10:57.216003+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Objectionable remark row: No intention to remand Udhayanidhi Stalin, TN govt tells Madras high court",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-04T09:14:54.511131+00:00"
     }
   ]
 }
