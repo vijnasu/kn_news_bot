@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T12:46:27.277142+00:00",
+  "last_posted_at": "2026-08-04T14:36:27.079601+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "TN to withdraw cases against students booked during NEET protests",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-08-03T02:41:56.958377+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Ex-SBI officials among 8 convicted in bank fraud case, get 10 years RI",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-04T12:46:27.277142+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Police in Karnataka book protesters after attempt to block Chief Minister’s convoy during private visit",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-04T14:36:27.079601+00:00"
     }
   ]
 }
