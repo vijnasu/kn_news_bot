@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T09:14:54.511131+00:00",
+  "last_posted_at": "2026-08-04T11:09:12.213956+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Youth Congress helpline receives over 3,000 calls from student protesters",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-08-02T16:34:56.871934+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka Cabinet expansion most likely on August 3",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-04T09:14:54.511131+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "'In the interest of women': What TN govt told HC on Udhayanidhi Stalin's arrest",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-04T11:09:12.213956+00:00"
     }
   ]
 }
