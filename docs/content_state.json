@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T06:10:39.696251+00:00",
+  "last_posted_at": "2026-08-04T07:10:57.216003+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Communist Party of India to cover 100 villages in Kalaburagi as part of nation-wide padayatra",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-02T13:50:16.101568+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Protest breaks out during police constable recruitment exam in Karnataka’s Vijayapura district",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "court",
       "posted_at": "2026-08-04T06:10:39.696251+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "'He was arrested for doing his duty': DMK neta RS Bharathi on Udhayanidhi Stalin detention",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-04T07:10:57.216003+00:00"
     }
   ]
 }
