@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T03:52:20.689253+00:00",
+  "last_posted_at": "2026-08-04T05:06:18.241861+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka CM urges Opposition, farmers, and Kannada organisations to withdraw proposed Aug. 13 bandh against release of Cauvery water to Tamil Nadu",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-02T11:11:52.217618+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Decision on declaring drought by August end, Chief Minister D.K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-04T03:52:20.689253+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "DMK leader Udhayanidhi's 'double meaning' remark sparks row; TVK women's wing files police complaint",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-04T05:06:18.241861+00:00"
     }
   ]
 }
