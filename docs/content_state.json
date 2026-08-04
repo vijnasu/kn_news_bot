@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T00:54:29.789379+00:00",
+  "last_posted_at": "2026-08-04T02:39:39.559967+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Bandh in Sowcarpet as traders protest GST inspection",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-08-02T08:01:23.193656+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Friendship Day celebrations turn tragic, as two youths feared drowned in Vizag beach",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-04T00:54:29.789379+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Mother’s death in road accident: Karnataka HC tells children to recover ₹25 lakh compensation from ‘offender’ father",
+      "genre": "repeated_failures",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-04T02:39:39.559967+00:00"
     }
   ]
 }
