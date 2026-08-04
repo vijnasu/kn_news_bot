@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-04T14:36:27.079601+00:00",
+  "last_posted_at": "2026-08-04T16:26:14.864893+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Ex-SBI officials among 8 convicted in bank fraud case, get 10 years RI",
-      "genre": "financial_loss",
-      "style": "finance",
-      "posted_at": "2026-08-03T04:01:36.166520+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Teacher’s family duped twice in cyberfraud, loses ₹45 lakh in fake investment scam",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-04T14:36:27.079601+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "‘I spoke in single-meaning’: Udhayanidhi Stalin’s first words after release, calls Vijay govt 'circus camp'",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-04T16:26:14.864893+00:00"
     }
   ]
 }
