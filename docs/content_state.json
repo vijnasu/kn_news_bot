@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-05T04:29:44.316871+00:00",
+  "last_posted_at": "2026-08-05T07:18:39.909201+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Thirupparankundram row: Supreme Court agrees to hear T.N. government plea, but gives the State no interim relief",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-03T07:56:30.207195+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Congress names 10 new faces in Karnataka Cabinet expansion, scam accused is back",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-08-05T04:29:44.316871+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Siddaramaiah maintains studied silence over Cabinet expansion",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-05T07:18:39.909201+00:00"
     }
   ]
 }
