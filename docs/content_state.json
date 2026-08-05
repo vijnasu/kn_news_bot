@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-05T14:54:59.910792+00:00",
+  "last_posted_at": "2026-08-05T16:42:10.409309+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka’s advisory banning junk food near schools: What it means and why it matters | Explained",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-03T13:06:52.239383+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Pappu Yadav’s ‘seer’ skit puts SP in a bind; party leader terms it ‘incorrect act’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-05T14:54:59.910792+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka High Court refuses to quash FIR against self-proclaimed Congress leaders in ₹5.3 crore job racket case",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-05T16:42:10.409309+00:00"
     }
   ]
 }
