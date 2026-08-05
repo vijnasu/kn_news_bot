@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-05T07:18:39.909201+00:00",
+  "last_posted_at": "2026-08-05T10:07:19.569261+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Congress names 10 new faces in Karnataka Cabinet expansion, scam accused is back",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-03T09:12:47.437000+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Cauvery issue: Udhayanidhi leads DMK demonstration in Thanjavur; calls TVK-led government ‘incompetent’",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-05T07:18:39.909201+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "NEET-UG protests: Listen to Gen Z, don’t repress them, advises Supreme Court",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-05T10:07:19.569261+00:00"
     }
   ]
 }
