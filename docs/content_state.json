@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-05T01:05:40.260478+00:00",
+  "last_posted_at": "2026-08-05T04:29:44.316871+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Brij Bhushan Sharan Singh, aide Vinod Tomar acquitted in women wrestlers sexual harassment case",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-08-03T06:40:30.754422+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Thirupparankundram row: Supreme Court agrees to hear T.N. government plea, but gives the State no interim relief",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-05T01:05:40.260478+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Three labourers dead, two injured after chemical leak at factory in Kadechur-Badiyal Industrial Area in Yadgir district of Karnataka",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-08-05T04:29:44.316871+00:00"
     }
   ]
 }
