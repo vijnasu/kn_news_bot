@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-06T09:39:18.784208+00:00",
+  "last_posted_at": "2026-08-06T11:51:47.195278+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "For the BJP, the result in Bankipur goes beyond just a poll loss",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-04T03:52:20.689253+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "DMK leader Udhayanidhi's 'double meaning' remark sparks row; TVK women's wing files police complaint",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-06T09:39:18.784208+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka explores partnership with Anthropic for governance, skilling and deep-tech growth",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-06T11:51:47.195278+00:00"
     }
   ]
 }
