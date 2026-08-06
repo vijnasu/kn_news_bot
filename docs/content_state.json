@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-06T04:11:54.112690+00:00",
+  "last_posted_at": "2026-08-06T06:46:50.234730+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Opposition MPs protest over Ram Temple donation theft",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-04T00:54:29.789379+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Mother’s death in road accident: Karnataka HC tells children to recover ₹25 lakh compensation from ‘offender’ father",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "marriage",
       "posted_at": "2026-08-06T04:11:54.112690+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Will UPI remain free to use? | Explained",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-06T06:46:50.234730+00:00"
     }
   ]
 }
