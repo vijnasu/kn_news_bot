@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-06T06:46:50.234730+00:00",
+  "last_posted_at": "2026-08-06T09:39:18.784208+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Mother’s death in road accident: Karnataka HC tells children to recover ₹25 lakh compensation from ‘offender’ father",
-      "genre": "repeated_failures",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-04T02:39:39.559967+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "For the BJP, the result in Bankipur goes beyond just a poll loss",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-06T06:46:50.234730+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Karnataka Minister Sharan Prakash Patil reviews drought and drinking water crisis in Yadgir",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-06T09:39:18.784208+00:00"
     }
   ]
 }
