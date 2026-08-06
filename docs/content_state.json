@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-05T16:42:10.409309+00:00",
+  "last_posted_at": "2026-08-06T00:55:24.299850+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Pappu Yadav’s ‘seer’ skit puts SP in a bind; party leader terms it ‘incorrect act’",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-03T15:17:16.940391+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Delhi police move against social media handles over misleading Jantar Mantar protest videos",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-05T16:42:10.409309+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Rajya Sabha clears Bill to increase number of Supreme Court judges",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-06T00:55:24.299850+00:00"
     }
   ]
 }
