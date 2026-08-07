@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T08:00:18.120087+00:00",
+  "last_posted_at": "2026-08-07T09:12:19.297785+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Registration of Births and Deaths Bill passed by Rajya Sabha amid Opposition protests",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-04T12:46:27.277142+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Police in Karnataka book protesters after attempt to block Chief Minister’s convoy during private visit",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-07T08:00:18.120087+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Parliament Monsoon Session Day 15 updates: Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026’ passed in Lok Sabha without debate",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-07T09:12:19.297785+00:00"
     }
   ]
 }
