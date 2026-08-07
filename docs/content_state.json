@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T15:26:10.829947+00:00",
+  "last_posted_at": "2026-08-07T17:23:59.964121+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Siddaramaiah maintains studied silence over Cabinet expansion",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-05T07:18:39.909201+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "NEET-UG protests: Listen to Gen Z, don’t repress them, advises Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "finance",
       "posted_at": "2026-08-07T15:26:10.829947+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Stock market consultant held in sexual harassment case",
+      "genre": "family_disturbance",
+      "style": "finance",
+      "posted_at": "2026-08-07T17:23:59.964121+00:00"
     }
   ]
 }
