@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T05:13:50.426175+00:00",
+  "last_posted_at": "2026-08-07T06:34:34.225782+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Objectionable remark row: No intention to remand Udhayanidhi Stalin, TN govt tells Madras high court",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-04T09:14:54.511131+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "'In the interest of women': What TN govt told HC on Udhayanidhi Stalin's arrest",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "career",
       "posted_at": "2026-08-07T05:13:50.426175+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Chennai court issues NBW against DMK's K Ponmudi in hate speech case",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-07T06:34:34.225782+00:00"
     }
   ]
 }
