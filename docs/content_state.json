@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T11:07:58.898939+00:00",
+  "last_posted_at": "2026-08-07T13:13:22.393076+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "‘I spoke in single-meaning’: Udhayanidhi Stalin’s first words after release, calls Vijay govt 'circus camp'",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-04T16:26:14.864893+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Are pellet guns legal for crowd control in India? | Explained",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-07T11:07:58.898939+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tangadagi consoles family of landslide victims, promises continued support",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-07T13:13:22.393076+00:00"
     }
   ]
 }
