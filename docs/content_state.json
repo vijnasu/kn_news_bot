@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T06:34:34.225782+00:00",
+  "last_posted_at": "2026-08-07T08:00:18.120087+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "'In the interest of women': What TN govt told HC on Udhayanidhi Stalin's arrest",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-04T11:09:12.213956+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Registration of Births and Deaths Bill passed by Rajya Sabha amid Opposition protests",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-07T06:34:34.225782+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Supreme Court refuses to entertain Mahua Moitra's plea against appearing before police in hate speech case",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-07T08:00:18.120087+00:00"
     }
   ]
 }
