@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T09:12:19.297785+00:00",
+  "last_posted_at": "2026-08-07T11:07:58.898939+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Police in Karnataka book protesters after attempt to block Chief Minister’s convoy during private visit",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-04T14:36:27.079601+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "‘I spoke in single-meaning’: Udhayanidhi Stalin’s first words after release, calls Vijay govt 'circus camp'",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-07T09:12:19.297785+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Too big to be cozy: the BJP’s expansion plans have problems and they are showing",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-07T11:07:58.898939+00:00"
     }
   ]
 }
