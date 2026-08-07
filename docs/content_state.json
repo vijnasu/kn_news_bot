@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T14:19:51.987445+00:00",
+  "last_posted_at": "2026-08-07T15:26:10.829947+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Three labourers dead, two injured after chemical leak at factory in Kadechur-Badiyal Industrial Area in Yadgir district of Karnataka",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-08-05T04:29:44.316871+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Siddaramaiah maintains studied silence over Cabinet expansion",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-07T14:19:51.987445+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "KPSC scams: Karnataka HC restrains CID and police from submitting final probe reports before jurisdictional courts without its prior permission",
+      "genre": "political_business_enemies",
+      "style": "finance",
+      "posted_at": "2026-08-07T15:26:10.829947+00:00"
     }
   ]
 }
