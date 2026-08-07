@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T03:19:52.700948+00:00",
+  "last_posted_at": "2026-08-07T05:13:50.426175+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "'He was arrested for doing his duty': DMK neta RS Bharathi on Udhayanidhi Stalin detention",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-08-04T07:10:57.216003+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Objectionable remark row: No intention to remand Udhayanidhi Stalin, TN govt tells Madras high court",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-07T03:19:52.700948+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Armed men attempt robbery at jewellery shop, shoot at owner after resistance",
+      "genre": "unexplained_obstacles",
+      "style": "career",
+      "posted_at": "2026-08-07T05:13:50.426175+00:00"
     }
   ]
 }
