@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T03:43:29.429597+00:00",
+  "last_posted_at": "2026-08-08T05:26:53.818835+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Parliament deadlock for 13th straight day as Opposition protests alleged Ram Temple scam, police action against protesters",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-05T14:54:59.910792+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka High Court refuses to quash FIR against self-proclaimed Congress leaders in ₹5.3 crore job racket case",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-08T03:43:29.429597+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Railway officers told to camp at train accident sites to expedite probe",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-08T05:26:53.818835+00:00"
     }
   ]
 }
