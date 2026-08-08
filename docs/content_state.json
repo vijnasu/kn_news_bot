@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T13:12:27.390633+00:00",
+  "last_posted_at": "2026-08-08T14:37:56.757694+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Karnataka explores partnership with Anthropic for governance, skilling and deep-tech growth",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-06T11:51:47.195278+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Amid drought, Yathindra asks officials to prepare for water crisis and promote alternative crops",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-08-08T13:12:27.390633+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Minister Ajay Singh visits drought-hit areas for second day, assures compensation",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-08T14:37:56.757694+00:00"
     }
   ]
 }
