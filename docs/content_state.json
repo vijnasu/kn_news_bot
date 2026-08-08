@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T11:43:00.177385+00:00",
+  "last_posted_at": "2026-08-08T13:12:27.390633+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Karnataka Minister Sharan Prakash Patil reviews drought and drinking water crisis in Yadgir",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-06T09:39:18.784208+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka explores partnership with Anthropic for governance, skilling and deep-tech growth",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-08T11:43:00.177385+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Palani mutt land case: TTV Dhinakaran demands CBI probe after arrested lawyer dies in judicial custody in Madurai",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-08-08T13:12:27.390633+00:00"
     }
   ]
 }
