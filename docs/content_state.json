@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T10:32:38.426428+00:00",
+  "last_posted_at": "2026-08-08T11:43:00.177385+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Will UPI remain free to use? | Explained",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-06T06:46:50.234730+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka Minister Sharan Prakash Patil reviews drought and drinking water crisis in Yadgir",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-08T10:32:38.426428+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "RBI has proactively helped UCBs; cooperatives should look at regulator differently: Shah",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-08T11:43:00.177385+00:00"
     }
   ]
 }
