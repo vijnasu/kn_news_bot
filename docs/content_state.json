@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T07:15:04.979202+00:00",
+  "last_posted_at": "2026-08-08T09:00:29.374402+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Rajya Sabha clears Bill to increase number of Supreme Court judges",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-06T00:55:24.299850+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "8g gold for brides, health and biz schemes bring cheer to women",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-08T07:15:04.979202+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Kabini dam: Fresh flood alert issued as rains intensify in Kerala",
+      "genre": "political_business_enemies",
+      "style": "fear",
+      "posted_at": "2026-08-08T09:00:29.374402+00:00"
     }
   ]
 }
