@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-07T17:23:59.964121+00:00",
+  "last_posted_at": "2026-08-08T02:09:22.989850+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "NEET-UG protests: Listen to Gen Z, don’t repress them, advises Supreme Court",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-05T10:07:19.569261+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Parliament Monsoon Session Day 13 highlights: Rajya Sabha clears SC Judges' Bill; Lok Sabha adjourned for the day",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "finance",
       "posted_at": "2026-08-07T17:23:59.964121+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Fake accident claims: Closed cases can still invite criminal action, says HC",
+      "genre": "sudden_health_fear",
+      "style": "court",
+      "posted_at": "2026-08-08T02:09:22.989850+00:00"
     }
   ]
 }
