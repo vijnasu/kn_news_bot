@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T05:26:53.818835+00:00",
+  "last_posted_at": "2026-08-08T07:15:04.979202+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka High Court refuses to quash FIR against self-proclaimed Congress leaders in ₹5.3 crore job racket case",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-05T16:42:10.409309+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Rajya Sabha clears Bill to increase number of Supreme Court judges",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-08T05:26:53.818835+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Tamil Nadu court recalls NBW against DMK leader Ponmudi in hate speech case",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-08T07:15:04.979202+00:00"
     }
   ]
 }
