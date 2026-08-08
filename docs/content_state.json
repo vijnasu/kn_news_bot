@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T15:45:34.344849+00:00",
+  "last_posted_at": "2026-08-08T16:54:29.690301+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka postpones Agriculture Officers’ recruitment exam after student protests",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-07T03:19:52.700948+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Armed men attempt robbery at jewellery shop, shoot at owner after resistance",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-08T15:45:34.344849+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Farmers move Karnataka High Court against acquisition of land for Bidadi township",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-08T16:54:29.690301+00:00"
     }
   ]
 }
