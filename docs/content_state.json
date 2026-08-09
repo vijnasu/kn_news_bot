@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T04:01:16.082368+00:00",
+  "last_posted_at": "2026-08-09T05:18:17.282260+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Supreme Court refuses to entertain Mahua Moitra's plea against appearing before police in hate speech case",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-07T08:00:18.120087+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Parliament Monsoon Session Day 15 updates: Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026’ passed in Lok Sabha without debate",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-08-09T04:01:16.082368+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Minister Madhu Bangarappa visits Sorab, holds review meeting",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-09T05:18:17.282260+00:00"
     }
   ]
 }
