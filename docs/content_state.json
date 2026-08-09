@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-08T16:54:29.690301+00:00",
+  "last_posted_at": "2026-08-09T02:28:25.908890+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Armed men attempt robbery at jewellery shop, shoot at owner after resistance",
-      "genre": "unexplained_obstacles",
-      "style": "career",
-      "posted_at": "2026-08-07T05:13:50.426175+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Chennai court issues NBW against DMK's K Ponmudi in hate speech case",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-08T16:54:29.690301+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Police probe alleged deposit-based packaging job scam in Devanahalli",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-08-09T02:28:25.908890+00:00"
     }
   ]
 }
