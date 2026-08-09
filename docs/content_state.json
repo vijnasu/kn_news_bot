@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T02:28:25.908890+00:00",
+  "last_posted_at": "2026-08-09T04:01:16.082368+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Chennai court issues NBW against DMK's K Ponmudi in hate speech case",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-07T06:34:34.225782+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Supreme Court refuses to entertain Mahua Moitra's plea against appearing before police in hate speech case",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-08-09T02:28:25.908890+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Health department forms 30 special teams to inspect hotels, restaurants, food outlets across Bengaluru",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-08-09T04:01:16.082368+00:00"
     }
   ]
 }
