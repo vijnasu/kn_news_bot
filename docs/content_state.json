@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T11:45:09.522056+00:00",
+  "last_posted_at": "2026-08-09T13:31:19.292470+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "KPSC scams: Karnataka HC restrains CID and police from submitting final probe reports before jurisdictional courts without its prior permission",
-      "genre": "political_business_enemies",
-      "style": "finance",
-      "posted_at": "2026-08-07T15:26:10.829947+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Stock market consultant held in sexual harassment case",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-08-09T11:45:09.522056+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Air India pilot's psychoactive substance test requires confirmation after altitude-loss incident",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-08-09T13:31:19.292470+00:00"
     }
   ]
 }
