@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T09:02:22.192370+00:00",
+  "last_posted_at": "2026-08-09T10:35:55.646908+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Tangadagi consoles family of landslide victims, promises continued support",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-07T13:13:22.393076+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Congress exploring multiple options to satisfy ministerial aspirants, induct women into Cabinet",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "career",
       "posted_at": "2026-08-09T09:02:22.192370+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "BJP, JD(S) launch padayatra against Bidadi township project",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-09T10:35:55.646908+00:00"
     }
   ]
 }
