@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T15:01:12.088511+00:00",
+  "last_posted_at": "2026-08-09T16:33:39.083955+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Fake accident claims: Closed cases can still invite criminal action, says HC",
-      "genre": "sudden_health_fear",
-      "style": "court",
-      "posted_at": "2026-08-08T02:09:22.989850+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Watch: Krishna Byre Gowda interview: Cities, Gen Z, protests & politics",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-09T15:01:12.088511+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Suvendu Adhikari orders fresh probe into R.G. Kar case",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-09T16:33:39.083955+00:00"
     }
   ]
 }
