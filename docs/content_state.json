@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T13:31:19.292470+00:00",
+  "last_posted_at": "2026-08-09T15:01:12.088511+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Stock market consultant held in sexual harassment case",
-      "genre": "family_disturbance",
-      "style": "finance",
-      "posted_at": "2026-08-07T17:23:59.964121+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Fake accident claims: Closed cases can still invite criminal action, says HC",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-08-09T13:31:19.292470+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Government will try to release maximum compensation to farmers, says Minister M.B. Patil",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-09T15:01:12.088511+00:00"
     }
   ]
 }
