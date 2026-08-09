@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-09T05:18:17.282260+00:00",
+  "last_posted_at": "2026-08-09T07:15:57.568054+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Parliament Monsoon Session Day 15 updates: Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026’ passed in Lok Sabha without debate",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-07T09:12:19.297785+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Too big to be cozy: the BJP’s expansion plans have problems and they are showing",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-09T05:18:17.282260+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-09T07:15:57.568054+00:00"
     }
   ]
 }
