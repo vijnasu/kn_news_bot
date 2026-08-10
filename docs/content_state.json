@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T14:43:56.370051+00:00",
+  "last_posted_at": "2026-08-10T16:33:36.270587+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Farmers move Karnataka High Court against acquisition of land for Bidadi township",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-08T16:54:29.690301+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Police probe alleged deposit-based packaging job scam in Devanahalli",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-10T14:43:56.370051+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Government offers Shah’s reply on students’ protests; Rahul says clarify who ordered ‘shooting of youngsters’",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-10T16:33:36.270587+00:00"
     }
   ]
 }
