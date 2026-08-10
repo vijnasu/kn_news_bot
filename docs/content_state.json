@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T06:41:48.030683+00:00",
+  "last_posted_at": "2026-08-10T08:17:12.337498+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Home Minister must speak on police excesses, PM Modi on ‘chanda chori’ issue: Congress",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-08T10:32:38.426428+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "RBI has proactively helped UCBs; cooperatives should look at regulator differently: Shah",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-10T06:41:48.030683+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Supreme Court agrees to Tamil Nadu government’s plea for early hearing of Cauvery water dispute",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-10T08:17:12.337498+00:00"
     }
   ]
 }
