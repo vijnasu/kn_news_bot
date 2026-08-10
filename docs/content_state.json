@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T11:13:02.489499+00:00",
+  "last_posted_at": "2026-08-10T13:35:56.459704+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Minister Ajay Singh visits drought-hit areas for second day, assures compensation",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-08T14:37:56.757694+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Former High Court Chief Justice-led panel set up to review Bidadi Township Project",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-10T11:13:02.489499+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "'Chennai needs a 2nd airport in 5-10 years': Why Parandur project is still stuck",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-08-10T13:35:56.459704+00:00"
     }
   ]
 }
