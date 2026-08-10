@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T09:57:57.019869+00:00",
+  "last_posted_at": "2026-08-10T11:13:02.489499+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Palani mutt land case: TTV Dhinakaran demands CBI probe after arrested lawyer dies in judicial custody in Madurai",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-08-08T13:12:27.390633+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Minister Ajay Singh visits drought-hit areas for second day, assures compensation",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-08-10T09:57:57.019869+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "‘Will pure petrol come from your father’s house?’: BJP MP on ethanol blending; faces backlash",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-10T11:13:02.489499+00:00"
     }
   ]
 }
