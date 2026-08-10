@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T05:10:12.946194+00:00",
+  "last_posted_at": "2026-08-10T06:41:48.030683+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Kabini dam: Fresh flood alert issued as rains intensify in Kerala",
-      "genre": "political_business_enemies",
-      "style": "fear",
-      "posted_at": "2026-08-08T09:00:29.374402+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Home Minister must speak on police excesses, PM Modi on ‘chanda chori’ issue: Congress",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-10T05:10:12.946194+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Protest against pollution of Guruganga-Viraja river on August 11 by villagers of Humnabad",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-10T06:41:48.030683+00:00"
     }
   ]
 }
