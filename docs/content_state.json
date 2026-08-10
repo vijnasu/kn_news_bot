@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T03:31:10.281804+00:00",
+  "last_posted_at": "2026-08-10T05:10:12.946194+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Tamil Nadu court recalls NBW against DMK leader Ponmudi in hate speech case",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-08T07:15:04.979202+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Kabini dam: Fresh flood alert issued as rains intensify in Kerala",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-08-10T03:31:10.281804+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "BJP MP lists private bill on social media ban for children",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-10T05:10:12.946194+00:00"
     }
   ]
 }
