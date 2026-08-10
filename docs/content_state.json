@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T01:44:17.509858+00:00",
+  "last_posted_at": "2026-08-10T03:31:10.281804+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Railway officers told to camp at train accident sites to expedite probe",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-08T05:26:53.818835+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Tamil Nadu court recalls NBW against DMK leader Ponmudi in hate speech case",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-10T01:44:17.509858+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Bidadi township: Chief Minister signals compensation beyond ₹3 crore an acre",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-08-10T03:31:10.281804+00:00"
     }
   ]
 }
