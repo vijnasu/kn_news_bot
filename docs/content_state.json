@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T13:35:56.459704+00:00",
+  "last_posted_at": "2026-08-10T14:43:56.370051+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Former High Court Chief Justice-led panel set up to review Bidadi Township Project",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-08T15:45:34.344849+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Farmers move Karnataka High Court against acquisition of land for Bidadi township",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-08-10T13:35:56.459704+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Prosecution for money laundering after conviction for predicate offences is not double jeopardy: Karnataka High Court",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-10T14:43:56.370051+00:00"
     }
   ]
 }
