@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T08:17:12.337498+00:00",
+  "last_posted_at": "2026-08-10T09:57:57.019869+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "RBI has proactively helped UCBs; cooperatives should look at regulator differently: Shah",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-08T11:43:00.177385+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Palani mutt land case: TTV Dhinakaran demands CBI probe after arrested lawyer dies in judicial custody in Madurai",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-10T08:17:12.337498+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "IIT Madras startup Plenome wins AI hackathon; Deploys AI-based prescription generator at AIIMS New Delhi",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-08-10T09:57:57.019869+00:00"
     }
   ]
 }
