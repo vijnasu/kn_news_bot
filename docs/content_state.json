@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-11T02:52:36.589784+00:00",
+  "last_posted_at": "2026-08-11T04:19:26.264776+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Minister Madhu Bangarappa visits Sorab, holds review meeting",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-09T05:18:17.282260+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "UPI stays free for users, vast majority of transactions to remain free for merchants as well, says government",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-11T02:52:36.589784+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "At least 10 people injured by pellets on July 20, shows RTI response",
+      "genre": "marriage_delay",
+      "style": "business",
+      "posted_at": "2026-08-11T04:19:26.264776+00:00"
     }
   ]
 }
