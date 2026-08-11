@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-11T14:32:19.589432+00:00",
+  "last_posted_at": "2026-08-11T15:39:09.621294+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Bidadi township: Chief Minister signals compensation beyond ₹3 crore an acre",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-08-10T03:31:10.281804+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "BJP MP lists private bill on social media ban for children",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "health",
       "posted_at": "2026-08-11T14:32:19.589432+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "‘Drama at this age is embarrassing’: Trisha Krishnan’s cryptic posts after Udhayanidhi row",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-08-11T15:39:09.621294+00:00"
     }
   ]
 }
