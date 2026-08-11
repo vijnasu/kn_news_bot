@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-10T16:33:36.270587+00:00",
+  "last_posted_at": "2026-08-11T00:33:35.211589+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Police probe alleged deposit-based packaging job scam in Devanahalli",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-08-09T02:28:25.908890+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Health department forms 30 special teams to inspect hotels, restaurants, food outlets across Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-10T16:33:36.270587+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Delhi High Court seeks The Caravan’s stand in defamation case by Nitin Gadkari’s son",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-08-11T00:33:35.211589+00:00"
     }
   ]
 }
