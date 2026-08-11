@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-11T11:04:31.298483+00:00",
+  "last_posted_at": "2026-08-11T13:09:19.162234+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Suvendu Adhikari orders fresh probe into R.G. Kar case",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-09T16:33:39.083955+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Ensure VB-G RAM G jobs for all eligible workers to check migration: Eshwar Khandre",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "scandal",
       "posted_at": "2026-08-11T11:04:31.298483+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Panel recommends annual screening, additional test for chronic kidney disease",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-11T13:09:19.162234+00:00"
     }
   ]
 }
