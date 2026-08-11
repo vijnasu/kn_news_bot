@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-11T07:56:13.886132+00:00",
+  "last_posted_at": "2026-08-11T08:57:10.848018+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Citizens form human chain to save Lalbagh from proposed tunnel road project",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-08-09T11:45:09.522056+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Air India pilot's psychoactive substance test requires confirmation after altitude-loss incident",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-11T07:56:13.886132+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "NAGENTHRAN TARGETS SPEAKER, FINANCE MINISTER OVER ‘RELIGIOUS’ REMARKS",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-11T08:57:10.848018+00:00"
     }
   ]
 }
