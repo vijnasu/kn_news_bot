@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T06:00:14.825706+00:00",
+  "last_posted_at": "2026-08-12T07:45:08.441973+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "IIT Madras startup Plenome wins AI hackathon; Deploys AI-based prescription generator at AIIMS New Delhi",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-08-10T09:57:57.019869+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "‘Will pure petrol come from your father’s house?’: BJP MP on ethanol blending; faces backlash",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-12T06:00:14.825706+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "AI heart disease prediction tools show promise but are not ready for clinical use: review",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-08-12T07:45:08.441973+00:00"
     }
   ]
 }
