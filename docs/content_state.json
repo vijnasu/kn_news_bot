@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-11T15:39:09.621294+00:00",
+  "last_posted_at": "2026-08-12T02:44:22.365790+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "BJP MP lists private bill on social media ban for children",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-10T05:10:12.946194+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Protest against pollution of Guruganga-Viraja river on August 11 by villagers of Humnabad",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-08-11T15:39:09.621294+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "CWMA endorses CWRC’s direction to Karnataka to release 12,000 cusecs of water a day for 15 days to Tamil Nadu",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-12T02:44:22.365790+00:00"
     }
   ]
 }
