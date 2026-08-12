@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T07:45:08.441973+00:00",
+  "last_posted_at": "2026-08-12T08:58:52.384522+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "‘Will pure petrol come from your father’s house?’: BJP MP on ethanol blending; faces backlash",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-10T11:13:02.489499+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "'Chennai needs a 2nd airport in 5-10 years': Why Parandur project is still stuck",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-08-12T07:45:08.441973+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Karnataka bandh: What will remain open? Which services will be affected?",
+      "genre": "negative_energy",
+      "style": "public_unrest",
+      "posted_at": "2026-08-12T08:58:52.384522+00:00"
     }
   ]
 }
