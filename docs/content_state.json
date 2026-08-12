@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T02:44:22.365790+00:00",
+  "last_posted_at": "2026-08-12T04:28:56.270413+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Protest against pollution of Guruganga-Viraja river on August 11 by villagers of Humnabad",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-10T06:41:48.030683+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Supreme Court agrees to Tamil Nadu government’s plea for early hearing of Cauvery water dispute",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-12T02:44:22.365790+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "IndiGo flight makes emergency landing after engine failure; full emergency declared at Chennai airport",
+      "genre": "unexplained_obstacles",
+      "style": "land",
+      "posted_at": "2026-08-12T04:28:56.270413+00:00"
     }
   ]
 }
