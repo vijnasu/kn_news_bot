@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T04:28:56.270413+00:00",
+  "last_posted_at": "2026-08-12T06:00:14.825706+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Supreme Court agrees to Tamil Nadu government’s plea for early hearing of Cauvery water dispute",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-10T08:17:12.337498+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "IIT Madras startup Plenome wins AI hackathon; Deploys AI-based prescription generator at AIIMS New Delhi",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "land",
       "posted_at": "2026-08-12T04:28:56.270413+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "NEET hunger strike continues, Cauvery water row intensifies, Vijay moves delimitation resolution: What is trending in Chennai today",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-12T06:00:14.825706+00:00"
     }
   ]
 }
