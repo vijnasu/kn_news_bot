@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T13:25:57.336556+00:00",
+  "last_posted_at": "2026-08-12T14:36:25.638208+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Delhi High Court seeks The Caravan’s stand in defamation case by Nitin Gadkari’s son",
-      "genre": "unexplained_obstacles",
-      "style": "business",
-      "posted_at": "2026-08-11T00:33:35.211589+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "History will indeed remember Manmohan Singh kindly as most consequential PM: Sonia Gandhi",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-12T13:25:57.336556+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Clash over religious structures in Raichur’s Bichali Camp",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-12T14:36:25.638208+00:00"
     }
   ]
 }
