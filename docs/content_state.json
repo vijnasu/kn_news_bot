@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-12T08:58:52.384522+00:00",
+  "last_posted_at": "2026-08-12T10:03:47.318098+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "'Chennai needs a 2nd airport in 5-10 years': Why Parandur project is still stuck",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-08-10T13:35:56.459704+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Prosecution for money laundering after conviction for predicate offences is not double jeopardy: Karnataka High Court",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "public_unrest",
       "posted_at": "2026-08-12T08:58:52.384522+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Centre redefines Ganga floodplain, drops ‘construction-free zone’ provision",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-08-12T10:03:47.318098+00:00"
     }
   ]
 }
