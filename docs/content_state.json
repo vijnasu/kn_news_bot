@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T11:11:59.384681+00:00",
+  "last_posted_at": "2026-08-13T13:37:16.411982+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Panel recommends annual screening, additional test for chronic kidney disease",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-11T13:09:19.162234+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnataka High Court criticises police for asking hospital to produce operation theatre equipment",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "health",
       "posted_at": "2026-08-13T11:11:59.384681+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Engine failure: Flight from Kolkata makes emergency landing in Chennai",
+      "genre": "repeated_failures",
+      "style": "land",
+      "posted_at": "2026-08-13T13:37:16.411982+00:00"
     }
   ]
 }
