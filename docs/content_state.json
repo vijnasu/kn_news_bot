@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T02:26:10.699175+00:00",
+  "last_posted_at": "2026-08-13T04:25:55.613528+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Belagavi IT firm flags ‘Anthropic’ brand name confusion, warns of email misrouting, data-security risks",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-08-11T05:34:49.722992+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Water security is seventh guarantee, says Karnataka CM, promising Yettinahole water to Kolar and Chickballapur by 2027-end",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-13T02:26:10.699175+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Bengaluru: Deadline for vacant site owners to clean properties extended to August 22",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-08-13T04:25:55.613528+00:00"
     }
   ]
 }
