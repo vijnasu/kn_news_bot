@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T05:57:47.078671+00:00",
+  "last_posted_at": "2026-08-13T07:41:36.138258+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Supreme Court asks government to consider plea for emergency response to deepfake crimes",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-11T07:56:13.886132+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "NAGENTHRAN TARGETS SPEAKER, FINANCE MINISTER OVER ‘RELIGIOUS’ REMARKS",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-13T05:57:47.078671+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Supreme Court agrees to take up MP’s plea against use of face-recognition tech on NEET-UG protesters",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-13T07:41:36.138258+00:00"
     }
   ]
 }
