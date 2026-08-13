@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T08:55:39.527033+00:00",
+  "last_posted_at": "2026-08-13T10:04:52.550089+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "There should be no BJP, Congress govts in Centre, Karnataka to solve Cauvery crisis- AMMK MLA",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-11T10:02:55.049666+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Police probe viral social media posts after Velachery mall crowd chaos",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "business",
       "posted_at": "2026-08-13T08:55:39.527033+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Blood donation camps in Belagavi on August 15",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-08-13T10:04:52.550089+00:00"
     }
   ]
 }
