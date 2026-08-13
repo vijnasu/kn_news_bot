@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T13:37:16.411982+00:00",
+  "last_posted_at": "2026-08-13T14:45:09.526719+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Karnataka High Court criticises police for asking hospital to produce operation theatre equipment",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-08-11T14:32:19.589432+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "‘Drama at this age is embarrassing’: Trisha Krishnan’s cryptic posts after Udhayanidhi row",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "land",
       "posted_at": "2026-08-13T13:37:16.411982+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Politicians from areca growing areas oppose ban on sale of gutka, pan masala",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-13T14:45:09.526719+00:00"
     }
   ]
 }
