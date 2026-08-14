@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T12:23:48.811956+00:00",
+  "last_posted_at": "2026-08-14T13:30:39.586652+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "BJP opposes Nagendra’s re-induction into Cabinet",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-12T15:39:07.682009+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "MLA appeals to Centre to transfer unused defence land to proposed IT park in Belagavi",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-14T12:23:48.811956+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Four held for attempt to murder businessman by blast in car in Bagalkot",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-08-14T13:30:39.586652+00:00"
     }
   ]
 }
