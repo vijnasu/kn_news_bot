@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T08:31:08.575000+00:00",
+  "last_posted_at": "2026-08-14T09:38:03.645411+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Panel seeks review of FDI in private hospitals, warns of aggressive corporatisation, rising healthcare costs",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-12T11:11:09.166221+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Rajya Sabha adjourned amid row over ‘lungiwala’ remark against CPI(M) MP John Brittas",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "sudden_loss",
       "posted_at": "2026-08-14T08:31:08.575000+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "NHRC issues notice to Home Ministry over suicide cases among CRPF personnel",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-08-14T09:38:03.645411+00:00"
     }
   ]
 }
