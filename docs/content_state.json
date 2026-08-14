@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T07:11:48.787301+00:00",
+  "last_posted_at": "2026-08-14T08:31:08.575000+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Centre redefines Ganga floodplain, drops ‘construction-free zone’ provision",
-      "genre": "unexplained_obstacles",
-      "style": "finance",
-      "posted_at": "2026-08-12T10:03:47.318098+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Panel seeks review of FDI in private hospitals, warns of aggressive corporatisation, rising healthcare costs",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-14T07:11:48.787301+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Woman’s death in Bengaluru accident becomes flashpoint for residents’ anger over bad roads in Electronics City Phase 2",
+      "genre": "court_cases",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-14T08:31:08.575000+00:00"
     }
   ]
 }
