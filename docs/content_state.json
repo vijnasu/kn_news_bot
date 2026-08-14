@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T00:52:06.810375+00:00",
+  "last_posted_at": "2026-08-14T02:37:06.487065+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "IndiGo flight makes emergency landing after engine failure; full emergency declared at Chennai airport",
-      "genre": "unexplained_obstacles",
-      "style": "land",
-      "posted_at": "2026-08-12T04:28:56.270413+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "NEET hunger strike continues, Cauvery water row intensifies, Vijay moves delimitation resolution: What is trending in Chennai today",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-14T00:52:06.810375+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Supreme Court slams FSSAI for not introducing front-of-pack warning labels on packaged food products",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-08-14T02:37:06.487065+00:00"
     }
   ]
 }
