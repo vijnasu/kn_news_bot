@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T04:24:12.636599+00:00",
+  "last_posted_at": "2026-08-14T05:47:01.940884+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "AI heart disease prediction tools show promise but are not ready for clinical use: review",
-      "genre": "financial_loss",
-      "style": "health",
-      "posted_at": "2026-08-12T07:45:08.441973+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka bandh: What will remain open? Which services will be affected?",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-14T04:24:12.636599+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Rahul Gandhi’s remarks against PM Modi ‘uncultured, crude and vulgar’: BJP",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-14T05:47:01.940884+00:00"
     }
   ]
 }
