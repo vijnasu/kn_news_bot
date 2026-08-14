@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T14:35:37.172961+00:00",
+  "last_posted_at": "2026-08-14T16:04:18.498527+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Bengaluru: Deadline for vacant site owners to clean properties extended to August 22",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-08-13T04:25:55.613528+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Justice Yashwant Varma inquiry: What the panel found and what happens next? | Explained",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-14T14:35:37.172961+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka High Court flags growing expired food menace, calls for constant vigil",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-08-14T16:04:18.498527+00:00"
     }
   ]
 }
