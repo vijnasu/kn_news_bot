@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T02:37:06.487065+00:00",
+  "last_posted_at": "2026-08-14T04:24:12.636599+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "NEET hunger strike continues, Cauvery water row intensifies, Vijay moves delimitation resolution: What is trending in Chennai today",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-12T06:00:14.825706+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "AI heart disease prediction tools show promise but are not ready for clinical use: review",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-08-14T02:37:06.487065+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Tamil Nadu inks MoU worth Rs 67,000cr with investments in space, EV",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-14T04:24:12.636599+00:00"
     }
   ]
 }
