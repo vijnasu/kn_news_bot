@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T09:38:03.645411+00:00",
+  "last_posted_at": "2026-08-14T11:06:18.634865+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Rajya Sabha adjourned amid row over ‘lungiwala’ remark against CPI(M) MP John Brittas",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-12T13:25:57.336556+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Clash over religious structures in Raichur’s Bichali Camp",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-08-14T09:38:03.645411+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Congress has shown anti-women attitude by keeping them out of Karnataka ministry, says BJP",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-14T11:06:18.634865+00:00"
     }
   ]
 }
