@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-13T16:37:24.918763+00:00",
+  "last_posted_at": "2026-08-14T00:52:06.810375+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "CWMA endorses CWRC’s direction to Karnataka to release 12,000 cusecs of water a day for 15 days to Tamil Nadu",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-12T02:44:22.365790+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "IndiGo flight makes emergency landing after engine failure; full emergency declared at Chennai airport",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-13T16:37:24.918763+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka High Court orders issue of notice to government on plea to restore 711-acre Kadugodi plantation area as ‘forest’ land",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-14T00:52:06.810375+00:00"
     }
   ]
 }
