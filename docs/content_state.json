@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T04:26:24.530624+00:00",
+  "last_posted_at": "2026-08-15T05:41:27.184715+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Engine failure: Flight from Kolkata makes emergency landing in Chennai",
-      "genre": "repeated_failures",
-      "style": "land",
-      "posted_at": "2026-08-13T13:37:16.411982+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Politicians from areca growing areas oppose ban on sale of gutka, pan masala",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-15T04:26:24.530624+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Independence Day 2026: PM Modi appeals to Oppn. to help implement women’s quota, says ‘you may take the credit’",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-15T05:41:27.184715+00:00"
     }
   ]
 }
