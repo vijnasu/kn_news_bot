@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T01:48:40.915261+00:00",
+  "last_posted_at": "2026-08-15T03:17:16.630558+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Blood donation camps in Belagavi on August 15",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-08-13T10:04:52.550089+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Girl of Belagavi origin wins UK chess title",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-15T01:48:40.915261+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Government removes 12-minute ad duration cap for TV channels",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-08-15T03:17:16.630558+00:00"
     }
   ]
 }
