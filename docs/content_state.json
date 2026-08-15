@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T08:57:11.268781+00:00",
+  "last_posted_at": "2026-08-15T10:06:46.450885+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Supreme Court slams FSSAI for not introducing front-of-pack warning labels on packaged food products",
-      "genre": "financial_loss",
-      "style": "health",
-      "posted_at": "2026-08-14T02:37:06.487065+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Tamil Nadu inks MoU worth Rs 67,000cr with investments in space, EV",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-15T08:57:11.268781+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Karnataka targets one lakh new jobs, AI hubs, and a $3 trillion economy by 2047",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-15T10:06:46.450885+00:00"
     }
   ]
 }
