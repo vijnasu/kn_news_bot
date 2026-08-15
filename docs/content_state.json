@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T06:47:50.312968+00:00",
+  "last_posted_at": "2026-08-15T07:56:34.351489+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Perfect storm of Monsoon Session comes to an end",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-13T16:37:24.918763+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka High Court orders issue of notice to government on plea to restore 711-acre Kadugodi plantation area as ‘forest’ land",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-15T06:47:50.312968+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Security guard held for alleged terror plot targeting Pakistan Army, TTP links in Bengaluru",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-08-15T07:56:34.351489+00:00"
     }
   ]
 }
