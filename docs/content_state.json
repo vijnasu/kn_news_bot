@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T11:24:17.704883+00:00",
+  "last_posted_at": "2026-08-15T12:25:48.647942+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Rahul Gandhi’s remarks against PM Modi ‘uncultured, crude and vulgar’: BJP",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-14T05:47:01.940884+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Property tax rollback, Vijay's Lok Sabha proposal and gang-bomb arrests: What is trending in Chennai today",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-15T11:24:17.704883+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "FSSAI makes U-turn, revokes prohibition order against 11 liquor varieties in Tamil Nadu",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-08-15T12:25:48.647942+00:00"
     }
   ]
 }
