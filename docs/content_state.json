@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-14T17:06:06.648306+00:00",
+  "last_posted_at": "2026-08-15T00:33:17.374664+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court agrees to take up MP’s plea against use of face-recognition tech on NEET-UG protesters",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-13T07:41:36.138258+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka bandh evokes lukewarm response in Mysuru, Belagavi",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-14T17:06:06.648306+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Reselling expired food products with fresh labels is ‘calculated assault on public health’: Karnataka High Court",
+      "genre": "sudden_health_fear",
+      "style": "business",
+      "posted_at": "2026-08-15T00:33:17.374664+00:00"
     }
   ]
 }
