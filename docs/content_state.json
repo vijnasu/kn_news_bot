@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T12:25:48.647942+00:00",
+  "last_posted_at": "2026-08-15T13:29:25.784746+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Property tax rollback, Vijay's Lok Sabha proposal and gang-bomb arrests: What is trending in Chennai today",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-14T07:11:48.787301+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Woman’s death in Bengaluru accident becomes flashpoint for residents’ anger over bad roads in Electronics City Phase 2",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-08-15T12:25:48.647942+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Ramdev express concern over growing youth unrest on education, recruitment issues",
+      "genre": "court_cases",
+      "style": "career",
+      "posted_at": "2026-08-15T13:29:25.784746+00:00"
     }
   ]
 }
