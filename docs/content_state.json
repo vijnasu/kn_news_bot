@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T13:29:25.784746+00:00",
+  "last_posted_at": "2026-08-15T14:40:03.786273+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Woman’s death in Bengaluru accident becomes flashpoint for residents’ anger over bad roads in Electronics City Phase 2",
-      "genre": "court_cases",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-14T08:31:08.575000+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "NHRC issues notice to Home Ministry over suicide cases among CRPF personnel",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "career",
       "posted_at": "2026-08-15T13:29:25.784746+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "BJP’s Nainar Nagenthran courts controversy with remarks against Tamil Nadu CM Vijay",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-15T14:40:03.786273+00:00"
     }
   ]
 }
