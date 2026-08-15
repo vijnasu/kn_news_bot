@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T10:06:46.450885+00:00",
+  "last_posted_at": "2026-08-15T11:24:17.704883+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Tamil Nadu inks MoU worth Rs 67,000cr with investments in space, EV",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-14T04:24:12.636599+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Rahul Gandhi’s remarks against PM Modi ‘uncultured, crude and vulgar’: BJP",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-15T10:06:46.450885+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Return what was taken away from J&K: Omar Abdullah in his I-Day speech",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-15T11:24:17.704883+00:00"
     }
   ]
 }
