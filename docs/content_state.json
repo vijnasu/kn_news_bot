@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T03:17:16.630558+00:00",
+  "last_posted_at": "2026-08-15T04:26:24.530624+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Girl of Belagavi origin wins UK chess title",
-      "genre": "political_business_enemies",
-      "style": "health",
-      "posted_at": "2026-08-13T11:11:59.384681+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Engine failure: Flight from Kolkata makes emergency landing in Chennai",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-08-15T03:17:16.630558+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "PM Modi assures flood, landslip-hit families of government support",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-15T04:26:24.530624+00:00"
     }
   ]
 }
