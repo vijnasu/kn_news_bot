@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T15:51:56.269559+00:00",
+  "last_posted_at": "2026-08-15T16:53:27.787173+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Congress has shown anti-women attitude by keeping them out of Karnataka ministry, says BJP",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-14T11:06:18.634865+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Supreme Court dismisses plea against A.P. HC order quashing land pooling scheme case against CM Naidu, Minister",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-15T15:51:56.269559+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Even as government considers MDR charge on UPI, data shows cash usage quickening in economy",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-15T16:53:27.787173+00:00"
     }
   ]
 }
