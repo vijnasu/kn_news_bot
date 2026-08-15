@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T00:33:17.374664+00:00",
+  "last_posted_at": "2026-08-15T01:48:40.915261+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka bandh evokes lukewarm response in Mysuru, Belagavi",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-08-13T08:55:39.527033+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Blood donation camps in Belagavi on August 15",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "business",
       "posted_at": "2026-08-15T00:33:17.374664+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Union Ministers call Rahul Gandhi’s remarks on PM Modi ‘undignified, undemocratic’",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-15T01:48:40.915261+00:00"
     }
   ]
 }
