@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T00:48:51.112521+00:00",
+  "last_posted_at": "2026-08-16T02:12:56.983439+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Four held for attempt to murder businessman by blast in car in Bagalkot",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-08-14T13:30:39.586652+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Government taking comprehensive reforms to curb exam paper leaks, protect youths’ future: President on the eve of 80th Independence Day",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "scandal",
       "posted_at": "2026-08-16T00:48:51.112521+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "BCI chairman apologises to law students amid enrolment ban controversy",
+      "genre": "career_instability",
+      "style": "scandal",
+      "posted_at": "2026-08-16T02:12:56.983439+00:00"
     }
   ]
 }
