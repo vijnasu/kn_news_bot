@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T04:45:31.798049+00:00",
+  "last_posted_at": "2026-08-16T05:54:51.116138+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Defence Minister felicitates Army personnel for 16-medal haul at Commonwealth Games",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-14T17:06:06.648306+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Reselling expired food products with fresh labels is ‘calculated assault on public health’: Karnataka High Court",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-08-16T04:45:31.798049+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Kharge questions RSS role in freedom struggle, defends public property Bill",
+      "genre": "family_disturbance",
+      "style": "land",
+      "posted_at": "2026-08-16T05:54:51.116138+00:00"
     }
   ]
 }
