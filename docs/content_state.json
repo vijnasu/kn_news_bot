@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-15T16:53:27.787173+00:00",
+  "last_posted_at": "2026-08-16T00:48:51.112521+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Supreme Court dismisses plea against A.P. HC order quashing land pooling scheme case against CM Naidu, Minister",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-14T12:23:48.811956+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Four held for attempt to murder businessman by blast in car in Bagalkot",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-15T16:53:27.787173+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Guest worker dies in Metrowater tank demolition accident",
+      "genre": "marriage_delay",
+      "style": "scandal",
+      "posted_at": "2026-08-16T00:48:51.112521+00:00"
     }
   ]
 }
