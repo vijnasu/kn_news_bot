@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T10:40:17.628150+00:00",
+  "last_posted_at": "2026-08-16T11:51:29.779977+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Independence Day 2026: PM Modi appeals to Oppn. to help implement women’s quota, says ‘you may take the credit’",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-15T05:41:27.184715+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Heated exchange between BJP and Priyank Kharge over Bill ‘targeting’ RSS",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-16T10:40:17.628150+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "'Congress policy to oppose anything patriotic': BJP on Vande Mataram 'insult'",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-16T11:51:29.779977+00:00"
     }
   ]
 }
