@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T03:32:43.448561+00:00",
+  "last_posted_at": "2026-08-16T04:45:31.798049+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka High Court flags growing expired food menace, calls for constant vigil",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-08-14T16:04:18.498527+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Defence Minister felicitates Army personnel for 16-medal haul at Commonwealth Games",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "accident",
       "posted_at": "2026-08-16T03:32:43.448561+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Yakshagana, Dhol Tasha, Garba add colour to Bengaluru’s first Freedom Habba",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-08-16T04:45:31.798049+00:00"
     }
   ]
 }
