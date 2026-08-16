@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T09:26:40.827695+00:00",
+  "last_posted_at": "2026-08-16T10:40:17.628150+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "PM Modi assures flood, landslip-hit families of government support",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-15T04:26:24.530624+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Independence Day 2026: PM Modi appeals to Oppn. to help implement women’s quota, says ‘you may take the credit’",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-16T09:26:40.827695+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Union government following anti farmers policies, says Minister",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-16T10:40:17.628150+00:00"
     }
   ]
 }
