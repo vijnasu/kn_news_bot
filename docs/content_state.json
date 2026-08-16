@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T15:38:54.983075+00:00",
+  "last_posted_at": "2026-08-16T16:40:55.610112+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka targets one lakh new jobs, AI hubs, and a $3 trillion economy by 2047",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-15T10:06:46.450885+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Return what was taken away from J&K: Omar Abdullah in his I-Day speech",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-16T15:38:54.983075+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Call for Kalaburagi bandh seeking drought relief for farmers",
+      "genre": "court_cases",
+      "style": "public_unrest",
+      "posted_at": "2026-08-16T16:40:55.610112+00:00"
     }
   ]
 }
