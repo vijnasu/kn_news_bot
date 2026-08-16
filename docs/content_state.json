@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T11:51:29.779977+00:00",
+  "last_posted_at": "2026-08-16T13:14:31.887501+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Heated exchange between BJP and Priyank Kharge over Bill ‘targeting’ RSS",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-15T06:47:50.312968+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Security guard held for alleged terror plot targeting Pakistan Army, TTP links in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-16T11:51:29.779977+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Rahul lauds courage of India's youth for standing firm against 'Modi's violent regime'",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-08-16T13:14:31.887501+00:00"
     }
   ]
 }
