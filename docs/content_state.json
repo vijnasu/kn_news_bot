@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T07:14:40.369519+00:00",
+  "last_posted_at": "2026-08-16T08:25:30.662575+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Union Ministers call Rahul Gandhi’s remarks on PM Modi ‘undignified, undemocratic’",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-15T01:48:40.915261+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Government removes 12-minute ad duration cap for TV channels",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-16T07:14:40.369519+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Bankim Chandra's descendant seeks Sonia Gandhi's apology over 'Vande Mataram' row",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-08-16T08:25:30.662575+00:00"
     }
   ]
 }
