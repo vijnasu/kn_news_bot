@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T08:25:30.662575+00:00",
+  "last_posted_at": "2026-08-16T09:26:40.827695+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Government removes 12-minute ad duration cap for TV channels",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-08-15T03:17:16.630558+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "PM Modi assures flood, landslip-hit families of government support",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-08-16T08:25:30.662575+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Making Tamil Nadu corruption-free is like achieving freedom, says CM Vijay",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-16T09:26:40.827695+00:00"
     }
   ]
 }
