@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T05:54:51.116138+00:00",
+  "last_posted_at": "2026-08-16T07:14:40.369519+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Reselling expired food products with fresh labels is ‘calculated assault on public health’: Karnataka High Court",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-08-15T00:33:17.374664+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Union Ministers call Rahul Gandhi’s remarks on PM Modi ‘undignified, undemocratic’",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "land",
       "posted_at": "2026-08-16T05:54:51.116138+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "PM Modi pays tribute to Atal Vihari Vajpayee on death anniversary",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-16T07:14:40.369519+00:00"
     }
   ]
 }
