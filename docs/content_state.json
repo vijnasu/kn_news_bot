@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T05:44:12.036917+00:00",
+  "last_posted_at": "2026-08-17T06:47:59.628967+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Even as government considers MDR charge on UPI, data shows cash usage quickening in economy",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-15T16:53:27.787173+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Guest worker dies in Metrowater tank demolition accident",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-17T05:44:12.036917+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Woman stabbed to death by lover following argument over marriage, body stuffed in gunny bag",
+      "genre": "political_business_enemies",
+      "style": "marriage",
+      "posted_at": "2026-08-17T06:47:59.628967+00:00"
     }
   ]
 }
