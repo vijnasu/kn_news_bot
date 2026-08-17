@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-16T16:40:55.610112+00:00",
+  "last_posted_at": "2026-08-17T00:32:27.237140+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Return what was taken away from J&K: Omar Abdullah in his I-Day speech",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-15T11:24:17.704883+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "FSSAI makes U-turn, revokes prohibition order against 11 liquor varieties in Tamil Nadu",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "public_unrest",
       "posted_at": "2026-08-16T16:40:55.610112+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Congress protests in Kalaburagi against ‘purification’ ritual at Kharge’s rally venue in Uttarakhand",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-17T00:32:27.237140+00:00"
     }
   ]
 }
