@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T16:25:04.276376+00:00",
+  "last_posted_at": "2026-08-17T17:25:17.407606+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Union government following anti farmers policies, says Minister",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-16T10:40:17.628150+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "'Congress policy to oppose anything patriotic': BJP on Vande Mataram 'insult'",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-08-17T16:25:04.276376+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Land acquisition for Tumakuru Node progressing smoothly, says Minister Patil",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-17T17:25:17.407606+00:00"
     }
   ]
 }
