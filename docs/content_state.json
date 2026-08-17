@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T01:51:19.253916+00:00",
+  "last_posted_at": "2026-08-17T02:54:46.567893+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Ramdev express concern over growing youth unrest on education, recruitment issues",
-      "genre": "court_cases",
-      "style": "career",
-      "posted_at": "2026-08-15T13:29:25.784746+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BJP’s Nainar Nagenthran courts controversy with remarks against Tamil Nadu CM Vijay",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-17T01:51:19.253916+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Karnataka government has failed to mitigate drought, says Kumaraswamy; opens handloom products market",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-17T02:54:46.567893+00:00"
     }
   ]
 }
