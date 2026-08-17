@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T15:08:16.150069+00:00",
+  "last_posted_at": "2026-08-17T16:25:04.276376+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Making Tamil Nadu corruption-free is like achieving freedom, says CM Vijay",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-16T09:26:40.827695+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Union government following anti farmers policies, says Minister",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-08-17T15:08:16.150069+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "No State can block traditional routes of elephants: Supreme Court",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-08-17T16:25:04.276376+00:00"
     }
   ]
 }
