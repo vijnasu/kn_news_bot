@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T07:48:43.523783+00:00",
+  "last_posted_at": "2026-08-17T09:17:02.080665+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "BCI chairman apologises to law students amid enrolment ban controversy",
-      "genre": "career_instability",
-      "style": "scandal",
-      "posted_at": "2026-08-16T02:12:56.983439+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Independence Day 2026: A hidden lake of lotuses, and the India I keep seeking",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "land",
       "posted_at": "2026-08-17T07:48:43.523783+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Opposition BJP demands judicial probe, resignation of Forest Minister Ramalinga Reddy for killing of three suspected poachers in Hanur",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-17T09:17:02.080665+00:00"
     }
   ]
 }
