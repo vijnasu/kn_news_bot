@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T06:47:59.628967+00:00",
+  "last_posted_at": "2026-08-17T07:48:43.523783+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Guest worker dies in Metrowater tank demolition accident",
-      "genre": "marriage_delay",
-      "style": "scandal",
-      "posted_at": "2026-08-16T00:48:51.112521+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "BCI chairman apologises to law students amid enrolment ban controversy",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "marriage",
       "posted_at": "2026-08-17T06:47:59.628967+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "DRI uncovers illegal use of SAFTA agreement in arecanut imports to India",
+      "genre": "career_instability",
+      "style": "land",
+      "posted_at": "2026-08-17T07:48:43.523783+00:00"
     }
   ]
 }
