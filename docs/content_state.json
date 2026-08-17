@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T00:32:27.237140+00:00",
+  "last_posted_at": "2026-08-17T01:51:19.253916+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "FSSAI makes U-turn, revokes prohibition order against 11 liquor varieties in Tamil Nadu",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-08-15T12:25:48.647942+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Ramdev express concern over growing youth unrest on education, recruitment issues",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-17T00:32:27.237140+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Congress discussion about Vande Mataram unnecessary, says Union Minister",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-17T01:51:19.253916+00:00"
     }
   ]
 }
