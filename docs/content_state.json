@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T02:54:46.567893+00:00",
+  "last_posted_at": "2026-08-17T04:17:19.684076+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BJP’s Nainar Nagenthran courts controversy with remarks against Tamil Nadu CM Vijay",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-15T14:40:03.786273+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Saving Tamil Nadu from corruption today is equal to getting independence: CM C Joseph Vijay",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-17T02:54:46.567893+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu horror: 2 youths hacked to death after clash over songs during temple festival in Kancheepuram",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-17T04:17:19.684076+00:00"
     }
   ]
 }
