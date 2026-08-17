@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T11:40:05.702273+00:00",
+  "last_posted_at": "2026-08-17T12:48:18.952755+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Kharge questions RSS role in freedom struggle, defends public property Bill",
-      "genre": "family_disturbance",
-      "style": "land",
-      "posted_at": "2026-08-16T05:54:51.116138+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "PM Modi pays tribute to Atal Vihari Vajpayee on death anniversary",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-17T11:40:05.702273+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Opposition disrupts Assembly seeking Minister B. Nagendra’s dismissal over alleged scam in Valmiki corporation",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-17T12:48:18.952755+00:00"
     }
   ]
 }
