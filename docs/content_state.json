@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-17T17:25:17.407606+00:00",
+  "last_posted_at": "2026-08-18T00:33:45.877779+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "'Congress policy to oppose anything patriotic': BJP on Vande Mataram 'insult'",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-16T11:51:29.779977+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Rahul lauds courage of India's youth for standing firm against 'Modi's violent regime'",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-17T17:25:17.407606+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Bengaluru firm opens quantum foundry to accelerate quantum computing in Karnataka",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-08-18T00:33:45.877779+00:00"
     }
   ]
 }
