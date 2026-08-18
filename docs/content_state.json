@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T14:13:35.213612+00:00",
+  "last_posted_at": "2026-08-18T15:25:54.511269+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Opposition BJP demands judicial probe, resignation of Forest Minister Ramalinga Reddy for killing of three suspected poachers in Hanur",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-17T09:17:02.080665+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "No difference between Jaish-e-Mohammed, Taliban, RSS: KPCC’s B.K. Hariprasad says all three “not registered in India”",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-18T14:13:35.213612+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Police detain 10 ahead of Hubballi protest over constable exam lapses",
+      "genre": "repeated_failures",
+      "style": "career",
+      "posted_at": "2026-08-18T15:25:54.511269+00:00"
     }
   ]
 }
