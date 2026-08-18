@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T02:50:05.960949+00:00",
+  "last_posted_at": "2026-08-18T04:15:23.551862+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Union Minister H.D. Kumaraswamy urges State government to take over NICE project; Chief Minister D.K. Shivakumar says government will adhere to law",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-16T15:38:54.983075+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Call for Kalaburagi bandh seeking drought relief for farmers",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "business",
       "posted_at": "2026-08-18T02:50:05.960949+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Kalyanpuri sanitation worker killing: accused arrested, protest intensifies outside hospital",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-08-18T04:15:23.551862+00:00"
     }
   ]
 }
