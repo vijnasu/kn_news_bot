@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T04:15:23.551862+00:00",
+  "last_posted_at": "2026-08-18T05:28:43.510896+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Call for Kalaburagi bandh seeking drought relief for farmers",
-      "genre": "court_cases",
-      "style": "public_unrest",
-      "posted_at": "2026-08-16T16:40:55.610112+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Congress protests in Kalaburagi against ‘purification’ ritual at Kharge’s rally venue in Uttarakhand",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-08-18T04:15:23.551862+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Gangster Shahzad Bhatti picked operatives through social media",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-08-18T05:28:43.510896+00:00"
     }
   ]
 }
