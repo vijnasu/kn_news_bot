@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T15:25:54.511269+00:00",
+  "last_posted_at": "2026-08-18T16:27:05.967734+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "No difference between Jaish-e-Mohammed, Taliban, RSS: KPCC’s B.K. Hariprasad says all three “not registered in India”",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-17T10:27:41.143820+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "TVK govt completes 100 days, showcases women's safety measures, welfare initiatives and investments",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "career",
       "posted_at": "2026-08-18T15:25:54.511269+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Satyendar Jain, ex-DJB CEO among six arrested in STP projects tender case",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-08-18T16:27:05.967734+00:00"
     }
   ]
 }
