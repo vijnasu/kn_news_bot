@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T00:33:45.877779+00:00",
+  "last_posted_at": "2026-08-18T01:48:39.291867+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Rahul lauds courage of India's youth for standing firm against 'Modi's violent regime'",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-08-16T13:14:31.887501+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Cauvery issue: Protecting farmers’ interests and upholding law both important, says D.K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-08-18T00:33:45.877779+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Delhi Court orders property attachment of Advocate Mehmood Pracha over unpaid fine",
+      "genre": "negative_energy",
+      "style": "land",
+      "posted_at": "2026-08-18T01:48:39.291867+00:00"
     }
   ]
 }
