@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T11:40:20.071597+00:00",
+  "last_posted_at": "2026-08-18T12:49:04.533479+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Woman stabbed to death by lover following argument over marriage, body stuffed in gunny bag",
-      "genre": "political_business_enemies",
-      "style": "marriage",
-      "posted_at": "2026-08-17T06:47:59.628967+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "DRI uncovers illegal use of SAFTA agreement in arecanut imports to India",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "court",
       "posted_at": "2026-08-18T11:40:20.071597+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Supreme Court directs Centre’s response on plea for special, time-bound probe into paper leak cases",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-08-18T12:49:04.533479+00:00"
     }
   ]
 }
