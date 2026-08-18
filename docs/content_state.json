@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T12:49:04.533479+00:00",
+  "last_posted_at": "2026-08-18T14:13:35.213612+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "DRI uncovers illegal use of SAFTA agreement in arecanut imports to India",
-      "genre": "career_instability",
-      "style": "land",
-      "posted_at": "2026-08-17T07:48:43.523783+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Opposition BJP demands judicial probe, resignation of Forest Minister Ramalinga Reddy for killing of three suspected poachers in Hanur",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-08-18T12:49:04.533479+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Tobacco Board enhances interest-free loans under Growers’ Welfare Scheme",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-18T14:13:35.213612+00:00"
     }
   ]
 }
