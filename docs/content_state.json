@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T05:28:43.510896+00:00",
+  "last_posted_at": "2026-08-18T06:32:55.957960+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Congress protests in Kalaburagi against ‘purification’ ritual at Kharge’s rally venue in Uttarakhand",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-17T00:32:27.237140+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Congress discussion about Vande Mataram unnecessary, says Union Minister",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-08-18T05:28:43.510896+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "NEET-UG protests: Delhi Police tells SC that facial recognition tech was used in ‘legitimate state interest’",
+      "genre": "court_cases",
+      "style": "court",
+      "posted_at": "2026-08-18T06:32:55.957960+00:00"
     }
   ]
 }
