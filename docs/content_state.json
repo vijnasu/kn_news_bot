@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T06:32:55.957960+00:00",
+  "last_posted_at": "2026-08-18T07:47:48.941759+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Congress discussion about Vande Mataram unnecessary, says Union Minister",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-17T01:51:19.253916+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnataka government has failed to mitigate drought, says Kumaraswamy; opens handloom products market",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "court",
       "posted_at": "2026-08-18T06:32:55.957960+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Supreme Court dismisses plea seeking abolition of execution by hanging",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-08-18T07:47:48.941759+00:00"
     }
   ]
 }
