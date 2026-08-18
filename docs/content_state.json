@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T16:27:05.967734+00:00",
+  "last_posted_at": "2026-08-18T17:28:48.038511+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "TVK govt completes 100 days, showcases women's safety measures, welfare initiatives and investments",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-17T11:40:05.702273+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Opposition disrupts Assembly seeking Minister B. Nagendra’s dismissal over alleged scam in Valmiki corporation",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-08-18T16:27:05.967734+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "India's economic growth to slow to 6.8% FY27 amid West Asia crisis, El Nino impact",
+      "genre": "family_disturbance",
+      "style": "finance",
+      "posted_at": "2026-08-18T17:28:48.038511+00:00"
     }
   ]
 }
