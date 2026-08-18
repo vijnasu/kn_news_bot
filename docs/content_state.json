@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T07:47:48.941759+00:00",
+  "last_posted_at": "2026-08-18T09:12:04.921004+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Karnataka government has failed to mitigate drought, says Kumaraswamy; opens handloom products market",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-17T02:54:46.567893+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tamil Nadu horror: 2 youths hacked to death after clash over songs during temple festival in Kancheepuram",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-08-18T07:47:48.941759+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Tamil Nadu government plans to offer ₹10 lakh each to families of three Tamils killed in Karnataka forest",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-18T09:12:04.921004+00:00"
     }
   ]
 }
