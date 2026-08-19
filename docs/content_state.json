@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T05:29:36.904678+00:00",
+  "last_posted_at": "2026-08-19T06:50:59.698972+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Bengaluru firm opens quantum foundry to accelerate quantum computing in Karnataka",
-      "genre": "court_cases",
-      "style": "business",
-      "posted_at": "2026-08-18T00:33:45.877779+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Delhi Court orders property attachment of Advocate Mehmood Pracha over unpaid fine",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-19T05:29:36.904678+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu unveils Rs 25 lakh health cover, 400-bed hospital, new cancer centres",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-19T06:50:59.698972+00:00"
     }
   ]
 }
