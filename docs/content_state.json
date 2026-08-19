@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T00:32:27.522770+00:00",
+  "last_posted_at": "2026-08-19T01:49:58.993711+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "BJP seeks immediate removal of Nagendra from State Cabinet",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-17T14:02:15.450452+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Contractors stage protest over unpaid bills in Kalaburagi",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-19T00:32:27.522770+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Delhi Chief Fire Officer interview: ‘We need more than 12,000 firefighters but have only about 2,500’",
+      "genre": "business_blockage",
+      "style": "scandal",
+      "posted_at": "2026-08-19T01:49:58.993711+00:00"
     }
   ]
 }
