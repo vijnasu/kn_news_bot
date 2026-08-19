@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T14:13:32.724873+00:00",
+  "last_posted_at": "2026-08-19T15:25:49.530943+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Tamil Nadu government plans to offer ₹10 lakh each to families of three Tamils killed in Karnataka forest",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-18T09:12:04.921004+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka High Court sets aside suspension of KPSC Chairperson Shivashankarappa S. Sahukar by Governor",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-19T14:13:32.724873+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "‘Reels govt has no real concern for Tamil people’: AIADMK protests TN govt’s inaction on Tamil fisherman killed in Saudi pirate attack, walks out of assembly",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-19T15:25:49.530943+00:00"
     }
   ]
 }
