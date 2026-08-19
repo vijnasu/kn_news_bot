@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T11:40:19.395165+00:00",
+  "last_posted_at": "2026-08-19T12:48:56.312506+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "NEET-UG protests: Delhi Police tells SC that facial recognition tech was used in ‘legitimate state interest’",
-      "genre": "court_cases",
-      "style": "court",
-      "posted_at": "2026-08-18T06:32:55.957960+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Supreme Court dismisses plea seeking abolition of execution by hanging",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-08-19T11:40:19.395165+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Madras HC allows ‘Tamil Anthem first’ at govt functions, says it can precede Vande Mataram, National Anthem",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-08-19T12:48:56.312506+00:00"
     }
   ]
 }
