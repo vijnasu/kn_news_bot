@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T06:50:59.698972+00:00",
+  "last_posted_at": "2026-08-19T08:12:15.851848+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Delhi Court orders property attachment of Advocate Mehmood Pracha over unpaid fine",
-      "genre": "negative_energy",
-      "style": "land",
-      "posted_at": "2026-08-18T01:48:39.291867+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Murugappa Group sees EV volumes grow, braces for firm cell prices",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-19T06:50:59.698972+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "NEET-UG paper leak: Supreme Court asks NTA about taken on inquiry committees’ recommendations",
+      "genre": "court_cases",
+      "style": "court",
+      "posted_at": "2026-08-19T08:12:15.851848+00:00"
     }
   ]
 }
