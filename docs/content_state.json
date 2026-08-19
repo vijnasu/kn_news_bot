@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T15:25:49.530943+00:00",
+  "last_posted_at": "2026-08-19T16:27:13.338655+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka High Court sets aside suspension of KPSC Chairperson Shivashankarappa S. Sahukar by Governor",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-18T10:25:37.474144+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "ED raids KPSC in veterinary officer recruitment case in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-19T15:25:49.530943+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka State Human Rights Commission team visits Hanur to probe death of three suspected poachers",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-08-19T16:27:13.338655+00:00"
     }
   ]
 }
