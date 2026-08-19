@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-18T17:28:48.038511+00:00",
+  "last_posted_at": "2026-08-19T00:32:27.522770+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Opposition disrupts Assembly seeking Minister B. Nagendra’s dismissal over alleged scam in Valmiki corporation",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-17T12:48:18.952755+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "BJP seeks immediate removal of Nagendra from State Cabinet",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "finance",
       "posted_at": "2026-08-18T17:28:48.038511+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Why is PM CARES Fund keeping large sums idle, asks RTI activist",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-19T00:32:27.522770+00:00"
     }
   ]
 }
