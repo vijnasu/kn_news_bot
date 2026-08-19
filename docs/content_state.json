@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T09:12:46.299860+00:00",
+  "last_posted_at": "2026-08-19T10:25:17.376152+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Kalyanpuri sanitation worker killing: accused arrested, protest intensifies outside hospital",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-08-18T04:15:23.551862+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Gangster Shahzad Bhatti picked operatives through social media",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-19T09:12:46.299860+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Union Health Minister Nadda discharged from AIIMS after angioplasty",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-19T10:25:17.376152+00:00"
     }
   ]
 }
