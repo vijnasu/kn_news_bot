@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T08:12:15.851848+00:00",
+  "last_posted_at": "2026-08-19T09:12:46.299860+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Murugappa Group sees EV volumes grow, braces for firm cell prices",
-      "genre": "unexplained_obstacles",
-      "style": "business",
-      "posted_at": "2026-08-18T02:50:05.960949+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Kalyanpuri sanitation worker killing: accused arrested, protest intensifies outside hospital",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "court",
       "posted_at": "2026-08-19T08:12:15.851848+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Student protests: Delhi Police affidavit in Supreme Court is rich with numbers, but quiet on fixing accountability",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-19T09:12:46.299860+00:00"
     }
   ]
 }
