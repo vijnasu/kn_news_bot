@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T10:25:17.376152+00:00",
+  "last_posted_at": "2026-08-19T11:40:19.395165+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Gangster Shahzad Bhatti picked operatives through social media",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-08-18T05:28:43.510896+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "NEET-UG protests: Delhi Police tells SC that facial recognition tech was used in ‘legitimate state interest’",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-19T10:25:17.376152+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Hanur shoot-out case: Fourth man releases video on killing of three suspected poachers by Forest Department",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-08-19T11:40:19.395165+00:00"
     }
   ]
 }
