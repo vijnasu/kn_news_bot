@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T01:49:58.993711+00:00",
+  "last_posted_at": "2026-08-19T02:52:07.341719+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Contractors stage protest over unpaid bills in Kalaburagi",
-      "genre": "marriage_delay",
-      "style": "health",
-      "posted_at": "2026-08-17T15:08:16.150069+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "No State can block traditional routes of elephants: Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "scandal",
       "posted_at": "2026-08-19T01:49:58.993711+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "‘Purification’ row: Congress terms BJP ‘anti-Dalit’ for not halting protest to adopt resolution",
+      "genre": "court_cases",
+      "style": "scandal",
+      "posted_at": "2026-08-19T02:52:07.341719+00:00"
     }
   ]
 }
