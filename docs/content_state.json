@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T04:15:40.052921+00:00",
+  "last_posted_at": "2026-08-19T05:29:36.904678+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Land acquisition for Tumakuru Node progressing smoothly, says Minister Patil",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-17T17:25:17.407606+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Bengaluru firm opens quantum foundry to accelerate quantum computing in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-08-19T04:15:40.052921+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Sitharaman leads delegation to Singapore for ministerial roundtable",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-19T05:29:36.904678+00:00"
     }
   ]
 }
