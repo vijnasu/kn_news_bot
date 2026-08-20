@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T10:25:43.542187+00:00",
+  "last_posted_at": "2026-08-20T11:41:14.676349+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Former Delhi Minister Satyendar Jain, ex-DJB CEO among six arrested in STP projects tender case",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-08-19T04:15:40.052921+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Sitharaman leads delegation to Singapore for ministerial roundtable",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-20T10:25:43.542187+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "BJP disrupts Karnataka Assembly demanding list of drought-hit taluks, exit of B. Nagendra from Cabinet",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-20T11:41:14.676349+00:00"
     }
   ]
 }
