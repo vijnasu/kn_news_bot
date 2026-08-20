@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T08:14:12.390216+00:00",
+  "last_posted_at": "2026-08-20T09:16:45.105117+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Delhi Chief Fire Officer interview: ‘We need more than 12,000 firefighters but have only about 2,500’",
-      "genre": "business_blockage",
-      "style": "scandal",
-      "posted_at": "2026-08-19T01:49:58.993711+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "‘Purification’ row: Congress terms BJP ‘anti-Dalit’ for not halting protest to adopt resolution",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-20T08:14:12.390216+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Lawyers protest outside BCI office, demand Chairman Manan Mishra’s resignation amid NALSAR row",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-20T09:16:45.105117+00:00"
     }
   ]
 }
