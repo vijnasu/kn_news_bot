@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T06:47:28.332264+00:00",
+  "last_posted_at": "2026-08-20T08:14:12.390216+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Why is PM CARES Fund keeping large sums idle, asks RTI activist",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-19T00:32:27.522770+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Delhi Chief Fire Officer interview: ‘We need more than 12,000 firefighters but have only about 2,500’",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-08-20T06:47:28.332264+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Strong states make stronger India, says TN CM Vijay; bats for cooperative federalism",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-20T08:14:12.390216+00:00"
     }
   ]
 }
