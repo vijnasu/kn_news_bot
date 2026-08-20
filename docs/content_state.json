@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T11:41:14.676349+00:00",
+  "last_posted_at": "2026-08-20T12:49:20.516766+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Sitharaman leads delegation to Singapore for ministerial roundtable",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-19T05:29:36.904678+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tamil Nadu unveils Rs 25 lakh health cover, 400-bed hospital, new cancer centres",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-20T11:41:14.676349+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "D.K. Shivakumar seeks ‘fairness’ for Southern states in devolution and delimitation",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-20T12:49:20.516766+00:00"
     }
   ]
 }
