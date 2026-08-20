@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T15:16:36.843006+00:00",
+  "last_posted_at": "2026-08-20T16:31:30.338536+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Student protests: Delhi Police affidavit in Supreme Court is rich with numbers, but quiet on fixing accountability",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-19T09:12:46.299860+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Union Health Minister Nadda discharged from AIIMS after angioplasty",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-20T15:16:36.843006+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "‘There was fire everywhere’: 1984 riot survivors recall the horror after Sajjan Kumar’s death",
+      "genre": "marriage_delay",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-20T16:31:30.338536+00:00"
     }
   ]
 }
