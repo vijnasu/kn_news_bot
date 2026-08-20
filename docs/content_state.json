@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T04:15:57.491677+00:00",
+  "last_posted_at": "2026-08-20T05:26:04.516690+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Satyendar Jain, ex-DJB CEO among six arrested in STP projects tender case",
-      "genre": "court_cases",
-      "style": "business",
-      "posted_at": "2026-08-18T16:27:05.967734+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "India's economic growth to slow to 6.8% FY27 amid West Asia crisis, El Nino impact",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-20T04:15:57.491677+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Lokayukta searches 11 premises in disproportionate assets case; assets worth ₹18.3 crore recovered from special land acquisition officer",
+      "genre": "unexplained_obstacles",
+      "style": "land",
+      "posted_at": "2026-08-20T05:26:04.516690+00:00"
     }
   ]
 }
