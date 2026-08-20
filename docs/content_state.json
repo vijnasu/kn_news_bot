@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-19T16:27:13.338655+00:00",
+  "last_posted_at": "2026-08-20T00:34:03.055606+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "ED raids KPSC in veterinary officer recruitment case in Karnataka",
-      "genre": "family_disturbance",
-      "style": "court",
-      "posted_at": "2026-08-18T11:40:20.071597+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Supreme Court directs Centre’s response on plea for special, time-bound probe into paper leak cases",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-08-19T16:27:13.338655+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "India to build hospital in West Bank; seeks to deploy field hospital in Gaza",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-08-20T00:34:03.055606+00:00"
     }
   ]
 }
