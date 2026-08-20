@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T00:34:03.055606+00:00",
+  "last_posted_at": "2026-08-20T01:49:30.443225+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Supreme Court directs Centre’s response on plea for special, time-bound probe into paper leak cases",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-08-18T12:49:04.533479+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Tobacco Board enhances interest-free loans under Growers’ Welfare Scheme",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-08-20T00:34:03.055606+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka High Court refuses to quash case against married man accused of abetting nursing student’s suicide.",
+      "genre": "political_business_enemies",
+      "style": "marriage",
+      "posted_at": "2026-08-20T01:49:30.443225+00:00"
     }
   ]
 }
