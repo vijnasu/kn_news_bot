@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T09:16:45.105117+00:00",
+  "last_posted_at": "2026-08-20T10:25:43.542187+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "‘Purification’ row: Congress terms BJP ‘anti-Dalit’ for not halting protest to adopt resolution",
-      "genre": "court_cases",
-      "style": "scandal",
-      "posted_at": "2026-08-19T02:52:07.341719+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Former Delhi Minister Satyendar Jain, ex-DJB CEO among six arrested in STP projects tender case",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-20T09:16:45.105117+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Sajjan Kumar, former Congress MP convicted in anti-Sikh riots case, passes away",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-20T10:25:43.542187+00:00"
     }
   ]
 }
