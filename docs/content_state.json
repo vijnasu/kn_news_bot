@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T14:15:19.452031+00:00",
+  "last_posted_at": "2026-08-20T15:16:36.843006+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "NEET-UG paper leak: Supreme Court asks NTA about taken on inquiry committees’ recommendations",
-      "genre": "court_cases",
-      "style": "court",
-      "posted_at": "2026-08-19T08:12:15.851848+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Student protests: Delhi Police affidavit in Supreme Court is rich with numbers, but quiet on fixing accountability",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-20T14:15:19.452031+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Cancellation of illegal site allotments by MDA is victory for our party’s struggle, says BJP spokesperson",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-20T15:16:36.843006+00:00"
     }
   ]
 }
