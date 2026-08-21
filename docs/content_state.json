@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T10:58:09.595950+00:00",
+  "last_posted_at": "2026-08-21T12:10:08.829042+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Hariprasad urges SIT probe into cooperative bank irregularities involving BJP MLA",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-20T04:15:57.491677+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Lokayukta searches 11 premises in disproportionate assets case; assets worth ₹18.3 crore recovered from special land acquisition officer",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-08-21T10:58:09.595950+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "More than 1,700 swine flu cases logged in Delhi this year amid surge in seasonal influenza infections",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-21T12:10:08.829042+00:00"
     }
   ]
 }
