@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T04:47:49.442178+00:00",
+  "last_posted_at": "2026-08-21T06:12:23.984317+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "‘Reels govt has no real concern for Tamil people’: AIADMK protests TN govt’s inaction on Tamil fisherman killed in Saudi pirate attack, walks out of assembly",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-19T15:25:49.530943+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka State Human Rights Commission team visits Hanur to probe death of three suspected poachers",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-08-21T04:47:49.442178+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "A&NI Admin issues call for interest for data centre exploration, withdraws it days later | Explained",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-21T06:12:23.984317+00:00"
     }
   ]
 }
