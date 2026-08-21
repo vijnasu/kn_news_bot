@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T03:35:56.479577+00:00",
+  "last_posted_at": "2026-08-21T04:47:49.442178+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Minister proposes 15 projects to boost tourist experience in Tamil Nadu",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-19T14:13:32.724873+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "‘Reels govt has no real concern for Tamil people’: AIADMK protests TN govt’s inaction on Tamil fisherman killed in Saudi pirate attack, walks out of assembly",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-21T03:35:56.479577+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "How Supreme Court’s new ruling changes the definition of ‘industry’ | Explained",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-08-21T04:47:49.442178+00:00"
     }
   ]
 }
