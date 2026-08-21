@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T08:32:22.948718+00:00",
+  "last_posted_at": "2026-08-21T09:45:59.991918+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka High Court refuses to quash case against married man accused of abetting nursing student’s suicide.",
-      "genre": "political_business_enemies",
-      "style": "marriage",
-      "posted_at": "2026-08-20T01:49:30.443225+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka govt. defends Nagendra’s inclusion in Ministry, as Opposition continues to disrupt House proceedings",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-21T08:32:22.948718+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Invoking anti-gangster law to counter one communal violence incident triggered by a social media post is misuse: SC",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-21T09:45:59.991918+00:00"
     }
   ]
 }
