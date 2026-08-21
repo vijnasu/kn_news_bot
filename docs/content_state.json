@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T07:19:47.938574+00:00",
+  "last_posted_at": "2026-08-21T08:32:22.948718+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "India to build hospital in West Bank; seeks to deploy field hospital in Gaza",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-08-20T00:34:03.055606+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka High Court refuses to quash case against married man accused of abetting nursing student’s suicide.",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-21T07:19:47.938574+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Rahul Gandhi sits on dharna at police station in New Delhi, demands FIR over pellet gun use during July 20 protest",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-21T08:32:22.948718+00:00"
     }
   ]
 }
