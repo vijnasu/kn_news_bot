@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T02:14:10.659171+00:00",
+  "last_posted_at": "2026-08-21T03:35:56.479577+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Madras HC allows ‘Tamil Anthem first’ at govt functions, says it can precede Vande Mataram, National Anthem",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-19T12:48:56.312506+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Minister proposes 15 projects to boost tourist experience in Tamil Nadu",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-21T02:14:10.659171+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Minister says Cabinet has cleared proposal for cloud seeding in drought-hit areas",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-21T03:35:56.479577+00:00"
     }
   ]
 }
