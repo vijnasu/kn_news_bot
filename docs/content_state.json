@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T13:20:46.180472+00:00",
+  "last_posted_at": "2026-08-21T14:30:57.685708+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Karnataka High Court gives relief to footpath vendors carrying on business in open spaces within K.R. Market premises",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-08-20T06:47:28.332264+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Strong states make stronger India, says TN CM Vijay; bats for cooperative federalism",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-21T13:20:46.180472+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Witness in rape case against Prajwal allegedly threatened, court orders probe",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-08-21T14:30:57.685708+00:00"
     }
   ]
 }
