@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T15:56:34.493084+00:00",
+  "last_posted_at": "2026-08-21T17:01:35.404428+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Lawyers protest outside BCI office, demand Chairman Manan Mishra’s resignation amid NALSAR row",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-20T09:16:45.105117+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Sajjan Kumar, former Congress MP convicted in anti-Sikh riots case, passes away",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-21T15:56:34.493084+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Industrial effluents not behind fish deaths in Ennore: Minister",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-21T17:01:35.404428+00:00"
     }
   ]
 }
