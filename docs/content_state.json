@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-20T16:31:30.338536+00:00",
+  "last_posted_at": "2026-08-21T00:48:52.971686+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Union Health Minister Nadda discharged from AIIMS after angioplasty",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-19T10:25:17.376152+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Hanur shoot-out case: Fourth man releases video on killing of three suspected poachers by Forest Department",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "sudden_loss",
       "posted_at": "2026-08-20T16:31:30.338536+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Supreme Court scraps worker-friendly 1978 ‘industry’ precedent for new labour code",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-08-21T00:48:52.971686+00:00"
     }
   ]
 }
