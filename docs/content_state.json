@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-21T12:10:08.829042+00:00",
+  "last_posted_at": "2026-08-21T13:20:46.180472+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Lokayukta searches 11 premises in disproportionate assets case; assets worth ₹18.3 crore recovered from special land acquisition officer",
-      "genre": "unexplained_obstacles",
-      "style": "land",
-      "posted_at": "2026-08-20T05:26:04.516690+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka High Court gives relief to footpath vendors carrying on business in open spaces within K.R. Market premises",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-21T12:10:08.829042+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Ruling and Opposition parties protest outside Vidhan Soudha in Bengaluru over resignation of Minister B. Nagendra",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-21T13:20:46.180472+00:00"
     }
   ]
 }
