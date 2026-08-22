@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T01:48:34.116979+00:00",
+  "last_posted_at": "2026-08-22T02:48:54.446161+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "D.K. Shivakumar seeks ‘fairness’ for Southern states in devolution and delimitation",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-20T12:49:20.516766+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BJP accuses government of avoiding drought debate amid Minister controversy",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-22T01:48:34.116979+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "In TN assembly: Govt approves 17 new special Pocso courts to reduce backlog",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-22T02:48:54.446161+00:00"
     }
   ]
 }
