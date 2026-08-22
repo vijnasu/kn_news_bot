@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T12:07:31.902008+00:00",
+  "last_posted_at": "2026-08-22T13:14:15.143967+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Data centres in Andaman & Nicobar Islands: Why did the Admin express interest and withdrew it later",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-21T07:19:47.938574+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Rahul Gandhi sits on dharna at police station in New Delhi, demands FIR over pellet gun use during July 20 protest",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "career",
       "posted_at": "2026-08-22T12:07:31.902008+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Yadgir submits ₹287.7-crore proposal to Karnataka government seeking approval for underground drainage project",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-22T13:14:15.143967+00:00"
     }
   ]
 }
