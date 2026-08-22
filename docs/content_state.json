@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T00:33:04.950984+00:00",
+  "last_posted_at": "2026-08-22T01:48:34.116979+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "BJP disrupts Karnataka Assembly demanding list of drought-hit taluks, exit of B. Nagendra from Cabinet",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-20T11:41:14.676349+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "D.K. Shivakumar seeks ‘fairness’ for Southern states in devolution and delimitation",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-08-22T00:33:04.950984+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Cabinet clears AI surveillance cameras and portable signal jammers for prisons",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-22T01:48:34.116979+00:00"
     }
   ]
 }
