@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T07:31:07.862540+00:00",
+  "last_posted_at": "2026-08-22T08:43:11.949350+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Why TVK Government Is Appointing A Legal Team From Across Party Lines",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-21T02:14:10.659171+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Minister says Cabinet has cleared proposal for cloud seeding in drought-hit areas",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-08-22T07:31:07.862540+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Tamil Nadu man killed over relationship with TVK functionary’s daughter; 4 arrested",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-22T08:43:11.949350+00:00"
     }
   ]
 }
