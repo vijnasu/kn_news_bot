@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T06:26:14.374018+00:00",
+  "last_posted_at": "2026-08-22T07:31:07.862540+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Supreme Court scraps worker-friendly 1978 ‘industry’ precedent for new labour code",
-      "genre": "court_cases",
-      "style": "business",
-      "posted_at": "2026-08-21T00:48:52.971686+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Why TVK Government Is Appointing A Legal Team From Across Party Lines",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-08-22T06:26:14.374018+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Special NIA court rejects bail plea of Pulwama terror attack accused Insha Jan",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-08-22T07:31:07.862540+00:00"
     }
   ]
 }
