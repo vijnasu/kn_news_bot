@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T11:06:21.831226+00:00",
+  "last_posted_at": "2026-08-22T12:07:31.902008+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "A&NI Admin issues call for interest for data centre exploration, withdraws it days later | Explained",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-21T06:12:23.984317+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Data centres in Andaman & Nicobar Islands: Why did the Admin express interest and withdrew it later",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-22T11:06:21.831226+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Sikh protesters burn Rahul Gandhi effigy over Sajjan Kumar ‘role model’ remark",
+      "genre": "political_business_enemies",
+      "style": "career",
+      "posted_at": "2026-08-22T12:07:31.902008+00:00"
     }
   ]
 }
