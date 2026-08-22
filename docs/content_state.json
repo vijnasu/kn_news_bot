@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T05:25:26.397413+00:00",
+  "last_posted_at": "2026-08-22T06:26:14.374018+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "‘There was fire everywhere’: 1984 riot survivors recall the horror after Sajjan Kumar’s death",
-      "genre": "marriage_delay",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-20T16:31:30.338536+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Supreme Court scraps worker-friendly 1978 ‘industry’ precedent for new labour code",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-22T05:25:26.397413+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Supreme Court dismisses PIL petition that challenged death by hanging | Explained",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-08-22T06:26:14.374018+00:00"
     }
   ]
 }
