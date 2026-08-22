@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T08:43:11.949350+00:00",
+  "last_posted_at": "2026-08-22T09:53:30.992584+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Minister says Cabinet has cleared proposal for cloud seeding in drought-hit areas",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-21T03:35:56.479577+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "How Supreme Court’s new ruling changes the definition of ‘industry’ | Explained",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-22T08:43:11.949350+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Two killed, nine injured in reactor blast at pharma unit in Yadadri-Bhongir",
+      "genre": "family_disturbance",
+      "style": "fear",
+      "posted_at": "2026-08-22T09:53:30.992584+00:00"
     }
   ]
 }
