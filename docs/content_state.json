@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T13:14:15.143967+00:00",
+  "last_posted_at": "2026-08-22T14:24:10.582345+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Rahul Gandhi sits on dharna at police station in New Delhi, demands FIR over pellet gun use during July 20 protest",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-21T08:32:22.948718+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Invoking anti-gangster law to counter one communal violence incident triggered by a social media post is misuse: SC",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-22T13:14:15.143967+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Nehru Trophy Boat Race a landmark event that unites Keralites, says Chief Minister",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-22T14:24:10.582345+00:00"
     }
   ]
 }
