@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T15:24:19.563371+00:00",
+  "last_posted_at": "2026-08-22T16:24:47.963631+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Sajjan Kumar death: Commissions, committees that probed the 1984 anti-Sikh riots",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-08-21T10:58:09.595950+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "More than 1,700 swine flu cases logged in Delhi this year amid surge in seasonal influenza infections",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-22T15:24:19.563371+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "60% rebate spurs B-Khata conversion, but fails to attract substantial interest",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-22T16:24:47.963631+00:00"
     }
   ]
 }
