@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T09:53:30.992584+00:00",
+  "last_posted_at": "2026-08-22T11:06:21.831226+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "How Supreme Court’s new ruling changes the definition of ‘industry’ | Explained",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-08-21T04:47:49.442178+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "A&NI Admin issues call for interest for data centre exploration, withdraws it days later | Explained",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "fear",
       "posted_at": "2026-08-22T09:53:30.992584+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "BJP legislators in Hubbali protesting to ‘reclaim temple land’ court arrest; police clamped prohibitory orders as a precaution",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-22T11:06:21.831226+00:00"
     }
   ]
 }
