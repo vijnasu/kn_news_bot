@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T02:48:54.446161+00:00",
+  "last_posted_at": "2026-08-22T04:13:49.951816+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BJP accuses government of avoiding drought debate amid Minister controversy",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-20T14:15:19.452031+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Cancellation of illegal site allotments by MDA is victory for our party’s struggle, says BJP spokesperson",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-22T02:48:54.446161+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Cannot live like this, says West Bengal man detained again in ‘illegal immigrants’ drive",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-08-22T04:13:49.951816+00:00"
     }
   ]
 }
