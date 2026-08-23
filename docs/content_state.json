@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T07:01:40.969313+00:00",
+  "last_posted_at": "2026-08-23T08:11:27.004156+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Cabinet clears AI surveillance cameras and portable signal jammers for prisons",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-22T01:48:34.116979+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "In TN assembly: Govt approves 17 new special Pocso courts to reduce backlog",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-23T07:01:40.969313+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Ajay Singh accorded grand welcome on first visit to Kalaburagi as Minister",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-23T08:11:27.004156+00:00"
     }
   ]
 }
