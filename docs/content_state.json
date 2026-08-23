@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T14:24:50.101075+00:00",
+  "last_posted_at": "2026-08-23T16:06:05.363834+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Tamil Nadu man killed over relationship with TVK functionary’s daughter; 4 arrested",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-22T08:43:11.949350+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Two killed, nine injured in reactor blast at pharma unit in Yadadri-Bhongir",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "sudden_loss",
       "posted_at": "2026-08-23T14:24:50.101075+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Indian expat killed, 9 others injured after vehicle crashes in Oman",
+      "genre": "negative_energy",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-23T16:06:05.363834+00:00"
     }
   ]
 }
