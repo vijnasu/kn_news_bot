@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T00:48:49.315191+00:00",
+  "last_posted_at": "2026-08-23T02:14:48.738325+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Ruling and Opposition parties protest outside Vidhan Soudha in Bengaluru over resignation of Minister B. Nagendra",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-21T13:20:46.180472+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Witness in rape case against Prajwal allegedly threatened, court orders probe",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "finance",
       "posted_at": "2026-08-23T00:48:49.315191+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Park Bill: Move aimed at facilitating takeover of Lalbagh land for Tunnel Road, say environmentalists, city BJP MPs",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-23T02:14:48.738325+00:00"
     }
   ]
 }
