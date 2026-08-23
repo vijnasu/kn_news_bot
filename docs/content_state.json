@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T12:07:32.199414+00:00",
+  "last_posted_at": "2026-08-23T13:15:06.978567+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court dismisses PIL petition that challenged death by hanging | Explained",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-08-22T06:26:14.374018+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Special NIA court rejects bail plea of Pulwama terror attack accused Insha Jan",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "land",
       "posted_at": "2026-08-23T12:07:32.199414+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "KPSC ‘scam’ case: ED raids IAS officer Gangwar's premises in Karnataka, U.P.",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-23T13:15:06.978567+00:00"
     }
   ]
 }
