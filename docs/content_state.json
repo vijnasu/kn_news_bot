@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-22T16:24:47.963631+00:00",
+  "last_posted_at": "2026-08-23T00:48:49.315191+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "More than 1,700 swine flu cases logged in Delhi this year amid surge in seasonal influenza infections",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-21T12:10:08.829042+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Ruling and Opposition parties protest outside Vidhan Soudha in Bengaluru over resignation of Minister B. Nagendra",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-22T16:24:47.963631+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "What are the U.S.’s latest allegations against India? | Explained",
+      "genre": "marriage_delay",
+      "style": "finance",
+      "posted_at": "2026-08-23T00:48:49.315191+00:00"
     }
   ]
 }
