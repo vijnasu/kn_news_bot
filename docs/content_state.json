@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T10:24:35.216032+00:00",
+  "last_posted_at": "2026-08-23T12:07:32.199414+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "J.P. Nadda reviews H1N1 situation, healthcare preparedness in Delhi",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-22T05:25:26.397413+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court dismisses PIL petition that challenged death by hanging | Explained",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-08-23T10:24:35.216032+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Wares from big shops occupy footpaths, while small vendors fear eviction in Shivajinagar",
+      "genre": "political_business_enemies",
+      "style": "land",
+      "posted_at": "2026-08-23T12:07:32.199414+00:00"
     }
   ]
 }
