@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T02:14:48.738325+00:00",
+  "last_posted_at": "2026-08-23T03:23:07.823463+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Witness in rape case against Prajwal allegedly threatened, court orders probe",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-08-21T14:30:57.685708+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Government inaction forced Rahul Gandhi to protest: Kharge",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-23T02:14:48.738325+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Transshipment scam or efficient supply chain? How U.S. firms turn it into profit?",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-08-23T03:23:07.823463+00:00"
     }
   ]
 }
