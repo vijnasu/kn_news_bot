@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T03:23:07.823463+00:00",
+  "last_posted_at": "2026-08-23T04:32:49.264987+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Government inaction forced Rahul Gandhi to protest: Kharge",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-21T15:56:34.493084+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Industrial effluents not behind fish deaths in Ennore: Minister",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-08-23T03:23:07.823463+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Be loud, be proud, fight for your space, Rahul Gandhi tells Gen Z girls",
+      "genre": "sudden_health_fear",
+      "style": "public_unrest",
+      "posted_at": "2026-08-23T04:32:49.264987+00:00"
     }
   ]
 }
