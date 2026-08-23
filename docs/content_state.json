@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T13:15:06.978567+00:00",
+  "last_posted_at": "2026-08-23T14:24:50.101075+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Special NIA court rejects bail plea of Pulwama terror attack accused Insha Jan",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-08-22T07:31:07.862540+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Tamil Nadu man killed over relationship with TVK functionary’s daughter; 4 arrested",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-23T13:15:06.978567+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Three women killed, several injured in road accident near Madnal village",
+      "genre": "repeated_failures",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-23T14:24:50.101075+00:00"
     }
   ]
 }
