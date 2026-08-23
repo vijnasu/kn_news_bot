@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T04:32:49.264987+00:00",
+  "last_posted_at": "2026-08-23T05:44:27.494554+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Industrial effluents not behind fish deaths in Ennore: Minister",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-21T17:01:35.404428+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Trade unions sound alarm over Supreme Court judgment on definition of industry",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "public_unrest",
       "posted_at": "2026-08-23T04:32:49.264987+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Two killed in bike collision near Tiruttani",
+      "genre": "negative_energy",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-23T05:44:27.494554+00:00"
     }
   ]
 }
