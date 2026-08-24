@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T00:34:07.814480+00:00",
+  "last_posted_at": "2026-08-24T01:52:26.485962+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Sikh protesters burn Rahul Gandhi effigy over Sajjan Kumar ‘role model’ remark",
-      "genre": "political_business_enemies",
-      "style": "career",
-      "posted_at": "2026-08-22T12:07:31.902008+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Yadgir submits ₹287.7-crore proposal to Karnataka government seeking approval for underground drainage project",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-24T00:34:07.814480+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Belagavi MLA Abhay Patil injured in Delhi car accident, out of danger: Police",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-24T01:52:26.485962+00:00"
     }
   ]
 }
