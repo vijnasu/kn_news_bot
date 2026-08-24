@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T13:22:19.990326+00:00",
+  "last_posted_at": "2026-08-24T14:46:54.674393+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "One person injured in clash between rival groups of BJP workers",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-23T07:01:40.969313+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Ajay Singh accorded grand welcome on first visit to Kalaburagi as Minister",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-24T13:22:19.990326+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka strengthens preparedness as seasonal influenza cases cross 4,200",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-08-24T14:46:54.674393+00:00"
     }
   ]
 }
