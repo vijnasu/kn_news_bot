@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T10:45:31.838578+00:00",
+  "last_posted_at": "2026-08-24T11:56:07.387131+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Be loud, be proud, fight for your space, Rahul Gandhi tells Gen Z girls",
-      "genre": "sudden_health_fear",
-      "style": "public_unrest",
-      "posted_at": "2026-08-23T04:32:49.264987+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Two killed in bike collision near Tiruttani",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-24T10:45:31.838578+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Karnataka Legislative Assembly passes 8 Bills in an hour without debate amid BJP protest",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-24T11:56:07.387131+00:00"
     }
   ]
 }
