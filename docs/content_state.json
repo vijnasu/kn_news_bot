@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-23T17:24:00.431135+00:00",
+  "last_posted_at": "2026-08-24T00:34:07.814480+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "BJP legislators in Hubbali protesting to ‘reclaim temple land’ court arrest; police clamped prohibitory orders as a precaution",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-22T11:06:21.831226+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Sikh protesters burn Rahul Gandhi effigy over Sajjan Kumar ‘role model’ remark",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-08-23T17:24:00.431135+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Case against TVK MLA for ‘tresspassing’ into an industrial unit in Puducherry",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-24T00:34:07.814480+00:00"
     }
   ]
 }
