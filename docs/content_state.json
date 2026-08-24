@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T07:50:36.349907+00:00",
+  "last_posted_at": "2026-08-24T09:19:18.264894+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Park Bill: Move aimed at facilitating takeover of Lalbagh land for Tunnel Road, say environmentalists, city BJP MPs",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-23T02:14:48.738325+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Transshipment scam or efficient supply chain? How U.S. firms turn it into profit?",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "health",
       "posted_at": "2026-08-24T07:50:36.349907+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Police take BJP leaders into custody as they try to lay siege to Vidhana Soudha in Bengaluru",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-24T09:19:18.264894+00:00"
     }
   ]
 }
