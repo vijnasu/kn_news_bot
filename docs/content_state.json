@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T16:12:17.359207+00:00",
+  "last_posted_at": "2026-08-24T17:12:31.026538+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Centre pushes States to speed up PNG adoption, seeks district-level officers to drive LPG-to-gas transition",
-      "genre": "business_blockage",
-      "style": "crisis",
-      "posted_at": "2026-08-23T09:12:31.398242+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Keralam to write to PM on Railways’ ‘unilateral decision’ of detaching Mangaluru from Palakkad division: CM Satheesan",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-24T16:12:17.359207+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "H1N1 scare: 7 things former WHO chief scientist Soumya Swaminathan wants you to know",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-08-24T17:12:31.026538+00:00"
     }
   ]
 }
