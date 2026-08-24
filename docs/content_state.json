@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T11:56:07.387131+00:00",
+  "last_posted_at": "2026-08-24T13:22:19.990326+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Two killed in bike collision near Tiruttani",
-      "genre": "negative_energy",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-23T05:44:27.494554+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "One person injured in clash between rival groups of BJP workers",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-24T11:56:07.387131+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "U.S. envoy Sergio Gor terms J&K as ‘important part of India’, praises Delhi, CM for peace efforts",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-08-24T13:22:19.990326+00:00"
     }
   ]
 }
