@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T14:46:54.674393+00:00",
+  "last_posted_at": "2026-08-24T16:12:17.359207+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Ajay Singh accorded grand welcome on first visit to Kalaburagi as Minister",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-23T08:11:27.004156+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Centre pushes States to speed up PNG adoption, seeks district-level officers to drive LPG-to-gas transition",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-08-24T14:46:54.674393+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Citing vacancies, Kharge says Modi government is trying to end reservation through the back door",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-24T16:12:17.359207+00:00"
     }
   ]
 }
