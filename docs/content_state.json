@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T09:19:18.264894+00:00",
+  "last_posted_at": "2026-08-24T10:45:31.838578+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Transshipment scam or efficient supply chain? How U.S. firms turn it into profit?",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-08-23T03:23:07.823463+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Be loud, be proud, fight for your space, Rahul Gandhi tells Gen Z girls",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-24T09:19:18.264894+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "DMK MLA’s remarks against CM Vijay trigger Assembly row; Speaker to examine privilege breach",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-24T10:45:31.838578+00:00"
     }
   ]
 }
