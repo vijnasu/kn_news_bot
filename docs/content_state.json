@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-24T04:30:36.934198+00:00",
+  "last_posted_at": "2026-08-24T05:45:41.553045+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "SIR, delimitation are BJP’s attempts to remain in power even without people’s support: Prakash Raj",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-22T15:24:19.563371+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "60% rebate spurs B-Khata conversion, but fails to attract substantial interest",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-24T04:30:36.934198+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Free bus travel for women expanded to LSS, express, deluxe buses in TN cities from Oct 2",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-24T05:45:41.553045+00:00"
     }
   ]
 }
