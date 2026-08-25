@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T06:29:17.202573+00:00",
+  "last_posted_at": "2026-08-25T07:47:01.016247+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Case against TVK MLA for ‘tresspassing’ into an industrial unit in Puducherry",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-24T00:34:07.814480+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Belagavi MLA Abhay Patil injured in Delhi car accident, out of danger: Police",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-08-25T06:29:17.202573+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Supreme Court’s Samadhan Samaroh 2026 concludes with over 1,250 cases resolved",
+      "genre": "negative_energy",
+      "style": "land",
+      "posted_at": "2026-08-25T07:47:01.016247+00:00"
     }
   ]
 }
