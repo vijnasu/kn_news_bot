@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T00:34:02.926070+00:00",
+  "last_posted_at": "2026-08-25T01:49:49.301111+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Wares from big shops occupy footpaths, while small vendors fear eviction in Shivajinagar",
-      "genre": "political_business_enemies",
-      "style": "land",
-      "posted_at": "2026-08-23T12:07:32.199414+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "KPSC ‘scam’ case: ED raids IAS officer Gangwar's premises in Karnataka, U.P.",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-25T00:34:02.926070+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "102 taluks to be declared drought-hit after discussion in next Cabinet meeting",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-25T01:49:49.301111+00:00"
     }
   ]
 }
