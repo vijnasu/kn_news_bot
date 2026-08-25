@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T04:15:48.898349+00:00",
+  "last_posted_at": "2026-08-25T05:29:00.873438+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Indian expat killed, 9 others injured after vehicle crashes in Oman",
-      "genre": "negative_energy",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-23T16:06:05.363834+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Piyush Goyal heads for Japan with business delegation to boost trade, investments",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-25T04:15:48.898349+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "UPI completes 10 years of digital payments, sees 13,000-fold surge in transaction volume, 4,000-fold rise in value",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-08-25T05:29:00.873438+00:00"
     }
   ]
 }
