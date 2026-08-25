@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T10:28:39.717362+00:00",
+  "last_posted_at": "2026-08-25T11:41:23.101935+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Those against reservation should be booked for sedition: Union Minister Ramdas Athawale",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-24T04:30:36.934198+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Free bus travel for women expanded to LSS, express, deluxe buses in TN cities from Oct 2",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-25T10:28:39.717362+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Delhi HC abates Sajjan Kumar’s appeal against conviction in 1984 riots case following his death",
+      "genre": "political_business_enemies",
+      "style": "health",
+      "posted_at": "2026-08-25T11:41:23.101935+00:00"
     }
   ]
 }
