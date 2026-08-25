@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T07:47:01.016247+00:00",
+  "last_posted_at": "2026-08-25T09:14:58.030494+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Belagavi MLA Abhay Patil injured in Delhi car accident, out of danger: Police",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-24T01:52:26.485962+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Neha Bora slams Congress government in Karnataka over FIRs against students seeking release of Umar Khalid, Sharjeel Imam",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "land",
       "posted_at": "2026-08-25T07:47:01.016247+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Day after Gautam Adani meets D.K. Shivakumar, Karnataka government amends two laws to clear legal hurdles for tunnel road project",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-25T09:14:58.030494+00:00"
     }
   ]
 }
