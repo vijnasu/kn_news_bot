@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T02:52:06.187063+00:00",
+  "last_posted_at": "2026-08-25T04:15:48.898349+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Three women killed, several injured in road accident near Madnal village",
-      "genre": "repeated_failures",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-23T14:24:50.101075+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Indian expat killed, 9 others injured after vehicle crashes in Oman",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-25T02:52:06.187063+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Day after Gautam Adani meets D.K. Shivakumar, government amends two laws to clear legal hurdles for tunnel road project",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-25T04:15:48.898349+00:00"
     }
   ]
 }
