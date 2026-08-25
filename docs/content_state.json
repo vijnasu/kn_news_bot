@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T05:29:00.873438+00:00",
+  "last_posted_at": "2026-08-25T06:29:17.202573+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Piyush Goyal heads for Japan with business delegation to boost trade, investments",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-08-23T17:24:00.431135+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Case against TVK MLA for ‘tresspassing’ into an industrial unit in Puducherry",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "finance",
       "posted_at": "2026-08-25T05:29:00.873438+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "LPG connection eKYC deadline extended to August 31",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-08-25T06:29:17.202573+00:00"
     }
   ]
 }
