@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T01:49:49.301111+00:00",
+  "last_posted_at": "2026-08-25T02:52:06.187063+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "KPSC ‘scam’ case: ED raids IAS officer Gangwar's premises in Karnataka, U.P.",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-23T13:15:06.978567+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Three women killed, several injured in road accident near Madnal village",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-25T01:49:49.301111+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka’s Monsoon Session ends abruptly as Opposition steps up attack demanding Minister Nagendra’s resignation",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-25T02:52:06.187063+00:00"
     }
   ]
 }
