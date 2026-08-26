@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T11:43:49.637061+00:00",
+  "last_posted_at": "2026-08-26T13:08:04.704844+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "UPI completes 10 years of digital payments, sees 13,000-fold surge in transaction volume, 4,000-fold rise in value",
-      "genre": "unexplained_obstacles",
-      "style": "finance",
-      "posted_at": "2026-08-25T05:29:00.873438+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "LPG connection eKYC deadline extended to August 31",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-26T11:43:49.637061+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "B. Nagendra likely to quit Ministry as Congress seeks to defuse Opposition offensive",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-26T13:08:04.704844+00:00"
     }
   ]
 }
