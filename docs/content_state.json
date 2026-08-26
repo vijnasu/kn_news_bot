@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T09:17:11.719060+00:00",
+  "last_posted_at": "2026-08-26T10:30:54.122498+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka’s Monsoon Session ends abruptly as Opposition steps up attack demanding Minister Nagendra’s resignation",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-25T02:52:06.187063+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Day after Gautam Adani meets D.K. Shivakumar, government amends two laws to clear legal hurdles for tunnel road project",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "accident",
       "posted_at": "2026-08-26T09:17:11.719060+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "NEET-UG protests case: Petitioners seek re-constitution of high-powered enquiry committee",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-08-26T10:30:54.122498+00:00"
     }
   ]
 }
