@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T01:52:13.762582+00:00",
+  "last_posted_at": "2026-08-26T03:09:15.836606+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "U.S. envoy Sergio Gor terms J&K as ‘important part of India’, praises Delhi, CM for peace efforts",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-24T13:22:19.990326+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka strengthens preparedness as seasonal influenza cases cross 4,200",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-26T01:52:13.762582+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "HC warns of imposing cost on Vijay in election case",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-26T03:09:15.836606+00:00"
     }
   ]
 }
