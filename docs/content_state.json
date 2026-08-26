@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T07:47:40.318630+00:00",
+  "last_posted_at": "2026-08-26T09:17:11.719060+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "102 taluks to be declared drought-hit after discussion in next Cabinet meeting",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-25T01:49:49.301111+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka’s Monsoon Session ends abruptly as Opposition steps up attack demanding Minister Nagendra’s resignation",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-26T07:47:40.318630+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Jadavpur unrest probe committee to hold first meeting this week after 'injured' VC rejoins",
+      "genre": "business_blockage",
+      "style": "accident",
+      "posted_at": "2026-08-26T09:17:11.719060+00:00"
     }
   ]
 }
