@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T06:30:30.641409+00:00",
+  "last_posted_at": "2026-08-26T07:47:40.318630+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Congress targets Modi government on price rise, 'ravaging’ the pathway from education to employment",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-25T00:34:02.926070+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "102 taluks to be declared drought-hit after discussion in next Cabinet meeting",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-26T06:30:30.641409+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Youth vote and its electoral impact",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-26T07:47:40.318630+00:00"
     }
   ]
 }
