@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T10:30:54.122498+00:00",
+  "last_posted_at": "2026-08-26T11:43:49.637061+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Day after Gautam Adani meets D.K. Shivakumar, government amends two laws to clear legal hurdles for tunnel road project",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-25T04:15:48.898349+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "UPI completes 10 years of digital payments, sees 13,000-fold surge in transaction volume, 4,000-fold rise in value",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-08-26T10:30:54.122498+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Madras high court warns of imposing cost on Vijay in election case",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-26T11:43:49.637061+00:00"
     }
   ]
 }
