@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-25T16:31:43.898039+00:00",
+  "last_posted_at": "2026-08-26T00:34:35.875120+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "DMK MLA’s remarks against CM Vijay trigger Assembly row; Speaker to examine privilege breach",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-24T10:45:31.838578+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka Legislative Assembly passes 8 Bills in an hour without debate amid BJP protest",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-08-25T16:31:43.898039+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Identify, eliminate threats before they grow big: Amit Shah urges security agencies",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-26T00:34:35.875120+00:00"
     }
   ]
 }
