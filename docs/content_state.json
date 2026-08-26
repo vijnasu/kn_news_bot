@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-26T05:29:24.996203+00:00",
+  "last_posted_at": "2026-08-26T06:30:30.641409+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "H1N1 scare: 7 things former WHO chief scientist Soumya Swaminathan wants you to know",
-      "genre": "financial_loss",
-      "style": "health",
-      "posted_at": "2026-08-24T17:12:31.026538+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Congress targets Modi government on price rise, 'ravaging’ the pathway from education to employment",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "career",
       "posted_at": "2026-08-26T05:29:24.996203+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "After 540 days of protests, Karnataka CM invites those opposing Bidadi Township for talks",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-26T06:30:30.641409+00:00"
     }
   ]
 }
