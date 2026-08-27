@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-27T06:48:00.544075+00:00",
+  "last_posted_at": "2026-08-27T10:20:52.104377+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Drought a defining developmental challenge, says Environment Minister at UNCCD conference",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-25T15:18:42.709008+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Environmentalists write to Supreme Court committee about ‘inadequate’ public consultation on Aravallis",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-27T06:48:00.544075+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Modi calls Nepal PM, promises ‘all possible assistance’ after devastating flash flood",
+      "genre": "sudden_health_fear",
+      "style": "weather_extreme",
+      "posted_at": "2026-08-27T10:20:52.104377+00:00"
     }
   ]
 }
