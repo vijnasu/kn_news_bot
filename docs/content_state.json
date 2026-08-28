@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-28T03:34:08.680409+00:00",
+  "last_posted_at": "2026-08-28T06:19:18.890386+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "HC warns of imposing cost on Vijay in election case",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-26T03:09:15.836606+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "H1N1 in India: A seasonal surge, not a new strain, says ICMR",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "scandal",
       "posted_at": "2026-08-28T03:34:08.680409+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu govt promises steps in 3 days to check essential commodity price surge",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-28T06:19:18.890386+00:00"
     }
   ]
 }
