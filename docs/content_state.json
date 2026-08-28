@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-28T00:31:22.838354+00:00",
+  "last_posted_at": "2026-08-28T03:34:08.680409+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Will place Bidadi township land acquisition award before court before acting on it, State government tells Karnataka HC",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-26T01:52:13.762582+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "HC warns of imposing cost on Vijay in election case",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-08-28T00:31:22.838354+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Harrowing wait for 85 Tamil Nadu pilgrims missing in Nepal flash flood",
+      "genre": "repeated_failures",
+      "style": "scandal",
+      "posted_at": "2026-08-28T03:34:08.680409+00:00"
     }
   ]
 }
