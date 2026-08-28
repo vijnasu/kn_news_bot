@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-27T14:10:11.974895+00:00",
+  "last_posted_at": "2026-08-28T00:31:22.838354+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Identify, eliminate threats before they grow big: Amit Shah urges security agencies",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-26T00:34:35.875120+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Will place Bidadi township land acquisition award before court before acting on it, State government tells Karnataka HC",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-27T14:10:11.974895+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Back-to-back complaints expose illegal SIM box operations in Whitefield",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-08-28T00:31:22.838354+00:00"
     }
   ]
 }
