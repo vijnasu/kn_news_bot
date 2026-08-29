@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T14:09:55.314608+00:00",
+  "last_posted_at": "2026-08-29T15:21:05.462262+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "What’s missing in T.N. for intersex babies? Genetic tests at government hospitals",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-27T06:48:00.544075+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Modi calls Nepal PM, promises ‘all possible assistance’ after devastating flash flood",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-29T14:09:55.314608+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Samyukta Horata Karnataka protest turns tense in Kalaburagi",
+      "genre": "financial_loss",
+      "style": "public_unrest",
+      "posted_at": "2026-08-29T15:21:05.462262+00:00"
     }
   ]
 }
