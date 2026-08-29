@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T02:14:33.607354+00:00",
+  "last_posted_at": "2026-08-29T03:28:21.426837+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Jadavpur unrest probe committee to hold first meeting this week after 'injured' VC rejoins",
-      "genre": "business_blockage",
-      "style": "accident",
-      "posted_at": "2026-08-26T09:17:11.719060+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "NEET-UG protests case: Petitioners seek re-constitution of high-powered enquiry committee",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-08-29T02:14:33.607354+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "3 college students dead after SUV tyre bursts on Chennai-Tiruchi highway",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-08-29T03:28:21.426837+00:00"
     }
   ]
 }
