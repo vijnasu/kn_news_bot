@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-28T14:02:27.480625+00:00",
+  "last_posted_at": "2026-08-29T00:59:10.717361+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "After 540 days of protests, Karnataka CM invites those opposing Bidadi Township for talks",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-08-26T06:30:30.641409+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Youth vote and its electoral impact",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-28T14:02:27.480625+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "FSSAI proposes front-of-pack red pictorial warnings for foods high in fat, sugar, salt",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-29T00:59:10.717361+00:00"
     }
   ]
 }
