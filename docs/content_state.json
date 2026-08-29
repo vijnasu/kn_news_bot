@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T13:09:33.985286+00:00",
+  "last_posted_at": "2026-08-29T14:09:55.314608+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Only 2,790 students enrolled against a target of 10,500: parliamentary panel on government free coaching scheme",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-27T04:16:56.941780+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "What’s missing in T.N. for intersex babies? Genetic tests at government hospitals",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-29T13:09:33.985286+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Mysuru among five cities to be developed to ease pressure on Bengaluru: CM",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-29T14:09:55.314608+00:00"
     }
   ]
 }
