@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T00:59:10.717361+00:00",
+  "last_posted_at": "2026-08-29T02:14:33.607354+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Youth vote and its electoral impact",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-26T07:47:40.318630+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Jadavpur unrest probe committee to hold first meeting this week after 'injured' VC rejoins",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-08-29T00:59:10.717361+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "FM Sitharaman lands in U.S. for six-day visit for G-20 talks and meeting with business leaders",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-08-29T02:14:33.607354+00:00"
     }
   ]
 }
