@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T03:28:21.426837+00:00",
+  "last_posted_at": "2026-08-29T04:39:06.112255+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "NEET-UG protests case: Petitioners seek re-constitution of high-powered enquiry committee",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-08-26T10:30:54.122498+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Madras high court warns of imposing cost on Vijay in election case",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-08-29T03:28:21.426837+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Nagendra challenges BJP to face him in ‘people’s court’",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-29T04:39:06.112255+00:00"
     }
   ]
 }
