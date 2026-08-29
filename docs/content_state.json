@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T04:39:06.112255+00:00",
+  "last_posted_at": "2026-08-29T05:48:43.670714+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Madras high court warns of imposing cost on Vijay in election case",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-26T11:43:49.637061+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "B. Nagendra likely to quit Ministry as Congress seeks to defuse Opposition offensive",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-29T04:39:06.112255+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Officials told to prepare extensive healthcare plan for Godavari Pushkarams 2027",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-29T05:48:43.670714+00:00"
     }
   ]
 }
