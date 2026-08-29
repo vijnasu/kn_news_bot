@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T08:13:56.222812+00:00",
+  "last_posted_at": "2026-08-29T09:23:11.212198+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Bengaluru: Teacher loses ₹30.63 lakh in online investment scam",
-      "genre": "political_business_enemies",
-      "style": "finance",
-      "posted_at": "2026-08-26T15:50:20.312486+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Watch: Nepal flash floods: at least 95 dead, over 100 Indians missing | Above the Fold | Aug 26, 2026",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-08-29T08:13:56.222812+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Nagendra’s resignation comes as a morale booster for Karnataka BJP as it tastes first ‘political victory’ against new regime",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-29T09:23:11.212198+00:00"
     }
   ]
 }
