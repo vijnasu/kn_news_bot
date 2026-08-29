@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T09:23:11.212198+00:00",
+  "last_posted_at": "2026-08-29T10:35:06.952421+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Watch: Nepal flash floods: at least 95 dead, over 100 Indians missing | Above the Fold | Aug 26, 2026",
-      "genre": "repeated_failures",
-      "style": "health",
-      "posted_at": "2026-08-26T16:52:42.757314+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "‘Heard a loud sound and the ground shook’: Nepal flash flood traps 37 of 57 Tamil Nadu, Puducherry pilgrims; 20 reported safe",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-29T09:23:11.212198+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Three college students killed, four injured as car overturns near Madurantakam",
+      "genre": "business_blockage",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-29T10:35:06.952421+00:00"
     }
   ]
 }
