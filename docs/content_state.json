@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T06:51:38.915214+00:00",
+  "last_posted_at": "2026-08-29T08:13:56.222812+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Efforts are on to throw open Vijayapura airport by early next year, says KSIIDC chairman",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-26T14:29:56.326541+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Bengaluru: Teacher loses ₹30.63 lakh in online investment scam",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-29T06:51:38.915214+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Delhi court takes cognisance of NIA chargesheet in Red Fort blast case",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-29T08:13:56.222812+00:00"
     }
   ]
 }
