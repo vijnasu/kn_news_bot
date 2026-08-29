@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-29T11:48:19.776473+00:00",
+  "last_posted_at": "2026-08-29T13:09:33.985286+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Nepal flash floods updates: At least 157 dead, hundreds missing; India sends first tranche of relief materials",
-      "genre": "unexplained_obstacles",
-      "style": "health",
-      "posted_at": "2026-08-27T02:17:57.758019+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Only 2,790 students enrolled against a target of 10,500: parliamentary panel on government free coaching scheme",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-29T11:48:19.776473+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Minister B. Nagendra resigns, challenges BJP to face him in ‘people’s court’",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-29T13:09:33.985286+00:00"
     }
   ]
 }
