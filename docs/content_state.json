@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T02:40:24.981251+00:00",
+  "last_posted_at": "2026-08-30T03:48:31.269553+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Tamil Nadu govt promises steps in 3 days to check essential commodity price surge",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-08-28T06:19:18.890386+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Bengaluru Police Inspector killed in road accident in Madhya Pradesh during cybercrime investigation",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-08-30T02:40:24.981251+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Three college students killed as car overturns near Maduranthakam",
+      "genre": "business_blockage",
+      "style": "sudden_loss",
+      "posted_at": "2026-08-30T03:48:31.269553+00:00"
     }
   ]
 }
