@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T07:25:35.036860+00:00",
+  "last_posted_at": "2026-08-30T08:30:56.656748+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "FM Sitharaman lands in U.S. for six-day visit for G-20 talks and meeting with business leaders",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-08-29T02:14:33.607354+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "3 college students dead after SUV tyre bursts on Chennai-Tiruchi highway",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-08-30T07:25:35.036860+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "As students protest in National law varsities, Justice Bhuyan pushes for appointment of SC Judges from legal academia",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-08-30T08:30:56.656748+00:00"
     }
   ]
 }
