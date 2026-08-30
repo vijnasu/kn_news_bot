@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T03:48:31.269553+00:00",
+  "last_posted_at": "2026-08-30T04:49:12.470348+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Bengaluru Police Inspector killed in road accident in Madhya Pradesh during cybercrime investigation",
-      "genre": "financial_loss",
-      "style": "court",
-      "posted_at": "2026-08-28T09:47:03.730479+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "B. Nagedra resigns from Karnataka Cabinet amid Valmiki Corporation scam row",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "sudden_loss",
       "posted_at": "2026-08-30T03:48:31.269553+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "PM Modi’s SCO visit is loaded with expectations on BRICS Summit and UNSC election",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-30T04:49:12.470348+00:00"
     }
   ]
 }
