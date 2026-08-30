@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T06:18:31.293818+00:00",
+  "last_posted_at": "2026-08-30T07:25:35.036860+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "FSSAI proposes front-of-pack red pictorial warnings for foods high in fat, sugar, salt",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-08-29T00:59:10.717361+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "FM Sitharaman lands in U.S. for six-day visit for G-20 talks and meeting with business leaders",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "weather_extreme",
       "posted_at": "2026-08-30T06:18:31.293818+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Mann Ki Baat: PM Modi calls on citizens to make India ‘drug-free’",
+      "genre": "political_business_enemies",
+      "style": "business",
+      "posted_at": "2026-08-30T07:25:35.036860+00:00"
     }
   ]
 }
