@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T00:35:22.234755+00:00",
+  "last_posted_at": "2026-08-30T01:36:39.998055+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Back-to-back complaints expose illegal SIM box operations in Whitefield",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-08-28T00:31:22.838354+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Harrowing wait for 85 Tamil Nadu pilgrims missing in Nepal flash flood",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-08-30T00:35:22.234755+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Chennai may get moderate rainfall and thunderstorms next week",
+      "genre": "court_cases",
+      "style": "land",
+      "posted_at": "2026-08-30T01:36:39.998055+00:00"
     }
   ]
 }
