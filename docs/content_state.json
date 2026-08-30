@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T08:30:56.656748+00:00",
+  "last_posted_at": "2026-08-30T09:34:37.014996+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "3 college students dead after SUV tyre bursts on Chennai-Tiruchi highway",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-08-29T03:28:21.426837+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Nagendra challenges BJP to face him in ‘people’s court’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-08-30T08:30:56.656748+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Priyank Kharge-led Ministerial panel to review withdrawal of criminal cases in Karnataka",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-08-30T09:34:37.014996+00:00"
     }
   ]
 }
