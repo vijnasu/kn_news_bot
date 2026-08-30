@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T09:34:37.014996+00:00",
+  "last_posted_at": "2026-08-30T10:35:04.336897+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Nagendra challenges BJP to face him in ‘people’s court’",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-29T04:39:06.112255+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Officials told to prepare extensive healthcare plan for Godavari Pushkarams 2027",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-08-30T09:34:37.014996+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "PM Modi conferred with Uzbekistan's prestigious ‘Oliy Darajali Do'stlik’ Order",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-30T10:35:04.336897+00:00"
     }
   ]
 }
