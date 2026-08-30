@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T01:36:39.998055+00:00",
+  "last_posted_at": "2026-08-30T02:40:24.981251+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Harrowing wait for 85 Tamil Nadu pilgrims missing in Nepal flash flood",
-      "genre": "repeated_failures",
-      "style": "scandal",
-      "posted_at": "2026-08-28T03:34:08.680409+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tamil Nadu govt promises steps in 3 days to check essential commodity price surge",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "land",
       "posted_at": "2026-08-30T01:36:39.998055+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Illegal trekking, ‘hidden spot’ tourism raise alarm in Karnataka's Western Ghats",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-08-30T02:40:24.981251+00:00"
     }
   ]
 }
