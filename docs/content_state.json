@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T15:22:27.461779+00:00",
+  "last_posted_at": "2026-08-30T16:24:28.655095+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Three college students killed, four injured as car overturns near Madurantakam",
-      "genre": "business_blockage",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-29T10:35:06.952421+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "No scaling down Dasara festivities despite drought, says Karnataka Chief Minister D.K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-08-30T15:22:27.461779+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "‘At this moment, we must not lose hope’: Minister on 100 TN travellers missing in Nepal floods",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-08-30T16:24:28.655095+00:00"
     }
   ]
 }
