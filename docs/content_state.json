@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T12:55:39.673567+00:00",
+  "last_posted_at": "2026-08-31T14:14:23.975918+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Mann Ki Baat: PM Modi calls on citizens to make India ‘drug-free’",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-08-30T07:25:35.036860+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "As students protest in National law varsities, Justice Bhuyan pushes for appointment of SC Judges from legal academia",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-08-31T12:55:39.673567+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "MLA threatens protest against govt. failure to include Gurmitkal in drought-hit list",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-08-31T14:14:23.975918+00:00"
     }
   ]
 }
