@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T09:40:56.391054+00:00",
+  "last_posted_at": "2026-08-31T10:48:39.264577+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Three college students killed as car overturns near Maduranthakam",
-      "genre": "business_blockage",
-      "style": "sudden_loss",
-      "posted_at": "2026-08-30T03:48:31.269553+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "PM Modi’s SCO visit is loaded with expectations on BRICS Summit and UNSC election",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-08-31T09:40:56.391054+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "84 Tamil Nadu tourists missing in Nepal flash floods: PWD minister Aadhav Arjuna",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-08-31T10:48:39.264577+00:00"
     }
   ]
 }
