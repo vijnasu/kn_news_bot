@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T02:54:52.182545+00:00",
+  "last_posted_at": "2026-08-31T04:15:47.825334+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Samyukta Horata Karnataka protest turns tense in Kalaburagi",
-      "genre": "financial_loss",
-      "style": "public_unrest",
-      "posted_at": "2026-08-29T15:21:05.462262+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "EPS slams TVK over mounting debt and power cuts, terms regime an ‘accident’",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-08-31T02:54:52.182545+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Nirmala Sitharaman in U.S. Asheville city for G-20 finance ministerial meet",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-31T04:15:47.825334+00:00"
     }
   ]
 }
