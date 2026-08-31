@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T14:14:23.975918+00:00",
+  "last_posted_at": "2026-08-31T15:27:30.294450+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "As students protest in National law varsities, Justice Bhuyan pushes for appointment of SC Judges from legal academia",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-08-30T08:30:56.656748+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Priyank Kharge-led Ministerial panel to review withdrawal of criminal cases in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-08-31T14:14:23.975918+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka High Court quashes acquisition of 1,938 acres for KHB’s housing project",
+      "genre": "repeated_failures",
+      "style": "land",
+      "posted_at": "2026-08-31T15:27:30.294450+00:00"
     }
   ]
 }
