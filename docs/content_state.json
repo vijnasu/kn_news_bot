@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-30T16:24:28.655095+00:00",
+  "last_posted_at": "2026-08-31T00:40:33.950040+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "No scaling down Dasara festivities despite drought, says Karnataka Chief Minister D.K. Shivakumar",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-08-29T11:48:19.776473+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Minister B. Nagendra resigns, challenges BJP to face him in ‘people’s court’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-30T16:24:28.655095+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Tidying up corporate KYC landscape",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-08-31T00:40:33.950040+00:00"
     }
   ]
 }
