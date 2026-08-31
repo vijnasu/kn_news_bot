@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T07:01:23.197622+00:00",
+  "last_posted_at": "2026-08-31T08:18:44.202892+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Chennai may get moderate rainfall and thunderstorms next week",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-08-30T01:36:39.998055+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Illegal trekking, ‘hidden spot’ tourism raise alarm in Karnataka's Western Ghats",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-08-31T07:01:23.197622+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "SC says probe agencies tend to go slow on the powerful, but quick to act with commoners",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-08-31T08:18:44.202892+00:00"
     }
   ]
 }
