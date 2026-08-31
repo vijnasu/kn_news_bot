@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T01:51:19.860504+00:00",
+  "last_posted_at": "2026-08-31T02:54:52.182545+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Mysuru among five cities to be developed to ease pressure on Bengaluru: CM",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-29T14:09:55.314608+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Samyukta Horata Karnataka protest turns tense in Kalaburagi",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "career",
       "posted_at": "2026-08-31T01:51:19.860504+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "17 days on, Parliament yet to be prorogued after end of Monsoon Session",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-08-31T02:54:52.182545+00:00"
     }
   ]
 }
