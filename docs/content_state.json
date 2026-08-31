@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T00:40:33.950040+00:00",
+  "last_posted_at": "2026-08-31T01:51:19.860504+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Minister B. Nagendra resigns, challenges BJP to face him in ‘people’s court’",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-29T13:09:33.985286+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Mysuru among five cities to be developed to ease pressure on Bengaluru: CM",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-08-31T00:40:33.950040+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "High drama unfolds as youth congress workers protest outside BJP office demanding Shah’s resignation",
+      "genre": "career_instability",
+      "style": "career",
+      "posted_at": "2026-08-31T01:51:19.860504+00:00"
     }
   ]
 }
