@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T08:18:44.202892+00:00",
+  "last_posted_at": "2026-08-31T09:40:56.391054+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Illegal trekking, ‘hidden spot’ tourism raise alarm in Karnataka's Western Ghats",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-08-30T02:40:24.981251+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Three college students killed as car overturns near Maduranthakam",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-08-31T08:18:44.202892+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu CM C Joseph Vijay announces Rs 175 crore semiconductor park in Kancheepuram",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-08-31T09:40:56.391054+00:00"
     }
   ]
 }
