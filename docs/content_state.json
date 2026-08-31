@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T11:48:49.055783+00:00",
+  "last_posted_at": "2026-08-31T12:55:39.673567+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BJP brainstorming on Gen Z outreach concludes cohort is not ‘homogenous’",
-      "genre": "sudden_health_fear",
-      "style": "weather_extreme",
-      "posted_at": "2026-08-30T06:18:31.293818+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Mann Ki Baat: PM Modi calls on citizens to make India ‘drug-free’",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "land",
       "posted_at": "2026-08-31T11:48:49.055783+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "TVK govt announces Rs 20.800 crore supercritical power project in Tuticorin",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-08-31T12:55:39.673567+00:00"
     }
   ]
 }
