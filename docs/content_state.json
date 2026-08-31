@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T15:27:30.294450+00:00",
+  "last_posted_at": "2026-08-31T16:28:01.698739+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Priyank Kharge-led Ministerial panel to review withdrawal of criminal cases in Karnataka",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-08-30T09:34:37.014996+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "PM Modi conferred with Uzbekistan's prestigious ‘Oliy Darajali Do'stlik’ Order",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "land",
       "posted_at": "2026-08-31T15:27:30.294450+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "KPSC ‘scam’: Priyank Kharge offers to quit politics even if there is iota of evidence against him",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-08-31T16:28:01.698739+00:00"
     }
   ]
 }
