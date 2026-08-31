@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T10:48:39.264577+00:00",
+  "last_posted_at": "2026-08-31T11:48:49.055783+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "PM Modi’s SCO visit is loaded with expectations on BRICS Summit and UNSC election",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-30T04:49:12.470348+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BJP brainstorming on Gen Z outreach concludes cohort is not ‘homogenous’",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-08-31T10:48:39.264577+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Supreme Court refuses to halt CJP march ahead of BRICS Summit; Centre moves urgent plea to invoke Article 142, quash FIRs against NEET-UG protesters",
+      "genre": "political_business_enemies",
+      "style": "land",
+      "posted_at": "2026-08-31T11:48:49.055783+00:00"
     }
   ]
 }
