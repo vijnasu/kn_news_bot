@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-08-31T16:28:01.698739+00:00",
+  "last_posted_at": "2026-09-01T00:38:41.978050+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "PM Modi conferred with Uzbekistan's prestigious ‘Oliy Darajali Do'stlik’ Order",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-30T10:35:04.336897+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Economic growth needs to be sustainable and inclusive: B.H. Nagoor",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-08-31T16:28:01.698739+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "After FIR against TDP MLA for abduction of Bengaluru businessman, police clarify he was detained by Andhra Pradesh police",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-09-01T00:38:41.978050+00:00"
     }
   ]
 }
