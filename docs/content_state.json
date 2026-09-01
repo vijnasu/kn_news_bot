@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-01T00:38:41.978050+00:00",
+  "last_posted_at": "2026-09-01T01:53:03.450450+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Economic growth needs to be sustainable and inclusive: B.H. Nagoor",
-      "genre": "political_business_enemies",
-      "style": "finance",
-      "posted_at": "2026-08-30T11:48:34.831600+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Subhash Chandra insolvency: Why are creditors set to recover only ₹6.5 crore against ₹22,006 crore claims?",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-09-01T00:38:41.978050+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Nepal flash floods updates: Death toll rises to 939, missing people drops to 3,925: disaster authority",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-09-01T01:53:03.450450+00:00"
     }
   ]
 }
