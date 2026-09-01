@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-01T07:19:27.284122+00:00",
+  "last_posted_at": "2026-09-01T12:40:42.662149+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "KPSC ‘scam’: CID arrests IAS officer Gyanendra Kumar Gangwar",
-      "genre": "family_disturbance",
-      "style": "finance",
-      "posted_at": "2026-08-30T14:10:21.701444+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Nagendra’s resignation not due to BJP protests, claims Minister",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "marriage",
       "posted_at": "2026-09-01T07:19:27.284122+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "A suitcase, a train, a body in pieces: How a married man's Chennai affair resulted in 2,000km horror trail",
+      "genre": "repeated_failures",
+      "style": "marriage",
+      "posted_at": "2026-09-01T12:40:42.662149+00:00"
     }
   ]
 }
