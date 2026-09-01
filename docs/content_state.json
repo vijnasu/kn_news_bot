@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-01T01:53:03.450450+00:00",
+  "last_posted_at": "2026-09-01T07:19:27.284122+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Subhash Chandra insolvency: Why are creditors set to recover only ₹6.5 crore against ₹22,006 crore claims?",
-      "genre": "unexplained_obstacles",
-      "style": "finance",
-      "posted_at": "2026-08-30T13:09:57.234190+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "KPSC ‘scam’: CID arrests IAS officer Gyanendra Kumar Gangwar",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-09-01T01:53:03.450450+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Chennai suitcase murder: Lover killed pregnant woman after she sought marriage, refused abortion; shaved, smashed her head to hide identity",
+      "genre": "court_cases",
+      "style": "marriage",
+      "posted_at": "2026-09-01T07:19:27.284122+00:00"
     }
   ]
 }
