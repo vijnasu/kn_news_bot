@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-01T12:40:42.662149+00:00",
+  "last_posted_at": "2026-09-01T16:56:08.536662+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Nagendra’s resignation not due to BJP protests, claims Minister",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-08-30T15:22:27.461779+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "‘At this moment, we must not lose hope’: Minister on 100 TN travellers missing in Nepal floods",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "marriage",
       "posted_at": "2026-09-01T12:40:42.662149+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Bank employees to go on indefinite strike demanding five-day work week",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-01T16:56:08.536662+00:00"
     }
   ]
 }
