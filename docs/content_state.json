@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-02T09:19:13.273298+00:00",
+  "last_posted_at": "2026-09-02T13:47:43.525936+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "High drama unfolds as youth congress workers protest outside BJP office demanding Shah’s resignation",
-      "genre": "career_instability",
-      "style": "career",
-      "posted_at": "2026-08-31T01:51:19.860504+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "17 days on, Parliament yet to be prorogued after end of Monsoon Session",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-02T09:19:13.273298+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka High Court to examine Governor’s appeal on power to suspend KPSC chairperson without Cabinet advice",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-02T13:47:43.525936+00:00"
     }
   ]
 }
