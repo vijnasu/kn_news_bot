@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-02T13:47:43.525936+00:00",
+  "last_posted_at": "2026-09-03T00:42:23.051135+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "17 days on, Parliament yet to be prorogued after end of Monsoon Session",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-08-31T02:54:52.182545+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Nirmala Sitharaman in U.S. Asheville city for G-20 finance ministerial meet",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-02T13:47:43.525936+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Tamil Nadu govt to withdraw protest cases against farmers, teachers filed during previous govt’s tenure",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-03T00:42:23.051135+00:00"
     }
   ]
 }
