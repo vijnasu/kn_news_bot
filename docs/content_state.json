@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-03T05:08:06.087372+00:00",
+  "last_posted_at": "2026-09-03T09:50:42.598200+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Congress minister threatens to quit TVK cabinet if Rahul Gandhi is not accepted as PM candidate in 2029",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-31T05:30:33.157173+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "What is ‘One Nation, One Time’? How it works?",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "health",
       "posted_at": "2026-09-03T05:08:06.087372+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "‘Ill-educated, egregiously wrong’: World Bank ED Mishra on row over GDP data",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-03T09:50:42.598200+00:00"
     }
   ]
 }
