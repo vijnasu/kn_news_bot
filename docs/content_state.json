@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-03T09:50:42.598200+00:00",
+  "last_posted_at": "2026-09-03T14:10:12.604379+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "What is ‘One Nation, One Time’? How it works?",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-08-31T07:01:23.197622+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "SC says probe agencies tend to go slow on the powerful, but quick to act with commoners",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-03T09:50:42.598200+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Over 1,000 Cyberabad traffic police personnel attend free lung, vascular health camp",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-03T14:10:12.604379+00:00"
     }
   ]
 }
