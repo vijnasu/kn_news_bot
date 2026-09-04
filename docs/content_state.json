@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-04T09:56:59.636704+00:00",
+  "last_posted_at": "2026-09-04T14:05:00.674376+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Supreme Court refuses to halt CJP march ahead of BRICS Summit; Centre moves urgent plea to invoke Article 142, quash FIRs against NEET-UG protesters",
-      "genre": "political_business_enemies",
-      "style": "land",
-      "posted_at": "2026-08-31T11:48:49.055783+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "TVK govt announces Rs 20.800 crore supercritical power project in Tuticorin",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "fear",
       "posted_at": "2026-09-04T09:56:59.636704+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "BJP MLC alleges partiality in drought-hit taluk selection",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-04T14:05:00.674376+00:00"
     }
   ]
 }
