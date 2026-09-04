@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-04T05:33:26.982251+00:00",
+  "last_posted_at": "2026-09-04T09:56:59.636704+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "84 Tamil Nadu tourists missing in Nepal flash floods: PWD minister Aadhav Arjuna",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-08-31T10:48:39.264577+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Supreme Court refuses to halt CJP march ahead of BRICS Summit; Centre moves urgent plea to invoke Article 142, quash FIRs against NEET-UG protesters",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "health",
       "posted_at": "2026-09-04T05:33:26.982251+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "AAIB flags Air India pilot’s positive psychoactive substance test after Phuket flight altitude scare",
+      "genre": "family_disturbance",
+      "style": "fear",
+      "posted_at": "2026-09-04T09:56:59.636704+00:00"
     }
   ]
 }
