@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-05T12:06:16.789312+00:00",
+  "last_posted_at": "2026-09-05T15:14:00.206961+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "KPSC ‘scam’: Priyank Kharge offers to quit politics even if there is iota of evidence against him",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-08-31T16:28:01.698739+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "After FIR against TDP MLA for abduction of Bengaluru businessman, police clarify he was detained by Andhra Pradesh police",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-09-05T12:06:16.789312+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "FSSAI drive puts infant formula food under scanner, doctors advise breastfeeding",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-05T15:14:00.206961+00:00"
     }
   ]
 }
