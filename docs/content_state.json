@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-05T08:32:29.753691+00:00",
+  "last_posted_at": "2026-09-05T12:06:16.789312+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka High Court quashes acquisition of 1,938 acres for KHB’s housing project",
-      "genre": "repeated_failures",
-      "style": "land",
-      "posted_at": "2026-08-31T15:27:30.294450+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "KPSC ‘scam’: Priyank Kharge offers to quit politics even if there is iota of evidence against him",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-05T08:32:29.753691+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "TN minister Wilson appears before Pondy court after Madras HC’s reprimand",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-09-05T12:06:16.789312+00:00"
     }
   ]
 }
