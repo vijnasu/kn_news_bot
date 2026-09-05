@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-05T04:29:01.116765+00:00",
+  "last_posted_at": "2026-09-05T08:32:29.753691+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "MLA threatens protest against govt. failure to include Gurmitkal in drought-hit list",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-08-31T14:14:23.975918+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka High Court quashes acquisition of 1,938 acres for KHB’s housing project",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-05T04:29:01.116765+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "No evidence in KPSC probe will be diluted, says Karnataka Minister Priyank Kharge",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-05T08:32:29.753691+00:00"
     }
   ]
 }
