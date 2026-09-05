@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-04T14:05:00.674376+00:00",
+  "last_posted_at": "2026-09-05T04:29:01.116765+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "TVK govt announces Rs 20.800 crore supercritical power project in Tuticorin",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-08-31T12:55:39.673567+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "MLA threatens protest against govt. failure to include Gurmitkal in drought-hit list",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-04T14:05:00.674376+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-05T04:29:01.116765+00:00"
     }
   ]
 }
