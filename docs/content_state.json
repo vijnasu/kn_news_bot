@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-05T15:14:00.206961+00:00",
+  "last_posted_at": "2026-09-05T17:23:06.629905+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "After FIR against TDP MLA for abduction of Bengaluru businessman, police clarify he was detained by Andhra Pradesh police",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-09-01T00:38:41.978050+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Nepal flash floods updates: Death toll rises to 939, missing people drops to 3,925: disaster authority",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-05T15:14:00.206961+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Karnataka High Court directs State government to fix technical difficulties in Kaveri 2.0 portal for registering perpetual leasehold properties",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-05T17:23:06.629905+00:00"
     }
   ]
 }
