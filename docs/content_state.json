@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-06T10:47:29.938382+00:00",
+  "last_posted_at": "2026-09-06T13:57:13.459500+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Bank employees to go on indefinite strike demanding five-day work week",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-01T16:56:08.536662+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "BJP launches 10-day padayatra against ‘corruption’ in Congress govt.",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-06T10:47:29.938382+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Delhi University Students’ Union campaigner recalls pulling students from Satya Niketan building collapse rubble",
+      "genre": "negative_energy",
+      "style": "health",
+      "posted_at": "2026-09-06T13:57:13.459500+00:00"
     }
   ]
 }
