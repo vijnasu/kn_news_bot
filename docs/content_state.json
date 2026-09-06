@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-06T05:59:49.457475+00:00",
+  "last_posted_at": "2026-09-06T10:47:29.938382+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "A suitcase, a train, a body in pieces: How a married man's Chennai affair resulted in 2,000km horror trail",
-      "genre": "repeated_failures",
-      "style": "marriage",
-      "posted_at": "2026-09-01T12:40:42.662149+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Bank employees to go on indefinite strike demanding five-day work week",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-09-06T05:59:49.457475+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "KPCC poised to take tough line on discipline, without closing door on reconciliation between opposing parties, in fracas involving MLA Haridas",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-06T10:47:29.938382+00:00"
     }
   ]
 }
