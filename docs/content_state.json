@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-06T01:13:31.711416+00:00",
+  "last_posted_at": "2026-09-06T05:59:49.457475+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Chennai suitcase murder: Lover killed pregnant woman after she sought marriage, refused abortion; shaved, smashed her head to hide identity",
-      "genre": "court_cases",
-      "style": "marriage",
-      "posted_at": "2026-09-01T07:19:27.284122+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "A suitcase, a train, a body in pieces: How a married man's Chennai affair resulted in 2,000km horror trail",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "sudden_loss",
       "posted_at": "2026-09-06T01:13:31.711416+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Eight years after chargesheets filed, trials in Gauri Lankesh and Kalburgi cases drag on",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-09-06T05:59:49.457475+00:00"
     }
   ]
 }
