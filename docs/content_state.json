@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-07T00:42:26.717290+00:00",
+  "last_posted_at": "2026-09-07T05:15:30.511601+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka High Court to examine Governor’s appeal on power to suspend KPSC chairperson without Cabinet advice",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-02T13:47:43.525936+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Tamil Nadu govt to withdraw protest cases against farmers, teachers filed during previous govt’s tenure",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "health",
       "posted_at": "2026-09-07T00:42:26.717290+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Seats vacant, resignations accepted, so why are TN byelections on hold?",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-07T05:15:30.511601+00:00"
     }
   ]
 }
