@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-07T10:27:33.847545+00:00",
+  "last_posted_at": "2026-09-07T16:00:11.776194+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Snakebite deaths expose Tamil Nadu’s rural health gaps",
-      "genre": "negative_energy",
-      "style": "health",
-      "posted_at": "2026-09-03T05:08:06.087372+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "‘Ill-educated, egregiously wrong’: World Bank ED Mishra on row over GDP data",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-07T10:27:33.847545+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "HDD says Cabinet’s decision on sites to BMIC project land losers is illegal, against court orders",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-07T16:00:11.776194+00:00"
     }
   ]
 }
