@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-07T05:15:30.511601+00:00",
+  "last_posted_at": "2026-09-07T10:27:33.847545+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Tamil Nadu govt to withdraw protest cases against farmers, teachers filed during previous govt’s tenure",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-03T00:42:23.051135+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Snakebite deaths expose Tamil Nadu’s rural health gaps",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-07T05:15:30.511601+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "DMK storms well, walks out after speaker denies Udhayanidhi right to respond",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-07T10:27:33.847545+00:00"
     }
   ]
 }
