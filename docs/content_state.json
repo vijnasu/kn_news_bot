@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-08T00:41:36.236510+00:00",
+  "last_posted_at": "2026-09-08T05:17:57.229776+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Over 1,000 Cyberabad traffic police personnel attend free lung, vascular health camp",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-03T14:10:12.604379+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Lokayukta registers suo motu case over school ceiling collapse in Bagalkot",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-09-08T00:41:36.236510+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka High Court orders tech-driven overhaul to manage finance and assets of temples",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-09-08T05:17:57.229776+00:00"
     }
   ]
 }
