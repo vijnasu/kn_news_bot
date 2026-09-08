@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-08T09:57:15.964234+00:00",
+  "last_posted_at": "2026-09-08T14:15:53.280025+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "The feminist organiser and her everyday rebellions",
-      "genre": "repeated_failures",
-      "style": "health",
-      "posted_at": "2026-09-04T05:33:26.982251+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "AAIB flags Air India pilot’s positive psychoactive substance test after Phuket flight altitude scare",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-09-08T09:57:15.964234+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka directed to release 6,000 cusecs of water a day to Tamil Nadu",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-08T14:15:53.280025+00:00"
     }
   ]
 }
