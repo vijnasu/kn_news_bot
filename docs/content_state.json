@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-09T01:22:53.059616+00:00",
+  "last_posted_at": "2026-09-09T06:24:30.821312+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "BJP MLC alleges partiality in drought-hit taluk selection",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-04T14:05:00.674376+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-09T01:22:53.059616+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his daughter",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-09T06:24:30.821312+00:00"
     }
   ]
 }
