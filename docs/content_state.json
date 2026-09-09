@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-08T14:15:53.280025+00:00",
+  "last_posted_at": "2026-09-09T01:22:53.059616+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "AAIB flags Air India pilot’s positive psychoactive substance test after Phuket flight altitude scare",
-      "genre": "family_disturbance",
-      "style": "fear",
-      "posted_at": "2026-09-04T09:56:59.636704+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "BJP MLC alleges partiality in drought-hit taluk selection",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-08T14:15:53.280025+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Protesters seek recruitment notification for 72,000 vacancies in Karnataka",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-09T01:22:53.059616+00:00"
     }
   ]
 }
