@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-09T06:24:30.821312+00:00",
+  "last_posted_at": "2026-09-09T11:43:13.654931+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-05T04:29:01.116765+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "No evidence in KPSC probe will be diluted, says Karnataka Minister Priyank Kharge",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-09T06:24:30.821312+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "SPS alleges violation of SC orders in mining block auction in Karnataka, files contempt petition",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-09T11:43:13.654931+00:00"
     }
   ]
 }
