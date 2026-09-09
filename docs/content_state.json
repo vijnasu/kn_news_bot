@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-09T11:43:13.654931+00:00",
+  "last_posted_at": "2026-09-09T15:18:49.361261+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "No evidence in KPSC probe will be diluted, says Karnataka Minister Priyank Kharge",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-05T08:32:29.753691+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "TN minister Wilson appears before Pondy court after Madras HC’s reprimand",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-09T11:43:13.654931+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Hassan panel records Ramya Haridas’ statement in the late-night affray controversy in Keralam",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-09T15:18:49.361261+00:00"
     }
   ]
 }
