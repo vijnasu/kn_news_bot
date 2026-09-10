@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-10T11:40:44.640985+00:00",
+  "last_posted_at": "2026-09-10T15:11:06.027843+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "24_Che_SK_One killed 18 injured in accident",
-      "genre": "career_instability",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-06T01:13:31.711416+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Eight years after chargesheets filed, trials in Gauri Lankesh and Kalburgi cases drag on",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "court",
       "posted_at": "2026-09-10T11:40:44.640985+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "BJP’s Ballari Chalo concludes; Vijayendra vows to continue fight against Congress",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-10T15:11:06.027843+00:00"
     }
   ]
 }
