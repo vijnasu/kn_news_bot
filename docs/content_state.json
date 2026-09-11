@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-11T01:06:39.098630+00:00",
+  "last_posted_at": "2026-09-11T06:00:12.422507+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "KPCC poised to take tough line on discipline, without closing door on reconciliation between opposing parties, in fracas involving MLA Haridas",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-06T10:47:29.938382+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Delhi University Students’ Union campaigner recalls pulling students from Satya Niketan building collapse rubble",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-11T01:06:39.098630+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "3 dead as roof of under-construction church collapses near Katpadi, NDRF deployed",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-09-11T06:00:12.422507+00:00"
     }
   ]
 }
