@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-11T06:00:12.422507+00:00",
+  "last_posted_at": "2026-09-11T11:08:04.205192+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Delhi University Students’ Union campaigner recalls pulling students from Satya Niketan building collapse rubble",
-      "genre": "negative_energy",
-      "style": "health",
-      "posted_at": "2026-09-06T13:57:13.459500+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "TVK functionary hacked to death in Chennai day before Vijay’s Assembly reply on law and order; 5 held",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-09-11T06:00:12.422507+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "SC seeks clear timeline for FSSAI’s food warning label rollout, calls for nutritional literacy in schools",
+      "genre": "negative_energy",
+      "style": "business",
+      "posted_at": "2026-09-11T11:08:04.205192+00:00"
     }
   ]
 }
