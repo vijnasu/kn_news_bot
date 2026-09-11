@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-10T15:11:06.027843+00:00",
+  "last_posted_at": "2026-09-11T01:06:39.098630+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Eight years after chargesheets filed, trials in Gauri Lankesh and Kalburgi cases drag on",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-09-06T05:59:49.457475+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "KPCC poised to take tough line on discipline, without closing door on reconciliation between opposing parties, in fracas involving MLA Haridas",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-10T15:11:06.027843+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Russian President Vladimir Putin arrives in New Delhi to attend BRICS summit",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-11T01:06:39.098630+00:00"
     }
   ]
 }
