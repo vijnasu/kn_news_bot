@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-12T06:17:07.994776+00:00",
+  "last_posted_at": "2026-09-12T11:05:27.106917+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "DMK storms well, walks out after speaker denies Udhayanidhi right to respond",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-07T10:27:33.847545+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "HDD says Cabinet’s decision on sites to BMIC project land losers is illegal, against court orders",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-12T06:17:07.994776+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "NIA court issues non-bailable warrant against LeT founder Hafiz Saeed",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-09-12T11:05:27.106917+00:00"
     }
   ]
 }
