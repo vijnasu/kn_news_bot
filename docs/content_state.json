@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-12T01:27:09.358314+00:00",
+  "last_posted_at": "2026-09-12T06:17:07.994776+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Seats vacant, resignations accepted, so why are TN byelections on hold?",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-07T05:15:30.511601+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "DMK storms well, walks out after speaker denies Udhayanidhi right to respond",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "marriage",
       "posted_at": "2026-09-12T01:27:09.358314+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Palghar hospital violence: MLA’s son, 13 others arrested; HC slams lax, ‘ridiculous’ probe",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-12T06:17:07.994776+00:00"
     }
   ]
 }
