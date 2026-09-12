@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-12T14:07:57.787629+00:00",
+  "last_posted_at": "2026-09-12T17:10:02.770746+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Tamil Nadu CM Vijay spits fire at three generations of DMK leaders",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-08T00:41:36.236510+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka High Court orders tech-driven overhaul to manage finance and assets of temples",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-12T14:07:57.787629+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Surprise inspection by Forest Minister exposes irregularities at Bengaluru pollution testing lab",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-12T17:10:02.770746+00:00"
     }
   ]
 }
