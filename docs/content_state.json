@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-12T17:10:02.770746+00:00",
+  "last_posted_at": "2026-09-13T01:17:55.671843+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka High Court orders tech-driven overhaul to manage finance and assets of temples",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-09-08T05:17:57.229776+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "‘Can’t say support to TVK govt will last full five-year term’: CPM state secretary",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-12T17:10:02.770746+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Government, private medical colleges to adopt health centres across Karnataka",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-13T01:17:55.671843+00:00"
     }
   ]
 }
