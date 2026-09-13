@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-13T12:17:49.411115+00:00",
+  "last_posted_at": "2026-09-13T16:33:16.526462+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Protesters seek recruitment notification for 72,000 vacancies in Karnataka",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-09T01:22:53.059616+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his daughter",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-13T12:17:49.411115+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "CM alleges conspiracy to disturb peace, says police told to remain alert about BJP using anti-social elements",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-13T16:33:16.526462+00:00"
     }
   ]
 }
