@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-13T06:34:07.823595+00:00",
+  "last_posted_at": "2026-09-13T12:17:49.411115+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Karnataka directed to release 6,000 cusecs of water a day to Tamil Nadu",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-08T14:15:53.280025+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Protesters seek recruitment notification for 72,000 vacancies in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-13T06:34:07.823595+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Over 20 feared trapped after TN govt bus falls into river in Tenkasi",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-13T12:17:49.411115+00:00"
     }
   ]
 }
