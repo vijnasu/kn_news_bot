@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T07:03:01.889869+00:00",
+  "last_posted_at": "2026-09-14T08:18:58.785797+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "BJP’s Ballari Chalo concludes; Vijayendra vows to continue fight against Congress",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-10T15:11:06.027843+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Russian President Vladimir Putin arrives in New Delhi to attend BRICS summit",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-09-14T07:03:01.889869+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Delhi building collapse: High Court refuses urgent listing of plea over demolition of adjoining structure",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-09-14T08:18:58.785797+00:00"
     }
   ]
 }
