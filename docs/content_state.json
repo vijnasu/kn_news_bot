@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T09:41:55.468785+00:00",
+  "last_posted_at": "2026-09-14T10:48:54.253454+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "3 dead as roof of under-construction church collapses near Katpadi, NDRF deployed",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-09-11T06:00:12.422507+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "SC seeks clear timeline for FSSAI’s food warning label rollout, calls for nutritional literacy in schools",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-14T09:41:55.468785+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Humble popcorn paves way for farming mission",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-09-14T10:48:54.253454+00:00"
     }
   ]
 }
