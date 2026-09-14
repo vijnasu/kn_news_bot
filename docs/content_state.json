@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T13:12:36.833523+00:00",
+  "last_posted_at": "2026-09-14T14:13:55.574765+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Gauhati High Court says ‘talaq-e-hassan’ is a valid form of divorce",
-      "genre": "financial_loss",
-      "style": "marriage",
-      "posted_at": "2026-09-12T01:27:09.358314+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Palghar hospital violence: MLA’s son, 13 others arrested; HC slams lax, ‘ridiculous’ probe",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-09-14T13:12:36.833523+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "India approves expedited export of electricity to flood-hit Nepal",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-09-14T14:13:55.574765+00:00"
     }
   ]
 }
