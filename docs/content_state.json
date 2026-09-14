@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T14:13:55.574765+00:00",
+  "last_posted_at": "2026-09-14T15:28:51.623297+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Palghar hospital violence: MLA’s son, 13 others arrested; HC slams lax, ‘ridiculous’ probe",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-12T06:17:07.994776+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "NIA court issues non-bailable warrant against LeT founder Hafiz Saeed",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-09-14T14:13:55.574765+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Minnagam helpline goes powerless often with poor backup system, leaves consumers stranded",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-14T15:28:51.623297+00:00"
     }
   ]
 }
