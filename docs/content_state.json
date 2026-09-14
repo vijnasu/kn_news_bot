@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-13T16:33:16.526462+00:00",
+  "last_posted_at": "2026-09-14T00:35:23.020259+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his daughter",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-09T06:24:30.821312+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "SPS alleges violation of SC orders in mining block auction in Karnataka, files contempt petition",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-13T16:33:16.526462+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Dear minister, you are not the king of England, dear minister",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-14T00:35:23.020259+00:00"
     }
   ]
 }
