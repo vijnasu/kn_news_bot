@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T15:28:51.623297+00:00",
+  "last_posted_at": "2026-09-14T16:41:12.156377+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "NIA court issues non-bailable warrant against LeT founder Hafiz Saeed",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-09-12T11:05:27.106917+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Complainant in ED case has relations with Congress, but is a BJP voter: Jarkiholi",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-14T15:28:51.623297+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "529 child labourers rescued in Bengaluru; 105 cases registered",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-09-14T16:41:12.156377+00:00"
     }
   ]
 }
