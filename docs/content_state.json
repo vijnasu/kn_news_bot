@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T04:36:13.241330+00:00",
+  "last_posted_at": "2026-09-14T05:42:12.465479+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka Health Minister awards job orders to 51 candidates on compassionate grounds",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-10T06:22:45.986146+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Will not transfer case from Delhi HC as things have started moving: SC on Satya Niketan building collapse",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "scandal",
       "posted_at": "2026-09-14T04:36:13.241330+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Dalits counter BJP protest in T. Narsipur over Ganesha procession",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-14T05:42:12.465479+00:00"
     }
   ]
 }
