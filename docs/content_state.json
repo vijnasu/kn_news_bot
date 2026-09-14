@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-14T08:18:58.785797+00:00",
+  "last_posted_at": "2026-09-14T09:41:55.468785+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Russian President Vladimir Putin arrives in New Delhi to attend BRICS summit",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-11T01:06:39.098630+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "3 dead as roof of under-construction church collapses near Katpadi, NDRF deployed",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "court",
       "posted_at": "2026-09-14T08:18:58.785797+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Aland MLA B.R. Patil flags lapses in crop insurance disbursement in Karnataka",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-14T09:41:55.468785+00:00"
     }
   ]
 }
