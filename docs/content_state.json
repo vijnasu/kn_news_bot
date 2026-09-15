@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T13:38:08.939888+00:00",
+  "last_posted_at": "2026-09-15T14:42:02.434850+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "MPSC paper leak row: Cockroach Janta Party backs students’ protest",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-14T07:03:01.889869+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Delhi building collapse: High Court refuses urgent listing of plea over demolition of adjoining structure",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "sudden_loss",
       "posted_at": "2026-09-15T13:38:08.939888+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Shivamogga MLA walks out of government programme protesting against rendition of only first two stanzas of Vande Mataram",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-15T14:42:02.434850+00:00"
     }
   ]
 }
