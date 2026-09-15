@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T15:48:43.076126+00:00",
+  "last_posted_at": "2026-09-15T16:51:06.869315+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Aland MLA B.R. Patil flags lapses in crop insurance disbursement in Karnataka",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-14T09:41:55.468785+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Humble popcorn paves way for farming mission",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-15T15:48:43.076126+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Delhi court grants three weeks interim bail to Swatantra Bhardwaj to observe his conduct",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-09-15T16:51:06.869315+00:00"
     }
   ]
 }
