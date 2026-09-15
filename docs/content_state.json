@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T09:51:33.814177+00:00",
+  "last_posted_at": "2026-09-15T11:11:19.478121+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Left to contest in Tamil Nadu bypolls but continue to back TVK govt",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-09-14T03:16:01.481989+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Why the BRICS summit was a major diplomatic win for India",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-15T09:51:33.814177+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "HDK alleges Karnataka government knew rape convict Prajwal Revanna had phone in prison, used issue to divert attention from KPSC scam, Bidadi and NICE projects",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-15T11:11:19.478121+00:00"
     }
   ]
 }
