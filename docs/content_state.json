@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T01:38:49.736247+00:00",
+  "last_posted_at": "2026-09-15T02:46:28.064331+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Government, private medical colleges to adopt health centres across Karnataka",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-09-13T01:17:55.671843+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Ensure government cases do not weaken due to system lapses: Priyank Kharge",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-09-15T01:38:49.736247+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "U.T. Khader dismisses allegations of Congress leaders complaining to ED against Minister Satish Jarkiholi",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-15T02:46:28.064331+00:00"
     }
   ]
 }
