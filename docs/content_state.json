@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T06:21:36.996736+00:00",
+  "last_posted_at": "2026-09-15T07:33:11.426685+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CM alleges conspiracy to disturb peace, says police told to remain alert about BJP using anti-social elements",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-13T16:33:16.526462+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Dear minister, you are not the king of England, dear minister",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-09-15T06:21:36.996736+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Supreme Court asks Centre to consider extending tenure of retiring members of tribunals",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-09-15T07:33:11.426685+00:00"
     }
   ]
 }
