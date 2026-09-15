@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T04:14:20.441508+00:00",
+  "last_posted_at": "2026-09-15T06:21:36.996736+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Over 20 feared trapped after TN govt bus falls into river in Tenkasi",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-13T12:17:49.411115+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CM alleges conspiracy to disturb peace, says police told to remain alert about BJP using anti-social elements",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "accident",
       "posted_at": "2026-09-15T04:14:20.441508+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "MTC driver dies after clash during Vinayagar procession in Chennai, 5 held",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-09-15T06:21:36.996736+00:00"
     }
   ]
 }
