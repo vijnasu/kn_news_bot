@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T08:42:52.968384+00:00",
+  "last_posted_at": "2026-09-15T09:51:33.814177+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Parliamentary panel chief urges ministry intervention over eviction notices to Auroville’s Annapurna Farms",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-14T01:51:34.578943+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Left to contest in Tamil Nadu bypolls but continue to back TVK govt",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-15T08:42:52.968384+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Tamil Nadu police book DMK leaders A Raja, PK Sekar Babu over remarks against CM Vijay",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-15T09:51:33.814177+00:00"
     }
   ]
 }
