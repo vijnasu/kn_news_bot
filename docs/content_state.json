@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T05:12:20.405250+00:00",
+  "last_posted_at": "2026-09-16T06:21:03.235749+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "529 child labourers rescued in Bengaluru; 105 cases registered",
-      "genre": "family_disturbance",
-      "style": "court",
-      "posted_at": "2026-09-14T16:41:12.156377+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Govt. bars bank charges on payments up to ₹2,000 via UPI, RuPay-powered debit cards",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "sudden_loss",
       "posted_at": "2026-09-16T05:12:20.405250+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "MLA’s niece removed from government job after revelation of being full-time PG student in medical college",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-16T06:21:03.235749+00:00"
     }
   ]
 }
