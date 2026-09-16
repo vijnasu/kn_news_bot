@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T09:51:06.261006+00:00",
+  "last_posted_at": "2026-09-16T11:11:31.276425+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Four members of family die in fire at home in Belagavi",
-      "genre": "political_business_enemies",
-      "style": "accident",
-      "posted_at": "2026-09-15T04:14:20.441508+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "MTC driver dies after clash during Vinayagar procession in Chennai, 5 held",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-09-16T09:51:06.261006+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Raids on Anbil Mahesh pure political Vendetta to mask govt's critical failures: MK Stalin",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-16T11:11:31.276425+00:00"
     }
   ]
 }
