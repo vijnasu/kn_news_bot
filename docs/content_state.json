@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T11:11:31.276425+00:00",
+  "last_posted_at": "2026-09-16T12:18:36.890209+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "MTC driver dies after clash during Vinayagar procession in Chennai, 5 held",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-09-15T06:21:36.996736+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Supreme Court asks Centre to consider extending tenure of retiring members of tribunals",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-16T11:11:31.276425+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Udhayanidhi Stalin panel paralysed: Staff crunch hits autonomy report drafting",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-16T12:18:36.890209+00:00"
     }
   ]
 }
