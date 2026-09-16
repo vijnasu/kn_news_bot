@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T15:36:57.718823+00:00",
+  "last_posted_at": "2026-09-16T16:42:00.643646+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "HDK alleges Karnataka government knew rape convict Prajwal Revanna had phone in prison, used issue to divert attention from KPSC scam, Bidadi and NICE projects",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-15T11:11:19.478121+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Three Delhi schools receive bomb threat email, declared hoax",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-16T15:36:57.718823+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Elected MLAs can resign; but what about rights of voters, asks Madras high court",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-16T16:42:00.643646+00:00"
     }
   ]
 }
