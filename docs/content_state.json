@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T14:29:01.769423+00:00",
+  "last_posted_at": "2026-09-16T15:36:57.718823+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Tamil Nadu police book DMK leaders A Raja, PK Sekar Babu over remarks against CM Vijay",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-15T09:51:33.814177+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "HDK alleges Karnataka government knew rape convict Prajwal Revanna had phone in prison, used issue to divert attention from KPSC scam, Bidadi and NICE projects",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "career",
       "posted_at": "2026-09-16T14:29:01.769423+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Anbil Mahesh booked, raided by CCB; fourth former DMK minister to face corruption case",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-16T15:36:57.718823+00:00"
     }
   ]
 }
