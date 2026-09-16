@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T12:18:36.890209+00:00",
+  "last_posted_at": "2026-09-16T13:27:11.654013+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Supreme Court asks Centre to consider extending tenure of retiring members of tribunals",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-09-15T07:33:11.426685+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Asian Games 2026: Karnataka High Court orders enquiry through former apex court judge into procedural lapses in selection of surfers",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-16T12:18:36.890209+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "‘Puja’ scam: Astrologer on run after allegedly duping woman of 329g gold",
+      "genre": "business_blockage",
+      "style": "finance",
+      "posted_at": "2026-09-16T13:27:11.654013+00:00"
     }
   ]
 }
