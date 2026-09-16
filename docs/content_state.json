@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T07:32:45.725004+00:00",
+  "last_posted_at": "2026-09-16T08:43:02.724067+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "CJI says judiciary cannot earn public trust by shielding itself from scrutiny",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-09-15T01:38:49.736247+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "U.T. Khader dismisses allegations of Congress leaders complaining to ED against Minister Satish Jarkiholi",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-16T07:32:45.725004+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Independent tax policy research should enter public discourse: FM Sitharaman",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-16T08:43:02.724067+00:00"
     }
   ]
 }
