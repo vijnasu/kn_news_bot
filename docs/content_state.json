@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-15T16:51:06.869315+00:00",
+  "last_posted_at": "2026-09-16T00:31:30.037138+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Humble popcorn paves way for farming mission",
-      "genre": "unexplained_obstacles",
-      "style": "business",
-      "posted_at": "2026-09-14T10:48:54.253454+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Amit Shah stresses cultural nationalism, promotion of Indian languages at Rajbhasha event",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-09-15T16:51:06.869315+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "History-sheeter returning from court hacked to death in public by gang",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-09-16T00:31:30.037138+00:00"
     }
   ]
 }
