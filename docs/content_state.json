@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T13:27:11.654013+00:00",
+  "last_posted_at": "2026-09-16T14:29:01.769423+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Asian Games 2026: Karnataka High Court orders enquiry through former apex court judge into procedural lapses in selection of surfers",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-15T08:42:52.968384+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Tamil Nadu police book DMK leaders A Raja, PK Sekar Babu over remarks against CM Vijay",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "finance",
       "posted_at": "2026-09-16T13:27:11.654013+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "JASC, AIDYO to stage protest at Freedom Park in Bengaluru seeking reforms in KPSC recruitment process",
+      "genre": "career_instability",
+      "style": "career",
+      "posted_at": "2026-09-16T14:29:01.769423+00:00"
     }
   ]
 }
