@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T06:21:03.235749+00:00",
+  "last_posted_at": "2026-09-16T07:32:45.725004+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Govt. bars bank charges on payments up to ₹2,000 via UPI, RuPay-powered debit cards",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-15T00:33:26.267447+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "CJI says judiciary cannot earn public trust by shielding itself from scrutiny",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-09-16T06:21:03.235749+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Police search DMK Minister Anbil Mahesh’s house over alleged multi-crore fraud involving private schools",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-16T07:32:45.725004+00:00"
     }
   ]
 }
