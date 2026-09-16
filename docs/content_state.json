@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T02:45:21.022026+00:00",
+  "last_posted_at": "2026-09-16T03:51:05.758479+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "India approves expedited export of electricity to flood-hit Nepal",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-09-14T14:13:55.574765+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Minnagam helpline goes powerless often with poor backup system, leaves consumers stranded",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-09-16T02:45:21.022026+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "State legislature presiding officers showcase Karnataka’s parliamentary heritage in SA",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-16T03:51:05.758479+00:00"
     }
   ]
 }
