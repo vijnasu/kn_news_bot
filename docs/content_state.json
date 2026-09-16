@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T08:43:02.724067+00:00",
+  "last_posted_at": "2026-09-16T09:51:06.261006+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "U.T. Khader dismisses allegations of Congress leaders complaining to ED against Minister Satish Jarkiholi",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-15T02:46:28.064331+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Four members of family die in fire at home in Belagavi",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-16T08:43:02.724067+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Karnataka Labour Department asserts that night-shift safeguards for women employees are covered under OSH Rules",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-09-16T09:51:06.261006+00:00"
     }
   ]
 }
