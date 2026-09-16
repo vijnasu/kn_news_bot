@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T00:31:30.037138+00:00",
+  "last_posted_at": "2026-09-16T01:35:45.182321+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Amit Shah stresses cultural nationalism, promotion of Indian languages at Rajbhasha event",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-14T11:49:07.775287+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Moving up the value chain",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-09-16T00:31:30.037138+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Finance minister Nirmala Sitharaman’s appeal to Gen Z and Gen Alpha: We should not give up our country",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-16T01:35:45.182321+00:00"
     }
   ]
 }
