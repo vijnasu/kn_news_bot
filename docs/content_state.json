@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-16T03:51:05.758479+00:00",
+  "last_posted_at": "2026-09-16T05:12:20.405250+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Minnagam helpline goes powerless often with poor backup system, leaves consumers stranded",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-14T15:28:51.623297+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "529 child labourers rescued in Bengaluru; 105 cases registered",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-16T03:51:05.758479+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Heavy rain paralyses traffic in several parts of Bengaluru",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-16T05:12:20.405250+00:00"
     }
   ]
 }
