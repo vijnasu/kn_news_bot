@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T06:21:08.001322+00:00",
+  "last_posted_at": "2026-09-17T07:34:09.135343+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Finance minister Nirmala Sitharaman’s appeal to Gen Z and Gen Alpha: We should not give up our country",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-16T01:35:45.182321+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Co-location scam case: Supreme Court refuses to entertain Chitra Ramkrishna's plea challenging HC order",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "business",
       "posted_at": "2026-09-17T06:21:08.001322+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Tamil Nadu CM C Joseph Vijay’s first foreign trip a success, says govt",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-09-17T07:34:09.135343+00:00"
     }
   ]
 }
