@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T09:49:51.358397+00:00",
+  "last_posted_at": "2026-09-17T10:50:28.742720+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Heavy rain paralyses traffic in several parts of Bengaluru",
-      "genre": "financial_loss",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-16T05:12:20.405250+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "MLA’s niece removed from government job after revelation of being full-time PG student in medical college",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "marriage",
       "posted_at": "2026-09-17T09:49:51.358397+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "267 teachers selected as Principal (Grade I) in government degree colleges awaiting appointment order since January",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-09-17T10:50:28.742720+00:00"
     }
   ]
 }
