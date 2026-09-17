@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T08:42:01.019544+00:00",
+  "last_posted_at": "2026-09-17T09:49:51.358397+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "State legislature presiding officers showcase Karnataka’s parliamentary heritage in SA",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-16T03:51:05.758479+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Heavy rain paralyses traffic in several parts of Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-17T08:42:01.019544+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Love marriage, abduction, high-speed crash in Bengaluru: Dramatic story of a newlywed from Rajasthan",
+      "genre": "political_business_enemies",
+      "style": "marriage",
+      "posted_at": "2026-09-17T09:49:51.358397+00:00"
     }
   ]
 }
