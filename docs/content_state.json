@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T13:27:27.782481+00:00",
+  "last_posted_at": "2026-09-17T14:30:52.002529+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Independent tax policy research should enter public discourse: FM Sitharaman",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-16T08:43:02.724067+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnataka Labour Department asserts that night-shift safeguards for women employees are covered under OSH Rules",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "finance",
       "posted_at": "2026-09-17T13:27:27.782481+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Will discuss drought in special session, irrespective of whether BJP cooperates or not: Karnataka Chief Minister",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-17T14:30:52.002529+00:00"
     }
   ]
 }
