@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T01:36:41.303422+00:00",
+  "last_posted_at": "2026-09-17T02:46:19.727392+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Shivamogga MLA walks out of government programme protesting against rendition of only first two stanzas of Vande Mataram",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-15T14:42:02.434850+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Minister assures compensation to family of fire victims",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-17T01:36:41.303422+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Fire breaks out in apartment complex in Thaiyur due to gas leak",
+      "genre": "unexplained_obstacles",
+      "style": "scandal",
+      "posted_at": "2026-09-17T02:46:19.727392+00:00"
     }
   ]
 }
