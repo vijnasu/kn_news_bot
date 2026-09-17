@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T07:34:09.135343+00:00",
+  "last_posted_at": "2026-09-17T08:42:01.019544+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Co-location scam case: Supreme Court refuses to entertain Chitra Ramkrishna's plea challenging HC order",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-09-16T02:45:21.022026+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "State legislature presiding officers showcase Karnataka’s parliamentary heritage in SA",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-09-17T07:34:09.135343+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Bengaluru man’s song on crumbling infrastructure, potholes, flooding, traffic",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-17T08:42:01.019544+00:00"
     }
   ]
 }
