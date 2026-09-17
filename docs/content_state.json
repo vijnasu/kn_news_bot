@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T05:12:44.521917+00:00",
+  "last_posted_at": "2026-09-17T06:21:08.001322+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "History-sheeter returning from court hacked to death in public by gang",
-      "genre": "financial_loss",
-      "style": "court",
-      "posted_at": "2026-09-16T00:31:30.037138+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Finance minister Nirmala Sitharaman’s appeal to Gen Z and Gen Alpha: We should not give up our country",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-09-17T05:12:44.521917+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Parliament Standing Committee didn’t discuss MDR charges on UPI transactions, says Gaurav Gogoi",
+      "genre": "sudden_health_fear",
+      "style": "business",
+      "posted_at": "2026-09-17T06:21:08.001322+00:00"
     }
   ]
 }
