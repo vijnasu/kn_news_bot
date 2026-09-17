@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T12:18:25.425628+00:00",
+  "last_posted_at": "2026-09-17T13:27:27.782481+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Police search DMK Minister Anbil Mahesh’s house over alleged multi-crore fraud involving private schools",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-16T07:32:45.725004+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Independent tax policy research should enter public discourse: FM Sitharaman",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-17T12:18:25.425628+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Banks to offer financial respite to farmers in 101 drought-hit taluks in Karnataka",
+      "genre": "repeated_failures",
+      "style": "finance",
+      "posted_at": "2026-09-17T13:27:27.782481+00:00"
     }
   ]
 }
