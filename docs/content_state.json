@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T00:31:23.609351+00:00",
+  "last_posted_at": "2026-09-17T01:36:41.303422+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Three killed in road accident in Belagavi",
-      "genre": "unexplained_obstacles",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-15T13:38:08.939888+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Shivamogga MLA walks out of government programme protesting against rendition of only first two stanzas of Vande Mataram",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-09-17T00:31:23.609351+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Government functionary questions Rahul's criticism of UPI charges, says Congress MPs in panel gave nod",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-17T01:36:41.303422+00:00"
     }
   ]
 }
