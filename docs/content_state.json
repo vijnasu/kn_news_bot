@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T03:51:00.758865+00:00",
+  "last_posted_at": "2026-09-17T05:12:44.521917+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Delhi court grants three weeks interim bail to Swatantra Bhardwaj to observe his conduct",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-09-15T16:51:06.869315+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "History-sheeter returning from court hacked to death in public by gang",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "court",
       "posted_at": "2026-09-17T03:51:00.758865+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Spurious drug racket accused had shop near Minerva Circle in Bengaluru; SIT gets custody",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-09-17T05:12:44.521917+00:00"
     }
   ]
 }
