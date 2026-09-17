@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-17T14:30:52.002529+00:00",
+  "last_posted_at": "2026-09-17T15:39:54.771601+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Karnataka Labour Department asserts that night-shift safeguards for women employees are covered under OSH Rules",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-09-16T09:51:06.261006+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Raids on Anbil Mahesh pure political Vendetta to mask govt's critical failures: MK Stalin",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-17T14:30:52.002529+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Former Union minister EM Sudarsana Nachiappan passes away at 79",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-09-17T15:39:54.771601+00:00"
     }
   ]
 }
