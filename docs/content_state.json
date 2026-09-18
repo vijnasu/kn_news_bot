@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T00:31:42.309922+00:00",
+  "last_posted_at": "2026-09-18T01:35:27.786714+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "‘Puja’ scam: Astrologer on run after allegedly duping woman of 329g gold",
-      "genre": "business_blockage",
-      "style": "finance",
-      "posted_at": "2026-09-16T13:27:11.654013+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "JASC, AIDYO to stage protest at Freedom Park in Bengaluru seeking reforms in KPSC recruitment process",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "health",
       "posted_at": "2026-09-18T00:31:42.309922+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu's mission to repair the hills of Tiruvannamalai",
+      "genre": "family_disturbance",
+      "style": "land",
+      "posted_at": "2026-09-18T01:35:27.786714+00:00"
     }
   ]
 }
