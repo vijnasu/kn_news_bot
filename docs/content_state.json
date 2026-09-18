@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T11:23:41.116598+00:00",
+  "last_posted_at": "2026-09-18T12:44:27.255457+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Parliament Standing Committee didn’t discuss MDR charges on UPI transactions, says Gaurav Gogoi",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-09-17T06:21:08.001322+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Tamil Nadu CM C Joseph Vijay’s first foreign trip a success, says govt",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-09-18T11:23:41.116598+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "In Pictures | A riot of colours in Mangaluru",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-18T12:44:27.255457+00:00"
     }
   ]
 }
