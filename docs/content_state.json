@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T01:35:27.786714+00:00",
+  "last_posted_at": "2026-09-18T02:45:13.519038+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "JASC, AIDYO to stage protest at Freedom Park in Bengaluru seeking reforms in KPSC recruitment process",
-      "genre": "career_instability",
-      "style": "career",
-      "posted_at": "2026-09-16T14:29:01.769423+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Anbil Mahesh booked, raided by CCB; fourth former DMK minister to face corruption case",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "land",
       "posted_at": "2026-09-18T01:35:27.786714+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Congress says U.S. law on Russian oil purchase is an ‘affront’ to India’s sovereignty",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-18T02:45:13.519038+00:00"
     }
   ]
 }
