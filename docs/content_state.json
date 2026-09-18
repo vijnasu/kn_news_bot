@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T02:45:13.519038+00:00",
+  "last_posted_at": "2026-09-18T03:50:38.022348+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Anbil Mahesh booked, raided by CCB; fourth former DMK minister to face corruption case",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-16T15:36:57.718823+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Elected MLAs can resign; but what about rights of voters, asks Madras high court",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-18T02:45:13.519038+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "IIT grad, bank manager among 6 held for taking ₹1.12 crore from senior citizen after 'digital arrest'",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-09-18T03:50:38.022348+00:00"
     }
   ]
 }
