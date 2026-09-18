@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T03:50:38.022348+00:00",
+  "last_posted_at": "2026-09-18T05:12:07.662184+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Elected MLAs can resign; but what about rights of voters, asks Madras high court",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-16T16:42:00.643646+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "NEET-UG protests: Supreme Court refuses change in High-Powered Enquiry Committee, says inquiry on pellet guns, excesses must come first",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-09-18T03:50:38.022348+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Dharwad tahsildar caught taking ₹50 lakh bribe by Lokayukta",
+      "genre": "court_cases",
+      "style": "land",
+      "posted_at": "2026-09-18T05:12:07.662184+00:00"
     }
   ]
 }
