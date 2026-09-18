@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T07:49:01.795493+00:00",
+  "last_posted_at": "2026-09-18T08:51:49.229846+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Fire breaks out in apartment complex in Thaiyur due to gas leak",
-      "genre": "unexplained_obstacles",
-      "style": "scandal",
-      "posted_at": "2026-09-17T02:46:19.727392+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "AQIS-inspired module case: TN and UP ATS arrest 19-year-old coding expert in Coimbatore",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-09-18T07:49:01.795493+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "13-year-old boy abducted, murdered by neighbour in bid to repay education loan in Bengaluru",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-09-18T08:51:49.229846+00:00"
     }
   ]
 }
