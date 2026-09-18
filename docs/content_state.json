@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T13:48:45.584019+00:00",
+  "last_posted_at": "2026-09-18T14:49:14.034098+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Bengaluru man’s song on crumbling infrastructure, potholes, flooding, traffic",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-17T08:42:01.019544+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Love marriage, abduction, high-speed crash in Bengaluru: Dramatic story of a newlywed from Rajasthan",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-18T13:48:45.584019+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "KBN University conducts free health camp for over 2,000 people",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-18T14:49:14.034098+00:00"
     }
   ]
 }
