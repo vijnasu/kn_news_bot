@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T16:11:49.669463+00:00",
+  "last_posted_at": "2026-09-18T17:22:07.113839+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "267 teachers selected as Principal (Grade I) in government degree colleges awaiting appointment order since January",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-09-17T10:50:28.742720+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Satya Niketan building collapse: Kiran Bedi seeks intervention in case, Centre opposes plea",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-18T16:11:49.669463+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "'Tamil Nadu not against Hindi': Udhayanidhi Stalin responds to Supreme Court remark, rejects Navodaya schools",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-09-18T17:22:07.113839+00:00"
     }
   ]
 }
