@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T12:44:27.255457+00:00",
+  "last_posted_at": "2026-09-18T13:48:45.584019+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Tamil Nadu CM C Joseph Vijay’s first foreign trip a success, says govt",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-09-17T07:34:09.135343+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Bengaluru man’s song on crumbling infrastructure, potholes, flooding, traffic",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-18T12:44:27.255457+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Open top double-decker bus takes Karnataka ministers in procession to Cabinet meeting in Mangaluru",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-18T13:48:45.584019+00:00"
     }
   ]
 }
