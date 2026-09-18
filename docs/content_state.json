@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T08:51:49.229846+00:00",
+  "last_posted_at": "2026-09-18T10:12:08.042460+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "AQIS-inspired module case: TN and UP ATS arrest 19-year-old coding expert in Coimbatore",
-      "genre": "court_cases",
-      "style": "court",
-      "posted_at": "2026-09-17T03:51:00.758865+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Spurious drug racket accused had shop near Minerva Circle in Bengaluru; SIT gets custody",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-09-18T08:51:49.229846+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "First time in India: Open top bus takes ministers in procession to Cabinet meeting in Mangaluru",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-18T10:12:08.042460+00:00"
     }
   ]
 }
