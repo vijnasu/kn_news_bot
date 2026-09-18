@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T06:20:28.984821+00:00",
+  "last_posted_at": "2026-09-18T07:49:01.795493+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Government functionary questions Rahul's criticism of UPI charges, says Congress MPs in panel gave nod",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-17T01:36:41.303422+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Fire breaks out in apartment complex in Thaiyur due to gas leak",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "finance",
       "posted_at": "2026-09-18T06:20:28.984821+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Bagalkot DHO suspended days after daughter caught in government job-PG course scam",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-09-18T07:49:01.795493+00:00"
     }
   ]
 }
