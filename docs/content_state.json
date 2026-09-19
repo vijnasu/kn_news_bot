@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T13:23:25.838541+00:00",
+  "last_posted_at": "2026-09-19T14:35:22.154616+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "13-year-old boy abducted, murdered by neighbour in bid to repay education loan in Bengaluru",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-09-18T08:51:49.229846+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "First time in India: Open top bus takes ministers in procession to Cabinet meeting in Mangaluru",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "sudden_loss",
       "posted_at": "2026-09-19T13:23:25.838541+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "CPI(M) protests over NICE land issue, seeks implementation of High Court order",
+      "genre": "sudden_health_fear",
+      "style": "land",
+      "posted_at": "2026-09-19T14:35:22.154616+00:00"
     }
   ]
 }
