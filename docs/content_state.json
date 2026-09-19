@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T09:36:24.500680+00:00",
+  "last_posted_at": "2026-09-19T10:48:51.861576+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Dharwad tahsildar caught taking ₹50 lakh bribe by Lokayukta",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-09-18T05:12:07.662184+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Merchants to be charged 0.4% for UPI transactions over ₹2,000; small vendors exempt",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-09-19T09:36:24.500680+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Government can bear cost of maintaining UPI network: BJD MP Santrupt Misra",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-19T10:48:51.861576+00:00"
     }
   ]
 }
