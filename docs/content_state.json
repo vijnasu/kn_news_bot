@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-18T17:22:07.113839+00:00",
+  "last_posted_at": "2026-09-19T00:31:23.695312+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Satya Niketan building collapse: Kiran Bedi seeks intervention in case, Centre opposes plea",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-09-17T12:18:25.425628+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Banks to offer financial respite to farmers in 101 drought-hit taluks in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-09-18T17:22:07.113839+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Collapsed complaint mechanism, power generation deficit, overstretched distribution network cause frequent power cuts in Chennai",
+      "genre": "sudden_health_fear",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-19T00:31:23.695312+00:00"
     }
   ]
 }
