@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T08:32:54.493202+00:00",
+  "last_posted_at": "2026-09-19T09:36:24.500680+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "IIT grad, bank manager among 6 held for taking ₹1.12 crore from senior citizen after 'digital arrest'",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-09-18T03:50:38.022348+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Dharwad tahsildar caught taking ₹50 lakh bribe by Lokayukta",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-19T08:32:54.493202+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "PACL case: ED attaches shares worth ₹42.13 crore",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-09-19T09:36:24.500680+00:00"
     }
   ]
 }
