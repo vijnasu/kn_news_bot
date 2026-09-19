@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T10:48:51.861576+00:00",
+  "last_posted_at": "2026-09-19T12:16:12.489171+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Merchants to be charged 0.4% for UPI transactions over ₹2,000; small vendors exempt",
-      "genre": "marriage_delay",
-      "style": "finance",
-      "posted_at": "2026-09-18T06:20:28.984821+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Bagalkot DHO suspended days after daughter caught in government job-PG course scam",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-19T10:48:51.861576+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "ED takes IAS officer, intermediary into custody in KPSC recruitment scam probe",
+      "genre": "financial_loss",
+      "style": "finance",
+      "posted_at": "2026-09-19T12:16:12.489171+00:00"
     }
   ]
 }
