@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T14:35:22.154616+00:00",
+  "last_posted_at": "2026-09-19T15:48:56.489451+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "First time in India: Open top bus takes ministers in procession to Cabinet meeting in Mangaluru",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-18T10:12:08.042460+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Delhi court grants bail to U.S. national Van Dyke's in terror-conspiracy case",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "land",
       "posted_at": "2026-09-19T14:35:22.154616+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Man bludgeoned to death by brother over land dispute in Kalaburagi village",
+      "genre": "court_cases",
+      "style": "land",
+      "posted_at": "2026-09-19T15:48:56.489451+00:00"
     }
   ]
 }
