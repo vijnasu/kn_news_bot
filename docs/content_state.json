@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T02:40:27.731275+00:00",
+  "last_posted_at": "2026-09-19T03:49:28.050659+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Former Union minister EM Sudarsana Nachiappan passes away at 79",
-      "genre": "court_cases",
-      "style": "business",
-      "posted_at": "2026-09-17T15:39:54.771601+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Drought-hit taluks rise to 124, with 23 more additions",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "accident",
       "posted_at": "2026-09-19T02:40:27.731275+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "PM Modi, UAE Preident discuss West Asia, strategic partnership during phone call",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-09-19T03:49:28.050659+00:00"
     }
   ]
 }
