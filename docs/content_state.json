@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T12:16:12.489171+00:00",
+  "last_posted_at": "2026-09-19T13:23:25.838541+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Bagalkot DHO suspended days after daughter caught in government job-PG course scam",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-09-18T07:49:01.795493+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "13-year-old boy abducted, murdered by neighbour in bid to repay education loan in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "finance",
       "posted_at": "2026-09-19T12:16:12.489171+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Two minors killed, one injured in Raichur Ganesh procession accident",
+      "genre": "unexplained_obstacles",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-19T13:23:25.838541+00:00"
     }
   ]
 }
