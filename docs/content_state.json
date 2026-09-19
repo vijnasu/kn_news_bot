@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T00:31:23.695312+00:00",
+  "last_posted_at": "2026-09-19T01:33:13.033064+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Banks to offer financial respite to farmers in 101 drought-hit taluks in Karnataka",
-      "genre": "repeated_failures",
-      "style": "finance",
-      "posted_at": "2026-09-17T13:27:27.782481+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Will discuss drought in special session, irrespective of whether BJP cooperates or not: Karnataka Chief Minister",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "sudden_loss",
       "posted_at": "2026-09-19T00:31:23.695312+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Case registered against six for sexual harassment of married woman",
+      "genre": "financial_loss",
+      "style": "marriage",
+      "posted_at": "2026-09-19T01:33:13.033064+00:00"
     }
   ]
 }
