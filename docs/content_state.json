@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T10:10:50.905449+00:00",
+  "last_posted_at": "2026-09-20T11:21:39.064524+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Three persons arrested for murder of father-daughter in gram panchayat office in Belagavi district",
-      "genre": "marriage_delay",
-      "style": "land",
-      "posted_at": "2026-09-19T04:51:00.050231+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "How are noisy celebrations and DJs affecting the hearing of humans?",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "sudden_loss",
       "posted_at": "2026-09-20T10:10:50.905449+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Delivery agent killed in accident",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-09-20T11:21:39.064524+00:00"
     }
   ]
 }
