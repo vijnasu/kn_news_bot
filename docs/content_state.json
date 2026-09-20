@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-19T16:49:04.730216+00:00",
+  "last_posted_at": "2026-09-20T00:36:26.007443+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "In Pictures | A riot of colours in Mangaluru",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-18T12:44:27.255457+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Open top double-decker bus takes Karnataka ministers in procession to Cabinet meeting in Mangaluru",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "business",
       "posted_at": "2026-09-19T16:49:04.730216+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Raichur ZP CEO Ishwar Kumar Kandoo instructs officers to conduct crop loss assessment in drought-hit areas",
+      "genre": "marriage_delay",
+      "style": "business",
+      "posted_at": "2026-09-20T00:36:26.007443+00:00"
     }
   ]
 }
