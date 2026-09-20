@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T08:48:50.172111+00:00",
+  "last_posted_at": "2026-09-20T10:10:50.905449+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "PM Modi, UAE Preident discuss West Asia, strategic partnership during phone call",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-09-19T03:49:28.050659+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Three persons arrested for murder of father-daughter in gram panchayat office in Belagavi district",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "accident",
       "posted_at": "2026-09-20T08:48:50.172111+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "One killed, five injured after vehicle overturns in Bengaluru",
+      "genre": "business_blockage",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-20T10:10:50.905449+00:00"
     }
   ]
 }
