@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T05:25:13.455520+00:00",
+  "last_posted_at": "2026-09-20T06:46:57.603104+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Collapsed complaint mechanism, power generation deficit, overstretched distribution network cause frequent power cuts in Chennai",
-      "genre": "sudden_health_fear",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-19T00:31:23.695312+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Case registered against six for sexual harassment of married woman",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-20T05:25:13.455520+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "CM Rekha Gupta, former CM Kejriwal among those to get notices amid Delhi SIR",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-20T06:46:57.603104+00:00"
     }
   ]
 }
