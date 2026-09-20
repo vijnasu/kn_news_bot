@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T13:49:33.148277+00:00",
+  "last_posted_at": "2026-09-20T15:10:01.802017+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Union Home Minister Amit Shah falls ill in Hubballi, skips inauguration of college",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-19T08:32:54.493202+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "PACL case: ED attaches shares worth ₹42.13 crore",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-09-20T13:49:33.148277+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "National Green Tribunal ‘emasculated’ by Modi government, says Jairam Ramesh",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-20T15:10:01.802017+00:00"
     }
   ]
 }
