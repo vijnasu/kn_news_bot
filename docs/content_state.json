@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T16:11:42.994527+00:00",
+  "last_posted_at": "2026-09-20T17:21:24.199104+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Government can bear cost of maintaining UPI network: BJD MP Santrupt Misra",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-19T10:48:51.861576+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "ED takes IAS officer, intermediary into custody in KPSC recruitment scam probe",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-09-20T16:11:42.994527+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Farmers threaten stir if special session fails to address drought",
+      "genre": "business_blockage",
+      "style": "fear",
+      "posted_at": "2026-09-20T17:21:24.199104+00:00"
     }
   ]
 }
