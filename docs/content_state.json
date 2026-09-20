@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T15:10:01.802017+00:00",
+  "last_posted_at": "2026-09-20T16:11:42.994527+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "PACL case: ED attaches shares worth ₹42.13 crore",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-09-19T09:36:24.500680+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Government can bear cost of maintaining UPI network: BJD MP Santrupt Misra",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-20T15:10:01.802017+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Tata Trusts denies any deadlock at September 17 Board meeting, disputes casting vote mandate",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-09-20T16:11:42.994527+00:00"
     }
   ]
 }
