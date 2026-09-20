@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T06:46:57.603104+00:00",
+  "last_posted_at": "2026-09-20T07:48:35.394982+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Case registered against six for sexual harassment of married woman",
-      "genre": "financial_loss",
-      "style": "marriage",
-      "posted_at": "2026-09-19T01:33:13.033064+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "India rejects Pakistan’s allegations regarding collision of Indian, Pak ships in Arabian Sea",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-20T06:46:57.603104+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Vaishnaw cautions industry about cyberattacks, disruption that may target India's growing chip might",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-09-20T07:48:35.394982+00:00"
     }
   ]
 }
