@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T01:48:06.255508+00:00",
+  "last_posted_at": "2026-09-20T02:52:32.182960+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "KBN University conducts free health camp for over 2,000 people",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-18T14:49:14.034098+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka HC dismisses appeals by government and Namma Whitefield RWA Foundation claiming certain private lands as Pattandur Agrahara lake bed",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-09-20T01:48:06.255508+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "How will the U.S.’s Sanctioning Act affect India? | Explained",
+      "genre": "repeated_failures",
+      "style": "finance",
+      "posted_at": "2026-09-20T02:52:32.182960+00:00"
     }
   ]
 }
