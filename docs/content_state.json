@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T07:48:35.394982+00:00",
+  "last_posted_at": "2026-09-20T08:48:50.172111+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "India rejects Pakistan’s allegations regarding collision of Indian, Pak ships in Arabian Sea",
-      "genre": "repeated_failures",
-      "style": "accident",
-      "posted_at": "2026-09-19T02:40:27.731275+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "PM Modi, UAE Preident discuss West Asia, strategic partnership during phone call",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-09-20T07:48:35.394982+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Five injured in attack by neighbours",
+      "genre": "family_disturbance",
+      "style": "accident",
+      "posted_at": "2026-09-20T08:48:50.172111+00:00"
     }
   ]
 }
