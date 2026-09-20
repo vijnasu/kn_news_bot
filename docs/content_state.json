@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T02:52:32.182960+00:00",
+  "last_posted_at": "2026-09-20T04:13:41.661798+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka HC dismisses appeals by government and Namma Whitefield RWA Foundation claiming certain private lands as Pattandur Agrahara lake bed",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-18T16:11:49.669463+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "'Tamil Nadu not against Hindi': Udhayanidhi Stalin responds to Supreme Court remark, rejects Navodaya schools",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "finance",
       "posted_at": "2026-09-20T02:52:32.182960+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Delhi Police head constable, wife found dead in Narela; children find flat locked from inside",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-09-20T04:13:41.661798+00:00"
     }
   ]
 }
