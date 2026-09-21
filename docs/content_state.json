@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T09:42:39.006021+00:00",
+  "last_posted_at": "2026-09-21T10:49:40.396158+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Delhi Police head constable, wife found dead in Narela; children find flat locked from inside",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-09-20T04:13:41.661798+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "‘System’ run by Modi prefers andhbhakts over students who ask questions, says Rahul Gandhi",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "health",
       "posted_at": "2026-09-21T09:42:39.006021+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Bank strike from September 28 to 30: SBI issues advisory, which banking services will be available?",
+      "genre": "political_business_enemies",
+      "style": "finance",
+      "posted_at": "2026-09-21T10:49:40.396158+00:00"
     }
   ]
 }
