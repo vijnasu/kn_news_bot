@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T14:31:22.693919+00:00",
+  "last_posted_at": "2026-09-21T15:37:02.789553+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Five injured in attack by neighbours",
-      "genre": "family_disturbance",
-      "style": "accident",
-      "posted_at": "2026-09-20T08:48:50.172111+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "One killed, five injured after vehicle overturns in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "sudden_loss",
       "posted_at": "2026-09-21T14:31:22.693919+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "CM Vijay calls for tough action against those who delayed child rape case against Veeramani",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-21T15:37:02.789553+00:00"
     }
   ]
 }
