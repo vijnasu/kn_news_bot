@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T03:16:02.419698+00:00",
+  "last_posted_at": "2026-09-21T04:36:47.341882+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Man bludgeoned to death by brother over land dispute in Kalaburagi village",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-09-19T15:48:56.489451+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Bengaluru firm ropes in Israel’s P-Cure to launch network of compact proton therapy centres in India",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "business",
       "posted_at": "2026-09-21T03:16:02.419698+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "India's semiconductor push targets chips for cars, TVs, power infra: Vaishnaw",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-21T04:36:47.341882+00:00"
     }
   ]
 }
