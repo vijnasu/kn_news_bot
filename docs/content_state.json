@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-20T17:21:24.199104+00:00",
+  "last_posted_at": "2026-09-21T00:35:06.053224+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "ED takes IAS officer, intermediary into custody in KPSC recruitment scam probe",
-      "genre": "financial_loss",
-      "style": "finance",
-      "posted_at": "2026-09-19T12:16:12.489171+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Two minors killed, one injured in Raichur Ganesh procession accident",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "fear",
       "posted_at": "2026-09-20T17:21:24.199104+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka CM vows to resolve farmers’ land grant issues, lead all-party delegation to Delhi",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-21T00:35:06.053224+00:00"
     }
   ]
 }
