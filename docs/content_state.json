@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T07:05:14.382334+00:00",
+  "last_posted_at": "2026-09-21T08:18:46.950098+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "In India’s capital, Delhiites reduced to documents",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-09-20T01:48:06.255508+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "How will the U.S.’s Sanctioning Act affect India? | Explained",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-09-21T07:05:14.382334+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Fear revisits residents of Western Ghats",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-21T08:18:46.950098+00:00"
     }
   ]
 }
