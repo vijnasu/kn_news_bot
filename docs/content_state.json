@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T15:37:02.789553+00:00",
+  "last_posted_at": "2026-09-21T16:49:28.533042+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "One killed, five injured after vehicle overturns in Bengaluru",
-      "genre": "business_blockage",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-20T10:10:50.905449+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Delivery agent killed in accident",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-21T15:37:02.789553+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Rajasthan woman’s kidnap bid was part of plot to remarry her in Hyderabad: Police",
+      "genre": "sudden_health_fear",
+      "style": "marriage",
+      "posted_at": "2026-09-21T16:49:28.533042+00:00"
     }
   ]
 }
