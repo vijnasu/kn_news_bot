@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T13:28:26.869580+00:00",
+  "last_posted_at": "2026-09-21T14:31:22.693919+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Vaishnaw cautions industry about cyberattacks, disruption that may target India's growing chip might",
-      "genre": "court_cases",
-      "style": "business",
-      "posted_at": "2026-09-20T07:48:35.394982+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Five injured in attack by neighbours",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-21T13:28:26.869580+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Two women killed in lightning strike in Kalaburagi district",
+      "genre": "family_disturbance",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-21T14:31:22.693919+00:00"
     }
   ]
 }
