@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T04:36:47.341882+00:00",
+  "last_posted_at": "2026-09-21T05:43:32.870756+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Bengaluru firm ropes in Israel’s P-Cure to launch network of compact proton therapy centres in India",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-09-19T16:49:04.730216+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Raichur ZP CEO Ishwar Kumar Kandoo instructs officers to conduct crop loss assessment in drought-hit areas",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-21T04:36:47.341882+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Two killed in separate road accidents in Tiruvallur and Chengalpet districts",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-21T05:43:32.870756+00:00"
     }
   ]
 }
