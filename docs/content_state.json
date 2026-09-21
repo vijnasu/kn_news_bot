@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T12:17:42.852215+00:00",
+  "last_posted_at": "2026-09-21T13:28:26.869580+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "CM Rekha Gupta, former CM Kejriwal among those to get notices amid Delhi SIR",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-20T06:46:57.603104+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Vaishnaw cautions industry about cyberattacks, disruption that may target India's growing chip might",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-09-21T12:17:42.852215+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Kuruba community leaders seek restoration of Siddaramaiah statue in Kalaburagi",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-21T13:28:26.869580+00:00"
     }
   ]
 }
