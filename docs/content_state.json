@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T00:35:06.053224+00:00",
+  "last_posted_at": "2026-09-21T01:52:12.881336+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Two minors killed, one injured in Raichur Ganesh procession accident",
-      "genre": "unexplained_obstacles",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-19T13:23:25.838541+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "CPI(M) protests over NICE land issue, seeks implementation of High Court order",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-21T00:35:06.053224+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "SIR: As against 80.62 lakh shifted, absent names, only 6.66 lakh Form-6 applications",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-09-21T01:52:12.881336+00:00"
     }
   ]
 }
