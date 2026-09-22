@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T09:49:24.717213+00:00",
+  "last_posted_at": "2026-09-22T10:50:30.112906+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Agentic AI is not a magic wand | Arundhati Bhattacharya, President and CEO at Salesforce, South Asia",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-09-21T03:16:02.419698+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "India's semiconductor push targets chips for cars, TVs, power infra: Vaishnaw",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-09-22T09:49:24.717213+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Bangladesh Foreign Secretary Asad Alam Siam to be the next High Commissioner to India",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-22T10:50:30.112906+00:00"
     }
   ]
 }
