@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T12:17:39.057289+00:00",
+  "last_posted_at": "2026-09-22T13:38:23.504905+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Two killed in separate road accidents in Tiruvallur and Chengalpet districts",
-      "genre": "financial_loss",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-21T05:43:32.870756+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Khadi advocate who humbled global fashion giant Prada with Kolhapuri chappal passes away",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-22T12:17:39.057289+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "2020 Delhi riots case: Sharjeel Imam gets interim bail for seven days",
+      "genre": "financial_loss",
+      "style": "marriage",
+      "posted_at": "2026-09-22T13:38:23.504905+00:00"
     }
   ]
 }
