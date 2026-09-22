@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T05:12:39.654038+00:00",
+  "last_posted_at": "2026-09-22T06:20:46.504800+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Tata Trusts denies any deadlock at September 17 Board meeting, disputes casting vote mandate",
-      "genre": "financial_loss",
-      "style": "health",
-      "posted_at": "2026-09-20T16:11:42.994527+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Farmers threaten stir if special session fails to address drought",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-22T05:12:39.654038+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "KPSC veterinary officer recruitment scam: CID probe reveals money trail, question-paper leak network",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-09-22T06:20:46.504800+00:00"
     }
   ]
 }
