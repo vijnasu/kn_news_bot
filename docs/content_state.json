@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T02:43:05.352666+00:00",
+  "last_posted_at": "2026-09-22T03:51:15.112773+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Two dead, one injured in fire accident in Hubballi",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-09-20T13:49:33.148277+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "National Green Tribunal ‘emasculated’ by Modi government, says Jairam Ramesh",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-09-22T02:43:05.352666+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Dalits threaten State-wide campaign, protests against government",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-22T03:51:15.112773+00:00"
     }
   ]
 }
