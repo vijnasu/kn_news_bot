@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T14:44:06.950076+00:00",
+  "last_posted_at": "2026-09-22T15:48:43.008877+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Fear revisits residents of Western Ghats",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-21T08:18:46.950098+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Chennai shocker: Stalker beaten to death with iron rod by woman's friend at her home over relationship",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-22T14:44:06.950076+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Girl gang-raped on her 17th birthday at a Delhi park, by three men posing as police personnel",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-09-22T15:48:43.008877+00:00"
     }
   ]
 }
