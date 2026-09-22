@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T07:33:14.098930+00:00",
+  "last_posted_at": "2026-09-22T08:42:42.461850+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka CM vows to resolve farmers’ land grant issues, lead all-party delegation to Delhi",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-21T00:35:06.053224+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "SIR: As against 80.62 lakh shifted, absent names, only 6.66 lakh Form-6 applications",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-22T07:33:14.098930+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Man sets woman worker ablaze at Ponneri GH, suspect shot in leg and arrested",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-22T08:42:42.461850+00:00"
     }
   ]
 }
