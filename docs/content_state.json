@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-21T16:49:28.533042+00:00",
+  "last_posted_at": "2026-09-22T01:35:12.918981+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Delivery agent killed in accident",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-09-20T11:21:39.064524+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Old era of jingoism, equating Nepali nationalism with anti-Indianism, is over: Nepal Finance Minister",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "marriage",
       "posted_at": "2026-09-21T16:49:28.533042+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "BDCC bank waiting for govt. sanction for recruitment, says MLA",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-22T01:35:12.918981+00:00"
     }
   ]
 }
