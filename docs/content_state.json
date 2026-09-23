@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T03:35:19.813110+00:00",
+  "last_posted_at": "2026-09-23T04:50:45.977545+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Two women killed in lightning strike in Kalaburagi district",
-      "genre": "family_disturbance",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-21T14:31:22.693919+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CM Vijay calls for tough action against those who delayed child rape case against Veeramani",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-09-23T03:35:19.813110+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Anekal police bust illegal gun-dealing gang; seven arrested, five country-made pistols seized",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-09-23T04:50:45.977545+00:00"
     }
   ]
 }
