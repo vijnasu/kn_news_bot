@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-22T16:51:21.222937+00:00",
+  "last_posted_at": "2026-09-23T01:08:49.385201+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Bank strike from September 28 to 30: SBI issues advisory, which banking services will be available?",
-      "genre": "political_business_enemies",
-      "style": "finance",
-      "posted_at": "2026-09-21T10:49:40.396158+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Bengaluru Traffic Police books record 10.99 lakh wrong parking cases, yet menace continues to haunt Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-09-22T16:51:21.222937+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "HC dismisses ex-minister’s discharge plea in corruption case",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-23T01:08:49.385201+00:00"
     }
   ]
 }
