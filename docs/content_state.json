@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T07:34:33.564648+00:00",
+  "last_posted_at": "2026-09-23T08:42:44.326710+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BDCC bank waiting for govt. sanction for recruitment, says MLA",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-22T01:35:12.918981+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka to track cancer patients after fake drug bust",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-09-23T07:34:33.564648+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Three-language policy case: Centre given more time to mull SC proposal to exempt current Class 6",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-23T08:42:44.326710+00:00"
     }
   ]
 }
