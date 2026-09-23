@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T12:18:18.354042+00:00",
+  "last_posted_at": "2026-09-23T13:27:39.849835+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "KPSC veterinary officer recruitment scam: CID probe reveals money trail, question-paper leak network",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-09-22T06:20:46.504800+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "NC, BJP members spar on issue of holiday on anniversaries of Maharaja Hari Singh, Sheikh Mohammad Abdullah",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-23T12:18:18.354042+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka special session: Indi Congress MLA’s resignation over drought status embarrasses government",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-23T13:27:39.849835+00:00"
     }
   ]
 }
