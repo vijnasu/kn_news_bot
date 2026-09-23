@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T09:50:00.766054+00:00",
+  "last_posted_at": "2026-09-23T10:50:38.120048+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Dalits threaten State-wide campaign, protests against government",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-22T03:51:15.112773+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Governor sits on prosecution of ex-ministers in corruption and money-laundering cases",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-09-23T09:50:00.766054+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Minister in CEC-EC selection panel fails ‘perception test’, says Justice Datta in split verdict",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-09-23T10:50:38.120048+00:00"
     }
   ]
 }
