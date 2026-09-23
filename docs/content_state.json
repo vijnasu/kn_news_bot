@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T15:41:45.846135+00:00",
+  "last_posted_at": "2026-09-23T16:49:42.227477+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "SC says state can set National Song, but cannot impose conscientious objectors to penal action",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-22T09:49:24.717213+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Bangladesh Foreign Secretary Asad Alam Siam to be the next High Commissioner to India",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-23T15:41:45.846135+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Communication between CEC, ECs shows functioning democracy: BJP",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-23T16:49:42.227477+00:00"
     }
   ]
 }
