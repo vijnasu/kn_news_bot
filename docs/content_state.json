@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T08:42:44.326710+00:00",
+  "last_posted_at": "2026-09-23T09:50:00.766054+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Karnataka to track cancer patients after fake drug bust",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-09-22T02:43:05.352666+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Dalits threaten State-wide campaign, protests against government",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-23T08:42:44.326710+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Banks to remain open on Sunday for customers’ convenience in view of proposed nationwide strike",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-09-23T09:50:00.766054+00:00"
     }
   ]
 }
