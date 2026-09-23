@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T04:50:45.977545+00:00",
+  "last_posted_at": "2026-09-23T06:21:28.992551+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CM Vijay calls for tough action against those who delayed child rape case against Veeramani",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-21T15:37:02.789553+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Rajasthan woman’s kidnap bid was part of plot to remarry her in Hyderabad: Police",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-09-23T04:50:45.977545+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Election Commission dissent sparks Opposition call for CEC Gyanesh Kumar’s removal",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-23T06:21:28.992551+00:00"
     }
   ]
 }
