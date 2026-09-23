@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T06:21:28.992551+00:00",
+  "last_posted_at": "2026-09-23T07:34:33.564648+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Rajasthan woman’s kidnap bid was part of plot to remarry her in Hyderabad: Police",
-      "genre": "sudden_health_fear",
-      "style": "marriage",
-      "posted_at": "2026-09-21T16:49:28.533042+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BDCC bank waiting for govt. sanction for recruitment, says MLA",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-23T06:21:28.992551+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Delhi High Court grants bail to former ADAG executive Amitabh Jhunjhunwala in ED case",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-09-23T07:34:33.564648+00:00"
     }
   ]
 }
