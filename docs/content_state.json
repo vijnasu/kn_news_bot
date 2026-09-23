@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-23T01:08:49.385201+00:00",
+  "last_posted_at": "2026-09-23T02:17:56.984125+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Bengaluru Traffic Police books record 10.99 lakh wrong parking cases, yet menace continues to haunt Bengaluru",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-09-21T12:17:42.852215+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Kuruba community leaders seek restoration of Siddaramaiah statue in Kalaburagi",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-09-23T01:08:49.385201+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Progressive Muslim groups oppose AIMPLB’s ‘Save India, Save Shariat’ campaign, call for gender-just reforms",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-23T02:17:56.984125+00:00"
     }
   ]
 }
