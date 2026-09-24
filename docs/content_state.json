@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T15:41:32.075215+00:00",
+  "last_posted_at": "2026-09-24T17:11:34.530326+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Minister in CEC-EC selection panel fails ‘perception test’, says Justice Datta in split verdict",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-09-23T10:50:38.120048+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Congress MLA resigns after Indi and Chadchan taluks not included in drought-hit list in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-24T15:41:32.075215+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "CBI arrests Mahadev scam accused after arrival from Dubai",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-09-24T17:11:34.530326+00:00"
     }
   ]
 }
