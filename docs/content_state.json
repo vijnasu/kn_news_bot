@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T00:31:34.505335+00:00",
+  "last_posted_at": "2026-09-24T01:36:24.655098+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Vande Mataram row: Karnataka Governor asks Chief Minister to reconsider GO restricting rendition to two stanzas",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-22T12:17:39.057289+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "2020 Delhi riots case: Sharjeel Imam gets interim bail for seven days",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-09-24T00:31:34.505335+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Dissent row: Election Commission says highlighting certain internal notes gives only one side of the picture",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-24T01:36:24.655098+00:00"
     }
   ]
 }
