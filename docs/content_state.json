@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T01:36:24.655098+00:00",
+  "last_posted_at": "2026-09-24T02:47:55.478496+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "2020 Delhi riots case: Sharjeel Imam gets interim bail for seven days",
-      "genre": "financial_loss",
-      "style": "marriage",
-      "posted_at": "2026-09-22T13:38:23.504905+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "CITU to protest outside legislators’ and Ministers’ residences on September 25",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-24T01:36:24.655098+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Vijayendra seeks ₹5 lakh farm loan waiver for drought-hit farmers in Karnataka",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-09-24T02:47:55.478496+00:00"
     }
   ]
 }
