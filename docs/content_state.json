@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T10:51:16.269770+00:00",
+  "last_posted_at": "2026-09-24T12:18:19.157098+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Election Commission dissent sparks Opposition call for CEC Gyanesh Kumar’s removal",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-23T06:21:28.992551+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Delhi High Court grants bail to former ADAG executive Amitabh Jhunjhunwala in ED case",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-24T10:51:16.269770+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Cauvery water dispute: In SC, Tamil Nadu claims 20 TMC deficit as Karnataka says many districts face drought",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-09-24T12:18:19.157098+00:00"
     }
   ]
 }
