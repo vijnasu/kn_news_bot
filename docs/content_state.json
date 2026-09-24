@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T07:34:29.871444+00:00",
+  "last_posted_at": "2026-09-24T08:43:49.102602+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Progressive Muslim groups oppose AIMPLB’s ‘Save India, Save Shariat’ campaign, call for gender-just reforms",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-23T02:17:56.984125+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "The curious case of the ‘missing’ Shah Commission report on Emergency and its eventual rediscovery",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-24T07:34:29.871444+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "EC row: Priyanka Gandhi Vadra seeks criminal prosecution of CEC Gyanesh Kumar",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-24T08:43:49.102602+00:00"
     }
   ]
 }
