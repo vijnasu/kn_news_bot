@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T02:47:55.478496+00:00",
+  "last_posted_at": "2026-09-24T03:51:24.432402+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "CITU to protest outside legislators’ and Ministers’ residences on September 25",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-22T14:44:06.950076+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Girl gang-raped on her 17th birthday at a Delhi park, by three men posing as police personnel",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-09-24T02:47:55.478496+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "MLA demands hike of ₹10 a litre in milk procurement price to help drought-hit farmers in Karnataka",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-24T03:51:24.432402+00:00"
     }
   ]
 }
