@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T06:21:01.983276+00:00",
+  "last_posted_at": "2026-09-24T07:34:29.871444+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "HC dismisses ex-minister’s discharge plea in corruption case",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-23T01:08:49.385201+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Progressive Muslim groups oppose AIMPLB’s ‘Save India, Save Shariat’ campaign, call for gender-just reforms",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "court",
       "posted_at": "2026-09-24T06:21:01.983276+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "SIR is illegal and needs to be reversed: former CEC Quraishi",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-24T07:34:29.871444+00:00"
     }
   ]
 }
