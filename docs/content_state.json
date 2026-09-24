@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T13:27:52.316874+00:00",
+  "last_posted_at": "2026-09-24T14:31:23.801687+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Three-language policy case: Centre given more time to mull SC proposal to exempt current Class 6",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-23T08:42:44.326710+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Banks to remain open on Sunday for customers’ convenience in view of proposed nationwide strike",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-09-24T13:27:52.316874+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Echo of row in ECI: Protest in Mandya seeking Gyanesh Kumar’s resignation, SC urged to take suo moto cognisance",
+      "genre": "career_instability",
+      "style": "career",
+      "posted_at": "2026-09-24T14:31:23.801687+00:00"
     }
   ]
 }
