@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T12:18:19.157098+00:00",
+  "last_posted_at": "2026-09-24T13:27:52.316874+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Delhi High Court grants bail to former ADAG executive Amitabh Jhunjhunwala in ED case",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-09-23T07:34:33.564648+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Three-language policy case: Centre given more time to mull SC proposal to exempt current Class 6",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-09-24T12:18:19.157098+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Child rape case: R Veeramani's premises raided, LOC against one more person",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-09-24T13:27:52.316874+00:00"
     }
   ]
 }
