@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T05:12:24.785858+00:00",
+  "last_posted_at": "2026-09-25T06:21:17.993991+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "TN firm on two-language policy, will defend stand on Navodaya Vidyalaya: Education minister Rajmohan",
-      "genre": "marriage_delay",
-      "style": "business",
-      "posted_at": "2026-09-24T00:31:34.505335+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Dissent row: Election Commission says highlighting certain internal notes gives only one side of the picture",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-25T05:12:24.785858+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka willing to share loan waiver burden if Centre announces it: D.K. Shivakumar",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-25T06:21:17.993991+00:00"
     }
   ]
 }
