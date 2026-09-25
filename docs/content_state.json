@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T07:40:47.619332+00:00",
+  "last_posted_at": "2026-09-25T08:43:32.938677+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Vijayendra seeks ₹5 lakh farm loan waiver for drought-hit farmers in Karnataka",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-09-24T02:47:55.478496+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "MLA demands hike of ₹10 a litre in milk procurement price to help drought-hit farmers in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-25T07:40:47.619332+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Clothing tag helps Bengaluru police identify 20-day-old decomposed body of murdered woman",
+      "genre": "negative_energy",
+      "style": "sudden_loss",
+      "posted_at": "2026-09-25T08:43:32.938677+00:00"
     }
   ]
 }
