@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T06:21:17.993991+00:00",
+  "last_posted_at": "2026-09-25T07:40:47.619332+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Dissent row: Election Commission says highlighting certain internal notes gives only one side of the picture",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-24T01:36:24.655098+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Vijayendra seeks ₹5 lakh farm loan waiver for drought-hit farmers in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-25T06:21:17.993991+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "The murky world of political party finance",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-25T07:40:47.619332+00:00"
     }
   ]
 }
