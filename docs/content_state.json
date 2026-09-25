@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T08:43:32.938677+00:00",
+  "last_posted_at": "2026-09-25T09:49:37.679033+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "MLA demands hike of ₹10 a litre in milk procurement price to help drought-hit farmers in Karnataka",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-24T03:51:24.432402+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Former Chief Election Commissioner questions legality of SIR, demands reversal of decisions",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "sudden_loss",
       "posted_at": "2026-09-25T08:43:32.938677+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "AIADMK legal wing demands action against TVK for misleading voters on ‘two leaves’ and ‘whistle’ symbols",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-25T09:49:37.679033+00:00"
     }
   ]
 }
