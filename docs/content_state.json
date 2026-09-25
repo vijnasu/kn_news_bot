@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T13:27:57.467628+00:00",
+  "last_posted_at": "2026-09-25T14:31:26.196386+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "EC row: Priyanka Gandhi Vadra seeks criminal prosecution of CEC Gyanesh Kumar",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-09-24T08:43:49.102602+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Drains in limbo, Chennai stares at flood risk",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "public_unrest",
       "posted_at": "2026-09-25T13:27:57.467628+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Satish Jarkiholi backs D.K. Shivakumar as Karnataka CM after 2028 polls; says he is young and will wait his turn",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-25T14:31:26.196386+00:00"
     }
   ]
 }
