@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-24T17:11:34.530326+00:00",
+  "last_posted_at": "2026-09-25T00:32:44.479513+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Congress MLA resigns after Indi and Chadchan taluks not included in drought-hit list in Karnataka",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-23T12:18:18.354042+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka special session: Indi Congress MLA’s resignation over drought status embarrasses government",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "finance",
       "posted_at": "2026-09-24T17:11:34.530326+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Waiting areas without seats, inadequate toilets; No change in women & children’s hospitals in Chennai after CM visit",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-09-25T00:32:44.479513+00:00"
     }
   ]
 }
