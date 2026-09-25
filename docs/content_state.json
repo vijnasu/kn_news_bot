@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T15:41:01.639107+00:00",
+  "last_posted_at": "2026-09-25T16:50:32.014773+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Demand for special session of Karnataka legislature on caste survey",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-24T10:51:16.269770+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Cauvery water dispute: In SC, Tamil Nadu claims 20 TMC deficit as Karnataka says many districts face drought",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-25T15:41:01.639107+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Palace cannons readied to familiarise Dasara elephants",
+      "genre": "sudden_health_fear",
+      "style": "health",
+      "posted_at": "2026-09-25T16:50:32.014773+00:00"
     }
   ]
 }
