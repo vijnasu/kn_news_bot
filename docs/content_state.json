@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T00:32:44.479513+00:00",
+  "last_posted_at": "2026-09-25T01:35:35.202887+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Karnataka special session: Indi Congress MLA’s resignation over drought status embarrasses government",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-23T13:27:39.849835+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Delhi court grants default bail to six Ukrainian nationals in NIA terror case",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-25T00:32:44.479513+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Bank strike will impact financial predictability, business continuity, say trade bodies",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-09-25T01:35:35.202887+00:00"
     }
   ]
 }
