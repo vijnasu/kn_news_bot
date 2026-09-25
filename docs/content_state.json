@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T14:31:26.196386+00:00",
+  "last_posted_at": "2026-09-25T15:41:01.639107+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Drains in limbo, Chennai stares at flood risk",
-      "genre": "negative_energy",
-      "style": "weather_extreme",
-      "posted_at": "2026-09-24T09:49:37.018875+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Demand for special session of Karnataka legislature on caste survey",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-25T14:31:26.196386+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-25T15:41:01.639107+00:00"
     }
   ]
 }
