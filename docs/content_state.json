@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T09:49:37.679033+00:00",
+  "last_posted_at": "2026-09-25T10:50:52.956344+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Former Chief Election Commissioner questions legality of SIR, demands reversal of decisions",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-24T05:12:20.931538+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Advocate seeks to file contempt plea in Supreme Court against CEC",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-25T09:49:37.679033+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "4 women wrestlers challenge acquittal of Brij Bhushan in sexual harassment case",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-09-25T10:50:52.956344+00:00"
     }
   ]
 }
