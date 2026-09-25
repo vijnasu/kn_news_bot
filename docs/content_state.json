@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T01:35:35.202887+00:00",
+  "last_posted_at": "2026-09-25T02:42:04.578555+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Delhi court grants default bail to six Ukrainian nationals in NIA terror case",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-09-23T14:30:17.596676+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka High Court cautions State government against upgrading compassionate appointees to higher posts in contradiction of norms",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-09-25T01:35:35.202887+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "12 years of ‘Make in India’ in 12 metrics — Low and patchy impact on growth, employment & global share",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-25T02:42:04.578555+00:00"
     }
   ]
 }
