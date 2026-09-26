@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T01:33:35.257712+00:00",
+  "last_posted_at": "2026-09-26T02:41:45.709751+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Echo of row in ECI: Protest in Mandya seeking Gyanesh Kumar’s resignation, SC urged to take suo moto cognisance",
-      "genre": "career_instability",
-      "style": "career",
-      "posted_at": "2026-09-24T14:31:23.801687+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Opposition to move fresh notice for CEC’s removal; INDIA bloc mulls joint action",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-09-26T01:33:35.257712+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Congress leads protests demanding CEC’s resignation, arrest",
+      "genre": "marriage_delay",
+      "style": "career",
+      "posted_at": "2026-09-26T02:41:45.709751+00:00"
     }
   ]
 }
