@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T12:53:12.581114+00:00",
+  "last_posted_at": "2026-09-26T14:11:00.042923+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Clothing tag helps Bengaluru police identify 20-day-old decomposed body of murdered woman",
-      "genre": "negative_energy",
-      "style": "sudden_loss",
-      "posted_at": "2026-09-25T08:43:32.938677+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "AIADMK legal wing demands action against TVK for misleading voters on ‘two leaves’ and ‘whistle’ symbols",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "scandal",
       "posted_at": "2026-09-26T12:53:12.581114+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Missing youth found dead in Belagavi district",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-09-26T14:11:00.042923+00:00"
     }
   ]
 }
