@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T06:19:50.484153+00:00",
+  "last_posted_at": "2026-09-26T07:27:10.281882+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Bank strike will impact financial predictability, business continuity, say trade bodies",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-09-25T01:35:35.202887+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "12 years of ‘Make in India’ in 12 metrics — Low and patchy impact on growth, employment & global share",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-26T06:19:50.484153+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "India criticises Pakistan’s ‘falsehoods’ and ‘deceit’ at UN; warns terrorism will have consequences",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-26T07:27:10.281882+00:00"
     }
   ]
 }
