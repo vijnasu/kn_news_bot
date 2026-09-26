@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T00:31:47.675007+00:00",
+  "last_posted_at": "2026-09-26T01:33:35.257712+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Child rape case: R Veeramani's premises raided, LOC against one more person",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-09-24T13:27:52.316874+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Echo of row in ECI: Protest in Mandya seeking Gyanesh Kumar’s resignation, SC urged to take suo moto cognisance",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "marriage",
       "posted_at": "2026-09-26T00:31:47.675007+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Farmers protesting Bidadi township project detained after road blockade",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-09-26T01:33:35.257712+00:00"
     }
   ]
 }
