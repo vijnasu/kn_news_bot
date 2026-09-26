@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T11:48:57.197255+00:00",
+  "last_posted_at": "2026-09-26T12:53:12.581114+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "The murky world of political party finance",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-25T07:40:47.619332+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Clothing tag helps Bengaluru police identify 20-day-old decomposed body of murdered woman",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-26T11:48:57.197255+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Belagavi youth drowns during Ganesh idol immersion",
+      "genre": "career_instability",
+      "style": "scandal",
+      "posted_at": "2026-09-26T12:53:12.581114+00:00"
     }
   ]
 }
