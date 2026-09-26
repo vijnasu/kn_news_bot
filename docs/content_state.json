@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T10:48:48.097244+00:00",
+  "last_posted_at": "2026-09-26T11:48:57.197255+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka willing to share loan waiver burden if Centre announces it: D.K. Shivakumar",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-25T06:21:17.993991+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "The murky world of political party finance",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-09-26T10:48:48.097244+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "I never politicised Karur tragedy, but you have stooped low by exploiting Veeramani case, Stalin tells Vijay",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-26T11:48:57.197255+00:00"
     }
   ]
 }
