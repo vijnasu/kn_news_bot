@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T08:35:29.993764+00:00",
+  "last_posted_at": "2026-09-26T09:38:42.176203+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Stalin says there was no attempt to protect anyone in Veeramani case; demands severe punishment to accused",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-09-25T03:51:23.818699+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Drought relief: Karnataka announces one-time aid of ₹2,500 to about 50 lakh farmers, moratorium of 12 months for loan repayment",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "land",
       "posted_at": "2026-09-26T08:35:29.993764+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Congress asks the Supreme Court to take suo motu notice against Gyanesh over Form 6 changes",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-26T09:38:42.176203+00:00"
     }
   ]
 }
