@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-25T16:50:32.014773+00:00",
+  "last_posted_at": "2026-09-26T00:31:47.675007+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Cauvery water dispute: In SC, Tamil Nadu claims 20 TMC deficit as Karnataka says many districts face drought",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-09-24T12:18:19.157098+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Child rape case: R Veeramani's premises raided, LOC against one more person",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "health",
       "posted_at": "2026-09-25T16:50:32.014773+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
+      "genre": "unexplained_obstacles",
+      "style": "marriage",
+      "posted_at": "2026-09-26T00:31:47.675007+00:00"
     }
   ]
 }
