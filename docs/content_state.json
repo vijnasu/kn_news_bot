@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-26T07:27:10.281882+00:00",
+  "last_posted_at": "2026-09-26T08:35:29.993764+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "12 years of ‘Make in India’ in 12 metrics — Low and patchy impact on growth, employment & global share",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-09-25T02:42:04.578555+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Stalin says there was no attempt to protect anyone in Veeramani case; demands severe punishment to accused",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-26T07:27:10.281882+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Supreme Court orders sealing of over 16,000 properties, demolition of illegal structures in Meerut",
+      "genre": "business_blockage",
+      "style": "land",
+      "posted_at": "2026-09-26T08:35:29.993764+00:00"
     }
   ]
 }
