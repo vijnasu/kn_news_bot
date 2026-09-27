@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-27T06:50:59.515333+00:00",
+  "last_posted_at": "2026-09-27T08:15:37.301186+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Farmers protesting Bidadi township project detained after road blockade",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-09-26T01:33:35.257712+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Congress leads protests demanding CEC’s resignation, arrest",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-09-27T06:50:59.515333+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Sukhbir Singh Sandhu and Vivek Joshi | Dissent in the Election Commission",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-27T08:15:37.301186+00:00"
     }
   ]
 }
