@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-27T00:37:20.419339+00:00",
+  "last_posted_at": "2026-09-27T01:53:16.490070+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Protest staged against Basavadi Sharanara Hindu Samavesha",
-      "genre": "court_cases",
-      "style": "public_unrest",
-      "posted_at": "2026-09-25T13:27:57.467628+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Satish Jarkiholi backs D.K. Shivakumar as Karnataka CM after 2028 polls; says he is young and will wait his turn",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-09-27T00:37:20.419339+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "A ‘superior’ CEC renders Election Commissioners ‘non-functional’, Supreme Court had warned",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-27T01:53:16.490070+00:00"
     }
   ]
 }
