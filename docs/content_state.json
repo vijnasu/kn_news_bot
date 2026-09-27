@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-27T04:34:23.778577+00:00",
+  "last_posted_at": "2026-09-27T05:40:56.319776+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Palace cannons readied to familiarise Dasara elephants",
-      "genre": "sudden_health_fear",
-      "style": "health",
-      "posted_at": "2026-09-25T16:50:32.014773+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-27T04:34:23.778577+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Property tax revision cases rise to 37,216 in Bengaluru",
+      "genre": "sudden_health_fear",
+      "style": "land",
+      "posted_at": "2026-09-27T05:40:56.319776+00:00"
     }
   ]
 }
