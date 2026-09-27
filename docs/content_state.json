@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-27T01:53:16.490070+00:00",
+  "last_posted_at": "2026-09-27T03:15:23.378398+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Satish Jarkiholi backs D.K. Shivakumar as Karnataka CM after 2028 polls; says he is young and will wait his turn",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-25T14:31:26.196386+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-27T01:53:16.490070+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Congress accuses CEC of law violation over Form 6 changes, urges Supreme Court to hold him accountable",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-09-27T03:15:23.378398+00:00"
     }
   ]
 }
