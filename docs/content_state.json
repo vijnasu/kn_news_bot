@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-28T01:57:36.708774+00:00",
+  "last_posted_at": "2026-09-28T02:59:26.032402+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Belagavi youth drowns during Ganesh idol immersion",
-      "genre": "career_instability",
-      "style": "scandal",
-      "posted_at": "2026-09-26T12:53:12.581114+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Missing youth found dead in Belagavi district",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-09-28T01:57:36.708774+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Long wait for justice as pendencies in rape cases mount",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-09-28T02:59:26.032402+00:00"
     }
   ]
 }
