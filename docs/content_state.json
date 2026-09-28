@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-28T11:11:53.783356+00:00",
+  "last_posted_at": "2026-09-28T12:20:56.461360+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "16.51 lakh applications for 11,249 posts: Big demand for government jobs in State",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-27T04:34:23.778577+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Property tax revision cases rise to 37,216 in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "fear",
       "posted_at": "2026-09-28T11:11:53.783356+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka’s Deputy CM G. Parameshwar acknowledges pressure on finances due to guarantee schemes",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-09-28T12:20:56.461360+00:00"
     }
   ]
 }
