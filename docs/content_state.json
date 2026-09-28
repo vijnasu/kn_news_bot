@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-28T12:20:56.461360+00:00",
+  "last_posted_at": "2026-09-28T13:35:17.959275+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Property tax revision cases rise to 37,216 in Bengaluru",
-      "genre": "sudden_health_fear",
-      "style": "land",
-      "posted_at": "2026-09-27T05:40:56.319776+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Tata Motors PV expects 15% market share 'very soon', eyes 20% by FY31: MD Shailesh Chandra",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-28T12:20:56.461360+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "SIR is a scam; CEC Gyanesh Kumar is being made a scapegoat: TVK minister Rajmohan",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-28T13:35:17.959275+00:00"
     }
   ]
 }
