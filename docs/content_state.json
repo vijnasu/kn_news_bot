@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-28T05:32:42.727957+00:00",
+  "last_posted_at": "2026-09-28T07:11:29.626587+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Veeramani child rape case: EPS says CM Vijay is telling ‘blatant lie,’ TVK govt had delayed arrest",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-26T16:28:47.572752+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "IIT Madras invests ₹55 crore in four deeptech startups working in space tech, quatum applications",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-09-28T05:32:42.727957+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka HC sets aside selection lists of teachers for illegally altering norms mid-recruitment process",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-28T07:11:29.626587+00:00"
     }
   ]
 }
