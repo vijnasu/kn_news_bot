@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-28T02:59:26.032402+00:00",
+  "last_posted_at": "2026-09-28T04:16:22.517433+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Missing youth found dead in Belagavi district",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-09-26T14:11:00.042923+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Western Ghats protection: Section of residents, environmentalists counter Karnataka politicians’ claims",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-09-28T02:59:26.032402+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Customers flock banks in Chennai on Sunday",
+      "genre": "repeated_failures",
+      "style": "finance",
+      "posted_at": "2026-09-28T04:16:22.517433+00:00"
     }
   ]
 }
