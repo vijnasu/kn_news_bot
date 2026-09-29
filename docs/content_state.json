@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T08:17:47.839189+00:00",
+  "last_posted_at": "2026-09-29T09:35:38.494031+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Amit Shah flags off India's first LNG train; claims ‘Modi transformed railways, Congress known for scams’",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-28T01:57:36.708774+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Long wait for justice as pendencies in rape cases mount",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-29T08:17:47.839189+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "28-year-old hacked to death outside Chennai home; 4 suspects on the run",
+      "genre": "family_disturbance",
+      "style": "fear",
+      "posted_at": "2026-09-29T09:35:38.494031+00:00"
     }
   ]
 }
