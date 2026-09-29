@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T01:53:26.654075+00:00",
+  "last_posted_at": "2026-09-29T02:57:15.194497+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "India, Canada preparing to take ties to 'higher level': Jaishankar",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-27T12:55:27.189646+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Free health check-up camp for 110 women pourakarmikas",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-09-29T01:53:26.654075+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "States stumped as demography panel seeks religion-wise data on vehicles, schools, voters",
+      "genre": "unexplained_obstacles",
+      "style": "land",
+      "posted_at": "2026-09-29T02:57:15.194497+00:00"
     }
   ]
 }
