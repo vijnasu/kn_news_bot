@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T10:52:27.247568+00:00",
+  "last_posted_at": "2026-09-29T12:19:59.459477+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Customers flock banks in Chennai on Sunday",
-      "genre": "repeated_failures",
-      "style": "finance",
-      "posted_at": "2026-09-28T04:16:22.517433+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Long wait for justice as pendencies in rape cases mount",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-09-29T10:52:27.247568+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "BMIC project: H.D. Kumaraswamy fires salvo at Karnataka Chief Minister D.K. Shivakumar, accusing him of making ‘illegal land purchases’",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-09-29T12:19:59.459477+00:00"
     }
   ]
 }
