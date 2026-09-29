@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T06:56:48.206381+00:00",
+  "last_posted_at": "2026-09-29T08:17:47.839189+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Bank unions defer three-day nationwide strike after ‘understandings reached’ with IBA",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-09-28T00:37:31.093805+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Amit Shah flags off India's first LNG train; claims ‘Modi transformed railways, Congress known for scams’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-09-29T06:56:48.206381+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Rahul urges youth to protest, says government only responds under pressure",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-29T08:17:47.839189+00:00"
     }
   ]
 }
