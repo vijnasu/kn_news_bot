@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T15:12:54.761620+00:00",
+  "last_posted_at": "2026-09-29T16:14:23.073887+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Cancer, kidney, AIDS drugs sold at up to 70 times procurement cost: Karnataka Health Minister",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-09-28T08:44:15.921760+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Centre to send teams to assess drought in Karnataka, Maharashtra: Shivraj Singh Chouhan",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-29T15:12:54.761620+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Civil society groups, Congress demand FIRs over bulk Form 7s seeking deletion of names",
+      "genre": "repeated_failures",
+      "style": "finance",
+      "posted_at": "2026-09-29T16:14:23.073887+00:00"
     }
   ]
 }
