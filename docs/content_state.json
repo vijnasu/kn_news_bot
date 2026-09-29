@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T13:42:22.757530+00:00",
+  "last_posted_at": "2026-09-29T15:12:54.761620+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka HC sets aside selection lists of teachers for illegally altering norms mid-recruitment process",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-28T07:11:29.626587+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Cancer, kidney, AIDS drugs sold at up to 70 times procurement cost: Karnataka Health Minister",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-29T13:42:22.757530+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Private school recognition cheating case: CCB raids five places linked to former TN minister Anbil Mahesh’s aides",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-29T15:12:54.761620+00:00"
     }
   ]
 }
