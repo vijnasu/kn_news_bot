@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T05:31:15.049932+00:00",
+  "last_posted_at": "2026-09-29T06:56:48.206381+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Court extends ED custody of IAS officer Gyanendra Kumar Gangwar by eight days",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-09-27T16:28:45.681665+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Bank unions defer three-day nationwide strike after ‘understandings reached’ with IBA",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-09-29T05:31:15.049932+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Supreme Court agrees to list next week plea to suspend CEC Gyanesh Kumar from office",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-09-29T06:56:48.206381+00:00"
     }
   ]
 }
