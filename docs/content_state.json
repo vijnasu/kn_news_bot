@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T04:15:05.310413+00:00",
+  "last_posted_at": "2026-09-29T05:31:15.049932+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Opposition refuses to be part of the all-party delegation to Centre over drought relief",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-27T15:24:26.346582+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Court extends ED custody of IAS officer Gyanendra Kumar Gangwar by eight days",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-09-29T04:15:05.310413+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "One dead, another injured while cleaning sewer in Santacruz; no safety gear provided: Police",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-09-29T05:31:15.049932+00:00"
     }
   ]
 }
