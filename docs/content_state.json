@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T12:19:59.459477+00:00",
+  "last_posted_at": "2026-09-29T13:42:22.757530+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Long wait for justice as pendencies in rape cases mount",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-09-28T05:32:42.727957+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka HC sets aside selection lists of teachers for illegally altering norms mid-recruitment process",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-09-29T12:19:59.459477+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Former MLA demands Madhu Bangarappa’s resignation",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-29T13:42:22.757530+00:00"
     }
   ]
 }
