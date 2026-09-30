@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T01:56:26.608450+00:00",
+  "last_posted_at": "2026-09-30T03:16:56.549868+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "SIR is a scam; CEC Gyanesh Kumar is being made a scapegoat: TVK minister Rajmohan",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-09-28T13:35:17.959275+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Bengaluru tree branch fall tragedy prompts Karnataka HC to script tech driven public safety framework across State",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-30T01:56:26.608450+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Modifications that Kumaraswamy claims led to NICE ‘scam’",
+      "genre": "family_disturbance",
+      "style": "finance",
+      "posted_at": "2026-09-30T03:16:56.549868+00:00"
     }
   ]
 }
