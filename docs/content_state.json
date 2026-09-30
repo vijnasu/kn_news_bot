@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T16:14:54.788412+00:00",
+  "last_posted_at": "2026-09-30T17:27:36.112083+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "28-year-old hacked to death outside Chennai home; 4 suspects on the run",
-      "genre": "family_disturbance",
-      "style": "fear",
-      "posted_at": "2026-09-29T09:35:38.494031+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "PNB scam: CBI arrests Nirav Modi's aide Sandeep Mistry after extradition from UAE",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-09-30T16:14:54.788412+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "INDIA bloc to launch nationwide campaign against CEC, SIR from October 2",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-30T17:27:36.112083+00:00"
     }
   ]
 }
