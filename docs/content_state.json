@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T13:39:58.128806+00:00",
+  "last_posted_at": "2026-09-30T14:54:34.433939+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Supreme Court agrees to list next week plea to suspend CEC Gyanesh Kumar from office",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-09-29T06:56:48.206381+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Rahul urges youth to protest, says government only responds under pressure",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-09-30T13:39:58.128806+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Government healthcare providers have slight edge in patient history access: DPI report",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-09-30T14:54:34.433939+00:00"
     }
   ]
 }
