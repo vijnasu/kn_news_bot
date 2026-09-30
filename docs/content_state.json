@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-29T17:27:29.124248+00:00",
+  "last_posted_at": "2026-09-30T00:35:41.802688+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "BMTC to install ADAS technology in 50 buses in Bengaluru to improve safety, prevent accidents",
-      "genre": "financial_loss",
-      "style": "fear",
-      "posted_at": "2026-09-28T11:11:53.783356+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka’s Deputy CM G. Parameshwar acknowledges pressure on finances due to guarantee schemes",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-29T17:27:29.124248+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Mammoth protest at Kittur Chennamma Circle by Sugarcane farmers; Farmers agree for talk at Delhi with Joshi after intervention by MLAs Tenginakai, Patil",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-09-30T00:35:41.802688+00:00"
     }
   ]
 }
