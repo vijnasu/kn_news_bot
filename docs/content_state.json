@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T10:51:46.934528+00:00",
+  "last_posted_at": "2026-09-30T12:22:35.532034+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Why rare-disease drugs could become India’s next pharma frontier",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-09-29T04:15:05.310413+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "One dead, another injured while cleaning sewer in Santacruz; no safety gear provided: Police",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-09-30T10:51:46.934528+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "90% of dementia cases in TN go undiagnosed: State turns focus to early screening and care",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-30T12:22:35.532034+00:00"
     }
   ]
 }
