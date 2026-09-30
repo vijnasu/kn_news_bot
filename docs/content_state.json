@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T14:54:34.433939+00:00",
+  "last_posted_at": "2026-09-30T16:14:54.788412+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Rahul urges youth to protest, says government only responds under pressure",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-09-29T08:17:47.839189+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "28-year-old hacked to death outside Chennai home; 4 suspects on the run",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-09-30T14:54:34.433939+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Changes in PF withdrawal rules lead to protests by garment workers",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-09-30T16:14:54.788412+00:00"
     }
   ]
 }
