@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T04:23:57.871923+00:00",
+  "last_posted_at": "2026-09-30T05:31:34.730972+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Another child rape case registered against granite baron Veeramani based on complaint of woman whose daughter died by suicide",
-      "genre": "sudden_health_fear",
-      "style": "health",
-      "posted_at": "2026-09-28T16:14:43.774234+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court asks how children can have social media accounts, as underlying contracts are legally void",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "land",
       "posted_at": "2026-09-30T04:23:57.871923+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Veeramani child rape case: DMK moves Madras high court, wants SIT to question Vijay and two ministers",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-09-30T05:31:34.730972+00:00"
     }
   ]
 }
