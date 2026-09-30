@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T09:34:01.185452+00:00",
+  "last_posted_at": "2026-09-30T10:51:46.934528+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "States stumped as demography panel seeks religion-wise data on vehicles, schools, voters",
-      "genre": "unexplained_obstacles",
-      "style": "land",
-      "posted_at": "2026-09-29T02:57:15.194497+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Why rare-disease drugs could become India’s next pharma frontier",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "land",
       "posted_at": "2026-09-30T09:34:01.185452+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Court admits actor Ansiba Hassan’s contempt plea against SHO",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-09-30T10:51:46.934528+00:00"
     }
   ]
 }
