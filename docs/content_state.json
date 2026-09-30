@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T12:22:35.532034+00:00",
+  "last_posted_at": "2026-09-30T13:39:58.128806+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "One dead, another injured while cleaning sewer in Santacruz; no safety gear provided: Police",
-      "genre": "financial_loss",
-      "style": "health",
-      "posted_at": "2026-09-29T05:31:15.049932+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Supreme Court agrees to list next week plea to suspend CEC Gyanesh Kumar from office",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-30T12:22:35.532034+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Granite baron R Veeramani booked in 3rd child rape case: A police station fire erased the record, but not the trail",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-09-30T13:39:58.128806+00:00"
     }
   ]
 }
