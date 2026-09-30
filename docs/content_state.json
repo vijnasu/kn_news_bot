@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-09-30T05:31:34.730972+00:00",
+  "last_posted_at": "2026-09-30T06:56:16.387873+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court asks how children can have social media accounts, as underlying contracts are legally void",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-09-28T17:27:03.728916+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Congress stages protest in Kalaburagi demanding CEC Gyanesh Kumar’s resignation",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-09-30T05:31:34.730972+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "'Invited her to guest house': 3rd case filed against granite baron R Veeramani over Class 11 student suicide",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-09-30T06:56:16.387873+00:00"
     }
   ]
 }
