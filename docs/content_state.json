@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T02:05:40.181110+00:00",
+  "last_posted_at": "2026-10-01T03:58:32.770961+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Former MLA demands Madhu Bangarappa’s resignation",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-29T13:42:22.757530+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Private school recognition cheating case: CCB raids five places linked to former TN minister Anbil Mahesh’s aides",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-01T02:05:40.181110+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Mamata backs Rahul as PM, Kharge seeks Opposition unity",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-01T03:58:32.770961+00:00"
     }
   ]
 }
