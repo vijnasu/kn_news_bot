@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T08:47:41.076325+00:00",
+  "last_posted_at": "2026-10-01T09:53:30.044304+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Hundreds of fishermen protest against Secretariat proposal at Foreshore Estate",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-09-30T01:56:26.608450+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Modifications that Kumaraswamy claims led to NICE ‘scam’",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-01T08:47:41.076325+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Prolonged dry spell, brown disease hit cotton yield in Yadgir district of Karnataka",
+      "genre": "repeated_failures",
+      "style": "health",
+      "posted_at": "2026-10-01T09:53:30.044304+00:00"
     }
   ]
 }
