@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T00:40:27.267216+00:00",
+  "last_posted_at": "2026-10-01T02:05:40.181110+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "BMIC project: H.D. Kumaraswamy fires salvo at Karnataka Chief Minister D.K. Shivakumar, accusing him of making ‘illegal land purchases’",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-09-29T12:19:59.459477+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Former MLA demands Madhu Bangarappa’s resignation",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-01T00:40:27.267216+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "IAT recommends pension or life insurance cover for farmers to insulate from distress",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-01T02:05:40.181110+00:00"
     }
   ]
 }
