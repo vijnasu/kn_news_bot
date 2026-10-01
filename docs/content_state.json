@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T14:52:17.781847+00:00",
+  "last_posted_at": "2026-10-01T16:13:48.526281+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Mahua Moitra's plea in SC alleging eviction from circuit house to be heard on October 1",
-      "genre": "negative_energy",
-      "style": "land",
-      "posted_at": "2026-09-30T08:17:38.501839+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Indian sailor among five killed, another injured as Somali forces retake hijacked tanker",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "health",
       "posted_at": "2026-10-01T14:52:17.781847+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "President Murmu, PM Modi hail pilot Smit Machchhar for role in averting flydubai flight disaster",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-01T16:13:48.526281+00:00"
     }
   ]
 }
