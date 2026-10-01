@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T05:16:46.684377+00:00",
+  "last_posted_at": "2026-10-01T06:22:56.372773+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Civil society groups, Congress demand FIRs over bulk Form 7s seeking deletion of names",
-      "genre": "repeated_failures",
-      "style": "finance",
-      "posted_at": "2026-09-29T16:14:23.073887+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Country has lost its way, but always finds its way back: Murli Manohar Joshi",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-10-01T05:16:46.684377+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Avoid ‘dangerous path’ of travelling to Russia to join army: MEA",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-01T06:22:56.372773+00:00"
     }
   ]
 }
