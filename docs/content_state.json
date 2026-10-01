@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-01T09:53:30.044304+00:00",
+  "last_posted_at": "2026-10-01T11:12:09.694380+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Modifications that Kumaraswamy claims led to NICE ‘scam’",
-      "genre": "family_disturbance",
-      "style": "finance",
-      "posted_at": "2026-09-30T03:16:56.549868+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "H.D. Kumaraswamy accuses D.K. Shivakumar and his family members of illegally acquiring land parcels around Bengaluru notified for BMIC project",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "health",
       "posted_at": "2026-10-01T09:53:30.044304+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Three FIRs over bulk Form-7s in Karnataka, CM demands ECI probe; BJP responds",
+      "genre": "negative_energy",
+      "style": "business",
+      "posted_at": "2026-10-01T11:12:09.694380+00:00"
     }
   ]
 }
