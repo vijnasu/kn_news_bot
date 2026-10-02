@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-02T04:36:10.197624+00:00",
+  "last_posted_at": "2026-10-02T05:51:46.645559+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Changes in PF withdrawal rules lead to protests by garment workers",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-09-30T16:14:54.788412+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "INDIA bloc to launch nationwide campaign against CEC, SIR from October 2",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-02T04:36:10.197624+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Inflated medicine bills caused ₹1.59 crore loss 12 years ago; DVAC registers case on four former health officials",
+      "genre": "political_business_enemies",
+      "style": "health",
+      "posted_at": "2026-10-02T05:51:46.645559+00:00"
     }
   ]
 }
