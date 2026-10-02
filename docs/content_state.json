@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-02T10:29:36.730210+00:00",
+  "last_posted_at": "2026-10-02T11:42:32.642384+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "DVAC books 4 former TN health officials over inflated medicine purchases made 12 years ago",
-      "genre": "marriage_delay",
-      "style": "health",
-      "posted_at": "2026-10-01T05:16:46.684377+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Avoid ‘dangerous path’ of travelling to Russia to join army: MEA",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-02T10:29:36.730210+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "IIT Bombay student begin hunger strike demanding accountability over student Sahil Wakode’s death",
+      "genre": "political_business_enemies",
+      "style": "career",
+      "posted_at": "2026-10-02T11:42:32.642384+00:00"
     }
   ]
 }
