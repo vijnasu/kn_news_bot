@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-02T14:52:55.027694+00:00",
+  "last_posted_at": "2026-10-02T16:13:23.351641+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Prolonged dry spell, brown disease hit cotton yield in Yadgir district of Karnataka",
-      "genre": "repeated_failures",
-      "style": "health",
-      "posted_at": "2026-10-01T09:53:30.044304+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Three FIRs over bulk Form-7s in Karnataka, CM demands ECI probe; BJP responds",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-02T14:52:55.027694+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Four Aland police personnel suspended over alleged lapses in PDS rice seizure",
+      "genre": "sudden_health_fear",
+      "style": "land",
+      "posted_at": "2026-10-02T16:13:23.351641+00:00"
     }
   ]
 }
