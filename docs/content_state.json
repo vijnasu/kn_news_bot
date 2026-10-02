@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-02T16:13:23.351641+00:00",
+  "last_posted_at": "2026-10-02T17:27:17.130289+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Three FIRs over bulk Form-7s in Karnataka, CM demands ECI probe; BJP responds",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-10-01T11:12:09.694380+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "BEML unveils 60-tonne Electric Dump Truck for mining operations",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "land",
       "posted_at": "2026-10-02T16:13:23.351641+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "‘Gyanesh, it’s done bro’ echoes as thousands join CJP protest seeking CEC’s resignation",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-02T17:27:17.130289+00:00"
     }
   ]
 }
