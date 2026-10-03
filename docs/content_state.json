@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T01:40:54.009216+00:00",
+  "last_posted_at": "2026-10-03T03:05:24.998623+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Mangaluru fire mishap: MRPL offers ₹ 1.2 crore compensation to family of contract employee who died",
-      "genre": "sudden_health_fear",
-      "style": "health",
-      "posted_at": "2026-10-01T14:52:17.781847+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "President Murmu, PM Modi hail pilot Smit Machchhar for role in averting flydubai flight disaster",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-03T01:40:54.009216+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "BJP sought scrutiny, not deletion of names: Karnataka MLA",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-03T03:05:24.998623+00:00"
     }
   ]
 }
