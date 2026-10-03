@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T08:15:37.515892+00:00",
+  "last_posted_at": "2026-10-03T09:29:11.857272+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Former minister accuses TVK govt of mismanaging Tamil Nadu’s economy",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-02T03:15:13.748310+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "HC refuses to reject plea challenging election of resigned AIADMK MLA",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "career",
       "posted_at": "2026-10-03T08:15:37.515892+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Farmers stage protest opposing land acquisition for Reliance Data Center",
+      "genre": "family_disturbance",
+      "style": "land",
+      "posted_at": "2026-10-03T09:29:11.857272+00:00"
     }
   ]
 }
