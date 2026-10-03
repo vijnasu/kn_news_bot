@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T15:36:16.630773+00:00",
+  "last_posted_at": "2026-10-03T17:05:42.932692+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "How accurate is Bengaluru’s AI traffic enforcement? | Explained",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-10-02T09:14:02.061548+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Form 6 available online was changed illegally, says Rahul Gandhi",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-03T15:36:16.630773+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Remuneration dispute: About 100 Maharani Cluster University guest lecturers protest for a week",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-03T17:05:42.932692+00:00"
     }
   ]
 }
