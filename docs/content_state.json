@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T07:00:51.063844+00:00",
+  "last_posted_at": "2026-10-03T08:15:37.515892+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka estimates crop loss at ₹46,324 crore as 220 taluks may be declared drought-hit",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-02T01:54:21.227955+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Former minister accuses TVK govt of mismanaging Tamil Nadu’s economy",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-03T07:00:51.063844+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "CJP stresses non-violence, urges citizens to join October 10 Delhi protest",
+      "genre": "court_cases",
+      "style": "career",
+      "posted_at": "2026-10-03T08:15:37.515892+00:00"
     }
   ]
 }
