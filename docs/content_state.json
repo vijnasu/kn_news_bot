@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T10:44:49.158437+00:00",
+  "last_posted_at": "2026-10-03T12:30:58.548257+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Inflated medicine bills caused ₹1.59 crore loss 12 years ago; DVAC registers case on four former health officials",
-      "genre": "political_business_enemies",
-      "style": "health",
-      "posted_at": "2026-10-02T05:51:46.645559+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Proposed Supreme Court visit of parliamentary panel studying simultaneous elections: Why is separation of powers an issue?",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-03T10:44:49.158437+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Congress president Kharge calls all elections illegal; demands dissolution of Lok Sabha, State Assemblies",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-03T12:30:58.548257+00:00"
     }
   ]
 }
