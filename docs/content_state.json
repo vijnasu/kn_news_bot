@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-02T17:27:17.130289+00:00",
+  "last_posted_at": "2026-10-03T00:32:08.106499+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "BEML unveils 60-tonne Electric Dump Truck for mining operations",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-01T12:19:53.885601+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "ED arrests two accused in Rs 1,417cr investment fraud case",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-02T17:27:17.130289+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "CJP announces Jantar Mantar protest on October 10 if CEC Gyanesh Kumar does not resign",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-03T00:32:08.106499+00:00"
     }
   ]
 }
