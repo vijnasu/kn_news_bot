@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T12:30:58.548257+00:00",
+  "last_posted_at": "2026-10-03T14:23:49.157998+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Proposed Supreme Court visit of parliamentary panel studying simultaneous elections: Why is separation of powers an issue?",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-02T06:55:34.963466+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "BJP tells Karnataka Chief Minister prove Form 7 allegations or quit",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-03T12:30:58.548257+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Farmers take out tractor rally in Dharwad seeking drought relief measures",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-03T14:23:49.157998+00:00"
     }
   ]
 }
