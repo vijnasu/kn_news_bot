@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T05:36:31.800134+00:00",
+  "last_posted_at": "2026-10-03T07:00:51.063844+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "BJP accuses Congress, Rahul Gandhi of double standards over alleged paper leak in Karnataka",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-02T00:34:52.490732+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka estimates crop loss at ₹46,324 crore as 220 taluks may be declared drought-hit",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "health",
       "posted_at": "2026-10-03T05:36:31.800134+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "After CAPF constable’s death in Bijapur, family alleges murder",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-03T07:00:51.063844+00:00"
     }
   ]
 }
