@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-03T09:29:11.857272+00:00",
+  "last_posted_at": "2026-10-03T10:44:49.158437+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "HC refuses to reject plea challenging election of resigned AIADMK MLA",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-02T04:36:10.197624+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Inflated medicine bills caused ₹1.59 crore loss 12 years ago; DVAC registers case on four former health officials",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "land",
       "posted_at": "2026-10-03T09:29:11.857272+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "CM Vijay slams MK Stalin over ‘indecent’ remarks against TVK candidate",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-03T10:44:49.158437+00:00"
     }
   ]
 }
