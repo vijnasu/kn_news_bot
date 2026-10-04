@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T14:11:33.795525+00:00",
+  "last_posted_at": "2026-10-04T15:48:32.125675+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "CPM lashes out at political landscape in TN, Pondy, accuses parties of distributing cash",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-03T01:40:54.009216+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "BJP sought scrutiny, not deletion of names: Karnataka MLA",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "health",
       "posted_at": "2026-10-04T14:11:33.795525+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "'Went out to play': 4 school students found dead in Thiruneermalai lake near Chennai",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-10-04T15:48:32.125675+00:00"
     }
   ]
 }
