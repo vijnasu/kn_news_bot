@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T04:13:29.921313+00:00",
+  "last_posted_at": "2026-10-04T05:59:44.686010+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Gandhi for Gen Z: The Mahatma is suddenly cool again | A documentary by The Hindu",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-10-02T13:51:21.367590+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Congress accuses Election Commission of ‘lying’ over ECINet; seeks accountability",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-04T04:13:29.921313+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Kharge writes to PM and HM",
+      "genre": "political_business_enemies",
+      "style": "weather_extreme",
+      "posted_at": "2026-10-04T05:59:44.686010+00:00"
     }
   ]
 }
