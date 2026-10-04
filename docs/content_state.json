@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T05:59:44.686010+00:00",
+  "last_posted_at": "2026-10-04T08:13:42.774752+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Congress accuses Election Commission of ‘lying’ over ECINet; seeks accountability",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-02T14:52:55.027694+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Four Aland police personnel suspended over alleged lapses in PDS rice seizure",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "weather_extreme",
       "posted_at": "2026-10-04T05:59:44.686010+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "AMU protests: Students block four entry gates, proctor says ‘outsider’ detained from hostel",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-04T08:13:42.774752+00:00"
     }
   ]
 }
