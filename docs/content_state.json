@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T00:34:14.735217+00:00",
+  "last_posted_at": "2026-10-04T01:53:52.641293+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "IIT Bombay student begin hunger strike demanding accountability over student Sahil Wakode’s death",
-      "genre": "political_business_enemies",
-      "style": "career",
-      "posted_at": "2026-10-02T11:42:32.642384+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court says state can set National Song, but cannot impose conscientious objectors to penal action",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-04T00:34:14.735217+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Protests held across country demanding CEC Gyanesh Kumar’s ouster, hundreds detained",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-04T01:53:52.641293+00:00"
     }
   ]
 }
