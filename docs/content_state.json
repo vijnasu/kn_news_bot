@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T08:13:42.774752+00:00",
+  "last_posted_at": "2026-10-04T10:24:04.306274+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Four Aland police personnel suspended over alleged lapses in PDS rice seizure",
-      "genre": "sudden_health_fear",
-      "style": "land",
-      "posted_at": "2026-10-02T16:13:23.351641+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "‘Gyanesh, it’s done bro’ echoes as thousands join CJP protest seeking CEC’s resignation",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-04T08:13:42.774752+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "India is going ‘beyond advocacy’ on the Russia-Ukraine conflict: Jaishankar",
+      "genre": "repeated_failures",
+      "style": "fear",
+      "posted_at": "2026-10-04T10:24:04.306274+00:00"
     }
   ]
 }
