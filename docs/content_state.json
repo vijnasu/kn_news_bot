@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T10:24:04.306274+00:00",
+  "last_posted_at": "2026-10-04T12:10:57.874666+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "‘Gyanesh, it’s done bro’ echoes as thousands join CJP protest seeking CEC’s resignation",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-02T17:27:17.130289+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CJP announces Jantar Mantar protest on October 10 if CEC Gyanesh Kumar does not resign",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "fear",
       "posted_at": "2026-10-04T10:24:04.306274+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "BJP questions Rahul Gandhi’s ‘silence’ on flydubai incident, Captain Smit’s bravery",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-04T12:10:57.874666+00:00"
     }
   ]
 }
