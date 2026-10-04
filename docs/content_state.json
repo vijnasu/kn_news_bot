@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-04T12:10:57.874666+00:00",
+  "last_posted_at": "2026-10-04T14:11:33.795525+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CJP announces Jantar Mantar protest on October 10 if CEC Gyanesh Kumar does not resign",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-03T00:32:08.106499+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "CPM lashes out at political landscape in TN, Pondy, accuses parties of distributing cash",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-04T12:10:57.874666+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "District administration seeks agricultural research land for private healthcare project",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-10-04T14:11:33.795525+00:00"
     }
   ]
 }
