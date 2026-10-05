@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T06:52:31.780668+00:00",
+  "last_posted_at": "2026-10-05T08:05:07.941048+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "CM Vijay slams MK Stalin over ‘indecent’ remarks against TVK candidate",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-03T10:44:49.158437+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Congress president Kharge calls all elections illegal; demands dissolution of Lok Sabha, State Assemblies",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-10-05T06:52:31.780668+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "CBI arrests DGCA deputy director, air training firm director in bribery case",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-10-05T08:05:07.941048+00:00"
     }
   ]
 }
