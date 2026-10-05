@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T02:01:25.901240+00:00",
+  "last_posted_at": "2026-10-05T03:20:53.003791+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "After CAPF constable’s death in Bijapur, family alleges murder",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-03T07:00:51.063844+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "CJP stresses non-violence, urges citizens to join October 10 Delhi protest",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-05T02:01:25.901240+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Spurious drugs case: Kingpin’s travel to turkiye throws light on racket’s international links",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-10-05T03:20:53.003791+00:00"
     }
   ]
 }
