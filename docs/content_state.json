@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T05:06:12.755209+00:00",
+  "last_posted_at": "2026-10-05T06:52:31.780668+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Farmers stage protest opposing land acquisition for Reliance Data Center",
-      "genre": "family_disturbance",
-      "style": "land",
-      "posted_at": "2026-10-03T09:29:11.857272+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "CM Vijay slams MK Stalin over ‘indecent’ remarks against TVK candidate",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-05T05:06:12.755209+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Supreme Court to list plea to allow peaceful protests to Jantar Mantar",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-10-05T06:52:31.780668+00:00"
     }
   ]
 }
