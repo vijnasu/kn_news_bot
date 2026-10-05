@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T03:20:53.003791+00:00",
+  "last_posted_at": "2026-10-05T05:06:12.755209+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "CJP stresses non-violence, urges citizens to join October 10 Delhi protest",
-      "genre": "court_cases",
-      "style": "career",
-      "posted_at": "2026-10-03T08:15:37.515892+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Farmers stage protest opposing land acquisition for Reliance Data Center",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-10-05T03:20:53.003791+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "While KPSC flounders, KEA finishes recruitment process for 7,905 posts in four months in Karnataka",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-05T05:06:12.755209+00:00"
     }
   ]
 }
