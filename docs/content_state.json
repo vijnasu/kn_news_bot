@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T10:42:33.302556+00:00",
+  "last_posted_at": "2026-10-05T11:43:48.553068+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka Chief Minister D.K. Shivakumar plans regional cultural showcase in Dasara procession",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-03T15:36:16.630773+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Remuneration dispute: About 100 Maharani Cluster University guest lecturers protest for a week",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-10-05T10:42:33.302556+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Madras HC grants leave to DMK to move Rs 1 crore defamation suit against TVK ministers",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-05T11:43:48.553068+00:00"
     }
   ]
 }
