@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-05T08:05:07.941048+00:00",
+  "last_posted_at": "2026-10-05T09:22:50.180666+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Congress president Kharge calls all elections illegal; demands dissolution of Lok Sabha, State Assemblies",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-03T12:30:58.548257+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Farmers take out tractor rally in Dharwad seeking drought relief measures",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-05T08:05:07.941048+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Supreme Court notice to ECI, Centre on plea challenging decisions taken by CEC-led poll panel",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-05T09:22:50.180666+00:00"
     }
   ]
 }
