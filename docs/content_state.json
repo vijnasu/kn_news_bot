@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T13:52:41.079037+00:00",
+  "last_posted_at": "2026-10-06T15:12:23.690032+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Supreme Court to list plea to allow peaceful protests to Jantar Mantar",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-10-05T06:52:31.780668+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "CBI arrests DGCA deputy director, air training firm director in bribery case",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-06T13:52:41.079037+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "MoD signs ₹661.5-crore contract with BrahMos Aerospace for Navy’s fire control systems, launchers",
+      "genre": "unexplained_obstacles",
+      "style": "accident",
+      "posted_at": "2026-10-06T15:12:23.690032+00:00"
     }
   ]
 }
