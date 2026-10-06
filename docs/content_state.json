@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T01:52:23.185842+00:00",
+  "last_posted_at": "2026-10-06T03:15:38.198201+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "India is going ‘beyond advocacy’ on the Russia-Ukraine conflict: Jaishankar",
-      "genre": "repeated_failures",
-      "style": "fear",
-      "posted_at": "2026-10-04T10:24:04.306274+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "BJP questions Rahul Gandhi’s ‘silence’ on flydubai incident, Captain Smit’s bravery",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-10-06T01:52:23.185842+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "ECI fact-checks claims on Form 6 following SC observation",
+      "genre": "sudden_health_fear",
+      "style": "court",
+      "posted_at": "2026-10-06T03:15:38.198201+00:00"
     }
   ]
 }
