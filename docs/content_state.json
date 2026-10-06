@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T10:31:01.430891+00:00",
+  "last_posted_at": "2026-10-06T11:42:26.276879+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Man, two grandchildren drown in agricultural pond in Chickballapur",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-05T02:01:25.901240+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Spurious drugs case: Kingpin’s travel to turkiye throws light on racket’s international links",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-06T10:31:01.430891+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "ED files chargesheet against travel website promoter in Mahadev betting app case",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-10-06T11:42:26.276879+00:00"
     }
   ]
 }
