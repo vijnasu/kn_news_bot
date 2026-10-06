@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T05:32:58.479317+00:00",
+  "last_posted_at": "2026-10-06T06:57:06.303187+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "'Went out to play': 4 school students found dead in Thiruneermalai lake near Chennai",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-10-04T15:48:32.125675+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Mismatch in data on rabies deaths poses major challenge",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "health",
       "posted_at": "2026-10-06T05:32:58.479317+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Auto retail surges 32% in record Sept, but GST-distorted base clouds growth outlook",
+      "genre": "marriage_delay",
+      "style": "finance",
+      "posted_at": "2026-10-06T06:57:06.303187+00:00"
     }
   ]
 }
