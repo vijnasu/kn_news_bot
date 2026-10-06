@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T15:12:23.690032+00:00",
+  "last_posted_at": "2026-10-06T16:14:58.876322+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "CBI arrests DGCA deputy director, air training firm director in bribery case",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-05T08:05:07.941048+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court notice to ECI, Centre on plea challenging decisions taken by CEC-led poll panel",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "accident",
       "posted_at": "2026-10-06T15:12:23.690032+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Training aircraft makes emergency landing in agricultural field near Kalaburagi Airport",
+      "genre": "business_blockage",
+      "style": "land",
+      "posted_at": "2026-10-06T16:14:58.876322+00:00"
     }
   ]
 }
