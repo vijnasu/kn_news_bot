@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T08:45:56.630374+00:00",
+  "last_posted_at": "2026-10-06T10:31:01.430891+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CM likely to attend GST meeting",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-05T00:37:38.541256+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Man, two grandchildren drown in agricultural pond in Chickballapur",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-06T08:45:56.630374+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "CM announces ₹10 lakh, govt. jobs for members of national blind women’s cricket team from Karnataka",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-06T10:31:01.430891+00:00"
     }
   ]
 }
