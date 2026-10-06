@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T16:14:58.876322+00:00",
+  "last_posted_at": "2026-10-06T17:24:33.354375+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court notice to ECI, Centre on plea challenging decisions taken by CEC-led poll panel",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-05T09:22:50.180666+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Preservation of culture a fundamental right, says SC, refuses to stay Calcutta HC proceedings in Nicobar project case",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "land",
       "posted_at": "2026-10-06T16:14:58.876322+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Tamil Nadu bypoll row: Polling officer removed after directing voter to press TVK’s ‘whistle’ symbol",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-06T17:24:33.354375+00:00"
     }
   ]
 }
