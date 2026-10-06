@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T04:16:08.964811+00:00",
+  "last_posted_at": "2026-10-06T05:32:58.479317+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "District administration seeks agricultural research land for private healthcare project",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-10-04T14:11:33.795525+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "'Went out to play': 4 school students found dead in Thiruneermalai lake near Chennai",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-10-06T04:16:08.964811+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Ganesh procession organiser held a month after 19-year-old died amid crowd commotion",
+      "genre": "unexplained_obstacles",
+      "style": "health",
+      "posted_at": "2026-10-06T05:32:58.479317+00:00"
     }
   ]
 }
