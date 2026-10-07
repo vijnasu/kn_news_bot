@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T08:18:16.957976+00:00",
+  "last_posted_at": "2026-10-07T09:36:55.100955+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Supreme Court refuses to stay proceedings against Nicobar project",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-10-06T01:52:23.185842+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "ECI fact-checks claims on Form 6 following SC observation",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "finance",
       "posted_at": "2026-10-07T08:18:16.957976+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Minister orders crackdown on illegal resorts and homestays in tiger reserves in Karnataka",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-07T09:36:55.100955+00:00"
     }
   ]
 }
