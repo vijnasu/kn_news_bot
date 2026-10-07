@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T11:52:56.762253+00:00",
+  "last_posted_at": "2026-10-07T13:16:56.534459+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Ganesh procession organiser held a month after 19-year-old died amid crowd commotion",
-      "genre": "unexplained_obstacles",
-      "style": "health",
-      "posted_at": "2026-10-06T05:32:58.479317+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Auto retail surges 32% in record Sept, but GST-distorted base clouds growth outlook",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "sudden_loss",
       "posted_at": "2026-10-07T11:52:56.762253+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Few suspected trapped after portion of building collapses in Delhi’s Seemapuri",
+      "genre": "career_instability",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-07T13:16:56.534459+00:00"
     }
   ]
 }
