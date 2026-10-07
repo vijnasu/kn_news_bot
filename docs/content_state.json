@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T05:22:08.003388+00:00",
+  "last_posted_at": "2026-10-07T06:56:30.100327+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Farm land survey fee hike put on hold",
-      "genre": "business_blockage",
-      "style": "land",
-      "posted_at": "2026-10-05T16:35:58.143915+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Gyanesh Kumar changed Form 6 ‘illegally’ during SIR, says Rahul Gandhi",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "accident",
       "posted_at": "2026-10-07T05:22:08.003388+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Key developments in the ECI row: A timeline",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-07T06:56:30.100327+00:00"
     }
   ]
 }
