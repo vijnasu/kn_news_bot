@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T15:46:26.931066+00:00",
+  "last_posted_at": "2026-10-07T17:18:51.765472+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "CM announces ₹10 lakh, govt. jobs for members of national blind women’s cricket team from Karnataka",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-06T10:31:01.430891+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "ED files chargesheet against travel website promoter in Mahadev betting app case",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-07T15:46:26.931066+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Women allege living voters were shown as ‘dead’; seek criminal case against Yatnal",
+      "genre": "unexplained_obstacles",
+      "style": "health",
+      "posted_at": "2026-10-07T17:18:51.765472+00:00"
     }
   ]
 }
