@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-06T17:24:33.354375+00:00",
+  "last_posted_at": "2026-10-07T00:35:41.880806+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Preservation of culture a fundamental right, says SC, refuses to stay Calcutta HC proceedings in Nicobar project case",
-      "genre": "marriage_delay",
-      "style": "court",
-      "posted_at": "2026-10-05T10:42:33.302556+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Madras HC grants leave to DMK to move Rs 1 crore defamation suit against TVK ministers",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-06T17:24:33.354375+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Rahul’s protest a political drama, claims made by Congress are lies: BJP",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-07T00:35:41.880806+00:00"
     }
   ]
 }
