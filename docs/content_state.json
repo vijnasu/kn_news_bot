@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T06:56:30.100327+00:00",
+  "last_posted_at": "2026-10-07T08:18:16.957976+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Gyanesh Kumar changed Form 6 ‘illegally’ during SIR, says Rahul Gandhi",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-06T00:35:06.384715+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Supreme Court refuses to stay proceedings against Nicobar project",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-07T06:56:30.100327+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Why growing trust in digital payments may be leaving Indians more exposed to cybercrime",
+      "genre": "repeated_failures",
+      "style": "finance",
+      "posted_at": "2026-10-07T08:18:16.957976+00:00"
     }
   ]
 }
