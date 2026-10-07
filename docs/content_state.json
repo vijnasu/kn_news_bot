@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T03:00:25.448213+00:00",
+  "last_posted_at": "2026-10-07T04:15:44.910471+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Farmers threaten agitation over MSP if demand not met immediately",
-      "genre": "unexplained_obstacles",
-      "style": "fear",
-      "posted_at": "2026-10-05T14:16:14.947428+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Man hacked to death by brother-in-law, two others at estranged wife’s house in Chennai",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-10-07T03:00:25.448213+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Cabinet approves five commissionerates for Bengaluru; former officers express concern",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-07T04:15:44.910471+00:00"
     }
   ]
 }
