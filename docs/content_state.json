@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-07T14:32:19.744069+00:00",
+  "last_posted_at": "2026-10-07T15:46:26.931066+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "‘Gyanesh, it's done bro, time to resign’: INDIA bloc MPs stage sit-in after march to ECI stopped",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-06T08:45:56.630374+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "CM announces ₹10 lakh, govt. jobs for members of national blind women’s cricket team from Karnataka",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-07T14:32:19.744069+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "BJP MLA Araga Jnanendra alleges large scale corruption in health check up scheme for construction workers, demands CBI probe",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-07T15:46:26.931066+00:00"
     }
   ]
 }
