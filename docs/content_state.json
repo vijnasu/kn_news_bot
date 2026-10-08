@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T01:59:28.442424+00:00",
+  "last_posted_at": "2026-10-08T03:00:04.216434+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Supreme Court gets three new judges, strength goes up to 37",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-06T13:52:41.079037+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "MoD signs ₹661.5-crore contract with BrahMos Aerospace for Navy’s fire control systems, launchers",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-08T01:59:28.442424+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Captain Smit Machchhar’s health is improving: MEA",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-10-08T03:00:04.216434+00:00"
     }
   ]
 }
