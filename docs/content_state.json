@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T15:53:30.435073+00:00",
+  "last_posted_at": "2026-10-08T16:55:41.559357+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Minister orders crackdown on illegal resorts and homestays in tiger reserves in Karnataka",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-07T09:36:55.100955+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Why the Election Commission refused Rahul Gandhi’s request to meet",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-08T15:53:30.435073+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "KPSC recruitment scam: ‘₹20–40 lakh bribes for leaked answer keys’",
+      "genre": "family_disturbance",
+      "style": "finance",
+      "posted_at": "2026-10-08T16:55:41.559357+00:00"
     }
   ]
 }
