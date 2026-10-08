@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T05:23:38.776172+00:00",
+  "last_posted_at": "2026-10-08T06:59:03.676819+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Tamil Nadu bypoll row: Polling officer removed after directing voter to press TVK’s ‘whistle’ symbol",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-06T17:24:33.354375+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Rahul’s protest a political drama, claims made by Congress are lies: BJP",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-10-08T05:23:38.776172+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "India exposes Pakistan’s doublespeak at UN, says world has not forgotten 9/11, 26/11, Pahalgam attacks",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-08T06:59:03.676819+00:00"
     }
   ]
 }
