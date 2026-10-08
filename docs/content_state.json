@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T06:59:03.676819+00:00",
+  "last_posted_at": "2026-10-08T08:30:46.533369+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Rahul’s protest a political drama, claims made by Congress are lies: BJP",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-07T00:35:41.880806+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka Chief Minister leaves for Delhi ahead of GST Council meeting",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-08T06:59:03.676819+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "FIR against MLA for creating false death certificates of voters in Vijayapura",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-08T08:30:46.533369+00:00"
     }
   ]
 }
