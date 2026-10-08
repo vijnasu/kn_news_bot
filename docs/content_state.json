@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T03:00:04.216434+00:00",
+  "last_posted_at": "2026-10-08T04:15:53.713758+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "MoD signs ₹661.5-crore contract with BrahMos Aerospace for Navy’s fire control systems, launchers",
-      "genre": "unexplained_obstacles",
-      "style": "accident",
-      "posted_at": "2026-10-06T15:12:23.690032+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Training aircraft makes emergency landing in agricultural field near Kalaburagi Airport",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-10-08T03:00:04.216434+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "State, UT-level Bankers’ Committees asked to report share of SC beneficiaries in jobs, loan subsidy schemes",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-10-08T04:15:53.713758+00:00"
     }
   ]
 }
