@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T10:53:12.750459+00:00",
+  "last_posted_at": "2026-10-08T11:55:07.678176+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Cabinet approves five commissionerates for Bengaluru; former officers express concern",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-07T04:15:44.910471+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Ukraine drone attack triggers huge tanker fire off Russia’s Sochi; 23 Indians rescued",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-08T10:53:12.750459+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "The Rahul Gandhi show and the Congress’s alliance dilemma",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-08T11:55:07.678176+00:00"
     }
   ]
 }
