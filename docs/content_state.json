@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T13:17:38.361655+00:00",
+  "last_posted_at": "2026-10-08T14:35:33.236368+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Key developments in the ECI row: A timeline",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-07T06:56:30.100327+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Why growing trust in digital payments may be leaving Indians more exposed to cybercrime",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-10-08T13:17:38.361655+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Karnataka’s pending dues: ‘Good news’ after talks with Finance Minister, says Shivakumar",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-08T14:35:33.236368+00:00"
     }
   ]
 }
