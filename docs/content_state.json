@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T14:35:33.236368+00:00",
+  "last_posted_at": "2026-10-08T15:53:30.435073+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Why growing trust in digital payments may be leaving Indians more exposed to cybercrime",
-      "genre": "repeated_failures",
-      "style": "finance",
-      "posted_at": "2026-10-07T08:18:16.957976+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Minister orders crackdown on illegal resorts and homestays in tiger reserves in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-08T14:35:33.236368+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Election petition against CM Vijay: Will an encroacher of govt land be barred from contesting polls, asks Madras high court",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-08T15:53:30.435073+00:00"
     }
   ]
 }
