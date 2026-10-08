@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T08:30:46.533369+00:00",
+  "last_posted_at": "2026-10-08T09:44:09.671088+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Karnataka Chief Minister leaves for Delhi ahead of GST Council meeting",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-07T01:58:55.734451+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "ASHA workers seek ₹15,000 monthly remuneration",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-08T08:30:46.533369+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "KPSC recruitment scam: ED arrests suspended chairperson, member; ₹20–40 lakh bribe for leaked answer keys",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-08T09:44:09.671088+00:00"
     }
   ]
 }
