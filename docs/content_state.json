@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-08T11:55:07.678176+00:00",
+  "last_posted_at": "2026-10-08T13:17:38.361655+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Ukraine drone attack triggers huge tanker fire off Russia’s Sochi; 23 Indians rescued",
-      "genre": "financial_loss",
-      "style": "accident",
-      "posted_at": "2026-10-07T05:22:08.003388+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Key developments in the ECI row: A timeline",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-08T11:55:07.678176+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Delhi NCR rape cases: Supreme Court orders heightened patrolling near schools, cab driver checks",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-10-08T13:17:38.361655+00:00"
     }
   ]
 }
