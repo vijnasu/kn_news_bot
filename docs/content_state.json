@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T00:36:42.289682+00:00",
+  "last_posted_at": "2026-10-09T02:01:49.362508+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Few suspected trapped after portion of building collapses in Delhi’s Seemapuri",
-      "genre": "family_disturbance",
-      "style": "sudden_loss",
-      "posted_at": "2026-10-07T11:52:56.762253+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Few suspected trapped after portion of building collapses in Delhi’s Seemapuri",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-09T00:36:42.289682+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Drought impact: Shivamogga village bans post-marriage non-vegetarian feasts",
+      "genre": "financial_loss",
+      "style": "marriage",
+      "posted_at": "2026-10-09T02:01:49.362508+00:00"
     }
   ]
 }
