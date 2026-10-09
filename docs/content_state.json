@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T03:36:12.109497+00:00",
+  "last_posted_at": "2026-10-09T04:47:55.875221+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Congress workers court arrest protesting against Rahul Gandhi’s detention",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-07T14:32:19.744069+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BJP MLA Araga Jnanendra alleges large scale corruption in health check up scheme for construction workers, demands CBI probe",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-10-09T03:36:12.109497+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "CEC-SIR row highlights on October 8: Opposition leaders say will continue protest against CEC, ‘vote chori’",
+      "genre": "political_business_enemies",
+      "style": "scandal",
+      "posted_at": "2026-10-09T04:47:55.875221+00:00"
     }
   ]
 }
