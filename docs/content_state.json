@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T05:54:15.459119+00:00",
+  "last_posted_at": "2026-10-09T06:58:58.687889+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Women allege living voters were shown as ‘dead’; seek criminal case against Yatnal",
-      "genre": "unexplained_obstacles",
-      "style": "health",
-      "posted_at": "2026-10-07T17:18:51.765472+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "ED gets custody of former KPSC chief Sahukar, member Geetha in veterinary recruitment scam",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-09T05:54:15.459119+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Air India, IndiGo cancel and divert Riyadh flights after missile threat",
+      "genre": "repeated_failures",
+      "style": "career",
+      "posted_at": "2026-10-09T06:58:58.687889+00:00"
     }
   ]
 }
