@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T04:47:55.875221+00:00",
+  "last_posted_at": "2026-10-09T05:54:15.459119+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BJP MLA Araga Jnanendra alleges large scale corruption in health check up scheme for construction workers, demands CBI probe",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-07T15:46:26.931066+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Women allege living voters were shown as ‘dead’; seek criminal case against Yatnal",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "scandal",
       "posted_at": "2026-10-09T04:47:55.875221+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "After speculation over political appointees, government to send senior career officer to Kathmandu",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-09T05:54:15.459119+00:00"
     }
   ]
 }
