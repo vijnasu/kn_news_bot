@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T06:58:58.687889+00:00",
+  "last_posted_at": "2026-10-09T08:19:15.288219+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "ED gets custody of former KPSC chief Sahukar, member Geetha in veterinary recruitment scam",
-      "genre": "career_instability",
-      "style": "finance",
-      "posted_at": "2026-10-08T00:34:46.004712+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "INDIA bloc yet to get President’s appointment on ECI concerns",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "career",
       "posted_at": "2026-10-09T06:58:58.687889+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Bus hits truck parked on highway near Belagavi; one dead, 12 injured",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-10-09T08:19:15.288219+00:00"
     }
   ]
 }
