@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T13:15:42.874856+00:00",
+  "last_posted_at": "2026-10-09T14:36:27.790722+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "India exposes Pakistan’s doublespeak at UN, says world has not forgotten 9/11, 26/11, Pahalgam attacks",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-08T06:59:03.676819+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "FIR against MLA for creating false death certificates of voters in Vijayapura",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-09T13:15:42.874856+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Nothing can stop the youth of India: Chirag Paswan",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-09T14:36:27.790722+00:00"
     }
   ]
 }
