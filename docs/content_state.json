@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T10:53:22.059775+00:00",
+  "last_posted_at": "2026-10-09T11:53:46.755197+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "State, UT-level Bankers’ Committees asked to report share of SC beneficiaries in jobs, loan subsidy schemes",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-10-08T04:15:53.713758+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Opposition to private healthcare project on Agricultural Research Station land in Kalaburagi",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "public_unrest",
       "posted_at": "2026-10-09T10:53:22.059775+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Dasara book chariot sets out to promote Kannada literature",
+      "genre": "repeated_failures",
+      "style": "scandal",
+      "posted_at": "2026-10-09T11:53:46.755197+00:00"
     }
   ]
 }
