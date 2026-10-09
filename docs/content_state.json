@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-09T11:53:46.755197+00:00",
+  "last_posted_at": "2026-10-09T13:15:42.874856+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Opposition to private healthcare project on Agricultural Research Station land in Kalaburagi",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-10-08T05:23:38.776172+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "India exposes Pakistan’s doublespeak at UN, says world has not forgotten 9/11, 26/11, Pahalgam attacks",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "scandal",
       "posted_at": "2026-10-09T11:53:46.755197+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "TVK candidates Maragatham Kumaravel, P Sathyabama win Madurantakam and Dharapuram byelections in Tamil Nadu",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-09T13:15:42.874856+00:00"
     }
   ]
 }
