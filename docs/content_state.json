@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T13:10:50.455016+00:00",
+  "last_posted_at": "2026-10-10T14:11:53.785901+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Air India, IndiGo cancel and divert Riyadh flights after missile threat",
-      "genre": "repeated_failures",
-      "style": "career",
-      "posted_at": "2026-10-09T06:58:58.687889+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Bus hits truck parked on highway near Belagavi; one dead, 12 injured",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-10T13:10:50.455016+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Rahul Gandhi asks youth to keep protesting, says those who attacked Constitution will be defeated",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-10T14:11:53.785901+00:00"
     }
   ]
 }
