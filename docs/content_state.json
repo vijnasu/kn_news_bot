@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T00:35:47.878846+00:00",
+  "last_posted_at": "2026-10-10T01:58:07.995139+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "The Rahul Gandhi show and the Congress’s alliance dilemma",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-08T11:55:07.678176+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Delhi NCR rape cases: Supreme Court orders heightened patrolling near schools, cab driver checks",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "scandal",
       "posted_at": "2026-10-10T00:35:47.878846+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka govt. writes to SLBC instructing against adjusting Gruha Lakshmi amount for loans",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-10-10T01:58:07.995139+00:00"
     }
   ]
 }
