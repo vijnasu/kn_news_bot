@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T10:41:08.190168+00:00",
+  "last_posted_at": "2026-10-10T11:49:56.924134+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CEC-SIR row highlights on October 8: Opposition leaders say will continue protest against CEC, ‘vote chori’",
-      "genre": "political_business_enemies",
-      "style": "scandal",
-      "posted_at": "2026-10-09T04:47:55.875221+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "After speculation over political appointees, government to send senior career officer to Kathmandu",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-10T10:41:08.190168+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Delhi protest: Stopped at police barricades, daily-wage workers lose day’s earnings",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-10T11:49:56.924134+00:00"
     }
   ]
 }
