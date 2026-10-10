@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T06:53:24.790755+00:00",
+  "last_posted_at": "2026-10-10T08:15:40.122933+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "CBI busts banking recruitment racket, arrests four accused",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-09T00:36:42.289682+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Drought impact: Shivamogga village bans post-marriage non-vegetarian feasts",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-10-10T06:53:24.790755+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Delhi protest: Lawyers detained near Supreme Court",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-10-10T08:15:40.122933+00:00"
     }
   ]
 }
