@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T14:11:53.785901+00:00",
+  "last_posted_at": "2026-10-10T15:27:00.934344+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Bus hits truck parked on highway near Belagavi; one dead, 12 injured",
-      "genre": "marriage_delay",
-      "style": "health",
-      "posted_at": "2026-10-09T08:19:15.288219+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court backs right to association, peaceful protest; seeks permission details of Oct 10 protests",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-10T14:11:53.785901+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Dasara 2026: Cooking without fire competition on October 13",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-10-10T15:27:00.934344+00:00"
     }
   ]
 }
