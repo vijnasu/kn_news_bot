@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T04:17:07.290617+00:00",
+  "last_posted_at": "2026-10-10T05:29:52.603539+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Election petition against CM Vijay: Will an encroacher of govt land be barred from contesting polls, asks Madras high court",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-08T15:53:30.435073+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "KPSC recruitment scam: ‘₹20–40 lakh bribes for leaked answer keys’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "public_unrest",
       "posted_at": "2026-10-10T04:17:07.290617+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Anti-CEC protest: Contempt plea filed in Supreme Court on continued transit shutdown in Delhi",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-10-10T05:29:52.603539+00:00"
     }
   ]
 }
