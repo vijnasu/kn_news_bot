@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T05:29:52.603539+00:00",
+  "last_posted_at": "2026-10-10T06:53:24.790755+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "KPSC recruitment scam: ‘₹20–40 lakh bribes for leaked answer keys’",
-      "genre": "family_disturbance",
-      "style": "finance",
-      "posted_at": "2026-10-08T16:55:41.559357+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "CBI busts banking recruitment racket, arrests four accused",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-10-10T05:29:52.603539+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Starlink row: Musk shares reports on Reliance-linked firm's BJP campaign role, political donations",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-10-10T06:53:24.790755+00:00"
     }
   ]
 }
