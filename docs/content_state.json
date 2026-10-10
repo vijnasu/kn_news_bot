@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T15:27:00.934344+00:00",
+  "last_posted_at": "2026-10-10T16:30:35.571395+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court backs right to association, peaceful protest; seeks permission details of Oct 10 protests",
-      "genre": "political_business_enemies",
-      "style": "business",
-      "posted_at": "2026-10-09T09:44:24.436739+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Delhi Police register 25 FIRs over SIR protests since October 2",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-10-10T15:27:00.934344+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Next challenge for govt.: how to stop largely ‘leaderless’ crowd from regrouping after October 10 anti-CEC protest",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-10-10T16:30:35.571395+00:00"
     }
   ]
 }
