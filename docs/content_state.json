@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T01:58:07.995139+00:00",
+  "last_posted_at": "2026-10-10T03:01:07.712792+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Delhi NCR rape cases: Supreme Court orders heightened patrolling near schools, cab driver checks",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-10-08T13:17:38.361655+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Karnataka’s pending dues: ‘Good news’ after talks with Finance Minister, says Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "finance",
       "posted_at": "2026-10-10T01:58:07.995139+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Delhi braces for CJP protest: 45 metro stations shut, trains cancelled, 23,000 security personnel deployed",
+      "genre": "political_business_enemies",
+      "style": "public_unrest",
+      "posted_at": "2026-10-10T03:01:07.712792+00:00"
     }
   ]
 }
