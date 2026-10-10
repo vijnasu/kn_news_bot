@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T09:30:48.308741+00:00",
+  "last_posted_at": "2026-10-10T10:41:08.190168+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Why stubble fires keep coming back",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-10-09T03:36:12.109497+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CEC-SIR row highlights on October 8: Opposition leaders say will continue protest against CEC, ‘vote chori’",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-10T09:30:48.308741+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Delhi protest: Arvind Kejriwal detained by Delhi Police while marching to Jantar Mantar",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-10T10:41:08.190168+00:00"
     }
   ]
 }
