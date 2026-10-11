@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T13:11:58.840643+00:00",
+  "last_posted_at": "2026-10-11T14:28:33.205444+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Starlink row: Musk shares reports on Reliance-linked firm's BJP campaign role, political donations",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-10-10T06:53:24.790755+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Delhi protest: Lawyers detained near Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-11T13:11:58.840643+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Government will act against disruptive forces, says Union Minister Pralhad Joshi",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-11T14:28:33.205444+00:00"
     }
   ]
 }
