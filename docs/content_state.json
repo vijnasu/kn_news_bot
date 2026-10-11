@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T06:54:33.170022+00:00",
+  "last_posted_at": "2026-10-11T08:16:17.291021+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "CEC row updates: CJP leaders accuse govt. of imposing Emergency, 'Even if I am detained, the protest should not end', says Dipke",
-      "genre": "family_disturbance",
-      "style": "scandal",
-      "posted_at": "2026-10-10T00:35:47.878846+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka govt. writes to SLBC instructing against adjusting Gruha Lakshmi amount for loans",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-11T06:54:33.170022+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "‘Will come back tomorrow’: youth groups vow to continue protest till Gyanesh Kumar resigns",
+      "genre": "repeated_failures",
+      "style": "career",
+      "posted_at": "2026-10-11T08:16:17.291021+00:00"
     }
   ]
 }
