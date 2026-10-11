@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T09:32:24.332407+00:00",
+  "last_posted_at": "2026-10-11T10:43:36.605209+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Delhi braces for CJP protest: 45 metro stations shut, trains cancelled, 23,000 security personnel deployed",
-      "genre": "political_business_enemies",
-      "style": "public_unrest",
-      "posted_at": "2026-10-10T03:01:07.712792+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Delhi Police expects 7,000 protesters; security personnel told to exercise restraint",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-11T09:32:24.332407+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Restores people’s faith in justice system: Sibal after SC’s directions to government on protests",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-11T10:43:36.605209+00:00"
     }
   ]
 }
