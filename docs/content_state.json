@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T02:01:54.378362+00:00",
+  "last_posted_at": "2026-10-11T03:04:00.213230+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "TVK candidates Maragatham Kumaravel, P Sathyabama win Madurantakam and Dharapuram byelections in Tamil Nadu",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-09T13:15:42.874856+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Nothing can stop the youth of India: Chirag Paswan",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-10-11T02:01:54.378362+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Man held after 20 years in ₹37 lakh bank fraud case",
+      "genre": "negative_energy",
+      "style": "finance",
+      "posted_at": "2026-10-11T03:04:00.213230+00:00"
     }
   ]
 }
