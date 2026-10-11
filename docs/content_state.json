@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T00:39:22.209951+00:00",
+  "last_posted_at": "2026-10-11T02:01:54.378362+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Dasara book chariot sets out to promote Kannada literature",
-      "genre": "repeated_failures",
-      "style": "scandal",
-      "posted_at": "2026-10-09T11:53:46.755197+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "TVK candidates Maragatham Kumaravel, P Sathyabama win Madurantakam and Dharapuram byelections in Tamil Nadu",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "business",
       "posted_at": "2026-10-11T00:39:22.209951+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Mass detention of Delhi protesters draws scrutiny from legal experts",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-10-11T02:01:54.378362+00:00"
     }
   ]
 }
