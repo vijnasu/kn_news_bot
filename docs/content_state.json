@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T05:30:34.231077+00:00",
+  "last_posted_at": "2026-10-11T06:54:33.170022+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Government slams Vance’s remarks on Indian IT professionals as ‘deeply offensive’",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-09T16:53:38.196137+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CEC row updates: CJP leaders accuse govt. of imposing Emergency, 'Even if I am detained, the protest should not end', says Dipke",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-11T05:30:34.231077+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Karnataka CM Shivakumar, Congress legislators to join Delhi protest against SIR on Oct. 12",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-11T06:54:33.170022+00:00"
     }
   ]
 }
