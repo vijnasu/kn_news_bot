@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T15:40:32.522111+00:00",
+  "last_posted_at": "2026-10-11T16:51:39.577157+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Anti-CEC protest in Delhi top developments: detentions, curbs, crackdown",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-10T09:30:48.308741+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Delhi protest: Arvind Kejriwal detained by Delhi Police while marching to Jantar Mantar",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-10-11T15:40:32.522111+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Rahul urges citizens to join INDIA bloc march to Supreme Court ‘as Indians’, irrespective of party affiliations",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-11T16:51:39.577157+00:00"
     }
   ]
 }
