@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T10:43:36.605209+00:00",
+  "last_posted_at": "2026-10-11T11:50:23.389204+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Delhi Police expects 7,000 protesters; security personnel told to exercise restraint",
-      "genre": "repeated_failures",
-      "style": "public_unrest",
-      "posted_at": "2026-10-10T04:17:07.290617+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Anti-CEC protest: Contempt plea filed in Supreme Court on continued transit shutdown in Delhi",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-11T10:43:36.605209+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Anti-CEC protest: Delhi Police registers 20 FIRs; charges include assault on cops",
+      "genre": "political_business_enemies",
+      "style": "career",
+      "posted_at": "2026-10-11T11:50:23.389204+00:00"
     }
   ]
 }
