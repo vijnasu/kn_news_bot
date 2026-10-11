@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-10T16:30:35.571395+00:00",
+  "last_posted_at": "2026-10-11T00:39:22.209951+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Delhi Police register 25 FIRs over SIR protests since October 2",
-      "genre": "sudden_health_fear",
-      "style": "public_unrest",
-      "posted_at": "2026-10-09T10:53:22.059775+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Dasara book chariot sets out to promote Kannada literature",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-10-10T16:30:35.571395+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Anti-CEC protest Highlights, Oct 10: CJP calls for another protest on Sunday amid police crackdown; UNHRC demands immediate release of demonstrators",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-10-11T00:39:22.209951+00:00"
     }
   ]
 }
