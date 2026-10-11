@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T03:04:00.213230+00:00",
+  "last_posted_at": "2026-10-11T04:26:57.289018+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Nothing can stop the youth of India: Chirag Paswan",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-09T14:36:27.790722+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "HC restrains magazine from linking ex-minister to Palani temple land issue",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "finance",
       "posted_at": "2026-10-11T03:04:00.213230+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "UN human rights body expresses concern over Delhi detentions, urges immediate release",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-11T04:26:57.289018+00:00"
     }
   ]
 }
