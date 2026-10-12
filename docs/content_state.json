@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T10:45:48.443730+00:00",
+  "last_posted_at": "2026-10-12T11:53:31.329888+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "UN human rights body expresses concern over Delhi detentions, urges immediate release",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-11T04:26:57.289018+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Karnataka seeks wider price caps beyond cancer medicines on other high-cost life-saving drugs",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-12T10:45:48.443730+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Govt. move to de-notify Jantar Mantar follows SC suggestion that protest sites need more space, open air",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-12T11:53:31.329888+00:00"
     }
   ]
 }
