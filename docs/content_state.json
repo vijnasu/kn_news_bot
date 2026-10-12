@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T11:53:31.329888+00:00",
+  "last_posted_at": "2026-10-12T13:12:35.572438+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka seeks wider price caps beyond cancer medicines on other high-cost life-saving drugs",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-11T05:30:34.231077+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka CM Shivakumar, Congress legislators to join Delhi protest against SIR on Oct. 12",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-12T11:53:31.329888+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Fresh petition submitted to CM seeking permission for businesses in Mysuru to operate till 1 a.m.",
+      "genre": "marriage_delay",
+      "style": "business",
+      "posted_at": "2026-10-12T13:12:35.572438+00:00"
     }
   ]
 }
