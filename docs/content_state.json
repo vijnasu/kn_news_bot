@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T03:26:08.858937+00:00",
+  "last_posted_at": "2026-10-12T04:32:58.217506+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Rahul Gandhi asks youth to keep protesting, says those who attacked Constitution will be defeated",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-10T14:11:53.785901+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Dasara 2026: Cooking without fire competition on October 13",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "public_unrest",
       "posted_at": "2026-10-12T03:26:08.858937+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Wayanad bus accident: Two dead, several injured as Munnar tour vehicle overturns",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-12T04:32:58.217506+00:00"
     }
   ]
 }
