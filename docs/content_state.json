@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T02:12:27.694516+00:00",
+  "last_posted_at": "2026-10-12T03:26:08.858937+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "MK Stalin slams Centre over crackdown on protesters, calls CEC Gyanesh Kumar’s resignation non-negotiable; Udhayanidhi targets Vijay govt",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-10T13:10:50.455016+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Rahul Gandhi asks youth to keep protesting, says those who attacked Constitution will be defeated",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "court",
       "posted_at": "2026-10-12T02:12:27.694516+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Anti-CEC protest Highlights, October 11: CJI Surya Kant declines to meet INDIA bloc leaders; Delhi Police detain women protesters in the evening",
+      "genre": "court_cases",
+      "style": "public_unrest",
+      "posted_at": "2026-10-12T03:26:08.858937+00:00"
     }
   ]
 }
