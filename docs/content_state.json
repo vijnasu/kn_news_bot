@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T14:19:19.399066+00:00",
+  "last_posted_at": "2026-10-12T15:35:31.852693+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "‘Will come back tomorrow’: youth groups vow to continue protest till Gyanesh Kumar resigns",
-      "genre": "repeated_failures",
-      "style": "career",
-      "posted_at": "2026-10-11T08:16:17.291021+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Parliamentary panel indicts NTA; hope ‘arrogant’ Modi government takes it seriously: Congress",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-10-12T14:19:19.399066+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Rahul Gandhi, Opposition leaders move SC seeking independent panel to probe SIR, decision-making",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-12T15:35:31.852693+00:00"
     }
   ]
 }
