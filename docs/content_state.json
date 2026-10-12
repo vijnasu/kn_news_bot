@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T15:35:31.852693+00:00",
+  "last_posted_at": "2026-10-12T16:52:48.184161+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Parliamentary panel indicts NTA; hope ‘arrogant’ Modi government takes it seriously: Congress",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-11T09:32:24.332407+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Restores people’s faith in justice system: Sibal after SC’s directions to government on protests",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-12T15:35:31.852693+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Delhi Police de-notifies Jantar Mantar as protest site; activists slam decision",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-12T16:52:48.184161+00:00"
     }
   ]
 }
