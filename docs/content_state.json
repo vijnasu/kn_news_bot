@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T00:39:56.770933+00:00",
+  "last_posted_at": "2026-10-12T02:12:27.694516+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Delhi protest: Stopped at police barricades, daily-wage workers lose day’s earnings",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-10T11:49:56.924134+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "MK Stalin slams Centre over crackdown on protesters, calls CEC Gyanesh Kumar’s resignation non-negotiable; Udhayanidhi targets Vijay govt",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-12T00:39:56.770933+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Anti-CEC protests continue; journalists detained despite SC order, Rahul Gandhi announces march to Supreme Court as Delhi braces for fresh curbs",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-10-12T02:12:27.694516+00:00"
     }
   ]
 }
