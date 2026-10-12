@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-11T16:51:39.577157+00:00",
+  "last_posted_at": "2026-10-12T00:39:56.770933+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Delhi protest: Arvind Kejriwal detained by Delhi Police while marching to Jantar Mantar",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-10T10:41:08.190168+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Delhi protest: Stopped at police barricades, daily-wage workers lose day’s earnings",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-11T16:51:39.577157+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Left parties say police turned Delhi into ‘war zone’; MP Brittas hospitalised after being detained",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-12T00:39:56.770933+00:00"
     }
   ]
 }
