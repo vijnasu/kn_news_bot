@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T05:36:20.792290+00:00",
+  "last_posted_at": "2026-10-12T06:53:07.979732+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Next challenge for govt.: how to stop largely ‘leaderless’ crowd from regrouping after October 10 anti-CEC protest",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-10-10T16:30:35.571395+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Anti-CEC protest Highlights, Oct 10: CJP calls for another protest on Sunday amid police crackdown; UNHRC demands immediate release of demonstrators",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-12T05:36:20.792290+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Delhi Metro seat dispute turns fatal, former IAS officer and son arrested after man’s death",
+      "genre": "financial_loss",
+      "style": "health",
+      "posted_at": "2026-10-12T06:53:07.979732+00:00"
     }
   ]
 }
