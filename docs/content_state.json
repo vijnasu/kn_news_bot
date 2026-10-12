@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-12T06:53:07.979732+00:00",
+  "last_posted_at": "2026-10-12T08:11:30.734321+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Anti-CEC protest Highlights, Oct 10: CJP calls for another protest on Sunday amid police crackdown; UNHRC demands immediate release of demonstrators",
-      "genre": "unexplained_obstacles",
-      "style": "business",
-      "posted_at": "2026-10-11T00:39:22.209951+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Mass detention of Delhi protesters draws scrutiny from legal experts",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "health",
       "posted_at": "2026-10-12T06:53:07.979732+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Appointment of Deputy Election Commissioner Prakash Rajpurohit and why it’s important | Explained",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-12T08:11:30.734321+00:00"
     }
   ]
 }
