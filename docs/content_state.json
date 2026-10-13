@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T09:55:53.863539+00:00",
+  "last_posted_at": "2026-10-13T10:56:21.996715+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Anti-CEC protest Highlights, October 11: CJI Surya Kant declines to meet INDIA bloc leaders; Delhi Police detain women protesters in the evening",
-      "genre": "court_cases",
-      "style": "public_unrest",
-      "posted_at": "2026-10-12T03:26:08.858937+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Wayanad bus accident: Two dead, several injured as Munnar tour vehicle overturns",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-13T09:55:53.863539+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "India does not grow at anybody’s cost; it grows with and for the world: PM Modi",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-13T10:56:21.996715+00:00"
     }
   ]
 }
