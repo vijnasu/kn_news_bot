@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T04:48:53.004287+00:00",
+  "last_posted_at": "2026-10-13T05:56:09.525541+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Karnatak Chamber of Commerce and Industry welcomes GST Council meeting decisions",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-10-11T15:40:32.522111+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Rahul urges citizens to join INDIA bloc march to Supreme Court ‘as Indians’, irrespective of party affiliations",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-10-13T04:48:53.004287+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Madras HC upholds TN assembly speaker's decision to accept resignations of 6 AIADMK MLAs",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-13T05:56:09.525541+00:00"
     }
   ]
 }
