@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T07:04:47.489266+00:00",
+  "last_posted_at": "2026-10-13T08:35:23.761731+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Left parties say police turned Delhi into ‘war zone’; MP Brittas hospitalised after being detained",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-12T00:39:56.770933+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Anti-CEC protests continue; journalists detained despite SC order, Rahul Gandhi announces march to Supreme Court as Delhi braces for fresh curbs",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-13T07:04:47.489266+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Delhi SIR: 60% notice cases verified; disposal gains pace amid reduced scrutiny, norms",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-10-13T08:35:23.761731+00:00"
     }
   ]
 }
