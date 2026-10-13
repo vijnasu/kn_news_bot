@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T05:56:09.525541+00:00",
+  "last_posted_at": "2026-10-13T07:04:47.489266+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Rahul urges citizens to join INDIA bloc march to Supreme Court ‘as Indians’, irrespective of party affiliations",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-11T16:51:39.577157+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Left parties say police turned Delhi into ‘war zone’; MP Brittas hospitalised after being detained",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-13T05:56:09.525541+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka Home Minister says police directed not to disrupt peaceful demonstration",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-10-13T07:04:47.489266+00:00"
     }
   ]
 }
