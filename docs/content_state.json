@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T00:37:31.969684+00:00",
+  "last_posted_at": "2026-10-13T02:03:57.682034+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Anti-CEC protest: Delhi Police registers 20 FIRs; charges include assault on cops",
-      "genre": "political_business_enemies",
-      "style": "career",
-      "posted_at": "2026-10-11T11:50:23.389204+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka SIR: Objectors used death certificates of people to seek deletion of names of voters with similar names",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-13T00:37:31.969684+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Restrictions on firecrackers: Supreme Court urges balance between religious sentiments and public health",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-10-13T02:03:57.682034+00:00"
     }
   ]
 }
