@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T03:19:54.156662+00:00",
+  "last_posted_at": "2026-10-13T04:48:53.004287+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Government will act against disruptive forces, says Union Minister Pralhad Joshi",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-11T14:28:33.205444+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnatak Chamber of Commerce and Industry welcomes GST Council meeting decisions",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-13T03:19:54.156662+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Delhi Police registers two FIRs over Opposition protest",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-10-13T04:48:53.004287+00:00"
     }
   ]
 }
