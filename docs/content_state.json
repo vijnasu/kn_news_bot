@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-13T10:56:21.996715+00:00",
+  "last_posted_at": "2026-10-13T12:20:31.522209+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Wayanad bus accident: Two dead, several injured as Munnar tour vehicle overturns",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-12T04:32:58.217506+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Security beefed up outside Parliament Street police station ahead of CJP leaders visit for fresh Jantar Mantar protest date",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-13T10:56:21.996715+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "RBI to continue efforts to curb rupee volatility; external factors driving currency fall: Nirmala Sitharaman",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-13T12:20:31.522209+00:00"
     }
   ]
 }
