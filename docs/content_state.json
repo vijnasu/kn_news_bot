@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T05:43:29.407698+00:00",
+  "last_posted_at": "2026-10-14T06:53:22.019066+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Delhi Police de-notifies Jantar Mantar as protest site; activists slam decision",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-12T16:52:48.184161+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka will continue with probe into efforts to illegally delete names of genuine voters, says Chief Minister",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-14T05:43:29.407698+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "L. Murugan resigns from Union Ministry, Rajya Sabha seat, setting off buzz about a pre-Deepavali Cabinet reset",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-14T06:53:22.019066+00:00"
     }
   ]
 }
