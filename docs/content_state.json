@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T16:13:23.857334+00:00",
+  "last_posted_at": "2026-10-14T17:25:17.108569+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "India does not grow at anybody’s cost; it grows with and for the world: PM Modi",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-13T10:56:21.996715+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "RBI to continue efforts to curb rupee volatility; external factors driving currency fall: Nirmala Sitharaman",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "finance",
       "posted_at": "2026-10-14T16:13:23.857334+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Don’t stand in the way of protesting students, they are voice of India: Rahul tells PM and HM",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-14T17:25:17.108569+00:00"
     }
   ]
 }
