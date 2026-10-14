@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T08:16:56.334347+00:00",
+  "last_posted_at": "2026-10-14T09:40:20.904084+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Restrictions on firecrackers: Supreme Court urges balance between religious sentiments and public health",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-10-13T02:03:57.682034+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Drought report: On southwest monsoon, drought in Karnataka and Andhra Pradesh",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "health",
       "posted_at": "2026-10-14T08:16:56.334347+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Smear campaign against former Karnataka CM Siddaramaiah, alleges son Minister for Urban Development Yathindra Siddaramaiah",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-14T09:40:20.904084+00:00"
     }
   ]
 }
