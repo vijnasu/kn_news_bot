@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T15:12:57.851922+00:00",
+  "last_posted_at": "2026-10-14T16:13:23.857334+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Pune-Bengaluru highway blocked by sugarcane farmers demanding better prices, resignation of Union Minister",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-13T09:55:53.863539+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "India does not grow at anybody’s cost; it grows with and for the world: PM Modi",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-14T15:12:57.851922+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "TN tightens GST rules to plug revenue leakage from tobacco, pan masala, online gaming",
+      "genre": "unexplained_obstacles",
+      "style": "finance",
+      "posted_at": "2026-10-14T16:13:23.857334+00:00"
     }
   ]
 }
