@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T10:43:15.598792+00:00",
+  "last_posted_at": "2026-10-14T11:50:58.044950+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Delhi Police registers two FIRs over Opposition protest",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-10-13T04:48:53.004287+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Madras HC upholds TN assembly speaker's decision to accept resignations of 6 AIADMK MLAs",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-14T10:43:15.598792+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Priyank Kharge rules out CBI probe into alleged sting operation, says Karnataka police will investigate",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-14T11:50:58.044950+00:00"
     }
   ]
 }
