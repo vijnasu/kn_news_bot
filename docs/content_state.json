@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T04:36:04.287379+00:00",
+  "last_posted_at": "2026-10-14T05:43:29.407698+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Rahul Gandhi, Opposition leaders move SC seeking independent panel to probe SIR, decision-making",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-12T15:35:31.852693+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Delhi Police de-notifies Jantar Mantar as protest site; activists slam decision",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-14T04:36:04.287379+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Jantar Mantar, the heartland of dissent in Delhi | In pictures",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-14T05:43:29.407698+00:00"
     }
   ]
 }
