@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T11:50:58.044950+00:00",
+  "last_posted_at": "2026-10-14T13:10:51.968030+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Madras HC upholds TN assembly speaker's decision to accept resignations of 6 AIADMK MLAs",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-13T05:56:09.525541+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka Home Minister says police directed not to disrupt peaceful demonstration",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-14T11:50:58.044950+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "BJP party worker killed in Bengaluru as high-end car rams gas tanker near Devanahalli; three injured",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-14T13:10:51.968030+00:00"
     }
   ]
 }
