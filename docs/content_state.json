@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T03:34:18.535230+00:00",
+  "last_posted_at": "2026-10-15T04:51:36.885929+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Zoho’s Vembu says co paused hikes & ad spend due to AI costs",
-      "genre": "marriage_delay",
-      "style": "business",
-      "posted_at": "2026-10-13T15:42:28.029569+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Congress accuses Centre of facilitating attendance fraud in VB-G RAM G",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-10-15T03:34:18.535230+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka police reopen 2012 case against surrendered Maoist as rehabilitation promises remain unfulfilled",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-10-15T04:51:36.885929+00:00"
     }
   ]
 }
