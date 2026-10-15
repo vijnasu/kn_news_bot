@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T11:50:12.778110+00:00",
+  "last_posted_at": "2026-10-15T13:12:38.586494+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "L. Murugan resigns from Union Ministry, Rajya Sabha seat, setting off buzz about a pre-Deepavali Cabinet reset",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-14T06:53:22.019066+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Hospitals, police refuse to share medico legal case details with protesters injured in detention",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-15T11:50:12.778110+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Farmers stage protest opposing land acquisition for Reliance Data Center",
+      "genre": "financial_loss",
+      "style": "land",
+      "posted_at": "2026-10-15T13:12:38.586494+00:00"
     }
   ]
 }
