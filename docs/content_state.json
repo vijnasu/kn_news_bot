@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T06:53:34.952797+00:00",
+  "last_posted_at": "2026-10-15T08:16:45.136528+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Anti-CEC protest LIVE | CJP's legal head Ratna Singh alleges Delhi Police arrested Saurav Das, Ashutosh Ranka and Ajinkya Shinde in Jantar Mantar case",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-14T02:15:38.141089+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Tamil Nadu cops cite man's north Indian origins to claim he may flee, draws HC fire",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "fear",
       "posted_at": "2026-10-15T06:53:34.952797+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "CBI arrests SFIO deputy director, advocate in Rs 1 crore bribe case linked to DHFL scam probe",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-10-15T08:16:45.136528+00:00"
     }
   ]
 }
