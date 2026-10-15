@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T13:12:38.586494+00:00",
+  "last_posted_at": "2026-10-15T14:29:37.861133+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Hospitals, police refuse to share medico legal case details with protesters injured in detention",
-      "genre": "negative_energy",
-      "style": "health",
-      "posted_at": "2026-10-14T08:16:56.334347+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Smear campaign against former Karnataka CM Siddaramaiah, alleges son Minister for Urban Development Yathindra Siddaramaiah",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "land",
       "posted_at": "2026-10-15T13:12:38.586494+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Sri Lanka court refuses to issue arrest warrants for two Indian directors in bribery case",
+      "genre": "marriage_delay",
+      "style": "court",
+      "posted_at": "2026-10-15T14:29:37.861133+00:00"
     }
   ]
 }
