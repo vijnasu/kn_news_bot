@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T04:51:36.885929+00:00",
+  "last_posted_at": "2026-10-15T05:52:40.059933+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Congress accuses Centre of facilitating attendance fraud in VB-G RAM G",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-13T16:54:36.452745+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Brain damage to toddler: Health Department refers medical negligence case against hospital to Karnataka Medical Council",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-10-15T04:51:36.885929+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "HC upholds acceptance of 6 AIADMK MLAs resignation",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-15T05:52:40.059933+00:00"
     }
   ]
 }
