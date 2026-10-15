@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T14:29:37.861133+00:00",
+  "last_posted_at": "2026-10-15T15:30:11.753921+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Smear campaign against former Karnataka CM Siddaramaiah, alleges son Minister for Urban Development Yathindra Siddaramaiah",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-14T09:40:20.904084+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Dingaleshwar swami joins protest of sugarcane farmers, questions Prime Minister Narendra Modi on different yardstick for oil companies",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-10-15T14:29:37.861133+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Farmers take out tractor rally in Dharwad seeking drought relief measures",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-10-15T15:30:11.753921+00:00"
     }
   ]
 }
