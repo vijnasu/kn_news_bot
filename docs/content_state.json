@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T08:16:45.136528+00:00",
+  "last_posted_at": "2026-10-15T09:40:30.156341+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Tamil Nadu cops cite man's north Indian origins to claim he may flee, draws HC fire",
-      "genre": "unexplained_obstacles",
-      "style": "court",
-      "posted_at": "2026-10-14T03:35:13.327499+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "India urges UN human rights mechanisms to avoid politicisation, selectivity",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-10-15T08:16:45.136528+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Anti-CEC protest LIVE | Supreme Court issues notices on protest-related petitions, seeks reasons behind prohibitory orders from government",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-15T09:40:30.156341+00:00"
     }
   ]
 }
