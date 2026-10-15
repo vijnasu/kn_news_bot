@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-14T17:25:17.108569+00:00",
+  "last_posted_at": "2026-10-15T01:06:07.890927+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "RBI to continue efforts to curb rupee volatility; external factors driving currency fall: Nirmala Sitharaman",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-13T12:20:31.522209+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Supreme Court gives three more months to CBI to complete probe in custodial death case",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-14T17:25:17.108569+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Citizens asked to detail demographic changes in their areas through MHA portal",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-15T01:06:07.890927+00:00"
     }
   ]
 }
