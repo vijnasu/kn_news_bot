@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T05:52:40.059933+00:00",
+  "last_posted_at": "2026-10-15T06:53:34.952797+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Brain damage to toddler: Health Department refers medical negligence case against hospital to Karnataka Medical Council",
-      "genre": "court_cases",
-      "style": "health",
-      "posted_at": "2026-10-14T01:07:36.660629+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Anti-CEC protest LIVE | CJP's legal head Ratna Singh alleges Delhi Police arrested Saurav Das, Ashutosh Ranka and Ajinkya Shinde in Jantar Mantar case",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-15T05:52:40.059933+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "AAP Delhi chief files complaint over 'life-threatening' assault by police during protest",
+      "genre": "unexplained_obstacles",
+      "style": "fear",
+      "posted_at": "2026-10-15T06:53:34.952797+00:00"
     }
   ]
 }
