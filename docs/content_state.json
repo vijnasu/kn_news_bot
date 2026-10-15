@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T09:40:30.156341+00:00",
+  "last_posted_at": "2026-10-15T10:44:00.359175+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "India urges UN human rights mechanisms to avoid politicisation, selectivity",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-14T04:36:04.287379+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Jantar Mantar, the heartland of dissent in Delhi | In pictures",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-15T09:40:30.156341+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "63-year-old woman wins top prize in Dasara rangoli contest",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-10-15T10:44:00.359175+00:00"
     }
   ]
 }
