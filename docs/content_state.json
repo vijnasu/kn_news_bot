@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T11:49:34.908680+00:00",
+  "last_posted_at": "2026-10-16T13:11:55.371644+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "HC upholds acceptance of 6 AIADMK MLAs resignation",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-15T05:52:40.059933+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "AAP Delhi chief files complaint over 'life-threatening' assault by police during protest",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-16T11:49:34.908680+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Kumaraswamy accuses Congress government in Karnataka of funding CJP protests in Delhi",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-16T13:11:55.371644+00:00"
     }
   ]
 }
