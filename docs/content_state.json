@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-15T16:31:19.535813+00:00",
+  "last_posted_at": "2026-10-16T01:04:50.024032+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Priyank Kharge rules out CBI probe into alleged sting operation, says Karnataka police will investigate",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-14T11:50:58.044950+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "BJP party worker killed in Bengaluru as high-end car rams gas tanker near Devanahalli; three injured",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-15T16:31:19.535813+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "District administration seeks agricultural research land for private healthcare project",
+      "genre": "political_business_enemies",
+      "style": "health",
+      "posted_at": "2026-10-16T01:04:50.024032+00:00"
     }
   ]
 }
