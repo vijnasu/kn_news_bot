@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T01:04:50.024032+00:00",
+  "last_posted_at": "2026-10-16T02:17:24.820649+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "BJP party worker killed in Bengaluru as high-end car rams gas tanker near Devanahalli; three injured",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-14T13:10:51.968030+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Supreme Court may list a plea that de-notifying Jantar Mantar pushes dissent ‘out of sight, out of mind’",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "health",
       "posted_at": "2026-10-16T01:04:50.024032+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Actor Imran Khan to move HC against notice asking him to leave country for taking part in protest",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-10-16T02:17:24.820649+00:00"
     }
   ]
 }
