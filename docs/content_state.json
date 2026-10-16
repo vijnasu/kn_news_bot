@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T02:17:24.820649+00:00",
+  "last_posted_at": "2026-10-16T03:34:44.847984+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Supreme Court may list a plea that de-notifying Jantar Mantar pushes dissent ‘out of sight, out of mind’",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-10-14T14:12:23.770913+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Cybersecurity workshop for micro, small and medium enterprises held in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-10-16T02:17:24.820649+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Next-Gen GST and India’s next phase of growth",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-10-16T03:34:44.847984+00:00"
     }
   ]
 }
