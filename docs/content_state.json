@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T04:52:16.549759+00:00",
+  "last_posted_at": "2026-10-16T05:52:25.739693+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "TN tightens GST rules to plug revenue leakage from tobacco, pan masala, online gaming",
-      "genre": "unexplained_obstacles",
-      "style": "finance",
-      "posted_at": "2026-10-14T16:13:23.857334+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Don’t stand in the way of protesting students, they are voice of India: Rahul tells PM and HM",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-16T04:52:16.549759+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Namma Shale flags infrastructure issues at 1,300 government schools across Karnataka",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-16T05:52:25.739693+00:00"
     }
   ]
 }
