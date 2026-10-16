@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T15:25:16.633143+00:00",
+  "last_posted_at": "2026-10-16T16:29:55.208595+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Anti-CEC protest LIVE | Supreme Court issues notices on protest-related petitions, seeks reasons behind prohibitory orders from government",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-15T09:40:30.156341+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "63-year-old woman wins top prize in Dasara rangoli contest",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-16T15:25:16.633143+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Madras high court suspends lookout circular against former TN minister’s son",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-16T16:29:55.208595+00:00"
     }
   ]
 }
