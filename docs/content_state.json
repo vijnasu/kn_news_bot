@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T08:15:56.065511+00:00",
+  "last_posted_at": "2026-10-16T09:31:00.809566+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Loans for SIR hearing, lost wages, but no clarity on voter status for Bengali workers in Bengaluru",
-      "genre": "sudden_health_fear",
-      "style": "finance",
-      "posted_at": "2026-10-15T02:20:03.550816+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "CBI arrests executive director of defence firm for graft",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-16T08:15:56.065511+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Farmers threaten agitation over MSP if demand not met immediately",
+      "genre": "marriage_delay",
+      "style": "fear",
+      "posted_at": "2026-10-16T09:31:00.809566+00:00"
     }
   ]
 }
