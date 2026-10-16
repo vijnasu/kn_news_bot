@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T03:34:44.847984+00:00",
+  "last_posted_at": "2026-10-16T04:52:16.549759+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Cybersecurity workshop for micro, small and medium enterprises held in Bengaluru",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-14T15:12:57.851922+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "TN tightens GST rules to plug revenue leakage from tobacco, pan masala, online gaming",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-10-16T03:34:44.847984+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Man, two grandchildren drown in agricultural pond in Chickballapur",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-16T04:52:16.549759+00:00"
     }
   ]
 }
