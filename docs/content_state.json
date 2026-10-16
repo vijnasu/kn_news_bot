@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T05:52:25.739693+00:00",
+  "last_posted_at": "2026-10-16T06:53:32.428457+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Don’t stand in the way of protesting students, they are voice of India: Rahul tells PM and HM",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-14T17:25:17.108569+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Citizens asked to detail demographic changes in their areas through MHA portal",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-16T05:52:25.739693+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Delhi riots 2020: Supreme Court adjourns hearing on Athar Khan’s bail plea in UAPA case for 4 weeks",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-10-16T06:53:32.428457+00:00"
     }
   ]
 }
