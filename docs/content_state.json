@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-16T06:53:32.428457+00:00",
+  "last_posted_at": "2026-10-16T08:15:56.065511+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Citizens asked to detail demographic changes in their areas through MHA portal",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-15T01:06:07.890927+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Loans for SIR hearing, lost wages, but no clarity on voter status for Bengali workers in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-10-16T06:53:32.428457+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Non-tariff barriers are biggest hurdle in India-China trade, says Nirmala Sitharaman",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-16T08:15:56.065511+00:00"
     }
   ]
 }
