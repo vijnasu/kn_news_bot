@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T15:09:58.684539+00:00",
+  "last_posted_at": "2026-10-17T16:11:42.908199+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Farmers threaten agitation over MSP if demand not met immediately",
-      "genre": "marriage_delay",
-      "style": "fear",
-      "posted_at": "2026-10-16T09:31:00.809566+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "CBI arrests SFIO deputy director, advocate in Chennai for ₹1 crore bribe linked to DHFL scam probe",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "marriage",
       "posted_at": "2026-10-17T15:09:58.684539+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Dharwad: SUCI(C) seeks release of pending social security pensions",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-17T16:11:42.908199+00:00"
     }
   ]
 }
