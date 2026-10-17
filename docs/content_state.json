@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T10:35:58.854021+00:00",
+  "last_posted_at": "2026-10-17T11:48:57.133543+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Man, two grandchildren drown in agricultural pond in Chickballapur",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-16T04:52:16.549759+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Namma Shale flags infrastructure issues at 1,300 government schools across Karnataka",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "court",
       "posted_at": "2026-10-17T10:35:58.854021+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "SIR: Solidarity rally taken out in Vijayapura",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-17T11:48:57.133543+00:00"
     }
   ]
 }
