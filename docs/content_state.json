@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T02:15:34.580590+00:00",
+  "last_posted_at": "2026-10-17T03:30:42.471319+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Farmers stage protest opposing land acquisition for Reliance Data Center",
-      "genre": "financial_loss",
-      "style": "land",
-      "posted_at": "2026-10-15T13:12:38.586494+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Sri Lanka court refuses to issue arrest warrants for two Indian directors in bribery case",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "court",
       "posted_at": "2026-10-17T02:15:34.580590+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Understanding Gandhi’s re-emergence in India’s oppositional politics",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-17T03:30:42.471319+00:00"
     }
   ]
 }
