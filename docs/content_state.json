@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T07:10:44.621752+00:00",
+  "last_posted_at": "2026-10-17T08:13:49.583933+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "District administration seeks agricultural research land for private healthcare project",
-      "genre": "political_business_enemies",
-      "style": "health",
-      "posted_at": "2026-10-16T01:04:50.024032+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Actor Imran Khan to move HC against notice asking him to leave country for taking part in protest",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-17T07:10:44.621752+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Land acquisition for high-speed rail corridors without requisition illegal: Union Minister Kishan Reddy",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-17T08:13:49.583933+00:00"
     }
   ]
 }
