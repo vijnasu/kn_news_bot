@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T08:13:49.583933+00:00",
+  "last_posted_at": "2026-10-17T09:25:16.174701+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Actor Imran Khan to move HC against notice asking him to leave country for taking part in protest",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-10-16T02:17:24.820649+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Next-Gen GST and India’s next phase of growth",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-17T08:13:49.583933+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee",
+      "genre": "career_instability",
+      "style": "public_unrest",
+      "posted_at": "2026-10-17T09:25:16.174701+00:00"
     }
   ]
 }
