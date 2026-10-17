@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T12:52:01.428944+00:00",
+  "last_posted_at": "2026-10-17T14:09:47.727659+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Delhi riots 2020: Supreme Court adjourns hearing on Athar Khan’s bail plea in UAPA case for 4 weeks",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-10-16T06:53:32.428457+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Non-tariff barriers are biggest hurdle in India-China trade, says Nirmala Sitharaman",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-17T12:52:01.428944+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Farmers’ talks with Union Minister fails; protest to be held on Oct. 13",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-17T14:09:47.727659+00:00"
     }
   ]
 }
