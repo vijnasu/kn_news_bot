@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T11:51:05.832820+00:00",
+  "last_posted_at": "2026-10-18T12:53:00.665287+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Land acquisition for high-speed rail corridors without requisition illegal: Union Minister Kishan Reddy",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-17T08:13:49.583933+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-18T11:51:05.832820+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Belagavi retired officer loses ₹42 lakh to digital arrest scam over seven days",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-10-18T12:53:00.665287+00:00"
     }
   ]
 }
