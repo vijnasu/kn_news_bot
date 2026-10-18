@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T03:51:44.757100+00:00",
+  "last_posted_at": "2026-10-18T05:10:54.347823+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Madras high court suspends lookout circular against former TN minister’s son",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-16T16:29:55.208595+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Gas cylinder blast: Mother and minor daughter dead, five seriously injured in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-18T03:51:44.757100+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "IMD forecasts heavy rain in 17 Tamil Nadu districts, over 15,000 civic workers deployed",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-18T05:10:54.347823+00:00"
     }
   ]
 }
