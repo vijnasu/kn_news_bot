@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T06:18:02.958582+00:00",
+  "last_posted_at": "2026-10-18T07:26:31.201027+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Anti-CEC protest LIVE | Abhijeet Dipke to be produced before SEM Court after Delhi Police action under BNSS",
-      "genre": "sudden_health_fear",
-      "style": "court",
-      "posted_at": "2026-10-17T02:15:34.580590+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Understanding Gandhi’s re-emergence in India’s oppositional politics",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "land",
       "posted_at": "2026-10-18T06:18:02.958582+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Coronavirus has destroyed the institution of marriage; Covid time matrimonial disputes must be dealt with separately: Madras high court",
+      "genre": "repeated_failures",
+      "style": "marriage",
+      "posted_at": "2026-10-18T07:26:31.201027+00:00"
     }
   ]
 }
