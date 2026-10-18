@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T16:12:01.779779+00:00",
+  "last_posted_at": "2026-10-18T17:21:50.251573+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Deva’s native village in Ranipet district mourns his death; last rites to be held on his farmland with state honours",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-17T12:52:01.428944+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Farmers’ talks with Union Minister fails; protest to be held on Oct. 13",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-18T16:12:01.779779+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Kumaraswamy unable to digest Shivakumar as Chief Minister, says Sharan Prakash Patil",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-18T17:21:50.251573+00:00"
     }
   ]
 }
