@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-17T17:21:36.004268+00:00",
+  "last_posted_at": "2026-10-18T00:33:13.952628+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Opposition is to oppose, expose, depose: Congress Pranab reminder to Rajnath Singh",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-16T11:49:34.908680+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Kumaraswamy accuses Congress government in Karnataka of funding CJP protests in Delhi",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-17T17:21:36.004268+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Home Ministry moves out 3 of 5 officers from division hit by bribery allegations",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-18T00:33:13.952628+00:00"
     }
   ]
 }
