@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T02:43:25.857674+00:00",
+  "last_posted_at": "2026-10-18T03:51:44.757100+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "CM announces ₹10 lakh, govt. jobs for members of national blind women’s cricket team from Karnataka",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-16T15:25:16.633143+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Madras high court suspends lookout circular against former TN minister’s son",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-10-18T02:43:25.857674+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka Cabinet rejects mercy petitions of Shubha and Arun in Ring Road murder case",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-18T03:51:44.757100+00:00"
     }
   ]
 }
