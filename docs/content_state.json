@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T07:26:31.201027+00:00",
+  "last_posted_at": "2026-10-18T08:33:20.561413+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Understanding Gandhi’s re-emergence in India’s oppositional politics",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-17T03:30:42.471319+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Heavy rain lashes western and southern Tamil Nadu, Cauvery delta farmers say rains inadequate",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "marriage",
       "posted_at": "2026-10-18T07:26:31.201027+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "US-based TN techie uses AI to send threats to Kerala airport, CM’s home and temples for years, then tracks impact through news reports. Now held from airport after 1,500 hoax bomb threats across India",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-18T08:33:20.561413+00:00"
     }
   ]
 }
