@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T01:37:41.986346+00:00",
+  "last_posted_at": "2026-10-18T02:43:25.857674+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "SIR: No inquiry yet into bulk Form-7 submissions targeting minority voters",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-16T14:12:30.469856+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "CM announces ₹10 lakh, govt. jobs for members of national blind women’s cricket team from Karnataka",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "scandal",
       "posted_at": "2026-10-18T01:37:41.986346+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Anti-CEC protest LIVE | CJP leader Abhijeet Dipke released by Delhi court after signing peace bond",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-10-18T02:43:25.857674+00:00"
     }
   ]
 }
