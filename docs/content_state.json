@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T12:53:00.665287+00:00",
+  "last_posted_at": "2026-10-18T14:10:01.370408+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Anti-CEC protest: BKU joins stir, warns against targeting Dhruv Rathee",
-      "genre": "career_instability",
-      "style": "public_unrest",
-      "posted_at": "2026-10-17T09:25:16.174701+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Children have fundamental right to access and use internet: Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-10-18T12:53:00.665287+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Hassan Minister holds meeting on temple premises to finalise expenses for Hasanamba festival",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-18T14:10:01.370408+00:00"
     }
   ]
 }
