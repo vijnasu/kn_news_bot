@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T13:35:35.789448+00:00",
+  "last_posted_at": "2026-10-19T14:44:53.564806+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "US-based TN techie uses AI to send threats to Kerala airport, CM’s home and temples for years, then tracks impact through news reports. Now held from airport after 1,500 hoax bomb threats across India",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-18T08:33:20.561413+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Kumaraswamy cannot tolerate a Dalit like me making political progress: Priyank Kharge",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "finance",
       "posted_at": "2026-10-19T13:35:35.789448+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Delhi protest: CJP leaders’ judicial custody extended by two days",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-19T14:44:53.564806+00:00"
     }
   ]
 }
