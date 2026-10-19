@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-18T17:21:50.251573+00:00",
+  "last_posted_at": "2026-10-19T00:32:46.137784+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Farmers’ talks with Union Minister fails; protest to be held on Oct. 13",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-17T14:09:47.727659+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Seer held on charge of sexually exploiting woman on promise of marriage",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-18T17:21:50.251573+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "‘Cabinet decision on Bangalore Turf Club land for High Court this month’",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-19T00:32:46.137784+00:00"
     }
   ]
 }
