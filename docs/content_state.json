@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T09:55:16.438009+00:00",
+  "last_posted_at": "2026-10-19T11:10:54.805578+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "IMD forecasts heavy rain in 17 Tamil Nadu districts, over 15,000 civic workers deployed",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-18T05:10:54.347823+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Fire at Athani supermarket results in property damage; no casualties",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "sudden_loss",
       "posted_at": "2026-10-19T09:55:16.438009+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Union Minister Pralhad Joshi, former CM Jagadish Shettar seek time from sugarcane farmers of Karnataka at late night meeting in Hubballi",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-19T11:10:54.805578+00:00"
     }
   ]
 }
