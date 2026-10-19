@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T14:44:53.564806+00:00",
+  "last_posted_at": "2026-10-19T15:52:12.962870+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Kumaraswamy cannot tolerate a Dalit like me making political progress: Priyank Kharge",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-18T09:38:29.968944+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "H.D. Kumaraswamy says his party stands with sugarcane growers",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-19T14:44:53.564806+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Sugarcane farmers suspend agitation, set new deadline",
+      "genre": "repeated_failures",
+      "style": "health",
+      "posted_at": "2026-10-19T15:52:12.962870+00:00"
     }
   ]
 }
