@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T12:19:14.038884+00:00",
+  "last_posted_at": "2026-10-19T13:35:35.789448+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Coronavirus has destroyed the institution of marriage; Covid time matrimonial disputes must be dealt with separately: Madras high court",
-      "genre": "repeated_failures",
-      "style": "marriage",
-      "posted_at": "2026-10-18T07:26:31.201027+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "US-based TN techie uses AI to send threats to Kerala airport, CM’s home and temples for years, then tracks impact through news reports. Now held from airport after 1,500 hoax bomb threats across India",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-10-19T12:19:14.038884+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "John Brittas seeks President’s intervention as JNU students’ hunger strike enters 17th day",
+      "genre": "business_blockage",
+      "style": "finance",
+      "posted_at": "2026-10-19T13:35:35.789448+00:00"
     }
   ]
 }
