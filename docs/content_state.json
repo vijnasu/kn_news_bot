@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T11:10:54.805578+00:00",
+  "last_posted_at": "2026-10-19T12:19:14.038884+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Fire at Athani supermarket results in property damage; no casualties",
-      "genre": "family_disturbance",
-      "style": "land",
-      "posted_at": "2026-10-18T06:18:02.958582+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Coronavirus has destroyed the institution of marriage; Covid time matrimonial disputes must be dealt with separately: Madras high court",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-19T11:10:54.805578+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Delhi SIR: Public audit in two booths finds over 100 voters wrongly marked absent, shifted, or dead",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-10-19T12:19:14.038884+00:00"
     }
   ]
 }
