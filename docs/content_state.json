@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T08:33:51.973074+00:00",
+  "last_posted_at": "2026-10-19T09:55:16.438009+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka Cabinet rejects mercy petitions of Shubha and Arun in Ring Road murder case",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-18T03:51:44.757100+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "IMD forecasts heavy rain in 17 Tamil Nadu districts, over 15,000 civic workers deployed",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-19T08:33:51.973074+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Man dies by suicide after daughter’s death in accident",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-19T09:55:16.438009+00:00"
     }
   ]
 }
