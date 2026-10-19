@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T07:08:34.777625+00:00",
+  "last_posted_at": "2026-10-19T08:33:51.973074+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Anti-CEC protest LIVE | CJP leader Abhijeet Dipke released by Delhi court after signing peace bond",
-      "genre": "unexplained_obstacles",
-      "style": "court",
-      "posted_at": "2026-10-18T02:43:25.857674+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka Cabinet rejects mercy petitions of Shubha and Arun in Ring Road murder case",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "scandal",
       "posted_at": "2026-10-19T07:08:34.777625+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Government asks Meta to ensure its recommendation systems do not expose users to limited set of narratives",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-10-19T08:33:51.973074+00:00"
     }
   ]
 }
