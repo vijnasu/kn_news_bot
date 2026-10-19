@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T04:44:23.988367+00:00",
+  "last_posted_at": "2026-10-19T05:53:01.634914+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Home Ministry moves out 3 of 5 officers from division hit by bribery allegations",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-18T00:33:13.952628+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Fusion, devotion and star power strike a chord at Mysuru Dasara",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-19T04:44:23.988367+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-19T05:53:01.634914+00:00"
     }
   ]
 }
