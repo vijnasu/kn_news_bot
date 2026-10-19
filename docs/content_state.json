@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T05:53:01.634914+00:00",
+  "last_posted_at": "2026-10-19T07:08:34.777625+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Fusion, devotion and star power strike a chord at Mysuru Dasara",
-      "genre": "court_cases",
-      "style": "scandal",
-      "posted_at": "2026-10-18T01:37:41.986346+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Anti-CEC protest LIVE | CJP leader Abhijeet Dipke released by Delhi court after signing peace bond",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-19T05:53:01.634914+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Grand illumination, drone show trigger traffic chaos in Mysuru",
+      "genre": "repeated_failures",
+      "style": "scandal",
+      "posted_at": "2026-10-19T07:08:34.777625+00:00"
     }
   ]
 }
