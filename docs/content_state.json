@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T03:54:54.520767+00:00",
+  "last_posted_at": "2026-10-20T05:11:45.913129+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Centre has failed to strengthen education sector, claims Hariprasad",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-18T16:12:01.779779+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Kumaraswamy unable to digest Shivakumar as Chief Minister, says Sharan Prakash Patil",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "fear",
       "posted_at": "2026-10-20T03:54:54.520767+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Garbage truck driver booked for running over stray puppy at Avalahalli in Bengaluru",
+      "genre": "court_cases",
+      "style": "fear",
+      "posted_at": "2026-10-20T05:11:45.913129+00:00"
     }
   ]
 }
