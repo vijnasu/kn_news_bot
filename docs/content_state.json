@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T02:44:58.512017+00:00",
+  "last_posted_at": "2026-10-20T03:54:54.520767+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Shivakumar told not to engage in scaring sugarcane farmers",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-18T15:10:28.590555+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Centre has failed to strengthen education sector, claims Hariprasad",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-20T02:44:58.512017+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Digital media threatening book culture, says Marulasiddappa at literary event",
+      "genre": "negative_energy",
+      "style": "fear",
+      "posted_at": "2026-10-20T03:54:54.520767+00:00"
     }
   ]
 }
