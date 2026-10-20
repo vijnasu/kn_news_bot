@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-19T17:10:01.250346+00:00",
+  "last_posted_at": "2026-10-20T00:30:47.785394+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Karnataka makes night-time attendance mandatory for doctors at taluk hospitals, PHCs",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-18T11:51:05.832820+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Belagavi retired officer loses ₹42 lakh to digital arrest scam over seven days",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "scandal",
       "posted_at": "2026-10-19T17:10:01.250346+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Allahabad High Court stays conviction of murder convict who wishes to contest 2027 U.P. polls",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-20T00:30:47.785394+00:00"
     }
   ]
 }
