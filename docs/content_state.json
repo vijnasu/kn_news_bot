@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T11:11:46.178179+00:00",
+  "last_posted_at": "2026-10-20T12:17:26.603995+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-19T05:53:01.634914+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Grand illumination, drone show trigger traffic chaos in Mysuru",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-20T11:11:46.178179+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "UN experts urge India to curb force against unarmed student protesters",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-20T12:17:26.603995+00:00"
     }
   ]
 }
