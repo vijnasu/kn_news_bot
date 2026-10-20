@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T08:44:46.384767+00:00",
+  "last_posted_at": "2026-10-20T09:52:02.019848+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Neha Bora | The permanence of agitation",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-19T03:38:57.463489+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka Chief Minister D.K. Shivakumar seeks Prime Minister Narendra Modi’s appointment to discuss sugarcane growers’ issues and drought",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-20T08:44:46.384767+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Man killed as car crashes into Krishna water pipeline near Nagole; supply restored after five-hour repair",
+      "genre": "marriage_delay",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-20T09:52:02.019848+00:00"
     }
   ]
 }
