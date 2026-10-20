@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T15:52:31.919496+00:00",
+  "last_posted_at": "2026-10-20T17:13:03.229170+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Union Minister Pralhad Joshi, former CM Jagadish Shettar seek time from sugarcane farmers of Karnataka at late night meeting in Hubballi",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-19T11:10:54.805578+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Delhi SIR: Public audit in two booths finds over 100 voters wrongly marked absent, shifted, or dead",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-20T15:52:31.919496+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "How much debt is too much for Tamil Nadu?",
+      "genre": "business_blockage",
+      "style": "finance",
+      "posted_at": "2026-10-20T17:13:03.229170+00:00"
     }
   ]
 }
