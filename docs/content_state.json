@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T01:33:56.089592+00:00",
+  "last_posted_at": "2026-10-20T02:44:58.512017+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Hassan Minister holds meeting on temple premises to finalise expenses for Hasanamba festival",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-18T14:10:01.370408+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Shivakumar told not to engage in scaring sugarcane farmers",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "fear",
       "posted_at": "2026-10-20T01:33:56.089592+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Jaishankar meets Swift CEO in Delhi",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-10-20T02:44:58.512017+00:00"
     }
   ]
 }
