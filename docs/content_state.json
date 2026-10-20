@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T09:52:02.019848+00:00",
+  "last_posted_at": "2026-10-20T11:11:46.178179+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka Chief Minister D.K. Shivakumar seeks Prime Minister Narendra Modi’s appointment to discuss sugarcane growers’ issues and drought",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-19T04:44:23.988367+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "sudden_loss",
       "posted_at": "2026-10-20T09:52:02.019848+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "It is state-sponsored terrorism: Mamata Banerjee over extension of custody of 2 CJP leaders",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-20T11:11:46.178179+00:00"
     }
   ]
 }
