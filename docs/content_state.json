@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T06:19:54.318226+00:00",
+  "last_posted_at": "2026-10-20T07:42:42.634384+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "‘Cabinet decision on Bangalore Turf Club land for High Court this month’",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-19T00:32:46.137784+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka Chief Minister D.K. Shivakumar promises meeting of all stakeholders after Dasara",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-10-20T06:19:54.318226+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "IIT-B student death case: Sahil Wakode’s parents seek CM intervention",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-20T07:42:42.634384+00:00"
     }
   ]
 }
