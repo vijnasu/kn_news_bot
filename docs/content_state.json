@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T00:30:47.785394+00:00",
+  "last_posted_at": "2026-10-20T01:33:56.089592+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Belagavi retired officer loses ₹42 lakh to digital arrest scam over seven days",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-10-18T12:53:00.665287+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Hassan Minister holds meeting on temple premises to finalise expenses for Hasanamba festival",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-20T00:30:47.785394+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Bomb threat to Chennai-Goa IndiGo flight: Passengers deboarded, plane takes off after 5-hr delay",
+      "genre": "financial_loss",
+      "style": "fear",
+      "posted_at": "2026-10-20T01:33:56.089592+00:00"
     }
   ]
 }
