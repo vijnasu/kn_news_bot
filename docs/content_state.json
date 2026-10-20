@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-20T05:11:45.913129+00:00",
+  "last_posted_at": "2026-10-20T06:19:54.318226+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Kumaraswamy unable to digest Shivakumar as Chief Minister, says Sharan Prakash Patil",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-18T17:21:50.251573+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "‘Cabinet decision on Bangalore Turf Club land for High Court this month’",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "fear",
       "posted_at": "2026-10-20T05:11:45.913129+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "NGT halts tree felling for Hebbal Short Tunnel Project in Bengaluru",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-10-20T06:19:54.318226+00:00"
     }
   ]
 }
