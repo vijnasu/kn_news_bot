@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T12:48:58.946605+00:00",
+  "last_posted_at": "2026-10-21T13:55:54.931453+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "IIT-B student death case: Sahil Wakode’s parents seek CM intervention",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-20T07:42:42.634384+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "DMK councillor booked over derogatory remarks against CM Vijay",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-21T12:48:58.946605+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Vummidi Ethiraj, craftsman behind historic Sengol, dies at 99",
+      "genre": "repeated_failures",
+      "style": "health",
+      "posted_at": "2026-10-21T13:55:54.931453+00:00"
     }
   ]
 }
