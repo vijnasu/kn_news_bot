@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T05:53:32.285061+00:00",
+  "last_posted_at": "2026-10-21T06:54:26.651165+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Allahabad High Court stays conviction of murder convict who wishes to contest 2027 U.P. polls",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-20T00:30:47.785394+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Bomb threat to Chennai-Goa IndiGo flight: Passengers deboarded, plane takes off after 5-hr delay",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "scandal",
       "posted_at": "2026-10-21T05:53:32.285061+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Eight web security keys of eMudhra firm used by Govt. and PSUs leaked",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-10-21T06:54:26.651165+00:00"
     }
   ]
 }
