@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T16:12:17.756986+00:00",
+  "last_posted_at": "2026-10-21T17:24:55.845348+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "It is state-sponsored terrorism: Mamata Banerjee over extension of custody of 2 CJP leaders",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-20T11:11:46.178179+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "UN experts urge India to curb force against unarmed student protesters",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-10-21T16:12:17.756986+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Agrivoltaics on 10% of suitable land can meet 2050 power demand: Pralhad Joshi",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-21T17:24:55.845348+00:00"
     }
   ]
 }
