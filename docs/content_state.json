@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T10:11:46.303475+00:00",
+  "last_posted_at": "2026-10-21T11:27:02.810175+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Garbage truck driver booked for running over stray puppy at Avalahalli in Bengaluru",
-      "genre": "court_cases",
-      "style": "fear",
-      "posted_at": "2026-10-20T05:11:45.913129+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "NGT halts tree felling for Hebbal Short Tunnel Project in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-21T10:11:46.303475+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Why is ‘reels CM’ silent about partyman arrested meth trafficking case: EPS",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-21T11:27:02.810175+00:00"
     }
   ]
 }
