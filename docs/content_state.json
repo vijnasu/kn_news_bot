@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T07:56:16.195996+00:00",
+  "last_posted_at": "2026-10-21T08:57:45.070781+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Jaishankar meets Swift CEO in Delhi",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-20T02:44:58.512017+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Digital media threatening book culture, says Marulasiddappa at literary event",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-10-21T07:56:16.195996+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Delhi Police transfers two cases against CJP’s Das, Ranka to Crime Branch",
+      "genre": "negative_energy",
+      "style": "court",
+      "posted_at": "2026-10-21T08:57:45.070781+00:00"
     }
   ]
 }
