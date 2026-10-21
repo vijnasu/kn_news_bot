@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T08:57:45.070781+00:00",
+  "last_posted_at": "2026-10-21T10:11:46.303475+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Digital media threatening book culture, says Marulasiddappa at literary event",
-      "genre": "negative_energy",
-      "style": "fear",
-      "posted_at": "2026-10-20T03:54:54.520767+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Garbage truck driver booked for running over stray puppy at Avalahalli in Bengaluru",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "court",
       "posted_at": "2026-10-21T08:57:45.070781+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Outer space should remain realm for cooperation, not conflict: MP Sudha Murty tells UNGA",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-21T10:11:46.303475+00:00"
     }
   ]
 }
