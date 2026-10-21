@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T03:36:34.263258+00:00",
+  "last_posted_at": "2026-10-21T04:52:58.362191+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Sugarcane farmers suspend agitation, set new deadline",
-      "genre": "repeated_failures",
-      "style": "health",
-      "posted_at": "2026-10-19T15:52:12.962870+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "SKM joins agitation over SIR irregularities; movement to grow bigger: Actor Prakash Raj",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-10-21T03:36:34.263258+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "‘Samuel threatened to block all my accounts’: Finance influencer V Harish’s final video before suicide in Chennai blames fellow creator",
+      "genre": "business_blockage",
+      "style": "finance",
+      "posted_at": "2026-10-21T04:52:58.362191+00:00"
     }
   ]
 }
