@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T02:28:34.459659+00:00",
+  "last_posted_at": "2026-10-21T03:36:34.263258+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Delhi protest: CJP leaders’ judicial custody extended by two days",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-19T14:44:53.564806+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Sugarcane farmers suspend agitation, set new deadline",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-21T02:28:34.459659+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "What's Chennai's plan to lower flood risk?",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-10-21T03:36:34.263258+00:00"
     }
   ]
 }
