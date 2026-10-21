@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T06:54:26.651165+00:00",
+  "last_posted_at": "2026-10-21T07:56:16.195996+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Bomb threat to Chennai-Goa IndiGo flight: Passengers deboarded, plane takes off after 5-hr delay",
-      "genre": "financial_loss",
-      "style": "fear",
-      "posted_at": "2026-10-20T01:33:56.089592+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Jaishankar meets Swift CEO in Delhi",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-10-21T06:54:26.651165+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Former AAI official arrested for ₹23 lakh job fraud",
+      "genre": "court_cases",
+      "style": "finance",
+      "posted_at": "2026-10-21T07:56:16.195996+00:00"
     }
   ]
 }
