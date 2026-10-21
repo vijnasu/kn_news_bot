@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T11:27:02.810175+00:00",
+  "last_posted_at": "2026-10-21T12:48:58.946605+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "NGT halts tree felling for Hebbal Short Tunnel Project in Bengaluru",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-10-20T06:19:54.318226+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "IIT-B student death case: Sahil Wakode’s parents seek CM intervention",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-21T11:27:02.810175+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Sugarcane farmers crisis: Karnataka CM Shivakumar seeks Centre’s intervention",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-21T12:48:58.946605+00:00"
     }
   ]
 }
