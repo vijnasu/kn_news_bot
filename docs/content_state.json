@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T13:55:54.931453+00:00",
+  "last_posted_at": "2026-10-21T15:11:30.062210+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "DMK councillor booked over derogatory remarks against CM Vijay",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-20T08:44:46.384767+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Man killed as car crashes into Krishna water pipeline near Nagole; supply restored after five-hour repair",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "health",
       "posted_at": "2026-10-21T13:55:54.931453+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Gardener drowns in water tank while retrieving mobile phone",
+      "genre": "financial_loss",
+      "style": "scandal",
+      "posted_at": "2026-10-21T15:11:30.062210+00:00"
     }
   ]
 }
