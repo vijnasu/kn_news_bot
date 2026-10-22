@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T16:13:36.660591+00:00",
+  "last_posted_at": "2026-10-22T17:24:34.215555+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Why is ‘reels CM’ silent about partyman arrested meth trafficking case: EPS",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-21T11:27:02.810175+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Sugarcane farmers crisis: Karnataka CM Shivakumar seeks Centre’s intervention",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "court",
       "posted_at": "2026-10-22T16:13:36.660591+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "SBI data leak a matter of grave concern: CPI(M) MP A.A. Rahim",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-22T17:24:34.215555+00:00"
     }
   ]
 }
