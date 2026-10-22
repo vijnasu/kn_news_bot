@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T00:30:26.134141+00:00",
+  "last_posted_at": "2026-10-22T01:33:56.235637+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "All stakeholders must work together to resolve sugarcane growers’ issues: Karnataka CM D. K. Shivakumar",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-20T13:30:55.761443+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Karnataka HC refuses to drop charge of culpable homicide not amounting murder against father in fatal accident caused by minor son",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "business",
       "posted_at": "2026-10-22T00:30:26.134141+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Heavy rains trigger landslide on Valparai ghat road",
+      "genre": "repeated_failures",
+      "style": "land",
+      "posted_at": "2026-10-22T01:33:56.235637+00:00"
     }
   ]
 }
