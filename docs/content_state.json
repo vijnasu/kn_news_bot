@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T11:11:03.635023+00:00",
+  "last_posted_at": "2026-10-22T12:18:15.724270+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Eight web security keys of eMudhra firm used by Govt. and PSUs leaked",
-      "genre": "career_instability",
-      "style": "business",
-      "posted_at": "2026-10-21T06:54:26.651165+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Former AAI official arrested for ₹23 lakh job fraud",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "finance",
       "posted_at": "2026-10-22T11:11:03.635023+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "BJP accuses Congress of ‘regime change plot’, terms Rahul Gandhi 'gaddar'",
+      "genre": "family_disturbance",
+      "style": "land",
+      "posted_at": "2026-10-22T12:18:15.724270+00:00"
     }
   ]
 }
