@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T02:48:31.225168+00:00",
+  "last_posted_at": "2026-10-22T03:54:11.629122+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Kharge to apprise Modi of concerns over SIR, delimitation and women’s reservation",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-20T15:52:31.919496+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "How much debt is too much for Tamil Nadu?",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "scandal",
       "posted_at": "2026-10-22T02:48:31.225168+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Chennai streets waterlogged, corporation lines up pumps to tackle flooding",
+      "genre": "unexplained_obstacles",
+      "style": "scandal",
+      "posted_at": "2026-10-22T03:54:11.629122+00:00"
     }
   ]
 }
