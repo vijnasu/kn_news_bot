@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-21T17:24:55.845348+00:00",
+  "last_posted_at": "2026-10-22T00:30:26.134141+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "UN experts urge India to curb force against unarmed student protesters",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-20T12:17:26.603995+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "All stakeholders must work together to resolve sugarcane growers’ issues: Karnataka CM D. K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-21T17:24:55.845348+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "AAP alleges corruption in DJB on spraying of anti-frothing agent in Yamuna",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-10-22T00:30:26.134141+00:00"
     }
   ]
 }
