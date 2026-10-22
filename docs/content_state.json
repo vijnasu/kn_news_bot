@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T09:53:57.308839+00:00",
+  "last_posted_at": "2026-10-22T11:11:03.635023+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Tiger Shroff firing: How secret weapon delivery and a phone call exposed the shooters’ escape route",
-      "genre": "marriage_delay",
-      "style": "scandal",
-      "posted_at": "2026-10-21T05:53:32.285061+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Eight web security keys of eMudhra firm used by Govt. and PSUs leaked",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-22T09:53:57.308839+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Chennai finance influencer’s suicide: Jason Samuel arrested over V Harish’s death after father alleges cyberbullying, mental harassment",
+      "genre": "career_instability",
+      "style": "finance",
+      "posted_at": "2026-10-22T11:11:03.635023+00:00"
     }
   ]
 }
