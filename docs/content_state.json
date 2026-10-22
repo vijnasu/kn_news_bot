@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T01:33:56.235637+00:00",
+  "last_posted_at": "2026-10-22T02:48:31.225168+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Karnataka HC refuses to drop charge of culpable homicide not amounting murder against father in fatal accident caused by minor son",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-10-20T14:43:48.906880+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Kharge to apprise Modi of concerns over SIR, delimitation and women’s reservation",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "land",
       "posted_at": "2026-10-22T01:33:56.235637+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Controversy erupts after ‘protest’ photographs by Priyanka Gandhi’s son allegedly get removed from Bikaner House exhibition",
+      "genre": "business_blockage",
+      "style": "scandal",
+      "posted_at": "2026-10-22T02:48:31.225168+00:00"
     }
   ]
 }
