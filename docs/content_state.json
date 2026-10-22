@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T06:19:56.303227+00:00",
+  "last_posted_at": "2026-10-22T07:43:32.281349+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Health Minister directs officials to ensure hospital preparedness, uninterrupted health services during monsoon",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-21T02:28:34.459659+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "What's Chennai's plan to lower flood risk?",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-10-22T06:19:56.303227+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka government to outsource regulatory functions in three departments",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-22T07:43:32.281349+00:00"
     }
   ]
 }
