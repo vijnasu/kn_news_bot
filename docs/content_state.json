@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-22T08:45:15.190772+00:00",
+  "last_posted_at": "2026-10-22T09:53:57.308839+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "‘Samuel threatened to block all my accounts’: Finance influencer V Harish’s final video before suicide in Chennai blames fellow creator",
-      "genre": "business_blockage",
-      "style": "finance",
-      "posted_at": "2026-10-21T04:52:58.362191+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tiger Shroff firing: How secret weapon delivery and a phone call exposed the shooters’ escape route",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-22T08:45:15.190772+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "INDIA bloc leaders' virtual meeting to discuss roadmap for ‘vote chori’ protests deferred",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-22T09:53:57.308839+00:00"
     }
   ]
 }
