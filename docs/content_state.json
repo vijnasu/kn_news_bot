@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T15:10:55.376833+00:00",
+  "last_posted_at": "2026-10-23T16:13:03.903753+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "INDIA bloc leaders' virtual meeting to discuss roadmap for ‘vote chori’ protests deferred",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-22T09:53:57.308839+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Chennai finance influencer’s suicide: Jason Samuel arrested over V Harish’s death after father alleges cyberbullying, mental harassment",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "finance",
       "posted_at": "2026-10-23T15:10:55.376833+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Farmers oppose State govt. decision not to release Almatti waters for irrigation",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-23T16:13:03.903753+00:00"
     }
   ]
 }
