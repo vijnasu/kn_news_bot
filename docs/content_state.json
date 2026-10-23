@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T03:53:53.519017+00:00",
+  "last_posted_at": "2026-10-23T05:11:30.099312+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Agrivoltaics on 10% of suitable land can meet 2050 power demand: Pralhad Joshi",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-21T17:24:55.845348+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "AAP alleges corruption in DJB on spraying of anti-frothing agent in Yamuna",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-23T03:53:53.519017+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Karnataka SIR: Teaching on the back burner",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-10-23T05:11:30.099312+00:00"
     }
   ]
 }
