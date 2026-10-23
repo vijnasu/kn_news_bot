@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T06:20:28.828400+00:00",
+  "last_posted_at": "2026-10-23T07:44:13.102867+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Heavy rains trigger landslide on Valparai ghat road",
-      "genre": "repeated_failures",
-      "style": "land",
-      "posted_at": "2026-10-22T01:33:56.235637+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Controversy erupts after ‘protest’ photographs by Priyanka Gandhi’s son allegedly get removed from Bikaner House exhibition",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "scandal",
       "posted_at": "2026-10-23T06:20:28.828400+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+      "genre": "unexplained_obstacles",
+      "style": "court",
+      "posted_at": "2026-10-23T07:44:13.102867+00:00"
     }
   ]
 }
