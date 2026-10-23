@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T02:50:54.133678+00:00",
+  "last_posted_at": "2026-10-23T03:53:53.519017+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Seven waterbirds die of avian influenza in Chennai’s Vandalur zoo",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-10-21T16:12:17.756986+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Agrivoltaics on 10% of suitable land can meet 2050 power demand: Pralhad Joshi",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-23T02:50:54.133678+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "What are the powers and functions of Special Executive Magistrates? | Explained",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-23T03:53:53.519017+00:00"
     }
   ]
 }
