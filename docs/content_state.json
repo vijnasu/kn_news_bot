@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T00:31:39.970119+00:00",
+  "last_posted_at": "2026-10-23T01:38:44.351341+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Vummidi Ethiraj, craftsman behind historic Sengol, dies at 99",
-      "genre": "repeated_failures",
-      "style": "health",
-      "posted_at": "2026-10-21T13:55:54.931453+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Gardener drowns in water tank while retrieving mobile phone",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-23T00:31:39.970119+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka to frame policy against hospitals withholding bodies over unpaid bills",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-23T01:38:44.351341+00:00"
     }
   ]
 }
