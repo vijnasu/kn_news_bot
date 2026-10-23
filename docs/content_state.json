@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T12:47:45.355075+00:00",
+  "last_posted_at": "2026-10-23T13:54:26.565421+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka government to outsource regulatory functions in three departments",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-22T07:43:32.281349+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "India-EU FTA will further broaden economic engagement between India and Poland: PM Modi",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-23T12:47:45.355075+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Karnataka sting operation: Siddaramaiah seeks fair probe to unmask those behind ‘concocted’ case",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-23T13:54:26.565421+00:00"
     }
   ]
 }
