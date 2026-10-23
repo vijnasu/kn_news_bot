@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T13:54:26.565421+00:00",
+  "last_posted_at": "2026-10-23T15:10:55.376833+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "India-EU FTA will further broaden economic engagement between India and Poland: PM Modi",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-22T08:45:15.190772+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "INDIA bloc leaders' virtual meeting to discuss roadmap for ‘vote chori’ protests deferred",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-23T13:54:26.565421+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Bagalkot banker loses money to online trading scam",
+      "genre": "financial_loss",
+      "style": "finance",
+      "posted_at": "2026-10-23T15:10:55.376833+00:00"
     }
   ]
 }
