@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T08:54:59.965534+00:00",
+  "last_posted_at": "2026-10-23T10:11:30.918538+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Chennai streets waterlogged, corporation lines up pumps to tackle flooding",
-      "genre": "unexplained_obstacles",
-      "style": "scandal",
-      "posted_at": "2026-10-22T03:54:11.629122+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Anthropic PB admits to having an Indian subsidiary, contradicts earlier stand in court",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "sudden_loss",
       "posted_at": "2026-10-23T08:54:59.965534+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Mild earthquake of magnitude 3.0 hits villages in Bengaluru Rural; KSNDMC says no need to panic",
+      "genre": "family_disturbance",
+      "style": "fear",
+      "posted_at": "2026-10-23T10:11:30.918538+00:00"
     }
   ]
 }
