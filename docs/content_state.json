@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T10:11:30.918538+00:00",
+  "last_posted_at": "2026-10-23T11:27:37.110976+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Anthropic PB admits to having an Indian subsidiary, contradicts earlier stand in court",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-10-22T05:12:14.202923+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "SAVance sets up luxury watch servicing facility in Belagavi",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "fear",
       "posted_at": "2026-10-23T10:11:30.918538+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Panic at Shivamogga Dasara: Residents suggest ‘religious remedy’",
+      "genre": "career_instability",
+      "style": "fear",
+      "posted_at": "2026-10-23T11:27:37.110976+00:00"
     }
   ]
 }
