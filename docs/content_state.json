@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-23T07:44:13.102867+00:00",
+  "last_posted_at": "2026-10-23T08:54:59.965534+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Controversy erupts after ‘protest’ photographs by Priyanka Gandhi’s son allegedly get removed from Bikaner House exhibition",
-      "genre": "business_blockage",
-      "style": "scandal",
-      "posted_at": "2026-10-22T02:48:31.225168+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Chennai streets waterlogged, corporation lines up pumps to tackle flooding",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "court",
       "posted_at": "2026-10-23T07:44:13.102867+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Class XII student dies as house wall collapses in Tamil Nadu",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-23T08:54:59.965534+00:00"
     }
   ]
 }
