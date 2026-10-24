@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T11:48:43.282407+00:00",
+  "last_posted_at": "2026-10-24T12:53:31.614849+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Record growth, rising risks: What’s really driving India’s core industries? | The Hindu Editorial",
-      "genre": "business_blockage",
-      "style": "scandal",
-      "posted_at": "2026-10-23T06:20:28.828400+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "fear",
       "posted_at": "2026-10-24T11:48:43.282407+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "India unequivocally condemns attack on church in Jordan’s Hamoud",
+      "genre": "business_blockage",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-24T12:53:31.614849+00:00"
     }
   ]
 }
