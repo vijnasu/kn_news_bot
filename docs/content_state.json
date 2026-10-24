@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T04:44:48.081926+00:00",
+  "last_posted_at": "2026-10-24T05:50:01.087263+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "SBI data leak a matter of grave concern: CPI(M) MP A.A. Rahim",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-22T17:24:34.215555+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Union minister calls for greater use of emerging tech to prevent disease",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-10-24T04:44:48.081926+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Financial insecurity drives older people to seek jobs, survey in Bengaluru finds",
+      "genre": "business_blockage",
+      "style": "career",
+      "posted_at": "2026-10-24T05:50:01.087263+00:00"
     }
   ]
 }
