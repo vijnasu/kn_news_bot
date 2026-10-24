@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T14:10:26.636928+00:00",
+  "last_posted_at": "2026-10-24T15:23:21.685764+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Class XII student dies as house wall collapses in Tamil Nadu",
-      "genre": "financial_loss",
-      "style": "sudden_loss",
-      "posted_at": "2026-10-23T08:54:59.965534+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Mild earthquake of magnitude 3.0 hits villages in Bengaluru Rural; KSNDMC says no need to panic",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-24T14:10:26.636928+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Education, legal awareness key to preventing child abuse and child marriage: Women’s commission chief",
+      "genre": "career_instability",
+      "style": "marriage",
+      "posted_at": "2026-10-24T15:23:21.685764+00:00"
     }
   ]
 }
