@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T10:37:21.223080+00:00",
+  "last_posted_at": "2026-10-24T11:48:43.282407+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Karnataka SIR: Teaching on the back burner",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-23T05:11:30.099312+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Record growth, rising risks: What’s really driving India’s core industries? | The Hindu Editorial",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "land",
       "posted_at": "2026-10-24T10:37:21.223080+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "IMD issues heavy to very heavy rain in Tamil Nadu; red alert for Nilgiris, orange alert for 9 districts",
+      "genre": "financial_loss",
+      "style": "fear",
+      "posted_at": "2026-10-24T11:48:43.282407+00:00"
     }
   ]
 }
