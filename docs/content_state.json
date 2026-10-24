@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T15:23:21.685764+00:00",
+  "last_posted_at": "2026-10-24T16:25:56.415258+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Mild earthquake of magnitude 3.0 hits villages in Bengaluru Rural; KSNDMC says no need to panic",
-      "genre": "family_disturbance",
-      "style": "fear",
-      "posted_at": "2026-10-23T10:11:30.918538+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Panic at Shivamogga Dasara: Residents suggest ‘religious remedy’",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "marriage",
       "posted_at": "2026-10-24T15:23:21.685764+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Back pain: Lancet review calls for clinical assessment over routine scans",
+      "genre": "court_cases",
+      "style": "health",
+      "posted_at": "2026-10-24T16:25:56.415258+00:00"
     }
   ]
 }
