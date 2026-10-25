@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T01:39:22.448981+00:00",
+  "last_posted_at": "2026-10-25T02:48:58.536743+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Karnataka sting operation: Siddaramaiah seeks fair probe to unmask those behind ‘concocted’ case",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-23T13:54:26.565421+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Bagalkot banker loses money to online trading scam",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-25T01:39:22.448981+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Road Ministry seeks forensic audit of its portals after vehicle data leak",
+      "genre": "financial_loss",
+      "style": "scandal",
+      "posted_at": "2026-10-25T02:48:58.536743+00:00"
     }
   ]
 }
