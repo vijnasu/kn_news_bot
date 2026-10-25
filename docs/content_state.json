@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T08:34:45.600249+00:00",
+  "last_posted_at": "2026-10-25T09:39:10.937591+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Congress high command asks Karnataka CM to start probe into alleged sting operation attempt",
-      "genre": "financial_loss",
-      "style": "business",
-      "posted_at": "2026-10-24T03:32:51.030104+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Centre, State govt. urged to work towards welfare of farmers",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-25T08:34:45.600249+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Amid political buzz, actor Dhanush to address women's wing following fan club restructuring",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-25T09:39:10.937591+00:00"
     }
   ]
 }
