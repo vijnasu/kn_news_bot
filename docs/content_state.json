@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T02:48:58.536743+00:00",
+  "last_posted_at": "2026-10-25T03:54:58.114115+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Bagalkot banker loses money to online trading scam",
-      "genre": "financial_loss",
-      "style": "finance",
-      "posted_at": "2026-10-23T15:10:55.376833+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Farmers oppose State govt. decision not to release Almatti waters for irrigation",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "scandal",
       "posted_at": "2026-10-25T02:48:58.536743+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Couple found dead at Ambattur home",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-10-25T03:54:58.114115+00:00"
     }
   ]
 }
