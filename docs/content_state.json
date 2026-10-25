@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T10:48:43.951053+00:00",
+  "last_posted_at": "2026-10-25T11:49:02.382248+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Financial insecurity drives older people to seek jobs, survey in Bengaluru finds",
-      "genre": "business_blockage",
-      "style": "career",
-      "posted_at": "2026-10-24T05:50:01.087263+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Commerce Ministry identifying AI-proof professions, sectors where India can take global lead: Goyal",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-25T10:48:43.951053+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka CM warns of action against private firms sidelining Kannadigas",
+      "genre": "business_blockage",
+      "style": "business",
+      "posted_at": "2026-10-25T11:49:02.382248+00:00"
     }
   ]
 }
