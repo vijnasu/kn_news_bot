@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T15:24:31.957352+00:00",
+  "last_posted_at": "2026-10-25T16:26:28.167688+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Courts cannot be unmindful when precious water bodies remain unprotected: SC",
-      "genre": "court_cases",
-      "style": "land",
-      "posted_at": "2026-10-24T10:37:21.223080+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "IMD issues heavy to very heavy rain in Tamil Nadu; red alert for Nilgiris, orange alert for 9 districts",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "fear",
       "posted_at": "2026-10-25T15:24:31.957352+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Chennai bus-motorcycle collision injures three teens, driver assaulted",
+      "genre": "court_cases",
+      "style": "accident",
+      "posted_at": "2026-10-25T16:26:28.167688+00:00"
     }
   ]
 }
