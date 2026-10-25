@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T12:53:53.918628+00:00",
+  "last_posted_at": "2026-10-25T14:11:14.363517+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Cylinder explosion in RR Nagar injures three, including nine-year-old boy",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-10-24T08:14:25.409081+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "KPSC paper leak case: Karnataka CM sanctions prosecution of suspended IAS officer Gyanendra Kumar Gangwar",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "weather_extreme",
       "posted_at": "2026-10-25T12:53:53.918628+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-25T14:11:14.363517+00:00"
     }
   ]
 }
