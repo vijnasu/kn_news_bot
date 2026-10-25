@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T05:11:09.795483+00:00",
+  "last_posted_at": "2026-10-25T06:18:19.315984+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "HC grants bail to man who created AI videos of CM to scam people",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-23T17:24:44.532028+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Playing able-bodied shuttlers has helped Naveen Sivakumar grow",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-25T05:11:09.795483+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Eight KLE tech varsity researchers feature in global top 2% list of scientists",
+      "genre": "court_cases",
+      "style": "career",
+      "posted_at": "2026-10-25T06:18:19.315984+00:00"
     }
   ]
 }
