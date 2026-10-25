@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T00:33:02.375920+00:00",
+  "last_posted_at": "2026-10-25T01:39:22.448981+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Mysuru-Bengaluru highway blocked at toll plaza for two hours due to farmers’ protest",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-23T12:47:45.355075+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Karnataka sting operation: Siddaramaiah seeks fair probe to unmask those behind ‘concocted’ case",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "business",
       "posted_at": "2026-10-25T00:33:02.375920+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Karnataka government plans discounted fares for Golden Chariot tourist train during off-season",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-10-25T01:39:22.448981+00:00"
     }
   ]
 }
