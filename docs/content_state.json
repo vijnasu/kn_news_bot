@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-24T16:25:56.415258+00:00",
+  "last_posted_at": "2026-10-25T00:33:02.375920+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Panic at Shivamogga Dasara: Residents suggest ‘religious remedy’",
-      "genre": "career_instability",
-      "style": "fear",
-      "posted_at": "2026-10-23T11:27:37.110976+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Mysuru-Bengaluru highway blocked at toll plaza for two hours due to farmers’ protest",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "health",
       "posted_at": "2026-10-24T16:25:56.415258+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Healthcare challenges require collaborative, technology-ledsolutions, says Health Secretary",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-10-25T00:33:02.375920+00:00"
     }
   ]
 }
