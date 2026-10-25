@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T07:29:22.814872+00:00",
+  "last_posted_at": "2026-10-25T08:34:45.600249+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Three rescued after house collapse",
-      "genre": "negative_energy",
-      "style": "sudden_loss",
-      "posted_at": "2026-10-24T02:21:13.835618+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Congress high command asks Karnataka CM to start probe into alleged sting operation attempt",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-25T07:29:22.814872+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Congress cites former Supreme Court judge’s memoir; questions independence of judiciary under Modi government",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-25T08:34:45.600249+00:00"
     }
   ]
 }
