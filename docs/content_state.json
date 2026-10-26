@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T05:21:58.642529+00:00",
+  "last_posted_at": "2026-10-26T06:26:35.757748+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Healthcare challenges require collaborative, technology-ledsolutions, says Health Secretary",
-      "genre": "unexplained_obstacles",
-      "style": "business",
-      "posted_at": "2026-10-25T00:33:02.375920+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnataka government plans discounted fares for Golden Chariot tourist train during off-season",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "career",
       "posted_at": "2026-10-26T05:21:58.642529+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Rahul Gandhi’s convoy involved in collision on Purvanchal Expressway; Congress leader safe",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-26T06:26:35.757748+00:00"
     }
   ]
 }
