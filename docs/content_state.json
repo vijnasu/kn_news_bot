@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T15:18:04.438576+00:00",
+  "last_posted_at": "2026-10-26T16:36:21.487971+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Amid political buzz, actor Dhanush to address women's wing following fan club restructuring",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-10-25T09:39:10.937591+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "BJP leader Hartal Halappa urges Karnataka Govt to ensure at least seven-hour power supply to agri pump sets during day time",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "land",
       "posted_at": "2026-10-26T15:18:04.438576+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Govt. not worried about inflation as it knows only to steal votes, says Kharge",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-26T16:36:21.487971+00:00"
     }
   ]
 }
