@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T03:00:21.609116+00:00",
+  "last_posted_at": "2026-10-26T04:15:26.064285+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Education, legal awareness key to preventing child abuse and child marriage: Women’s commission chief",
-      "genre": "career_instability",
-      "style": "marriage",
-      "posted_at": "2026-10-24T15:23:21.685764+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Back pain: Lancet review calls for clinical assessment over routine scans",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "business",
       "posted_at": "2026-10-26T03:00:21.609116+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Over 61,000 Form-7 applications filed by election officials in Karnataka, none cites reason",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-26T04:15:26.064285+00:00"
     }
   ]
 }
