@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T12:23:33.099035+00:00",
+  "last_posted_at": "2026-10-26T14:16:20.283623+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Protest at CEO, Karnataka office demanding CEC’s resignation",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-25T07:29:22.814872+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Congress cites former Supreme Court judge’s memoir; questions independence of judiciary under Modi government",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-10-26T12:23:33.099035+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Northeast monsoon: TN minister says 14 people died of rain-related deaths, the Nilgiris saw 62 landslides",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-26T14:16:20.283623+00:00"
     }
   ]
 }
