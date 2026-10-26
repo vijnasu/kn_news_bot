@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T00:31:56.761178+00:00",
+  "last_posted_at": "2026-10-26T01:42:58.698420+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "India unequivocally condemns attack on church in Jordan’s Hamoud",
-      "genre": "business_blockage",
-      "style": "sudden_loss",
-      "posted_at": "2026-10-24T12:53:31.614849+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Samiti threatens indefinite hunger strike over irregular power supply",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "land",
       "posted_at": "2026-10-26T00:31:56.761178+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Dhanush holds fan association meet in Chennai, avoids political talk; Congress calls it BJP’s ‘Plan C’",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-26T01:42:58.698420+00:00"
     }
   ]
 }
