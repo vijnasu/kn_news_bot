@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-25T16:26:28.167688+00:00",
+  "last_posted_at": "2026-10-26T00:31:56.761178+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "IMD issues heavy to very heavy rain in Tamil Nadu; red alert for Nilgiris, orange alert for 9 districts",
-      "genre": "financial_loss",
-      "style": "fear",
-      "posted_at": "2026-10-24T11:48:43.282407+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "India unequivocally condemns attack on church in Jordan’s Hamoud",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "accident",
       "posted_at": "2026-10-25T16:26:28.167688+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Pulakeshinagar IED blast case cracked, personal rivalry behind the plot",
+      "genre": "repeated_failures",
+      "style": "land",
+      "posted_at": "2026-10-26T00:31:56.761178+00:00"
     }
   ]
 }
