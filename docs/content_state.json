@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T08:43:24.747140+00:00",
+  "last_posted_at": "2026-10-26T10:01:10.344058+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Couple found dead at Ambattur home",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-10-25T03:54:58.114115+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Feral dogs ‘a major threat’ to vultures in Thar desert, study finds",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "health",
       "posted_at": "2026-10-26T08:43:24.747140+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Why Poland wants a stronger relationship with India | The Hindu Editorial",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-26T10:01:10.344058+00:00"
     }
   ]
 }
