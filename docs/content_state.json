@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T14:16:20.283623+00:00",
+  "last_posted_at": "2026-10-26T15:18:04.438576+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Congress cites former Supreme Court judge’s memoir; questions independence of judiciary under Modi government",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-25T08:34:45.600249+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Amid political buzz, actor Dhanush to address women's wing following fan club restructuring",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-26T14:16:20.283623+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Direct recruitment exam for land surveyors, VAOs goes off smoothly in Yadgir",
+      "genre": "political_business_enemies",
+      "style": "land",
+      "posted_at": "2026-10-26T15:18:04.438576+00:00"
     }
   ]
 }
