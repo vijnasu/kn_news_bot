@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T01:42:58.698420+00:00",
+  "last_posted_at": "2026-10-26T03:00:21.609116+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Samiti threatens indefinite hunger strike over irregular power supply",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-24T14:10:26.636928+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Education, legal awareness key to preventing child abuse and child marriage: Women’s commission chief",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-26T01:42:58.698420+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Democratising data for startups",
+      "genre": "marriage_delay",
+      "style": "business",
+      "posted_at": "2026-10-26T03:00:21.609116+00:00"
     }
   ]
 }
