@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-26T07:42:42.632963+00:00",
+  "last_posted_at": "2026-10-26T08:43:24.747140+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Road Ministry seeks forensic audit of its portals after vehicle data leak",
-      "genre": "financial_loss",
-      "style": "scandal",
-      "posted_at": "2026-10-25T02:48:58.536743+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Couple found dead at Ambattur home",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-10-26T07:42:42.632963+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Up in the Nilgiris, a 5,000-year-old puzzle on the rocks",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-10-26T08:43:24.747140+00:00"
     }
   ]
 }
