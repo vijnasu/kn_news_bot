@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T07:45:48.524516+00:00",
+  "last_posted_at": "2026-10-27T08:46:30.548995+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Dhanush holds fan association meet in Chennai, avoids political talk; Congress calls it BJP’s ‘Plan C’",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-26T01:42:58.698420+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Democratising data for startups",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-10-27T07:45:48.524516+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Supreme Court seeks government response on pleas challenging Vande Mataram as a ‘divisive religious war song’",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-10-27T08:46:30.548995+00:00"
     }
   ]
 }
