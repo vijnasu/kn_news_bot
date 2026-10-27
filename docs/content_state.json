@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T06:20:19.783859+00:00",
+  "last_posted_at": "2026-10-27T07:45:48.524516+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Pulakeshinagar IED blast case cracked, personal rivalry behind the plot",
-      "genre": "repeated_failures",
-      "style": "land",
-      "posted_at": "2026-10-26T00:31:56.761178+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Dhanush holds fan association meet in Chennai, avoids political talk; Congress calls it BJP’s ‘Plan C’",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-27T06:20:19.783859+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Anup Bagchi takes charge as HDFC Bank CEO and MD",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-10-27T07:45:48.524516+00:00"
     }
   ]
 }
