@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T01:40:21.117230+00:00",
+  "last_posted_at": "2026-10-27T02:56:57.118403+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "There is no shortage of funds to handle drought, says Eshwar Khandre",
-      "genre": "unexplained_obstacles",
-      "style": "weather_extreme",
-      "posted_at": "2026-10-25T12:53:53.918628+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-10-27T01:40:21.117230+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Salt-producing TN ranks last in use of iodised salt",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-27T02:56:57.118403+00:00"
     }
   ]
 }
