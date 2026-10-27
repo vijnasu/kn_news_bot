@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T05:12:00.242224+00:00",
+  "last_posted_at": "2026-10-27T06:20:19.783859+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Chennai bus-motorcycle collision injures three teens, driver assaulted",
-      "genre": "court_cases",
-      "style": "accident",
-      "posted_at": "2026-10-25T16:26:28.167688+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Pulakeshinagar IED blast case cracked, personal rivalry behind the plot",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-27T05:12:00.242224+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Sugarcane price deadlock nears resolution after 10-hour discussion with Karnataka CM D.K. Shivakumar",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-10-27T06:20:19.783859+00:00"
     }
   ]
 }
