@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T11:11:31.537405+00:00",
+  "last_posted_at": "2026-10-27T12:18:31.271328+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Jamia university orders student union polls within 15 days of constitution approval; two students continue hunger strike",
-      "genre": "business_blockage",
-      "style": "career",
-      "posted_at": "2026-10-26T05:21:58.642529+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Rahul Gandhi’s convoy involved in collision on Purvanchal Expressway; Congress leader safe",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-10-27T11:11:31.537405+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "CPI forms human chain in Delhi demanding CEC’s resignation and rollback of SIR",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-27T12:18:31.271328+00:00"
     }
   ]
 }
