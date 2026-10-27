@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T03:57:33.703809+00:00",
+  "last_posted_at": "2026-10-27T05:12:00.242224+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "No rain for Chennai for a week as cyclone threat shifts north",
-      "genre": "family_disturbance",
-      "style": "fear",
-      "posted_at": "2026-10-25T15:24:31.957352+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Chennai bus-motorcycle collision injures three teens, driver assaulted",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "public_unrest",
       "posted_at": "2026-10-27T03:57:33.703809+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Congress seeks scrapping of SIR, demands CEC’s resignation; protest planned in New Delhi on November 1",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-27T05:12:00.242224+00:00"
     }
   ]
 }
