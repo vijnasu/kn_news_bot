@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T09:53:43.151177+00:00",
+  "last_posted_at": "2026-10-27T11:11:31.537405+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Over 61,000 Form-7 applications filed by election officials in Karnataka, none cites reason",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-26T04:15:26.064285+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Jamia university orders student union polls within 15 days of constitution approval; two students continue hunger strike",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-27T09:53:43.151177+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "At SCO meet, Rajnath calls for dismantling the entire ecosystem of terrorism",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-27T11:11:31.537405+00:00"
     }
   ]
 }
