@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T00:30:34.728574+00:00",
+  "last_posted_at": "2026-10-27T01:40:21.117230+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka CM warns of action against private firms sidelining Kannadigas",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-10-25T11:49:02.382248+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "There is no shortage of funds to handle drought, says Eshwar Khandre",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "finance",
       "posted_at": "2026-10-27T00:30:34.728574+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Solicitor-General to appear for Karnataka in bike-taxi case",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-10-27T01:40:21.117230+00:00"
     }
   ]
 }
