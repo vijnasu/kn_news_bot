@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-27T08:46:30.548995+00:00",
+  "last_posted_at": "2026-10-27T09:53:43.151177+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Democratising data for startups",
-      "genre": "marriage_delay",
-      "style": "business",
-      "posted_at": "2026-10-26T03:00:21.609116+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Over 61,000 Form-7 applications filed by election officials in Karnataka, none cites reason",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-27T08:46:30.548995+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka Deputy Chief Minister G. Parameshwara hospitalised after respiratory complaint",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-27T09:53:43.151177+00:00"
     }
   ]
 }
