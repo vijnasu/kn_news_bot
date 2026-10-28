@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T16:10:08.743574+00:00",
+  "last_posted_at": "2026-10-28T17:19:45.154934+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "At SCO meet, Rajnath calls for dismantling the entire ecosystem of terrorism",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-27T11:11:31.537405+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "CPI forms human chain in Delhi demanding CEC’s resignation and rollback of SIR",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-28T16:10:08.743574+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Citizens serve legal notices to State govt. over bursting of firecrackers during Ganesha festival",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-10-28T17:19:45.154934+00:00"
     }
   ]
 }
