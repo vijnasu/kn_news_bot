@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T08:12:51.020097+00:00",
+  "last_posted_at": "2026-10-28T09:23:35.714541+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Salt-producing TN ranks last in use of iodised salt",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-27T02:56:57.118403+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Stalin slams TVK govt for rising crime; Thaimaaman missing, says Kanimozhi",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "court",
       "posted_at": "2026-10-28T08:12:51.020097+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Karnataka Congress to review organisational lapses after losing all four Council seats: B.K. Hariprasad",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-28T09:23:35.714541+00:00"
     }
   ]
 }
