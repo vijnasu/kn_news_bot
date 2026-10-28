@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T13:49:02.093795+00:00",
+  "last_posted_at": "2026-10-28T14:49:17.597871+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Supreme Court seeks government response on pleas challenging Vande Mataram as a ‘divisive religious war song’",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-27T08:46:30.548995+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka Deputy Chief Minister G. Parameshwara hospitalised after respiratory complaint",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "accident",
       "posted_at": "2026-10-28T13:49:02.093795+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Rajnath raises U.S. F-16 package for Pakistan, cross-border terrorism with Hegseth",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-10-28T14:49:17.597871+00:00"
     }
   ]
 }
