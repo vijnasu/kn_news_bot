@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T02:12:31.625837+00:00",
+  "last_posted_at": "2026-10-28T03:24:22.511177+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Northeast monsoon: TN minister says 14 people died of rain-related deaths, the Nilgiris saw 62 landslides",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-26T14:16:20.283623+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Direct recruitment exam for land surveyors, VAOs goes off smoothly in Yadgir",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "land",
       "posted_at": "2026-10-28T02:12:31.625837+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Venu Srinivasan family business dispute escalates to Chennai court as both sides file caveats",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-10-28T03:24:22.511177+00:00"
     }
   ]
 }
