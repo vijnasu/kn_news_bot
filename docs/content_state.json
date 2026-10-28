@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T10:34:53.496882+00:00",
+  "last_posted_at": "2026-10-28T11:48:34.011927+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Congress seeks scrapping of SIR, demands CEC’s resignation; protest planned in New Delhi on November 1",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-27T05:12:00.242224+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Sugarcane price deadlock nears resolution after 10-hour discussion with Karnataka CM D.K. Shivakumar",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "land",
       "posted_at": "2026-10-28T10:34:53.496882+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Karnataka sting operation row: What we know so far | Decode Karnataka",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-28T11:48:34.011927+00:00"
     }
   ]
 }
