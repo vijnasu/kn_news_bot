@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-28T12:48:43.469707+00:00",
+  "last_posted_at": "2026-10-28T13:49:02.093795+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Anup Bagchi takes charge as HDFC Bank CEO and MD",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-10-27T07:45:48.524516+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Supreme Court seeks government response on pleas challenging Vande Mataram as a ‘divisive religious war song’",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "fear",
       "posted_at": "2026-10-28T12:48:43.469707+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu jailbreak: Armed personnel with permission to open fire to guard 9 central prisons, 5 women’s prisons and 13 district jails",
+      "genre": "family_disturbance",
+      "style": "accident",
+      "posted_at": "2026-10-28T13:49:02.093795+00:00"
     }
   ]
 }
