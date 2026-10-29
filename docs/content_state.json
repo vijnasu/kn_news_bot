@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T02:12:57.138617+00:00",
+  "last_posted_at": "2026-10-29T03:25:32.984478+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "New privacy law will shut down newsrooms, change the concept of news: Digital News Publishers Association",
-      "genre": "negative_energy",
-      "style": "court",
-      "posted_at": "2026-10-27T14:44:08.055338+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Science is successful only when it benefits society: PM Modi",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "politics",
       "posted_at": "2026-10-29T02:12:57.138617+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Murder-for-hire ad scribbled on Chennai bus lands rowdy in jail",
+      "genre": "career_instability",
+      "style": "land",
+      "posted_at": "2026-10-29T03:25:32.984478+00:00"
     }
   ]
 }
