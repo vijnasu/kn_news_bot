@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T00:53:08.981425+00:00",
+  "last_posted_at": "2026-10-29T02:12:57.138617+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Bombay High Court stays ‘Leave India Notice’ against actor Imran Khan till November 2",
-      "genre": "financial_loss",
-      "style": "court",
-      "posted_at": "2026-10-27T13:43:25.316854+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "New privacy law will shut down newsrooms, change the concept of news: Digital News Publishers Association",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "business",
       "posted_at": "2026-10-29T00:53:08.981425+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Karnataka High Court flags irony: Law meant to curb red tapism bogged down it",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-10-29T02:12:57.138617+00:00"
     }
   ]
 }
