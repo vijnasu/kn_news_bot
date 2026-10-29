@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T10:34:56.876853+00:00",
+  "last_posted_at": "2026-10-29T11:48:42.498294+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Very severe cyclone Arnab crosses Andhra coast, weakens into severe cyclonic storm: IMD | LIVE",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-10-28T05:48:28.794852+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Indian Captain Smit Machchhar, flydubai crew honoured by UAE President for bravery during mid-air attack",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-10-29T10:34:56.876853+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Former MLA Muthukumar surrenders in bribery case involving ex-Minister Anbil Mahesh Poyyamozhi",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-10-29T11:48:42.498294+00:00"
     }
   ]
 }
