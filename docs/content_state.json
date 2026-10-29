@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T03:25:32.984478+00:00",
+  "last_posted_at": "2026-10-29T04:36:01.905371+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Science is successful only when it benefits society: PM Modi",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-27T15:52:42.655191+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Karnataka Deputy Chief Minister Parameshwara admitted to hospital, stable",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "land",
       "posted_at": "2026-10-29T03:25:32.984478+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Rs 634 crore cash-for-jobs scam: DVAC raids 25 locations linked to DMK’s KN Nehru",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-29T04:36:01.905371+00:00"
     }
   ]
 }
