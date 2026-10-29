@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T15:21:28.356183+00:00",
+  "last_posted_at": "2026-10-29T16:23:32.110030+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Jamia student protest: Varsity alleges damage to property as stir continues for 17th day",
-      "genre": "business_blockage",
-      "style": "land",
-      "posted_at": "2026-10-28T10:34:53.496882+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Karnataka sting operation row: What we know so far | Decode Karnataka",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "finance",
       "posted_at": "2026-10-29T15:21:28.356183+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Hospital to celebrate 16th anniversary tomorrow",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-10-29T16:23:32.110030+00:00"
     }
   ]
 }
