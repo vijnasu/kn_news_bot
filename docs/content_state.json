@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T06:51:34.083853+00:00",
+  "last_posted_at": "2026-10-29T08:12:19.030381+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Cyclone Arnab's landfall process continues along Andhra coast | Highlights",
-      "genre": "political_business_enemies",
-      "style": "land",
-      "posted_at": "2026-10-28T02:12:31.625837+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Venu Srinivasan family business dispute escalates to Chennai court as both sides file caveats",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-29T06:51:34.083853+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Stalin Accuses Vijay Government of Law and Order Collapse in Tamil Nadu",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-29T08:12:19.030381+00:00"
     }
   ]
 }
