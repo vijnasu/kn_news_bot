@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T12:49:14.113421+00:00",
+  "last_posted_at": "2026-10-29T14:09:56.561187+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Supreme Court terms cyber crime as digital dacoity, refuses consolidation of cases",
-      "genre": "sudden_health_fear",
-      "style": "court",
-      "posted_at": "2026-10-28T08:12:51.020097+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Karnataka Congress to review organisational lapses after losing all four Council seats: B.K. Hariprasad",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-10-29T12:49:14.113421+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Farmers call for rasta roko tomorrow in protest against delay in sugar MSP",
+      "genre": "unexplained_obstacles",
+      "style": "scandal",
+      "posted_at": "2026-10-29T14:09:56.561187+00:00"
     }
   ]
 }
