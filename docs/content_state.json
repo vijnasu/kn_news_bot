@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T14:09:18.880160+00:00",
+  "last_posted_at": "2026-10-30T15:19:46.012103+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Stalin Accuses Vijay Government of Law and Order Collapse in Tamil Nadu",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-29T08:12:19.030381+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "When home in Delhi became a death trap: Satya Niketan building collapse",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-10-30T14:09:18.880160+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "International agricultural event to focus on climate resilience",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-10-30T15:19:46.012103+00:00"
     }
   ]
 }
