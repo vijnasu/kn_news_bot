@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T06:15:04.979117+00:00",
+  "last_posted_at": "2026-10-30T07:21:52.976254+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Citizens serve legal notices to State govt. over bursting of firecrackers during Ganesha festival",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-10-28T17:19:45.154934+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "TVS Motor Company to demerge consumer finance business",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "health",
       "posted_at": "2026-10-30T06:15:04.979117+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "KG Basin gas migration dispute: Supreme Court appoints Justice Ranjana Desai as sole mediator",
+      "genre": "family_disturbance",
+      "style": "court",
+      "posted_at": "2026-10-30T07:21:52.976254+00:00"
     }
   ]
 }
