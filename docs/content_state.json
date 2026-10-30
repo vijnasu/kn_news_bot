@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T05:09:13.037148+00:00",
+  "last_posted_at": "2026-10-30T06:15:04.979117+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Nirmala Sitharaman slams Rahul Gandhi for terming Tata Group dispute ‘criminal’",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-28T16:10:08.743574+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Citizens serve legal notices to State govt. over bursting of firecrackers during Ganesha festival",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-30T05:09:13.037148+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "‘Unavailable in India’: Why are social media posts being blocked amid protests? | Explained",
+      "genre": "business_blockage",
+      "style": "health",
+      "posted_at": "2026-10-30T06:15:04.979117+00:00"
     }
   ]
 }
