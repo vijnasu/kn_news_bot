@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-29T16:23:32.110030+00:00",
+  "last_posted_at": "2026-10-30T00:54:07.923959+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Karnataka sting operation row: What we know so far | Decode Karnataka",
-      "genre": "career_instability",
-      "style": "politics",
-      "posted_at": "2026-10-28T11:48:34.011927+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Cyclone Arnab: 12 flights between Chennai and Andhra Pradesh cities cancelled",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-10-29T16:23:32.110030+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Supreme Court strikes down Karnataka law validating ‘corrupt’ 2011 recruitment",
+      "genre": "financial_loss",
+      "style": "court",
+      "posted_at": "2026-10-30T00:54:07.923959+00:00"
     }
   ]
 }
