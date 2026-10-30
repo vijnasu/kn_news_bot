@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T07:21:52.976254+00:00",
+  "last_posted_at": "2026-10-30T08:27:03.554696+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "TVS Motor Company to demerge consumer finance business",
-      "genre": "negative_energy",
-      "style": "business",
-      "posted_at": "2026-10-29T00:53:08.981425+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Karnataka High Court flags irony: Law meant to curb red tapism bogged down it",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "court",
       "posted_at": "2026-10-30T07:21:52.976254+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Public banks not assets to be sold off, they are tools to build nation: Rahul amid IDBI bank sale row",
+      "genre": "career_instability",
+      "style": "business",
+      "posted_at": "2026-10-30T08:27:03.554696+00:00"
     }
   ]
 }
