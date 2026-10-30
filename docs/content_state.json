@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T02:12:36.498297+00:00",
+  "last_posted_at": "2026-10-30T03:24:20.743814+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Tamil Nadu jailbreak: Armed personnel with permission to open fire to guard 9 central prisons, 5 women’s prisons and 13 district jails",
-      "genre": "family_disturbance",
-      "style": "accident",
-      "posted_at": "2026-10-28T13:49:02.093795+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Rajnath raises U.S. F-16 package for Pakistan, cross-border terrorism with Hegseth",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "career",
       "posted_at": "2026-10-30T02:12:36.498297+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Stalin targets TVK over raids, says Vijay masking law and order collapse",
+      "genre": "marriage_delay",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-30T03:24:20.743814+00:00"
     }
   ]
 }
