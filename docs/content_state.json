@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T03:24:20.743814+00:00",
+  "last_posted_at": "2026-10-30T05:09:13.037148+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Rajnath raises U.S. F-16 package for Pakistan, cross-border terrorism with Hegseth",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-28T14:49:17.597871+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Nirmala Sitharaman slams Rahul Gandhi for terming Tata Group dispute ‘criminal’",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "sudden_loss",
       "posted_at": "2026-10-30T03:24:20.743814+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "External Affairs Minister Jaishankar in U.S. for G20 Foreign Ministers’ meet",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-30T05:09:13.037148+00:00"
     }
   ]
 }
