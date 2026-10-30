@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T10:35:04.449254+00:00",
+  "last_posted_at": "2026-10-30T11:35:31.365891+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Rs 634 crore cash-for-jobs scam: DVAC raids 25 locations linked to DMK’s KN Nehru",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-29T04:36:01.905371+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Stalin targets TVK over raids, says Vijay masking law and order collapse",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-10-30T10:35:04.449254+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Rs 100crore private schools recognition cheating case: Chennai court defers order on police custody of former minister Anbil Mahesh",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-10-30T11:35:31.365891+00:00"
     }
   ]
 }
