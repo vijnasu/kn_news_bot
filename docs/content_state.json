@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T11:19:01.255768+00:00",
+  "last_posted_at": "2026-10-31T12:21:30.045056+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "‘Unavailable in India’: Why are social media posts being blocked amid protests? | Explained",
-      "genre": "business_blockage",
-      "style": "health",
-      "posted_at": "2026-10-30T06:15:04.979117+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "KG Basin gas migration dispute: Supreme Court appoints Justice Ranjana Desai as sole mediator",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-31T11:19:01.255768+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Why do questions of transparency arise in every major deal under Modi government?: Congress on IDBI bank row",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-10-31T12:21:30.045056+00:00"
     }
   ]
 }
