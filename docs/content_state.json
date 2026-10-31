@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T05:33:59.305829+00:00",
+  "last_posted_at": "2026-10-31T06:35:12.850566+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Hospital to celebrate 16th anniversary tomorrow",
-      "genre": "family_disturbance",
-      "style": "health",
-      "posted_at": "2026-10-29T16:23:32.110030+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Supreme Court strikes down Karnataka law validating ‘corrupt’ 2011 recruitment",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-31T05:33:59.305829+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Bursting of firecrackers only between 8 p.m. and 10 p.m., says Minister",
+      "genre": "career_instability",
+      "style": "politics",
+      "posted_at": "2026-10-31T06:35:12.850566+00:00"
     }
   ]
 }
