@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T10:18:32.698178+00:00",
+  "last_posted_at": "2026-10-31T11:19:01.255768+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "External Affairs Minister Jaishankar in U.S. for G20 Foreign Ministers’ meet",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-30T05:09:13.037148+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "‘Unavailable in India’: Why are social media posts being blocked amid protests? | Explained",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-10-31T10:18:32.698178+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Union Minister Rijiju challenges Congress to answer ‘basic questions’ amid row over SIR, CEC",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-10-31T11:19:01.255768+00:00"
     }
   ]
 }
