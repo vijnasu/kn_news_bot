@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T03:08:33.035898+00:00",
+  "last_posted_at": "2026-10-31T04:19:06.106207+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Farmers call for rasta roko tomorrow in protest against delay in sugar MSP",
-      "genre": "unexplained_obstacles",
-      "style": "scandal",
-      "posted_at": "2026-10-29T14:09:56.561187+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "₹58 crore lost to cyber fraud cases in Kalaburagi, says police officer",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-10-31T03:08:33.035898+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "CM writes to PM seeking revision of sugar MSP, order on ethanol production",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-10-31T04:19:06.106207+00:00"
     }
   ]
 }
