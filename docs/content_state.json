@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T07:48:37.240736+00:00",
+  "last_posted_at": "2026-10-31T09:07:41.369422+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Jobs for locals: How feasible is the idea?",
-      "genre": "career_instability",
-      "style": "career",
-      "posted_at": "2026-10-30T02:12:36.498297+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Stalin targets TVK over raids, says Vijay masking law and order collapse",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "sudden_loss",
       "posted_at": "2026-10-31T07:48:37.240736+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Indomitable courage, visionary leadership: Congress hails Indira Gandhi on death anniversary",
+      "genre": "marriage_delay",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-31T09:07:41.369422+00:00"
     }
   ]
 }
