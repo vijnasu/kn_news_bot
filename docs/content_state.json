@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T06:35:12.850566+00:00",
+  "last_posted_at": "2026-10-31T07:48:37.240736+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Supreme Court strikes down Karnataka law validating ‘corrupt’ 2011 recruitment",
-      "genre": "financial_loss",
-      "style": "court",
-      "posted_at": "2026-10-30T00:54:07.923959+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Jobs for locals: How feasible is the idea?",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "politics",
       "posted_at": "2026-10-31T06:35:12.850566+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Rahul, Priyanka remember Indira Gandhi on her death anniversary",
+      "genre": "sudden_health_fear",
+      "style": "sudden_loss",
+      "posted_at": "2026-10-31T07:48:37.240736+00:00"
     }
   ]
 }
