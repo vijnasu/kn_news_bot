@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-30T16:21:43.423219+00:00",
+  "last_posted_at": "2026-10-31T00:44:24.727698+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "17.78 lakh kg of PDS grains seized in three months, 215 arrested amidst drought in Karnataka",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-10-29T10:34:56.876853+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Former MLA Muthukumar surrenders in bribery case involving ex-Minister Anbil Mahesh Poyyamozhi",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-10-30T16:21:43.423219+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Will not enforce circular on hospital medicine price disclosure for now: Karnataka government to HC",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-10-31T00:44:24.727698+00:00"
     }
   ]
 }
