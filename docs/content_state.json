@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T12:21:30.045056+00:00",
+  "last_posted_at": "2026-10-31T13:33:51.480371+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "KG Basin gas migration dispute: Supreme Court appoints Justice Ranjana Desai as sole mediator",
-      "genre": "family_disturbance",
-      "style": "court",
-      "posted_at": "2026-10-30T07:21:52.976254+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Public banks not assets to be sold off, they are tools to build nation: Rahul amid IDBI bank sale row",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "business",
       "posted_at": "2026-10-31T12:21:30.045056+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Yadgir bandh will be observed on Nov. 06 if govt. fails to address water crisis: Former Minister Narasimha Naik",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-10-31T13:33:51.480371+00:00"
     }
   ]
 }
