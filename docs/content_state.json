@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-10-31T00:44:24.727698+00:00",
+  "last_posted_at": "2026-10-31T01:48:40.867683+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Former MLA Muthukumar surrenders in bribery case involving ex-Minister Anbil Mahesh Poyyamozhi",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-10-29T11:48:42.498294+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Supreme Court refuses to order ‘full public disclosure’ of ultimate beneficiaries of AIFs, FPIs without ‘legal framework’",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-10-31T00:44:24.727698+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Karnataka High Court to nominate new head for SIT to probe KPSC irregularities on Monday",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-10-31T01:48:40.867683+00:00"
     }
   ]
 }
