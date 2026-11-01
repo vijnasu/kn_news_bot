@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T12:34:30.862321+00:00",
+  "last_posted_at": "2026-11-01T13:48:32.374965+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Rahul, Priyanka remember Indira Gandhi on her death anniversary",
-      "genre": "sudden_health_fear",
-      "style": "sudden_loss",
-      "posted_at": "2026-10-31T07:48:37.240736+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Indomitable courage, visionary leadership: Congress hails Indira Gandhi on death anniversary",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-11-01T12:34:30.862321+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Factories are ready to pay higher prices if sugar MSP is revised: Satish Jarkiholi",
+      "genre": "marriage_delay",
+      "style": "business",
+      "posted_at": "2026-11-01T13:48:32.374965+00:00"
     }
   ]
 }
