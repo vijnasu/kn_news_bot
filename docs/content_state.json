@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T05:48:33.368043+00:00",
+  "last_posted_at": "2026-11-01T07:07:52.703142+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Will not enforce circular on hospital medicine price disclosure for now: Karnataka government to HC",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-10-31T00:44:24.727698+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Karnataka High Court to nominate new head for SIT to probe KPSC irregularities on Monday",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "politics",
       "posted_at": "2026-11-01T05:48:33.368043+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Three killed in road accident in Yadgir district",
+      "genre": "marriage_delay",
+      "style": "sudden_loss",
+      "posted_at": "2026-11-01T07:07:52.703142+00:00"
     }
   ]
 }
