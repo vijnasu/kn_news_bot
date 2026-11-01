@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T07:07:52.703142+00:00",
+  "last_posted_at": "2026-11-01T08:09:52.829265+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Karnataka High Court to nominate new head for SIT to probe KPSC irregularities on Monday",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-10-31T01:48:40.867683+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "SC order on KPSC: Government likely to move review petition",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "sudden_loss",
       "posted_at": "2026-11-01T07:07:52.703142+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Supreme Court paves way for IT assessments of two businessmen sons of former CJI Y.K. Sabharwal",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-11-01T08:09:52.829265+00:00"
     }
   ]
 }
