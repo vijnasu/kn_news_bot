@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T08:09:52.829265+00:00",
+  "last_posted_at": "2026-11-01T09:18:23.283614+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "SC order on KPSC: Government likely to move review petition",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-10-31T03:08:33.035898+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "CM writes to PM seeking revision of sugar MSP, order on ethanol production",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-11-01T08:09:52.829265+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Foolish drama, will be final nail in coffin of Congress' political future: Nadda",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-11-01T09:18:23.283614+00:00"
     }
   ]
 }
