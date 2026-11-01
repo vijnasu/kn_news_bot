@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T04:34:20.248751+00:00",
+  "last_posted_at": "2026-11-01T05:48:33.368043+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Uttarakhand chopper crash: All six on board killed, says Chamoli District Magistrate",
-      "genre": "financial_loss",
-      "style": "politics",
-      "posted_at": "2026-10-30T16:21:43.423219+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Will not enforce circular on hospital medicine price disclosure for now: Karnataka government to HC",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "court",
       "posted_at": "2026-11-01T04:34:20.248751+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "AMMK leader targets Tamil Nadu govt over power cuts, questions energy minister’s continuance",
+      "genre": "financial_loss",
+      "style": "politics",
+      "posted_at": "2026-11-01T05:48:33.368043+00:00"
     }
   ]
 }
