@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T02:11:04.746245+00:00",
+  "last_posted_at": "2026-11-01T03:22:08.996989+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Physical intimacy can't be branded as rape if consensual relationship turns sour: Supreme Court",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-10-30T14:09:18.880160+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "International agricultural event to focus on climate resilience",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-11-01T02:11:04.746245+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "IIT Bombay student death: Parents seek CBI investigation",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-11-01T03:22:08.996989+00:00"
     }
   ]
 }
