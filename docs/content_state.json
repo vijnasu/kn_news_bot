@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T03:22:08.996989+00:00",
+  "last_posted_at": "2026-11-01T04:34:20.248751+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "International agricultural event to focus on climate resilience",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-10-30T15:19:46.012103+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Uttarakhand chopper crash: All six on board killed, says Chamoli District Magistrate",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "court",
       "posted_at": "2026-11-01T03:22:08.996989+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Justice Sanjay Kishan Kaul on his memoir ‘Without Fear or Favour ‘and the executive’s growing influence over the collegium system",
+      "genre": "political_business_enemies",
+      "style": "court",
+      "posted_at": "2026-11-01T04:34:20.248751+00:00"
     }
   ]
 }
