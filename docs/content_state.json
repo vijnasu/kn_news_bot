@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T09:18:23.283614+00:00",
+  "last_posted_at": "2026-11-01T10:18:42.384501+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "CM writes to PM seeking revision of sugar MSP, order on ethanol production",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-10-31T04:19:06.106207+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Chola-era bronze idols of Nataraja, Sivakami unearthed at Nagapattinam",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-11-01T09:18:23.283614+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "'Chalo Dilli' protests: Sonia, Rahul, Mamata among INDIA bloc leaders marching to Ramlila Maidan | LIVE",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-11-01T10:18:42.384501+00:00"
     }
   ]
 }
