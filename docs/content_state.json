@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T00:52:03.213411+00:00",
+  "last_posted_at": "2026-11-01T02:11:04.746245+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Tamil Nadu govt raises upper age limit for jobs by five years",
-      "genre": "unexplained_obstacles",
-      "style": "politics",
-      "posted_at": "2026-10-30T12:49:06.417220+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Physical intimacy can't be branded as rape if consensual relationship turns sour: Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-11-01T00:52:03.213411+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "DMK women’s wing protests reflect public anger against TVK govt: Stalin",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-11-01T02:11:04.746245+00:00"
     }
   ]
 }
