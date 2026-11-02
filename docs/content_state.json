@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T10:34:30.099171+00:00",
+  "last_posted_at": "2026-11-02T11:48:44.281331+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Three killed in road accident in Yadgir district",
-      "genre": "marriage_delay",
-      "style": "sudden_loss",
-      "posted_at": "2026-11-01T07:07:52.703142+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Supreme Court paves way for IT assessments of two businessmen sons of former CJI Y.K. Sabharwal",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-11-02T10:34:30.099171+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Government notifies grievance redressal rules under VB-G RAM G Act; fixes 15-day deadline",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-11-02T11:48:44.281331+00:00"
     }
   ]
 }
