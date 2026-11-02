@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-01T17:18:45.124750+00:00",
+  "last_posted_at": "2026-11-02T00:47:44.748212+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Why do questions of transparency arise in every major deal under Modi government?: Congress on IDBI bank row",
-      "genre": "repeated_failures",
-      "style": "business",
-      "posted_at": "2026-10-31T12:21:30.045056+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Yadgir bandh will be observed on Nov. 06 if govt. fails to address water crisis: Former Minister Narasimha Naik",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-11-01T17:18:45.124750+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Even as unemployment falls, lack of ‘decent work’ in India",
+      "genre": "family_disturbance",
+      "style": "career",
+      "posted_at": "2026-11-02T00:47:44.748212+00:00"
     }
   ]
 }
