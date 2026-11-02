@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T02:48:36.584967+00:00",
+  "last_posted_at": "2026-11-02T03:48:45.366988+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "ED attaches assets worth ₹427 crore in ₹2,459-crore Belagavi Ponzi scam",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-10-31T15:48:35.966238+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Accused in gold smuggling case gets VIP treatment in Hassan",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-11-02T02:48:36.584967+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "How are tropical cyclones named?",
+      "genre": "marriage_delay",
+      "style": "weather_extreme",
+      "posted_at": "2026-11-02T03:48:45.366988+00:00"
     }
   ]
 }
