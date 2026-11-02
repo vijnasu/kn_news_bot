@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T13:09:22.532927+00:00",
+  "last_posted_at": "2026-11-02T14:09:34.367534+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Foolish drama, will be final nail in coffin of Congress' political future: Nadda",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-11-01T09:18:23.283614+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "'Chalo Dilli' protests: Sonia, Rahul, Mamata among INDIA bloc leaders marching to Ramlila Maidan | LIVE",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "scandal",
       "posted_at": "2026-11-02T13:09:22.532927+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "State govt. taking steps to mitigate drought effect, says Minister",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-11-02T14:09:34.367534+00:00"
     }
   ]
 }
