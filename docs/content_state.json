@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T06:17:31.603001+00:00",
+  "last_posted_at": "2026-11-02T07:21:11.742630+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "DMK women’s wing protests reflect public anger against TVK govt: Stalin",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-11-01T02:11:04.746245+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "IIT Bombay student death: Parents seek CBI investigation",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-11-02T06:17:31.603001+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Tamil Nadu GST growth at 3% in October, trails Kerala and Andhra Pradesh; Stalin, Thennarasu attack TVK govt, flag Rs 1,614 crore investment shift to AP",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-11-02T07:21:11.742630+00:00"
     }
   ]
 }
