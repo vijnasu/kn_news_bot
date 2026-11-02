@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T08:25:31.853588+00:00",
+  "last_posted_at": "2026-11-02T09:34:21.571046+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Justice Sanjay Kishan Kaul on his memoir ‘Without Fear or Favour ‘and the executive’s growing influence over the collegium system",
-      "genre": "political_business_enemies",
-      "style": "court",
-      "posted_at": "2026-11-01T04:34:20.248751+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "AMMK leader targets Tamil Nadu govt over power cuts, questions energy minister’s continuance",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "sudden_loss",
       "posted_at": "2026-11-02T08:25:31.853588+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Ramlila Maidan rally: FIR registered over graffiti on police vehicle",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-11-02T09:34:21.571046+00:00"
     }
   ]
 }
