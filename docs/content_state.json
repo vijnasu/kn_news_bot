@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T07:21:11.742630+00:00",
+  "last_posted_at": "2026-11-02T08:25:31.853588+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "IIT Bombay student death: Parents seek CBI investigation",
-      "genre": "business_blockage",
-      "style": "court",
-      "posted_at": "2026-11-01T03:22:08.996989+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Justice Sanjay Kishan Kaul on his memoir ‘Without Fear or Favour ‘and the executive’s growing influence over the collegium system",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-11-02T07:21:11.742630+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Death in swimming pool: how two foreigners were electrocuted in a Bengaluru five-star hotel | Explained",
+      "genre": "financial_loss",
+      "style": "sudden_loss",
+      "posted_at": "2026-11-02T08:25:31.853588+00:00"
     }
   ]
 }
