@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T14:09:34.367534+00:00",
+  "last_posted_at": "2026-11-02T15:20:07.678668+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "'Chalo Dilli' protests: Sonia, Rahul, Mamata among INDIA bloc leaders marching to Ramlila Maidan | LIVE",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-11-01T10:18:42.384501+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "‘You can break a stick, not a bundle’: From an IT couple to a hospital patient, citizens turn up for INDIA bloc rally",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "politics",
       "posted_at": "2026-11-02T14:09:34.367534+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Directorate General of Civil Aviation probe into Belagavi trainer aircraft crash finds many deficiencies in training academy",
+      "genre": "political_business_enemies",
+      "style": "land",
+      "posted_at": "2026-11-02T15:20:07.678668+00:00"
     }
   ]
 }
