@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T10:07:50.316140+00:00",
+  "last_posted_at": "2026-11-03T11:18:08.655692+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Bengaluru-Mumbai Vande Bharat Sleeper Express flagged off by Railway Minister",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-11-02T05:08:45.324967+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Priyank Kharge alleges attempt to use ED, I-T agencies against Congress leaders in KPSC case in Karnataka",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "sudden_loss",
       "posted_at": "2026-11-03T10:07:50.316140+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Ajit Doval meets Vietnam President To Lam, briefs him on visit outcomes",
+      "genre": "court_cases",
+      "style": "politics",
+      "posted_at": "2026-11-03T11:18:08.655692+00:00"
     }
   ]
 }
