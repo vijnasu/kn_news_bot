@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T11:18:08.655692+00:00",
+  "last_posted_at": "2026-11-03T12:24:44.019676+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Priyank Kharge alleges attempt to use ED, I-T agencies against Congress leaders in KPSC case in Karnataka",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-11-02T06:17:31.603001+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Tamil Nadu GST growth at 3% in October, trails Kerala and Andhra Pradesh; Stalin, Thennarasu attack TVK govt, flag Rs 1,614 crore investment shift to AP",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-11-03T11:18:08.655692+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Court issues proclamation against three accused in 1994 forex fraud case",
+      "genre": "sudden_health_fear",
+      "style": "finance",
+      "posted_at": "2026-11-03T12:24:44.019676+00:00"
     }
   ]
 }
