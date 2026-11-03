@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T13:34:25.740459+00:00",
+  "last_posted_at": "2026-11-03T14:48:40.926882+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Death in swimming pool: how two foreigners were electrocuted in a Bengaluru five-star hotel | Explained",
-      "genre": "financial_loss",
-      "style": "sudden_loss",
-      "posted_at": "2026-11-02T08:25:31.853588+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Ramlila Maidan rally: FIR registered over graffiti on police vehicle",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-11-03T13:34:25.740459+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Bal Bhavan to provide a healthy food menu to visitors, revamp ticketing system for toy train to control crowd",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-11-03T14:48:40.926882+00:00"
     }
   ]
 }
