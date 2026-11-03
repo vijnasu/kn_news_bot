@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T03:09:02.314926+00:00",
+  "last_posted_at": "2026-11-03T04:20:21.785686+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "India plans next-generation stealth destroyers to counter growing maritime threats",
-      "genre": "career_instability",
-      "style": "land",
-      "posted_at": "2026-11-01T16:08:51.856627+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Home Minister says ‘sting video’ controversy just trailer, full picture yet to emerge",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "court",
       "posted_at": "2026-11-03T03:09:02.314926+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Stalin, opposition criticise TVK govt over low GST growth in Tamil Nadu",
+      "genre": "financial_loss",
+      "style": "finance",
+      "posted_at": "2026-11-03T04:20:21.785686+00:00"
     }
   ]
 }
