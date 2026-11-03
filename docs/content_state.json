@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T05:34:40.264843+00:00",
+  "last_posted_at": "2026-11-03T06:40:59.249422+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Even as unemployment falls, lack of ‘decent work’ in India",
-      "genre": "family_disturbance",
-      "style": "career",
-      "posted_at": "2026-11-02T00:47:44.748212+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "‘Remove Modi to save democracy’: Congress chief Kharge attacks PM at INDIA bloc rally",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "politics",
       "posted_at": "2026-11-03T05:34:40.264843+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Indian killed as two helicopters collide in Nepal",
+      "genre": "sudden_health_fear",
+      "style": "business",
+      "posted_at": "2026-11-03T06:40:59.249422+00:00"
     }
   ]
 }
