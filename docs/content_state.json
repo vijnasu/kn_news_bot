@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T08:48:50.634662+00:00",
+  "last_posted_at": "2026-11-03T10:07:50.316140+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "How are tropical cyclones named?",
-      "genre": "marriage_delay",
-      "style": "weather_extreme",
-      "posted_at": "2026-11-02T03:48:45.366988+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Bengaluru-Mumbai Vande Bharat Sleeper Express flagged off by Railway Minister",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-11-03T08:48:50.634662+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "5,600 chickens die suddenly across 6 poultry farms in Tamil Nadu's Cuddalore ahead of Diwali",
+      "genre": "career_instability",
+      "style": "sudden_loss",
+      "posted_at": "2026-11-03T10:07:50.316140+00:00"
     }
   ]
 }
