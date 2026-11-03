@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T16:09:02.772921+00:00",
+  "last_posted_at": "2026-11-03T17:18:25.389509+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Bidadi township project: Karnataka government issues final notification for acquiring remaining two villages",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-11-02T10:34:30.099171+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Government notifies grievance redressal rules under VB-G RAM G Act; fixes 15-day deadline",
@@ -140,6 +133,13 @@
       "genre": "business_blockage",
       "style": "business",
       "posted_at": "2026-11-03T16:09:02.772921+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Public office not a consolation prize for defeated politicians: Karnataka High Court",
+      "genre": "unexplained_obstacles",
+      "style": "politics",
+      "posted_at": "2026-11-03T17:18:25.389509+00:00"
     }
   ]
 }
