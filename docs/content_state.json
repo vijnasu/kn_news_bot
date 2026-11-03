@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T07:48:39.742595+00:00",
+  "last_posted_at": "2026-11-03T08:48:50.634662+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Tamil Nadu plans ‘weekly ethnic wear day’ for govt employees",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-11-02T02:48:36.584967+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "How are tropical cyclones named?",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-11-03T07:48:39.742595+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Fire at three-storey house in East Delhi, two admitted to hospital",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-11-03T08:48:50.634662+00:00"
     }
   ]
 }
