@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-02T16:20:24.136415+00:00",
+  "last_posted_at": "2026-11-03T00:45:20.243053+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Kannada should grow into a language of technology and knowledge, says Minister",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-11-01T12:34:30.862321+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Factories are ready to pay higher prices if sugar MSP is revised: Satish Jarkiholi",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "public_unrest",
       "posted_at": "2026-11-02T16:20:24.136415+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Death toll in Gokarna tragedy rises to three",
+      "genre": "career_instability",
+      "style": "health",
+      "posted_at": "2026-11-03T00:45:20.243053+00:00"
     }
   ]
 }
