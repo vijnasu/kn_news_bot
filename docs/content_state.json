@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T04:20:21.785686+00:00",
+  "last_posted_at": "2026-11-03T05:34:40.264843+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Home Minister says ‘sting video’ controversy just trailer, full picture yet to emerge",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-11-01T17:18:45.124750+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Even as unemployment falls, lack of ‘decent work’ in India",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "finance",
       "posted_at": "2026-11-03T04:20:21.785686+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "₹1 crore compensation for family of Karnataka government employee who died in road accident",
+      "genre": "family_disturbance",
+      "style": "politics",
+      "posted_at": "2026-11-03T05:34:40.264843+00:00"
     }
   ]
 }
