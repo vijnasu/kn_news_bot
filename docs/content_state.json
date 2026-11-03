@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-03T01:48:41.870098+00:00",
+  "last_posted_at": "2026-11-03T03:09:02.314926+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Lokesh vows stringent action after chainsaw attack on Class X student in Raptadu",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-11-01T15:06:24.051219+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "India plans next-generation stealth destroyers to counter growing maritime threats",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "finance",
       "posted_at": "2026-11-03T01:48:41.870098+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Activists raise concern over Supreme Court order on green firecrackers, traders lament stock availability",
+      "genre": "repeated_failures",
+      "style": "court",
+      "posted_at": "2026-11-03T03:09:02.314926+00:00"
     }
   ]
 }
