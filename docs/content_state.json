@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T09:08:36.603569+00:00",
+  "last_posted_at": "2026-11-04T10:09:31.081734+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "Stalin, opposition criticise TVK govt over low GST growth in Tamil Nadu",
-      "genre": "financial_loss",
-      "style": "finance",
-      "posted_at": "2026-11-03T04:20:21.785686+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "₹1 crore compensation for family of Karnataka government employee who died in road accident",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-11-04T09:08:36.603569+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Former DMK minister Anitha Radhakrishnan, six family members acquitted in 20-year-old DA case",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-11-04T10:09:31.081734+00:00"
     }
   ]
 }
