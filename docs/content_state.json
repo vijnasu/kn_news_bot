@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T06:41:19.789506+00:00",
+  "last_posted_at": "2026-11-04T07:49:02.849888+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Clean energy investments helped India soften West Asia crisis impact: PM Modi",
-      "genre": "court_cases",
-      "style": "finance",
-      "posted_at": "2026-11-03T01:48:41.870098+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Activists raise concern over Supreme Court order on green firecrackers, traders lament stock availability",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "politics",
       "posted_at": "2026-11-04T06:41:19.789506+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "60-day prohibitive orders passed ‘ex-parte’ to prevent unrest in key capital zones: Delhi Police in Supreme Court",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-11-04T07:49:02.849888+00:00"
     }
   ]
 }
