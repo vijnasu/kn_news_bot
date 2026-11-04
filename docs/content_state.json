@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T03:08:54.876108+00:00",
+  "last_posted_at": "2026-11-04T04:20:20.034547+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "Directorate General of Civil Aviation probe into Belagavi trainer aircraft crash finds many deficiencies in training academy",
-      "genre": "political_business_enemies",
-      "style": "land",
-      "posted_at": "2026-11-02T15:20:07.678668+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "BJP Mahila Morcha stages protest against milk price hike in Hubballi",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "politics",
       "posted_at": "2026-11-04T03:08:54.876108+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Engineering graduate loses two fingers in 2025 accident, pays Rs 20,000 for customised artificial finger prosthesis; company misses 45-day deadline and delivers wrong-sized prosthesis without thumb impression, consumer commission orders Rs 40,000 relief",
+      "genre": "unexplained_obstacles",
+      "style": "business",
+      "posted_at": "2026-11-04T04:20:20.034547+00:00"
     }
   ]
 }
