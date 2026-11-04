@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T12:35:57.685384+00:00",
+  "last_posted_at": "2026-11-04T13:48:36.824873+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "‘Nobody has the guts’: H.D. Kumaraswamy dares police to take action against him in sting video case",
-      "genre": "political_business_enemies",
-      "style": "politics",
-      "posted_at": "2026-11-03T07:48:39.742595+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Fire at three-storey house in East Delhi, two admitted to hospital",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-11-04T12:35:57.685384+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Tableau highlights Kishori Kendra, health schemes at Rajyotsava event",
+      "genre": "family_disturbance",
+      "style": "health",
+      "posted_at": "2026-11-04T13:48:36.824873+00:00"
     }
   ]
 }
