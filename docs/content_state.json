@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T13:48:36.824873+00:00",
+  "last_posted_at": "2026-11-04T15:08:52.297486+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Fire at three-storey house in East Delhi, two admitted to hospital",
-      "genre": "marriage_delay",
-      "style": "health",
-      "posted_at": "2026-11-03T08:48:50.634662+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "5,600 chickens die suddenly across 6 poultry farms in Tamil Nadu's Cuddalore ahead of Diwali",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "health",
       "posted_at": "2026-11-04T13:48:36.824873+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Sugarcane farmers continue protest, mills may start crushing tomorrow",
+      "genre": "court_cases",
+      "style": "business",
+      "posted_at": "2026-11-04T15:08:52.297486+00:00"
     }
   ]
 }
