@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T01:48:36.260886+00:00",
+  "last_posted_at": "2026-11-04T03:08:54.876108+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "State govt. taking steps to mitigate drought effect, says Minister",
-      "genre": "business_blockage",
-      "style": "politics",
-      "posted_at": "2026-11-02T14:09:34.367534+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "Directorate General of Civil Aviation probe into Belagavi trainer aircraft crash finds many deficiencies in training academy",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "politics",
       "posted_at": "2026-11-04T01:48:36.260886+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "‘A remedy that depends on CM’s personal intervention is no remedy at all’: Madras high court on professor’s wrongful detention",
+      "genre": "marriage_delay",
+      "style": "politics",
+      "posted_at": "2026-11-04T03:08:54.876108+00:00"
     }
   ]
 }
