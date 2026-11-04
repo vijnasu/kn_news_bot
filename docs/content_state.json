@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T04:20:20.034547+00:00",
+  "last_posted_at": "2026-11-04T05:34:51.298565+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "BJP Mahila Morcha stages protest against milk price hike in Hubballi",
-      "genre": "family_disturbance",
-      "style": "public_unrest",
-      "posted_at": "2026-11-02T16:20:24.136415+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Death toll in Gokarna tragedy rises to three",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "business",
       "posted_at": "2026-11-04T04:20:20.034547+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Land grab case: HC orders action against two police inspectors",
+      "genre": "political_business_enemies",
+      "style": "land",
+      "posted_at": "2026-11-04T05:34:51.298565+00:00"
     }
   ]
 }
