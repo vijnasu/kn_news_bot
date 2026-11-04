@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T07:49:02.849888+00:00",
+  "last_posted_at": "2026-11-04T09:08:36.603569+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Activists raise concern over Supreme Court order on green firecrackers, traders lament stock availability",
-      "genre": "repeated_failures",
-      "style": "court",
-      "posted_at": "2026-11-03T03:09:02.314926+00:00"
-    },
     {
       "system": "rahu_ketu",
       "subtopic": "Stalin, opposition criticise TVK govt over low GST growth in Tamil Nadu",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-11-04T07:49:02.849888+00:00"
+    },
+    {
+      "system": "shani_influence",
+      "subtopic": "Second Indian national injured in Oct 10 Riyadh airport attack dies",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-11-04T09:08:36.603569+00:00"
     }
   ]
 }
