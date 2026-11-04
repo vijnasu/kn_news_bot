@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T11:34:12.491888+00:00",
+  "last_posted_at": "2026-11-04T12:35:57.685384+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Indian killed as two helicopters collide in Nepal",
-      "genre": "sudden_health_fear",
-      "style": "business",
-      "posted_at": "2026-11-03T06:40:59.249422+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "‘Nobody has the guts’: H.D. Kumaraswamy dares police to take action against him in sting video case",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "politics",
       "posted_at": "2026-11-04T11:34:12.491888+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Bus fare hike avoidable had Karnataka government cleared its own dues: BJP",
+      "genre": "repeated_failures",
+      "style": "politics",
+      "posted_at": "2026-11-04T12:35:57.685384+00:00"
     }
   ]
 }
