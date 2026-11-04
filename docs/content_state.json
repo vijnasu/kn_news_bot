@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T10:09:31.081734+00:00",
+  "last_posted_at": "2026-11-04T11:34:12.491888+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "₹1 crore compensation for family of Karnataka government employee who died in road accident",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-11-03T05:34:40.264843+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Indian killed as two helicopters collide in Nepal",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-11-04T10:09:31.081734+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Tamil Nadu CM Vijay urges PM Modi to revive proposal for Supreme Court bench in Chennai",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-11-04T11:34:12.491888+00:00"
     }
   ]
 }
