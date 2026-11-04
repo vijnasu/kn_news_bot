@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T05:34:51.298565+00:00",
+  "last_posted_at": "2026-11-04T06:41:19.789506+00:00",
   "recent": [
-    {
-      "system": "chandra_manas",
-      "subtopic": "Death toll in Gokarna tragedy rises to three",
-      "genre": "career_instability",
-      "style": "health",
-      "posted_at": "2026-11-03T00:45:20.243053+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Clean energy investments helped India soften West Asia crisis impact: PM Modi",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "land",
       "posted_at": "2026-11-04T05:34:51.298565+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "Media consultant at Union Minister H.D. Kumaraswamy’s office appears before Bengaluru CCB in ‘sting video’ case",
+      "genre": "negative_energy",
+      "style": "politics",
+      "posted_at": "2026-11-04T06:41:19.789506+00:00"
     }
   ]
 }
