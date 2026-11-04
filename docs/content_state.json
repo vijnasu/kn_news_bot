@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T15:08:52.297486+00:00",
+  "last_posted_at": "2026-11-04T16:18:46.900888+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "5,600 chickens die suddenly across 6 poultry farms in Tamil Nadu's Cuddalore ahead of Diwali",
-      "genre": "career_instability",
-      "style": "sudden_loss",
-      "posted_at": "2026-11-03T10:07:50.316140+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Ajit Doval meets Vietnam President To Lam, briefs him on visit outcomes",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "business",
       "posted_at": "2026-11-04T15:08:52.297486+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Derogatory remarks against Saivism, Viashnavism and women: Chennai court acquits former DMK MLA K Ponmudi",
+      "genre": "sudden_health_fear",
+      "style": "politics",
+      "posted_at": "2026-11-04T16:18:46.900888+00:00"
     }
   ]
 }
