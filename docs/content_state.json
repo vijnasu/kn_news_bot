@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T02:48:46.802162+00:00",
+  "last_posted_at": "2026-11-05T04:09:34.102109+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Bal Bhavan to provide a healthy food menu to visitors, revamp ticketing system for toy train to control crowd",
-      "genre": "family_disturbance",
-      "style": "politics",
-      "posted_at": "2026-11-03T14:48:40.926882+00:00"
-    },
     {
       "system": "mars_symbolism",
       "subtopic": "Sugarcane farmers stage protest in Shivamogga, urge government to fulfil their demands",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-11-05T02:48:46.802162+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Jaishankar urges Commonwealth partners to 'de-risk and diversify'",
+      "genre": "family_disturbance",
+      "style": "business",
+      "posted_at": "2026-11-05T04:09:34.102109+00:00"
     }
   ]
 }
