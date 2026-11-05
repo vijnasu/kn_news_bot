@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T15:48:11.387716+00:00",
+  "last_posted_at": "2026-11-05T16:48:53.377703+00:00",
   "recent": [
-    {
-      "system": "deva_prashna",
-      "subtopic": "Former DMK minister Anitha Radhakrishnan, six family members acquitted in 20-year-old DA case",
-      "genre": "sudden_health_fear",
-      "style": "politics",
-      "posted_at": "2026-11-04T10:09:31.081734+00:00"
-    },
     {
       "system": "chandra_manas",
       "subtopic": "Tamil Nadu CM Vijay urges PM Modi to revive proposal for Supreme Court bench in Chennai",
@@ -140,6 +133,13 @@
       "genre": "court_cases",
       "style": "court",
       "posted_at": "2026-11-05T15:48:11.387716+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Missing Kasimedu fishermen: Madras high court defers arrest of owner of boat till Nov 11",
+      "genre": "business_blockage",
+      "style": "court",
+      "posted_at": "2026-11-05T16:48:53.377703+00:00"
     }
   ]
 }
