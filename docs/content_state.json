@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T11:18:28.267821+00:00",
+  "last_posted_at": "2026-11-05T12:25:36.706384+00:00",
   "recent": [
-    {
-      "system": "kala_dosha",
-      "subtopic": "Land grab case: HC orders action against two police inspectors",
-      "genre": "political_business_enemies",
-      "style": "land",
-      "posted_at": "2026-11-04T05:34:51.298565+00:00"
-    },
     {
       "system": "collective_karma",
       "subtopic": "Media consultant at Union Minister H.D. Kumaraswamy’s office appears before Bengaluru CCB in ‘sting video’ case",
@@ -140,6 +133,13 @@
       "genre": "negative_energy",
       "style": "land",
       "posted_at": "2026-11-05T11:18:28.267821+00:00"
+    },
+    {
+      "system": "graha_drishti",
+      "subtopic": "Sharjeel Imam moves Supreme Court seeking bail in UAPA case over 2020 Delhi riots",
+      "genre": "career_instability",
+      "style": "court",
+      "posted_at": "2026-11-05T12:25:36.706384+00:00"
     }
   ]
 }
