@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T07:34:43.758840+00:00",
+  "last_posted_at": "2026-11-05T08:48:34.704240+00:00",
   "recent": [
-    {
-      "system": "rahu_ketu",
-      "subtopic": "In Karnataka seat where ‘vote chori’ claims first surfaced, over 800 voter IDs linked to 397 names after SIR",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-11-04T01:48:36.260886+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "‘A remedy that depends on CM’s personal intervention is no remedy at all’: Madras high court on professor’s wrongful detention",
@@ -140,6 +133,13 @@
       "genre": "political_business_enemies",
       "style": "finance",
       "posted_at": "2026-11-05T07:34:43.758840+00:00"
+    },
+    {
+      "system": "rahu_ketu",
+      "subtopic": "Tasmac’s reforms remain on paper as Tamil Nadu’s liquor shops stay stuck in the 90s",
+      "genre": "financial_loss",
+      "style": "business",
+      "posted_at": "2026-11-05T08:48:34.704240+00:00"
     }
   ]
 }
