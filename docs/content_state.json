@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T13:34:51.375913+00:00",
+  "last_posted_at": "2026-11-05T14:43:40.788298+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "60-day prohibitive orders passed ‘ex-parte’ to prevent unrest in key capital zones: Delhi Police in Supreme Court",
-      "genre": "career_instability",
-      "style": "court",
-      "posted_at": "2026-11-04T07:49:02.849888+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Second Indian national injured in Oct 10 Riyadh airport attack dies",
@@ -140,6 +133,13 @@
       "genre": "unexplained_obstacles",
       "style": "scandal",
       "posted_at": "2026-11-05T13:34:51.375913+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Bus painter died in Wilson Garden; supervisor booked",
+      "genre": "marriage_delay",
+      "style": "health",
+      "posted_at": "2026-11-05T14:43:40.788298+00:00"
     }
   ]
 }
