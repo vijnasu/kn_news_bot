@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T08:48:34.704240+00:00",
+  "last_posted_at": "2026-11-05T10:08:12.330030+00:00",
   "recent": [
-    {
-      "system": "graha_drishti",
-      "subtopic": "‘A remedy that depends on CM’s personal intervention is no remedy at all’: Madras high court on professor’s wrongful detention",
-      "genre": "marriage_delay",
-      "style": "politics",
-      "posted_at": "2026-11-04T03:08:54.876108+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Engineering graduate loses two fingers in 2025 accident, pays Rs 20,000 for customised artificial finger prosthesis; company misses 45-day deadline and delivers wrong-sized prosthesis without thumb impression, consumer commission orders Rs 40,000 relief",
@@ -140,6 +133,13 @@
       "genre": "financial_loss",
       "style": "business",
       "posted_at": "2026-11-05T08:48:34.704240+00:00"
+    },
+    {
+      "system": "mars_symbolism",
+      "subtopic": "Delhi Police brings back rape accused from Abu Dhabi with help of Interpol",
+      "genre": "repeated_failures",
+      "style": "business",
+      "posted_at": "2026-11-05T10:08:12.330030+00:00"
     }
   ]
 }
