@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T14:43:40.788298+00:00",
+  "last_posted_at": "2026-11-05T15:48:11.387716+00:00",
   "recent": [
-    {
-      "system": "shani_influence",
-      "subtopic": "Second Indian national injured in Oct 10 Riyadh airport attack dies",
-      "genre": "family_disturbance",
-      "style": "business",
-      "posted_at": "2026-11-04T09:08:36.603569+00:00"
-    },
     {
       "system": "deva_prashna",
       "subtopic": "Former DMK minister Anitha Radhakrishnan, six family members acquitted in 20-year-old DA case",
@@ -140,6 +133,13 @@
       "genre": "marriage_delay",
       "style": "health",
       "posted_at": "2026-11-05T14:43:40.788298+00:00"
+    },
+    {
+      "system": "deva_prashna",
+      "subtopic": "Missing Kasimedu fishermen: Madras high court grants anticipatory bail to boat owner",
+      "genre": "court_cases",
+      "style": "court",
+      "posted_at": "2026-11-05T15:48:11.387716+00:00"
     }
   ]
 }
