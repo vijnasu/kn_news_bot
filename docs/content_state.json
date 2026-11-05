@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T12:25:36.706384+00:00",
+  "last_posted_at": "2026-11-05T13:34:51.375913+00:00",
   "recent": [
-    {
-      "system": "collective_karma",
-      "subtopic": "Media consultant at Union Minister H.D. Kumaraswamy’s office appears before Bengaluru CCB in ‘sting video’ case",
-      "genre": "negative_energy",
-      "style": "politics",
-      "posted_at": "2026-11-04T06:41:19.789506+00:00"
-    },
     {
       "system": "graha_drishti",
       "subtopic": "60-day prohibitive orders passed ‘ex-parte’ to prevent unrest in key capital zones: Delhi Police in Supreme Court",
@@ -140,6 +133,13 @@
       "genre": "career_instability",
       "style": "court",
       "posted_at": "2026-11-05T12:25:36.706384+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Pregnant women in corridors, waiting areas should not be construed as overcrowding: Niloufer superintendent",
+      "genre": "unexplained_obstacles",
+      "style": "scandal",
+      "posted_at": "2026-11-05T13:34:51.375913+00:00"
     }
   ]
 }
