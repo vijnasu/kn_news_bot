@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-04T16:18:46.900888+00:00",
+  "last_posted_at": "2026-11-05T00:45:09.737957+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Ajit Doval meets Vietnam President To Lam, briefs him on visit outcomes",
-      "genre": "court_cases",
-      "style": "politics",
-      "posted_at": "2026-11-03T11:18:08.655692+00:00"
-    },
     {
       "system": "kala_dosha",
       "subtopic": "Court issues proclamation against three accused in 1994 forex fraud case",
@@ -140,6 +133,13 @@
       "genre": "sudden_health_fear",
       "style": "politics",
       "posted_at": "2026-11-04T16:18:46.900888+00:00"
+    },
+    {
+      "system": "kala_dosha",
+      "subtopic": "Stalin alleges power purchase scam in TVK govt, demands probe",
+      "genre": "negative_energy",
+      "style": "finance",
+      "posted_at": "2026-11-05T00:45:09.737957+00:00"
     }
   ]
 }
