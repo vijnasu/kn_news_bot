@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-05T04:09:34.102109+00:00",
+  "last_posted_at": "2026-11-05T05:18:43.797408+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Sugarcane farmers stage protest in Shivamogga, urge government to fulfil their demands",
-      "genre": "business_blockage",
-      "style": "business",
-      "posted_at": "2026-11-03T16:09:02.772921+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Public office not a consolation prize for defeated politicians: Karnataka High Court",
@@ -140,6 +133,13 @@
       "genre": "family_disturbance",
       "style": "business",
       "posted_at": "2026-11-05T04:09:34.102109+00:00"
+    },
+    {
+      "system": "chandra_manas",
+      "subtopic": "Private sector participation in nuclear energy: No compromise on safety aspects, says AERB Chairperson",
+      "genre": "business_blockage",
+      "style": "politics",
+      "posted_at": "2026-11-05T05:18:43.797408+00:00"
     }
   ]
 }
