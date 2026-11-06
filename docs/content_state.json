@@ -1,13 +1,6 @@
 {
-  "last_posted_at": "2026-11-06T00:45:11.734002+00:00",
+  "last_posted_at": "2026-11-06T01:48:38.180466+00:00",
   "recent": [
-    {
-      "system": "mars_symbolism",
-      "subtopic": "Bus fare hike avoidable had Karnataka government cleared its own dues: BJP",
-      "genre": "repeated_failures",
-      "style": "politics",
-      "posted_at": "2026-11-04T12:35:57.685384+00:00"
-    },
     {
       "system": "shani_influence",
       "subtopic": "Tableau highlights Kishori Kendra, health schemes at Rajyotsava event",
@@ -140,6 +133,13 @@
       "genre": "repeated_failures",
       "style": "politics",
       "posted_at": "2026-11-06T00:45:11.734002+00:00"
+    },
+    {
+      "system": "collective_karma",
+      "subtopic": "CM Vijay announces Rs 7lakh relief for families of Tamil Nadu fishermen who died in sea off Andhra Pradesh coast",
+      "genre": "political_business_enemies",
+      "style": "politics",
+      "posted_at": "2026-11-06T01:48:38.180466+00:00"
     }
   ]
 }
